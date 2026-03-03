@@ -1,0 +1,2 @@
+2026-03-03 11:32:50,525 - __main__ - ERROR - Error auditing rankings: 'str' object has no attribute 'date'
+2026-03-03 11:54:59,252 - __main__ - ERROR - Error auditing rankings: 'str' object has no attribute 'date'

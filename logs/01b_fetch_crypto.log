@@ -1,0 +1,47 @@
+2026-03-01 17:09:37,424 - __main__ - INFO - Initialized CryptoMarketCapFetcher with output dir: data/raw
+2026-03-01 17:09:37,440 - __main__ - INFO - Loaded 5 cryptos from config\crypto_list.csv
+2026-03-01 17:09:37,440 - __main__ - DEBUG - Crypto list: ['BTC', 'ETH', 'BNB', 'SOL', 'ADA']
+2026-03-01 17:09:37,445 - __main__ - INFO - Starting batch fetch for 5 cryptos (2016-01-01 to 2026-02-24)
+2026-03-01 17:09:37,449 - __main__ - DEBUG - Fetching market cap history for BTC (ID: bitcoin)
+2026-03-01 17:09:37,449 - __main__ - DEBUG - API request (attempt 1/3): https://api.coingecko.com/api/v3/coins/bitcoin/market_chart/range?vs_currency=usd&from=1451577600&to=1771862400
+2026-03-01 17:09:37,450 - __main__ - DEBUG - Fetching market cap history for BNB (ID: binancecoin)
+2026-03-01 17:09:37,758 - __main__ - WARNING - API returned status 401
+2026-03-01 17:09:38,464 - __main__ - DEBUG - API request (attempt 1/3): https://api.coingecko.com/api/v3/coins/binancecoin/market_chart/range?vs_currency=usd&from=1451577600&to=1771862400
+2026-03-01 17:09:38,730 - __main__ - WARNING - API returned status 401
+2026-03-01 17:09:38,754 - __main__ - DEBUG - API request (attempt 2/3): https://api.coingecko.com/api/v3/coins/bitcoin/market_chart/range?vs_currency=usd&from=1451577600&to=1771862400
+2026-03-01 17:09:38,983 - __main__ - WARNING - API returned status 401
+2026-03-01 17:09:39,741 - __main__ - DEBUG - API request (attempt 2/3): https://api.coingecko.com/api/v3/coins/binancecoin/market_chart/range?vs_currency=usd&from=1451577600&to=1771862400
+2026-03-01 17:09:40,002 - __main__ - WARNING - API returned status 401
+2026-03-01 17:09:40,995 - __main__ - DEBUG - API request (attempt 3/3): https://api.coingecko.com/api/v3/coins/bitcoin/market_chart/range?vs_currency=usd&from=1451577600&to=1771862400
+2026-03-01 17:09:41,226 - __main__ - WARNING - API returned status 401
+2026-03-01 17:09:41,226 - __main__ - ERROR - No data retrieved for BTC
+2026-03-01 17:09:41,227 - __main__ - DEBUG - Fetching market cap history for ADA (ID: cardano)
+2026-03-01 17:09:42,007 - __main__ - DEBUG - API request (attempt 1/3): https://api.coingecko.com/api/v3/coins/cardano/market_chart/range?vs_currency=usd&from=1451577600&to=1771862400
+2026-03-01 17:09:42,007 - __main__ - DEBUG - API request (attempt 3/3): https://api.coingecko.com/api/v3/coins/binancecoin/market_chart/range?vs_currency=usd&from=1451577600&to=1771862400
+2026-03-01 17:09:42,007 - __main__ - WARNING - Rate limited (429), retrying after 60s
+2026-03-01 17:09:42,268 - __main__ - WARNING - Rate limited (429), retrying after 60s
+2026-03-01 17:10:42,012 - __main__ - DEBUG - API request (attempt 2/3): https://api.coingecko.com/api/v3/coins/cardano/market_chart/range?vs_currency=usd&from=1451577600&to=1771862400
+2026-03-01 17:10:42,264 - __main__ - ERROR - Failed to fetch https://api.coingecko.com/api/v3/coins/binancecoin/market_chart/range?vs_currency=usd&from=1451577600&to=1771862400 after 3 attempts
+2026-03-01 17:10:42,264 - __main__ - ERROR - No data retrieved for BNB
+2026-03-01 17:10:42,264 - __main__ - DEBUG - Fetching market cap history for ETH (ID: ethereum)
+2026-03-01 17:10:42,290 - __main__ - WARNING - API returned status 401
+2026-03-01 17:10:43,024 - __main__ - DEBUG - API request (attempt 1/3): https://api.coingecko.com/api/v3/coins/ethereum/market_chart/range?vs_currency=usd&from=1451577600&to=1771862400
+2026-03-01 17:10:43,273 - __main__ - WARNING - API returned status 401
+2026-03-01 17:10:44,290 - __main__ - DEBUG - API request (attempt 2/3): https://api.coingecko.com/api/v3/coins/ethereum/market_chart/range?vs_currency=usd&from=1451577600&to=1771862400
+2026-03-01 17:10:44,290 - __main__ - DEBUG - API request (attempt 3/3): https://api.coingecko.com/api/v3/coins/cardano/market_chart/range?vs_currency=usd&from=1451577600&to=1771862400
+2026-03-01 17:10:44,509 - __main__ - WARNING - API returned status 401
+2026-03-01 17:10:44,572 - __main__ - WARNING - API returned status 401
+2026-03-01 17:10:44,572 - __main__ - ERROR - No data retrieved for ADA
+2026-03-01 17:10:44,572 - __main__ - DEBUG - Fetching market cap history for SOL (ID: solana)
+2026-03-01 17:10:45,291 - __main__ - DEBUG - API request (attempt 1/3): https://api.coingecko.com/api/v3/coins/solana/market_chart/range?vs_currency=usd&from=1451577600&to=1771862400
+2026-03-01 17:10:45,293 - __main__ - WARNING - Rate limited (429), retrying after 60s
+2026-03-01 17:10:46,505 - __main__ - DEBUG - API request (attempt 3/3): https://api.coingecko.com/api/v3/coins/ethereum/market_chart/range?vs_currency=usd&from=1451577600&to=1771862400
+2026-03-01 17:10:46,740 - __main__ - WARNING - API returned status 401
+2026-03-01 17:10:46,756 - __main__ - ERROR - No data retrieved for ETH
+2026-03-01 17:11:45,299 - __main__ - DEBUG - API request (attempt 2/3): https://api.coingecko.com/api/v3/coins/solana/market_chart/range?vs_currency=usd&from=1451577600&to=1771862400
+2026-03-01 17:11:45,606 - __main__ - WARNING - API returned status 401
+2026-03-01 17:11:47,620 - __main__ - DEBUG - API request (attempt 3/3): https://api.coingecko.com/api/v3/coins/solana/market_chart/range?vs_currency=usd&from=1451577600&to=1771862400
+2026-03-01 17:11:47,878 - __main__ - WARNING - API returned status 401
+2026-03-01 17:11:47,878 - __main__ - ERROR - No data retrieved for SOL
+2026-03-01 17:11:47,878 - __main__ - WARNING - No successful fetches - returning empty DataFrame
+2026-03-01 17:11:47,878 - __main__ - ERROR - No data retrieved from any crypto

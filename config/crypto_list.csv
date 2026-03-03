@@ -1,0 +1,6 @@
+id,symbol,name,weight,market_cap_rank
+bitcoin,BTC,Bitcoin,0.45,1
+ethereum,ETH,Ethereum,0.25,2
+binancecoin,BNB,Binance Coin,0.15,4
+solana,SOL,Solana,0.10,5
+cardano,ADA,Cardano,0.05,3

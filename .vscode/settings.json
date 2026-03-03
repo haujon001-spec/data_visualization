@@ -1,0 +1,80 @@
+{
+    "// ===== Peacock Color Configuration =====": "Data Visualization Project — Green",
+    "peacock.color": "#0BBF5F",
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#0BBF5F",
+        "titleBar.activeForeground": "#ffffff",
+        "activityBar.background": "#0BBF5F",
+        "activityBar.foreground": "#ffffff",
+        "statusBar.background": "#067B3D",
+        "statusBar.foreground": "#ffffff"
+    },
+    "window.title": "${workspaceFolderBasename} — Data Visualization",
+    "// ===== Python Configuration =====": {},
+    "python.defaultInterpreterPath": "c:\\Users\\haujo\\projects\\DEV\\Data_visualization\\.venv\\Scripts\\python.exe",
+    "python.interpreterPath": "c:\\Users\\haujo\\projects\\DEV\\Data_visualization\\.venv\\Scripts\\python.exe",
+    "python.venvPath": "c:\\Users\\haujo\\projects\\DEV\\Data_visualization\\.venv",
+    "python.linting.enabled": false,
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "off",
+    "python.analysis.pythonPath": "c:\\Users\\haujo\\projects\\DEV\\Data_visualization\\.venv\\Scripts\\python.exe",
+    "python.analysis.extraPaths": [
+        "c:\\Users\\haujo\\projects\\DEV\\Data_visualization\\.venv\\Lib\\site-packages"
+    ],
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": false,
+    "python.terminal.executeInFileDir": true,
+    "python.terminal.defaultActivationScript": ".venv\\\\Scripts\\\\activate.ps1",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python",
+        "editor.formatOnSave": true,
+        "editor.rulers": [
+            100,
+            120
+        ]
+    },
+    "// ===== Editor Productivity =====": {},
+    "editor.wordWrap": "on",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
+    "// ===== File & Search Exclusions =====": {},
+    "files.exclude": {
+        "**/.pytest_cache": true,
+        "**/__pycache__": true,
+        "**/*.pyc": true,
+        "**/.venv": true,
+        "**/.env": false
+    },
+    "search.exclude": {
+        "**/.pytest_cache": true,
+        "**/__pycache__": true,
+        "**/.venv": true,
+        "node_modules": true,
+        "data/raw": true,
+        "data/processed": true
+    },
+    "// ===== Terminal Configuration =====": {},
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        }
+    },
+    "// ===== File Associations =====": {},
+    "files.associations": {
+        ".env*": "properties",
+        "*.csv": "plaintext",
+        "*.md": "markdown"
+    },
+    "python-envs.pythonProjects": [
+        {
+            "path": ".",
+            "envManager": "ms-python.python:venv",
+            "packageManager": "ms-python.python:pip"
+        }
+    ]
+}

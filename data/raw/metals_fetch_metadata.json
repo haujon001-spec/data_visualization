@@ -1,0 +1,27 @@
+{
+  "start_date": "2016-01-01",
+  "end_date": "2026-02-24",
+  "num_records": 420,
+  "num_successful": 4,
+  "num_failed": 0,
+  "successful_metals": [
+    "GC=F",
+    "SI=F",
+    "PL=F",
+    "PA=F"
+  ],
+  "failed_metals": [],
+  "data_gaps": {},
+  "sources": [
+    "yfinance"
+  ],
+  "timestamp": "2026-03-01T17:07:33.593799",
+  "data_columns": [
+    "date",
+    "ticker",
+    "name",
+    "price_per_ounce",
+    "market_cap"
+  ],
+  "notes": "Market cap computed as: price_per_ounce * supply_ounces (supply from config)"
+}

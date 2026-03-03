@@ -1,0 +1,98 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Python: Run Visualization",
+            "type": "shell",
+            "command": "c:\\Users\\haujo\\projects\\DEV\\Data_visualization\\.venv\\Scripts\\python.exe",
+            "args": [
+                "scripts/03_build_visualizations.py",
+                "--input_path",
+                "data/processed/top20_monthly.parquet",
+                "--output_path",
+                "data/processed/bar_race_top20.html"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$python"
+            ],
+            "cwd": "c:\\Users\\haujo\\projects\\DEV\\Data_visualization",
+            "presentation": {
+                "reveal": "always"
+            }
+        },
+        {
+            "label": "Python: Run Phase 1 - Fetch Companies",
+            "type": "shell",
+            "command": "c:\\Users\\haujo\\projects\\DEV\\Data_visualization\\.venv\\Scripts\\python.exe",
+            "args": [
+                "scripts/01_fetch_companies.py"
+            ],
+            "group": "build",
+            "cwd": "c:\\Users\\haujo\\projects\\DEV\\Data_visualization"
+        },
+        {
+            "label": "Python: Run Phase 1 - Fetch Crypto",
+            "type": "shell",
+            "command": "c:\\Users\\haujo\\projects\\DEV\\Data_visualization\\.venv\\Scripts\\python.exe",
+            "args": [
+                "scripts/01b_fetch_crypto.py"
+            ],
+            "group": "build",
+            "cwd": "c:\\Users\\haujo\\projects\\DEV\\Data_visualization"
+        },
+        {
+            "label": "Python: Run Phase 1 - Fetch Metals",
+            "type": "shell",
+            "command": "c:\\Users\\haujo\\projects\\DEV\\Data_visualization\\.venv\\Scripts\\python.exe",
+            "args": [
+                "scripts/01c_fetch_metals.py"
+            ],
+            "group": "build",
+            "cwd": "c:\\Users\\haujo\\projects\\DEV\\Data_visualization"
+        },
+        {
+            "label": "Python: Run Phase 2 - Build Rankings",
+            "type": "shell",
+            "command": "c:\\Users\\haujo\\projects\\DEV\\Data_visualization\\.venv\\Scripts\\python.exe",
+            "args": [
+                "scripts/02_build_rankings.py"
+            ],
+            "group": "build",
+            "cwd": "c:\\Users\\haujo\\projects\\DEV\\Data_visualization"
+        },
+        {
+            "label": "Python: Fix All Assets Per Date",
+            "type": "shell",
+            "command": "c:\\Users\\haujo\\projects\\DEV\\Data_visualization\\.venv\\Scripts\\python.exe",
+            "args": [
+                "fix_all_assets_per_date.py"
+            ],
+            "group": "build",
+            "cwd": "c:\\Users\\haujo\\projects\\DEV\\Data_visualization"
+        },
+        {
+            "label": "Data Visualization: Post-Backtest Validation Workflow",
+            "type": "shell",
+            "command": "c:\\Users\\haujo\\projects\\DEV\\Data_visualization\\.venv\\Scripts\\python.exe",
+            "args": [
+                "post_backtest_validation.py"
+            ],
+            "group": {
+                "kind": "test",
+                "isDefault": false
+            },
+            "problemMatcher": [
+                "$python"
+            ],
+            "cwd": "c:\\Users\\haujo\\projects\\DEV\\Data_visualization",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+        }
+    ]
+}

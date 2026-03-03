@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "python": "c:\\Users\\haujo\\projects\\DEV\\Data_visualization\\.venv\\Scripts\\python.exe",
+            "cwd": "c:\\Users\\haujo\\projects\\DEV\\Data_visualization"
+        },
+        {
+            "name": "Python: Visualization Script",
+            "type": "python",
+            "request": "launch",
+            "program": "c:\\Users\\haujo\\projects\\DEV\\Data_visualization\\scripts\\03_build_visualizations.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "python": "c:\\Users\\haujo\\projects\\DEV\\Data_visualization\\.venv\\Scripts\\python.exe",
+            "cwd": "c:\\Users\\haujo\\projects\\DEV\\Data_visualization",
+            "args": [
+                "--input_path",
+                "data/processed/top20_monthly.parquet",
+                "--output_path",
+                "data/processed/bar_race_top20.html"
+            ]
+        }
+    ]
+}

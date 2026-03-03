@@ -1,0 +1,171 @@
+{
+  "title": "Top 20 Assets by Market Cap (Corrected)",
+  "date": "2026-02-24",
+  "methodology": {
+    "companies": "Price \u00d7 Shares Outstanding (yfinance + currency normalization)",
+    "metals": "Price/oz \u00d7 Total Mined (210M oz gold, 1.75B oz silver, etc)",
+    "crypto": "Price \u00d7 Circulating Supply (CoinGecko)"
+  },
+  "assets": [
+    {
+      "rank": 1,
+      "name": "NVIDIA Corporation",
+      "market_cap_usd": 4305717059326.172,
+      "market_cap_t": 4.305717059326172,
+      "type": "company",
+      "confidence": "Medium"
+    },
+    {
+      "rank": 2,
+      "name": "Apple Inc.",
+      "market_cap_usd": 3874837527922.9736,
+      "market_cap_t": 3.8748375279229736,
+      "type": "company",
+      "confidence": "Medium"
+    },
+    {
+      "rank": 3,
+      "name": "Microsoft Corporation",
+      "market_cap_usd": 2909700166594.0176,
+      "market_cap_t": 2.9097001665940176,
+      "type": "company",
+      "confidence": "Medium"
+    },
+    {
+      "rank": 4,
+      "name": "Amazon.com Inc.",
+      "market_cap_usd": 2254333382700.0,
+      "market_cap_t": 2.2543333827,
+      "type": "company",
+      "confidence": "Medium"
+    },
+    {
+      "rank": 5,
+      "name": "Taiwan Semiconductor Manufacturing",
+      "market_cap_usd": 1942760937297.3096,
+      "market_cap_t": 1.9427609372973096,
+      "type": "company",
+      "confidence": "Medium"
+    },
+    {
+      "rank": 6,
+      "name": "Alphabet Inc.",
+      "market_cap_usd": 1815066776855.4688,
+      "market_cap_t": 1.8150667768554687,
+      "type": "company",
+      "confidence": "Medium"
+    },
+    {
+      "rank": 7,
+      "name": "Saudi Aramco",
+      "market_cap_usd": 1609784824153.4424,
+      "market_cap_t": 1.6097848241534425,
+      "type": "company",
+      "confidence": "Medium"
+    },
+    {
+      "rank": 8,
+      "name": "Tesla Inc.",
+      "market_cap_usd": 1510391434524.6836,
+      "market_cap_t": 1.5103914345246836,
+      "type": "company",
+      "confidence": "Medium"
+    },
+    {
+      "rank": 9,
+      "name": "Meta Platforms Inc.",
+      "market_cap_usd": 1417684856679.2715,
+      "market_cap_t": 1.4176848566792715,
+      "type": "company",
+      "confidence": "Medium"
+    },
+    {
+      "rank": 10,
+      "name": "Walmart Inc.",
+      "market_cap_usd": 1019782838720.7808,
+      "market_cap_t": 1.0197828387207808,
+      "type": "company",
+      "confidence": "Medium"
+    },
+    {
+      "rank": 11,
+      "name": "Gold",
+      "market_cap_usd": 989918979492.1876,
+      "market_cap_t": 0.9899189794921877,
+      "type": "metal",
+      "confidence": "Medium"
+    },
+    {
+      "rank": 12,
+      "name": "Samsung Electronics",
+      "market_cap_usd": 942455844388.8888,
+      "market_cap_t": 0.9424558443888887,
+      "type": "company",
+      "confidence": "Medium"
+    },
+    {
+      "rank": 13,
+      "name": "JPMorgan Chase & Co.",
+      "market_cap_usd": 809918789289.7415,
+      "market_cap_t": 0.8099187892897415,
+      "type": "company",
+      "confidence": "Medium"
+    },
+    {
+      "rank": 14,
+      "name": "ASML Holding NV",
+      "market_cap_usd": 516976877336.60376,
+      "market_cap_t": 0.5169768773366038,
+      "type": "company",
+      "confidence": "Medium"
+    },
+    {
+      "rank": 15,
+      "name": "Bitcoin",
+      "market_cap_usd": 505000000000.0,
+      "market_cap_t": 0.505,
+      "type": "crypto",
+      "confidence": "High"
+    },
+    {
+      "rank": 16,
+      "name": "Platinum",
+      "market_cap_usd": 420560009765.625,
+      "market_cap_t": 0.420560009765625,
+      "type": "metal",
+      "confidence": "Medium"
+    },
+    {
+      "rank": 17,
+      "name": "Alibaba Group Holding",
+      "market_cap_usd": 344038043452.76025,
+      "market_cap_t": 0.34403804345276023,
+      "type": "company",
+      "confidence": "Medium"
+    },
+    {
+      "rank": 18,
+      "name": "Palladium",
+      "market_cap_usd": 253245007324.21875,
+      "market_cap_t": 0.25324500732421873,
+      "type": "metal",
+      "confidence": "Medium"
+    },
+    {
+      "rank": 19,
+      "name": "Reliance Industries",
+      "market_cap_usd": 224558499225.1813,
+      "market_cap_t": 0.2245584992251813,
+      "type": "company",
+      "confidence": "Medium"
+    },
+    {
+      "rank": 20,
+      "name": "SAP SE",
+      "market_cap_usd": 217317305049.374,
+      "market_cap_t": 0.217317305049374,
+      "type": "company",
+      "confidence": "Medium"
+    }
+  ]
+}

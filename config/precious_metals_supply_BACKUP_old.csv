@@ -1,0 +1,5 @@
+ticker,name,supply_ounces,source,update_frequency
+GC=F,Gold,210000000,WGC (World Gold Council),quarterly
+SI=F,Silver,1750000000,USGS,quarterly
+PL=F,Platinum,200000000,USGS,quarterly
+PA=F,Palladium,150000000,USGS,quarterly

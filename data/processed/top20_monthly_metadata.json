@@ -1,0 +1,51 @@
+{
+  "schema": {
+    "date": "YYYY-MM-DD",
+    "rank": "integer (1 to top_n)",
+    "asset_id": "string (ticker/coin_id/metal_id)",
+    "asset_type": "enum (company|crypto|metal)",
+    "label": "string (human-readable name)",
+    "market_cap": "float (USD)",
+    "source": "enum (yfinance|coingecko|manual)",
+    "confidence": "enum (High|Medium|Low)",
+    "sector": "string (for companies)",
+    "region": "string (for companies)",
+    "notes": "string (annotations for corporate actions, data issues, etc.)"
+  },
+  "date_range": {
+    "start": "2016-01-01",
+    "end": "2026-02-24"
+  },
+  "statistics": {
+    "total_rows": 542,
+    "unique_dates": 227,
+    "top_n": 20,
+    "date_count": 27,
+    "asset_types": {
+      "metal": 420,
+      "crypto": 122
+    },
+    "sources": {
+      "manual/yfinance": 420,
+      "coingecko": 122
+    },
+    "confidence_distribution": {
+      "Medium": 420,
+      "High": 122
+    }
+  },
+  "validation": {
+    "is_valid": false,
+    "issues": [
+      "420 NaN values in 'asset_id' column"
+    ]
+  },
+  "processing_info": {
+    "timestamp": "2026-03-03T12:03:09.417126",
+    "input_directory": "data\\raw",
+    "output_directory": "data\\processed",
+    "top_n_requested": 20,
+    "start_date_filter": null,
+    "end_date_filter": null
+  }
+}

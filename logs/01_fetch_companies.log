@@ -1,0 +1,260 @@
+2026-03-01 17:07:54,261 - __main__ - INFO - Initialized CompanyDataFetcher with output dir: data/raw
+2026-03-01 17:07:54,267 - __main__ - INFO - Loaded config with 20 companies from config\universe_companies.csv
+2026-03-01 17:07:54,278 - __main__ - INFO - Filtered to 20 companies with include_flag=true
+2026-03-01 17:07:54,278 - __main__ - DEBUG - Tickers: ['AAPL', 'MSFT', 'NVDA', 'TSLA', 'AMZN', 'META', 'GOOGL', 'BRK.B', 'JPM', 'WMT', 'BABA', 'TSM', 'SAP', 'ASML', 'RDSB', '005930.KS', '2222.SR', 'HDB', 'RELIANCE.NS', 'SSNLF']
+2026-03-01 17:07:54,278 - __main__ - INFO - Starting batch fetch for 20 tickers (2016-01-01 to 2026-02-24)
+2026-03-01 17:07:54,283 - __main__ - DEBUG - Fetching SAP (attempt 1/3)
+2026-03-01 17:07:54,815 - __main__ - DEBUG - Attempt 1 failed for SAP: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:07:54,815 - __main__ - DEBUG - Retrying SAP in 2.0s...
+2026-03-01 17:07:54,815 - __main__ - DEBUG - Fetching META (attempt 1/3)
+2026-03-01 17:07:55,041 - __main__ - DEBUG - Attempt 1 failed for META: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:07:55,041 - __main__ - DEBUG - Retrying META in 2.0s...
+2026-03-01 17:07:55,041 - __main__ - DEBUG - Fetching ASML (attempt 1/3)
+2026-03-01 17:07:55,230 - __main__ - DEBUG - Attempt 1 failed for ASML: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:07:55,230 - __main__ - DEBUG - Retrying ASML in 2.0s...
+2026-03-01 17:07:55,230 - __main__ - DEBUG - Fetching GOOGL (attempt 1/3)
+2026-03-01 17:07:55,386 - __main__ - DEBUG - Attempt 1 failed for GOOGL: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:07:55,386 - __main__ - DEBUG - Retrying GOOGL in 2.0s...
+2026-03-01 17:07:55,386 - __main__ - DEBUG - Fetching RDSB (attempt 1/3)
+2026-03-01 17:07:55,919 - __main__ - WARNING - No data returned for RDSB
+2026-03-01 17:07:55,919 - __main__ - DEBUG - Fetching BRK.B (attempt 1/3)
+2026-03-01 17:07:56,520 - __main__ - WARNING - No data returned for BRK.B
+2026-03-01 17:07:56,520 - __main__ - DEBUG - Fetching 005930.KS (attempt 1/3)
+2026-03-01 17:07:56,756 - __main__ - DEBUG - Attempt 1 failed for 005930.KS: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:07:56,757 - __main__ - DEBUG - Retrying 005930.KS in 2.0s...
+2026-03-01 17:07:56,840 - __main__ - DEBUG - Fetching SAP (attempt 2/3)
+2026-03-01 17:07:56,854 - __main__ - DEBUG - Attempt 2 failed for SAP: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:07:56,854 - __main__ - DEBUG - Retrying SAP in 4.0s...
+2026-03-01 17:07:57,049 - __main__ - DEBUG - Fetching META (attempt 2/3)
+2026-03-01 17:07:57,073 - __main__ - DEBUG - Attempt 2 failed for META: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:07:57,073 - __main__ - DEBUG - Retrying META in 4.0s...
+2026-03-01 17:07:57,250 - __main__ - DEBUG - Fetching ASML (attempt 2/3)
+2026-03-01 17:07:57,265 - __main__ - DEBUG - Attempt 2 failed for ASML: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:07:57,265 - __main__ - DEBUG - Retrying ASML in 4.0s...
+2026-03-01 17:07:57,401 - __main__ - DEBUG - Fetching GOOGL (attempt 2/3)
+2026-03-01 17:07:57,426 - __main__ - DEBUG - Attempt 2 failed for GOOGL: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:07:57,426 - __main__ - DEBUG - Retrying GOOGL in 4.0s...
+2026-03-01 17:07:58,757 - __main__ - DEBUG - Fetching 005930.KS (attempt 2/3)
+2026-03-01 17:07:58,782 - __main__ - DEBUG - Attempt 2 failed for 005930.KS: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:07:58,782 - __main__ - DEBUG - Retrying 005930.KS in 4.0s...
+2026-03-01 17:08:00,848 - __main__ - DEBUG - Fetching SAP (attempt 3/3)
+2026-03-01 17:08:00,875 - __main__ - DEBUG - Attempt 3 failed for SAP: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:00,875 - __main__ - ERROR - Failed to fetch SAP after 3 attempts: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:00,875 - __main__ - DEBUG - Fetching JPM (attempt 1/3)
+2026-03-01 17:08:01,159 - __main__ - DEBUG - Attempt 1 failed for JPM: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:01,159 - __main__ - DEBUG - Retrying JPM in 2.0s...
+2026-03-01 17:08:01,160 - __main__ - DEBUG - Fetching META (attempt 3/3)
+2026-03-01 17:08:01,187 - __main__ - DEBUG - Attempt 3 failed for META: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:01,187 - __main__ - ERROR - Failed to fetch META after 3 attempts: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:01,187 - __main__ - DEBUG - Fetching MSFT (attempt 1/3)
+2026-03-01 17:08:01,403 - __main__ - DEBUG - Attempt 1 failed for MSFT: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:01,403 - __main__ - DEBUG - Retrying MSFT in 2.0s...
+2026-03-01 17:08:01,405 - __main__ - DEBUG - Fetching ASML (attempt 3/3)
+2026-03-01 17:08:01,431 - __main__ - DEBUG - Attempt 3 failed for ASML: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:01,431 - __main__ - ERROR - Failed to fetch ASML after 3 attempts: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:01,431 - __main__ - DEBUG - Fetching NVDA (attempt 1/3)
+2026-03-01 17:08:01,611 - __main__ - DEBUG - Attempt 1 failed for NVDA: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:01,612 - __main__ - DEBUG - Retrying NVDA in 2.0s...
+2026-03-01 17:08:01,612 - __main__ - DEBUG - Fetching GOOGL (attempt 3/3)
+2026-03-01 17:08:01,638 - __main__ - DEBUG - Attempt 3 failed for GOOGL: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:01,638 - __main__ - ERROR - Failed to fetch GOOGL after 3 attempts: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:01,639 - __main__ - DEBUG - Fetching 2222.SR (attempt 1/3)
+2026-03-01 17:08:01,807 - __main__ - DEBUG - Attempt 1 failed for 2222.SR: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:01,807 - __main__ - DEBUG - Retrying 2222.SR in 2.0s...
+2026-03-01 17:08:02,783 - __main__ - DEBUG - Fetching 005930.KS (attempt 3/3)
+2026-03-01 17:08:02,808 - __main__ - DEBUG - Attempt 3 failed for 005930.KS: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:02,808 - __main__ - ERROR - Failed to fetch 005930.KS after 3 attempts: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:02,809 - __main__ - DEBUG - Fetching WMT (attempt 1/3)
+2026-03-01 17:08:03,103 - __main__ - DEBUG - Attempt 1 failed for WMT: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:03,103 - __main__ - DEBUG - Retrying WMT in 2.0s...
+2026-03-01 17:08:03,168 - __main__ - DEBUG - Fetching JPM (attempt 2/3)
+2026-03-01 17:08:03,191 - __main__ - DEBUG - Attempt 2 failed for JPM: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:03,193 - __main__ - DEBUG - Retrying JPM in 4.0s...
+2026-03-01 17:08:03,423 - __main__ - DEBUG - Fetching MSFT (attempt 2/3)
+2026-03-01 17:08:03,449 - __main__ - DEBUG - Attempt 2 failed for MSFT: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:03,449 - __main__ - DEBUG - Retrying MSFT in 4.0s...
+2026-03-01 17:08:03,611 - __main__ - DEBUG - Fetching NVDA (attempt 2/3)
+2026-03-01 17:08:03,637 - __main__ - DEBUG - Attempt 2 failed for NVDA: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:03,637 - __main__ - DEBUG - Retrying NVDA in 4.0s...
+2026-03-01 17:08:03,811 - __main__ - DEBUG - Fetching 2222.SR (attempt 2/3)
+2026-03-01 17:08:03,835 - __main__ - DEBUG - Attempt 2 failed for 2222.SR: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:03,835 - __main__ - DEBUG - Retrying 2222.SR in 4.0s...
+2026-03-01 17:08:05,107 - __main__ - DEBUG - Fetching WMT (attempt 2/3)
+2026-03-01 17:08:05,134 - __main__ - DEBUG - Attempt 2 failed for WMT: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:05,134 - __main__ - DEBUG - Retrying WMT in 4.0s...
+2026-03-01 17:08:07,199 - __main__ - DEBUG - Fetching JPM (attempt 3/3)
+2026-03-01 17:08:07,222 - __main__ - DEBUG - Attempt 3 failed for JPM: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:07,222 - __main__ - ERROR - Failed to fetch JPM after 3 attempts: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:07,222 - __main__ - DEBUG - Fetching HDB (attempt 1/3)
+2026-03-01 17:08:07,460 - __main__ - DEBUG - Attempt 1 failed for HDB: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:07,460 - __main__ - DEBUG - Retrying HDB in 2.0s...
+2026-03-01 17:08:07,460 - __main__ - DEBUG - Fetching MSFT (attempt 3/3)
+2026-03-01 17:08:07,487 - __main__ - DEBUG - Attempt 3 failed for MSFT: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:07,487 - __main__ - ERROR - Failed to fetch MSFT after 3 attempts: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:07,487 - __main__ - DEBUG - Fetching BABA (attempt 1/3)
+2026-03-01 17:08:07,633 - __main__ - DEBUG - Attempt 1 failed for BABA: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:07,633 - __main__ - DEBUG - Retrying BABA in 2.0s...
+2026-03-01 17:08:07,633 - __main__ - DEBUG - Fetching NVDA (attempt 3/3)
+2026-03-01 17:08:07,659 - __main__ - DEBUG - Attempt 3 failed for NVDA: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:07,659 - __main__ - ERROR - Failed to fetch NVDA after 3 attempts: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:07,659 - __main__ - DEBUG - Fetching TSLA (attempt 1/3)
+2026-03-01 17:08:07,812 - __main__ - DEBUG - Attempt 1 failed for TSLA: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:07,812 - __main__ - DEBUG - Retrying TSLA in 2.0s...
+2026-03-01 17:08:07,831 - __main__ - DEBUG - Fetching 2222.SR (attempt 3/3)
+2026-03-01 17:08:07,859 - __main__ - DEBUG - Attempt 3 failed for 2222.SR: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:07,859 - __main__ - ERROR - Failed to fetch 2222.SR after 3 attempts: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:07,859 - __main__ - DEBUG - Fetching AAPL (attempt 1/3)
+2026-03-01 17:08:08,134 - __main__ - DEBUG - Attempt 1 failed for AAPL: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:08,134 - __main__ - DEBUG - Retrying AAPL in 2.0s...
+2026-03-01 17:08:09,134 - __main__ - DEBUG - Fetching WMT (attempt 3/3)
+2026-03-01 17:08:09,162 - __main__ - DEBUG - Attempt 3 failed for WMT: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:09,162 - __main__ - ERROR - Failed to fetch WMT after 3 attempts: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:09,163 - __main__ - DEBUG - Fetching RELIANCE.NS (attempt 1/3)
+2026-03-01 17:08:09,383 - __main__ - DEBUG - Attempt 1 failed for RELIANCE.NS: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:09,383 - __main__ - DEBUG - Retrying RELIANCE.NS in 2.0s...
+2026-03-01 17:08:09,464 - __main__ - DEBUG - Fetching HDB (attempt 2/3)
+2026-03-01 17:08:09,486 - __main__ - DEBUG - Attempt 2 failed for HDB: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:09,486 - __main__ - DEBUG - Retrying HDB in 4.0s...
+2026-03-01 17:08:09,631 - __main__ - DEBUG - Fetching BABA (attempt 2/3)
+2026-03-01 17:08:09,656 - __main__ - DEBUG - Attempt 2 failed for BABA: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:09,656 - __main__ - DEBUG - Retrying BABA in 4.0s...
+2026-03-01 17:08:09,816 - __main__ - DEBUG - Fetching TSLA (attempt 2/3)
+2026-03-01 17:08:09,838 - __main__ - DEBUG - Attempt 2 failed for TSLA: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:09,838 - __main__ - DEBUG - Retrying TSLA in 4.0s...
+2026-03-01 17:08:10,139 - __main__ - DEBUG - Fetching AAPL (attempt 2/3)
+2026-03-01 17:08:10,166 - __main__ - DEBUG - Attempt 2 failed for AAPL: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:10,166 - __main__ - DEBUG - Retrying AAPL in 4.0s...
+2026-03-01 17:08:11,399 - __main__ - DEBUG - Fetching RELIANCE.NS (attempt 2/3)
+2026-03-01 17:08:11,422 - __main__ - DEBUG - Attempt 2 failed for RELIANCE.NS: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:11,422 - __main__ - DEBUG - Retrying RELIANCE.NS in 4.0s...
+2026-03-01 17:08:13,491 - __main__ - DEBUG - Fetching HDB (attempt 3/3)
+2026-03-01 17:08:13,517 - __main__ - DEBUG - Attempt 3 failed for HDB: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:13,517 - __main__ - ERROR - Failed to fetch HDB after 3 attempts: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:13,518 - __main__ - DEBUG - Fetching TSM (attempt 1/3)
+2026-03-01 17:08:13,762 - __main__ - DEBUG - Attempt 1 failed for TSM: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:13,762 - __main__ - DEBUG - Retrying TSM in 2.0s...
+2026-03-01 17:08:13,762 - __main__ - DEBUG - Fetching BABA (attempt 3/3)
+2026-03-01 17:08:13,791 - __main__ - DEBUG - Attempt 3 failed for BABA: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:13,791 - __main__ - ERROR - Failed to fetch BABA after 3 attempts: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:13,791 - __main__ - DEBUG - Fetching AMZN (attempt 1/3)
+2026-03-01 17:08:13,944 - __main__ - DEBUG - Attempt 1 failed for AMZN: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:13,944 - __main__ - DEBUG - Retrying AMZN in 2.0s...
+2026-03-01 17:08:13,944 - __main__ - DEBUG - Fetching TSLA (attempt 3/3)
+2026-03-01 17:08:13,973 - __main__ - DEBUG - Attempt 3 failed for TSLA: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:13,973 - __main__ - ERROR - Failed to fetch TSLA after 3 attempts: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:13,973 - __main__ - DEBUG - Fetching SSNLF (attempt 1/3)
+2026-03-01 17:08:14,214 - __main__ - DEBUG - Attempt 1 failed for SSNLF: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:14,214 - __main__ - DEBUG - Retrying SSNLF in 2.0s...
+2026-03-01 17:08:14,215 - __main__ - DEBUG - Fetching AAPL (attempt 3/3)
+2026-03-01 17:08:14,258 - __main__ - DEBUG - Attempt 3 failed for AAPL: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:14,258 - __main__ - ERROR - Failed to fetch AAPL after 3 attempts: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:15,446 - __main__ - DEBUG - Fetching RELIANCE.NS (attempt 3/3)
+2026-03-01 17:08:15,469 - __main__ - DEBUG - Attempt 3 failed for RELIANCE.NS: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:15,469 - __main__ - ERROR - Failed to fetch RELIANCE.NS after 3 attempts: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:15,766 - __main__ - DEBUG - Fetching TSM (attempt 2/3)
+2026-03-01 17:08:15,778 - __main__ - DEBUG - Attempt 2 failed for TSM: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:15,778 - __main__ - DEBUG - Retrying TSM in 4.0s...
+2026-03-01 17:08:15,949 - __main__ - DEBUG - Fetching AMZN (attempt 2/3)
+2026-03-01 17:08:15,964 - __main__ - DEBUG - Attempt 2 failed for AMZN: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:15,964 - __main__ - DEBUG - Retrying AMZN in 4.0s...
+2026-03-01 17:08:16,215 - __main__ - DEBUG - Fetching SSNLF (attempt 2/3)
+2026-03-01 17:08:16,238 - __main__ - DEBUG - Attempt 2 failed for SSNLF: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:16,238 - __main__ - DEBUG - Retrying SSNLF in 4.0s...
+2026-03-01 17:08:19,798 - __main__ - DEBUG - Fetching TSM (attempt 3/3)
+2026-03-01 17:08:19,812 - __main__ - DEBUG - Attempt 3 failed for TSM: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:19,812 - __main__ - ERROR - Failed to fetch TSM after 3 attempts: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:19,982 - __main__ - DEBUG - Fetching AMZN (attempt 3/3)
+2026-03-01 17:08:20,007 - __main__ - DEBUG - Attempt 3 failed for AMZN: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:20,007 - __main__ - ERROR - Failed to fetch AMZN after 3 attempts: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:20,247 - __main__ - DEBUG - Fetching SSNLF (attempt 3/3)
+2026-03-01 17:08:20,272 - __main__ - DEBUG - Attempt 3 failed for SSNLF: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:20,272 - __main__ - ERROR - Failed to fetch SSNLF after 3 attempts: Can only use .str accessor with Index, not MultiIndex
+2026-03-01 17:08:20,272 - __main__ - WARNING - No successful fetches - returning empty DataFrame
+2026-03-01 17:08:20,272 - __main__ - ERROR - No data retrieved from any ticker
+2026-03-01 17:09:04,438 - __main__ - INFO - Initialized CompanyDataFetcher with output dir: data/raw
+2026-03-01 17:09:04,454 - __main__ - INFO - Loaded config with 20 companies from config\universe_companies.csv
+2026-03-01 17:09:04,457 - __main__ - INFO - Filtered to 20 companies with include_flag=true
+2026-03-01 17:09:04,457 - __main__ - DEBUG - Tickers: ['AAPL', 'MSFT', 'NVDA', 'TSLA', 'AMZN', 'META', 'GOOGL', 'BRK.B', 'JPM', 'WMT', 'BABA', 'TSM', 'SAP', 'ASML', 'RDSB', '005930.KS', '2222.SR', 'HDB', 'RELIANCE.NS', 'SSNLF']
+2026-03-01 17:09:04,457 - __main__ - INFO - Starting batch fetch for 20 tickers (2016-01-01 to 2026-02-24)
+2026-03-01 17:09:04,461 - __main__ - DEBUG - Fetching SAP (attempt 1/3)
+2026-03-01 17:09:04,935 - __main__ - INFO - Successfully fetched 122 records for SAP
+2026-03-01 17:09:04,935 - __main__ - DEBUG - Fetching META (attempt 1/3)
+2026-03-01 17:09:05,033 - __main__ - INFO - Successfully fetched 122 records for META
+2026-03-01 17:09:05,033 - __main__ - DEBUG - Fetching ASML (attempt 1/3)
+2026-03-01 17:09:05,144 - __main__ - INFO - Successfully fetched 122 records for ASML
+2026-03-01 17:09:05,144 - __main__ - DEBUG - Fetching GOOGL (attempt 1/3)
+2026-03-01 17:09:05,232 - __main__ - INFO - Successfully fetched 122 records for GOOGL
+2026-03-01 17:09:05,233 - __main__ - DEBUG - Fetching RDSB (attempt 1/3)
+2026-03-01 17:09:05,740 - __main__ - WARNING - No data returned for RDSB
+2026-03-01 17:09:05,741 - __main__ - DEBUG - Fetching BRK.B (attempt 1/3)
+2026-03-01 17:09:06,271 - __main__ - WARNING - No data returned for BRK.B
+2026-03-01 17:09:06,271 - __main__ - DEBUG - Fetching 005930.KS (attempt 1/3)
+2026-03-01 17:09:06,389 - __main__ - INFO - Successfully fetched 122 records for 005930.KS
+2026-03-01 17:09:06,391 - __main__ - DEBUG - Fetching JPM (attempt 1/3)
+2026-03-01 17:09:06,551 - __main__ - INFO - Successfully fetched 122 records for JPM
+2026-03-01 17:09:06,551 - __main__ - DEBUG - Fetching MSFT (attempt 1/3)
+2026-03-01 17:09:06,672 - __main__ - INFO - Successfully fetched 122 records for MSFT
+2026-03-01 17:09:06,672 - __main__ - DEBUG - Fetching NVDA (attempt 1/3)
+2026-03-01 17:09:06,784 - __main__ - INFO - Successfully fetched 122 records for NVDA
+2026-03-01 17:09:06,784 - __main__ - DEBUG - Fetching 2222.SR (attempt 1/3)
+2026-03-01 17:09:06,880 - __main__ - INFO - Successfully fetched 75 records for 2222.SR
+2026-03-01 17:09:06,881 - __main__ - DEBUG - Fetching WMT (attempt 1/3)
+2026-03-01 17:09:07,027 - __main__ - INFO - Successfully fetched 122 records for WMT
+2026-03-01 17:09:07,027 - __main__ - DEBUG - Fetching HDB (attempt 1/3)
+2026-03-01 17:09:07,148 - __main__ - INFO - Successfully fetched 122 records for HDB
+2026-03-01 17:09:07,148 - __main__ - DEBUG - Fetching BABA (attempt 1/3)
+2026-03-01 17:09:07,257 - __main__ - INFO - Successfully fetched 122 records for BABA
+2026-03-01 17:09:07,257 - __main__ - DEBUG - Fetching TSLA (attempt 1/3)
+2026-03-01 17:09:07,344 - __main__ - INFO - Successfully fetched 122 records for TSLA
+2026-03-01 17:09:07,344 - __main__ - DEBUG - Fetching AAPL (attempt 1/3)
+2026-03-01 17:09:07,504 - __main__ - INFO - Successfully fetched 122 records for AAPL
+2026-03-01 17:09:07,506 - __main__ - DEBUG - Fetching RELIANCE.NS (attempt 1/3)
+2026-03-01 17:09:07,629 - __main__ - INFO - Successfully fetched 122 records for RELIANCE.NS
+2026-03-01 17:09:07,629 - __main__ - DEBUG - Fetching TSM (attempt 1/3)
+2026-03-01 17:09:07,749 - __main__ - INFO - Successfully fetched 122 records for TSM
+2026-03-01 17:09:07,749 - __main__ - DEBUG - Fetching AMZN (attempt 1/3)
+2026-03-01 17:09:07,838 - __main__ - INFO - Successfully fetched 122 records for AMZN
+2026-03-01 17:09:07,838 - __main__ - DEBUG - Fetching SSNLF (attempt 1/3)
+2026-03-01 17:09:07,980 - __main__ - INFO - Successfully fetched 122 records for SSNLF
+2026-03-01 17:09:07,989 - __main__ - INFO - Combined 18 successful fetches into single DataFrame
+2026-03-01 17:09:08,038 - __main__ - INFO - Saved 2149 records to data\raw\companies_monthly.csv
+2026-03-01 17:09:08,038 - __main__ - INFO - Saved metadata to data\raw\companies_fetch_metadata.json
+2026-03-01 17:09:08,038 - __main__ - INFO - Fetching shares outstanding for 18 tickers
+2026-03-01 17:09:08,038 - __main__ - DEBUG - Fetching shares outstanding for MSFT
+2026-03-01 17:09:08,486 - __main__ - DEBUG - Shares outstanding for MSFT: 7425629076
+2026-03-01 17:09:08,486 - __main__ - DEBUG - Fetching shares outstanding for 005930.KS
+2026-03-01 17:09:08,638 - __main__ - DEBUG - Shares outstanding for 005930.KS: 5876745450
+2026-03-01 17:09:08,638 - __main__ - DEBUG - Fetching shares outstanding for ASML
+2026-03-01 17:09:08,789 - __main__ - DEBUG - Shares outstanding for ASML: 385417665
+2026-03-01 17:09:08,789 - __main__ - DEBUG - Fetching shares outstanding for AMZN
+2026-03-01 17:09:08,935 - __main__ - DEBUG - Shares outstanding for AMZN: 10734920870
+2026-03-01 17:09:08,935 - __main__ - DEBUG - Fetching shares outstanding for SAP
+2026-03-01 17:09:09,086 - __main__ - DEBUG - Shares outstanding for SAP: 1164604232
+2026-03-01 17:09:09,086 - __main__ - DEBUG - Fetching shares outstanding for AAPL
+2026-03-01 17:09:09,240 - __main__ - DEBUG - Shares outstanding for AAPL: 14681140000
+2026-03-01 17:09:09,240 - __main__ - DEBUG - Fetching shares outstanding for BABA
+2026-03-01 17:09:09,389 - __main__ - DEBUG - Shares outstanding for BABA: 2387329415
+2026-03-01 17:09:09,391 - __main__ - DEBUG - Fetching shares outstanding for WMT
+2026-03-01 17:09:09,534 - __main__ - DEBUG - Shares outstanding for WMT: 7970166964
+2026-03-01 17:09:09,534 - __main__ - DEBUG - Fetching shares outstanding for NVDA
+2026-03-01 17:09:09,686 - __main__ - DEBUG - Shares outstanding for NVDA: 24300000000
+2026-03-01 17:09:09,686 - __main__ - DEBUG - Fetching shares outstanding for JPM
+2026-03-01 17:09:09,853 - __main__ - DEBUG - Shares outstanding for JPM: 2697032375
+2026-03-01 17:09:09,853 - __main__ - DEBUG - Fetching shares outstanding for GOOGL
+2026-03-01 17:09:10,005 - __main__ - DEBUG - Shares outstanding for GOOGL: 5822000000
+2026-03-01 17:09:10,005 - __main__ - DEBUG - Fetching shares outstanding for SSNLF
+2026-03-01 17:09:10,150 - __main__ - DEBUG - Shares outstanding for SSNLF: 5876745450
+2026-03-01 17:09:10,150 - __main__ - DEBUG - Fetching shares outstanding for META
+2026-03-01 17:09:10,305 - __main__ - DEBUG - Shares outstanding for META: 2187177748
+2026-03-01 17:09:10,305 - __main__ - DEBUG - Fetching shares outstanding for TSM
+2026-03-01 17:09:10,455 - __main__ - DEBUG - Shares outstanding for TSM: 5186504904
+2026-03-01 17:09:10,455 - __main__ - DEBUG - Fetching shares outstanding for RELIANCE.NS
+2026-03-01 17:09:10,607 - __main__ - DEBUG - Shares outstanding for RELIANCE.NS: 13532472634
+2026-03-01 17:09:10,607 - __main__ - DEBUG - Fetching shares outstanding for TSLA
+2026-03-01 17:09:10,756 - __main__ - DEBUG - Shares outstanding for TSLA: 3752431984
+2026-03-01 17:09:10,756 - __main__ - DEBUG - Fetching shares outstanding for HDB
+2026-03-01 17:09:11,133 - __main__ - DEBUG - Shares outstanding for HDB: 5129338480
+2026-03-01 17:09:11,133 - __main__ - DEBUG - Fetching shares outstanding for 2222.SR
+2026-03-01 17:09:11,286 - __main__ - DEBUG - Shares outstanding for 2222.SR: 241854700000
+2026-03-01 17:09:11,286 - __main__ - INFO - Retrieved shares outstanding for 18 tickers
+2026-03-01 17:09:11,289 - __main__ - INFO - Saved shares outstanding to config\shares_outstanding.csv

@@ -1,0 +1,72 @@
+2026-03-03 11:56:07 - __main__ - INFO - Starting data ranking process
+2026-03-03 11:56:07 - __main__ - INFO - Input directory: data\raw
+2026-03-03 11:56:07 - __main__ - INFO - Output directory: data\processed
+2026-03-03 11:56:07 - __main__ - INFO - Top N: 20
+2026-03-03 11:56:07 - __main__ - INFO - ================================================================================
+2026-03-03 11:56:07 - __main__ - INFO - STEP 1: Data Normalization
+2026-03-03 11:56:07 - __main__ - INFO - ================================================================================
+2026-03-03 11:56:07 - __main__ - INFO - Reading raw files from data\raw
+2026-03-03 11:56:07 - __main__ - INFO - Loaded 2149 company records
+2026-03-03 11:56:07 - __main__ - INFO - Loaded 122 crypto records
+2026-03-03 11:56:07 - __main__ - INFO - Loaded 420 metals records
+2026-03-03 11:56:07 - __main__ - INFO - Normalizing company data
+2026-03-03 11:56:07 - __main__ - WARNING - Missing column 'name' in company data, adding default
+2026-03-03 11:56:07 - __main__ - INFO - Normalized 2149 company records
+2026-03-03 11:56:07 - __main__ - INFO - Normalizing crypto data
+2026-03-03 11:56:07 - __main__ - WARNING - Missing column 'name' in crypto data, adding default
+2026-03-03 11:56:07 - __main__ - INFO - Normalized 122 crypto records
+2026-03-03 11:56:07 - __main__ - INFO - Normalizing metals data
+2026-03-03 11:56:07 - __main__ - WARNING - Missing column 'metal_id' in metals data, adding default
+2026-03-03 11:56:07 - __main__ - INFO - Normalized 420 metals records
+2026-03-03 11:56:07 - __main__ - INFO - Merging normalized datasets
+2026-03-03 11:56:07 - __main__ - INFO - Merged dataset contains 542 records across 227 dates
+2026-03-03 11:56:07 - __main__ - INFO - 
+================================================================================
+2026-03-03 11:56:07 - __main__ - INFO - STEP 2: Ranking by Market Cap
+2026-03-03 11:56:07 - __main__ - INFO - ================================================================================
+2026-03-03 11:56:07 - __main__ - INFO - Ranking assets by market cap (top 20)
+2026-03-03 11:56:07 - __main__ - INFO - Created rankings for 227 dates
+2026-03-03 11:56:07 - __main__ - INFO - 
+================================================================================
+2026-03-03 11:56:07 - __main__ - INFO - STEP 3: Computing Rank Transitions
+2026-03-03 11:56:07 - __main__ - INFO - ================================================================================
+2026-03-03 11:56:07 - __main__ - INFO - Computing rank transitions
+2026-03-03 11:56:08 - __main__ - INFO - Identified rank transitions for 225 months
+2026-03-03 11:56:08 - __main__ - INFO - 
+================================================================================
+2026-03-03 11:56:08 - __main__ - INFO - STEP 4: Injecting Corporate Action Flags
+2026-03-03 11:56:08 - __main__ - INFO - ================================================================================
+2026-03-03 11:56:08 - __main__ - INFO - Injecting corporate action flags
+2026-03-03 11:56:08 - __main__ - INFO - Corporate action injection complete
+2026-03-03 11:56:08 - __main__ - INFO - 
+================================================================================
+2026-03-03 11:56:08 - __main__ - INFO - STEP 5: Quality Validation
+2026-03-03 11:56:08 - __main__ - INFO - ================================================================================
+2026-03-03 11:56:08 - __main__ - INFO - Validating data quality
+2026-03-03 11:56:08 - __main__ - INFO - 
+================================================================================
+2026-03-03 11:56:08 - __main__ - INFO - STEP 6: Formatting Output
+2026-03-03 11:56:08 - __main__ - INFO - ================================================================================
+2026-03-03 11:56:08 - __main__ - INFO - 
+================================================================================
+2026-03-03 11:56:08 - __main__ - INFO - STEP 7: Saving Outputs
+2026-03-03 11:56:08 - __main__ - INFO - ================================================================================
+2026-03-03 11:56:08 - __main__ - INFO -   Rows: 542, Columns: 11
+2026-03-03 11:56:08 - __main__ - INFO - 
+================================================================================
+2026-03-03 11:56:08 - __main__ - INFO - PROCESSING COMPLETE
+2026-03-03 11:56:08 - __main__ - INFO - ================================================================================
+2026-03-03 11:56:08 - __main__ - INFO - 
+Dataset Summary:
+2026-03-03 11:56:08 - __main__ - INFO -   First date: 2016-01-01
+2026-03-03 11:56:08 - __main__ - INFO -   Last date:  2026-02-24
+2026-03-03 11:56:08 - __main__ - INFO -   Unique dates: 227
+2026-03-03 11:56:08 - __main__ - INFO -   Total rows: 542
+2026-03-03 11:56:08 - __main__ - INFO - 
+  Top asset on 2016-01-01: None (Unknown)
+2026-03-03 11:56:08 - __main__ - INFO -     Market Cap: $7,758,980,169,678
+2026-03-03 11:56:08 - __main__ - INFO -     Confidence: Medium
+2026-03-03 11:56:08 - __main__ - INFO - 
+  Top asset on 2026-02-24: bitcoin (Unknown)
+2026-03-03 11:56:08 - __main__ - INFO -     Market Cap: $505,000,000,000
+2026-03-03 11:56:08 - __main__ - INFO -     Confidence: High

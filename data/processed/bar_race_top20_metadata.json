@@ -1,0 +1,60 @@
+{
+  "frame_count": 132,
+  "date_range": {
+    "start": "2016-01-31",
+    "end": "2026-12-31"
+  },
+  "top_assets": [
+    {
+      "asset_id": [
+        "PLATINUM",
+        "Platinum"
+      ],
+      "avg_market_cap": 3602182395744.5063
+    },
+    {
+      "asset_id": [
+        "SILVER",
+        "Silver"
+      ],
+      "avg_market_cap": 3224074659267.0176
+    },
+    {
+      "asset_id": [
+        "GOOGL",
+        "Alphabet"
+      ],
+      "avg_market_cap": 2406499313899.0635
+    },
+    {
+      "asset_id": [
+        "GOLD",
+        "Gold"
+      ],
+      "avg_market_cap": 2122644807685.0845
+    },
+    {
+      "asset_id": [
+        "NVDA",
+        "NVIDIA"
+      ],
+      "avg_market_cap": 2075787482864.1416
+    }
+  ],
+  "asset_type_distribution": {
+    "company": 1320,
+    "crypto": 660,
+    "metal": 396
+  },
+  "sources_used": [
+    "CoinGecko",
+    "World Gold Council",
+    "yfinance"
+  ],
+  "confidence_distribution": {
+    "High": 1587,
+    "Medium": 725,
+    "Low": 64
+  },
+  "timestamp": "2026-02-24T15:43:01.031928"
+}

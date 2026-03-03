@@ -1,0 +1,249 @@
+{
+  "date_generated": "2026-03-03T12:19:23.220813",
+  "methodology_verified": true,
+  "calculation_verified": true,
+  "data_sources": {
+    "companies": {
+      "source": "yfinance",
+      "normalization": "USD conversion for international stocks",
+      "calculation": "Price \u00d7 Shares Outstanding",
+      "date": "2026-02-01"
+    },
+    "metals": {
+      "source": "yfinance futures + historical supplies",
+      "calculation": "Price/oz \u00d7 Total Mined",
+      "supplies": {
+        "Gold": 210000000,
+        "Silver": 1750000000
+      },
+      "date": "2026-01-01"
+    },
+    "crypto": {
+      "source": "CoinGecko",
+      "calculation": "Price \u00d7 Circulating Supply",
+      "date": "2026-02-24"
+    }
+  },
+  "top_20": [
+    {
+      "date": "2026-02-24",
+      "label": "NVIDIA Corporation",
+      "market_cap": 4305717059326.172,
+      "asset_type": "company",
+      "source": "yfinance + FX conversion",
+      "confidence": "Medium",
+      "sector": "Technology",
+      "region": "North America",
+      "rank": 1
+    },
+    {
+      "date": "2026-02-24",
+      "label": "Apple Inc.",
+      "market_cap": 3874837527922.9736,
+      "asset_type": "company",
+      "source": "yfinance + FX conversion",
+      "confidence": "Medium",
+      "sector": "Technology",
+      "region": "North America",
+      "rank": 2
+    },
+    {
+      "date": "2026-02-24",
+      "label": "Microsoft Corporation",
+      "market_cap": 2909700166594.0176,
+      "asset_type": "company",
+      "source": "yfinance + FX conversion",
+      "confidence": "Medium",
+      "sector": "Technology",
+      "region": "North America",
+      "rank": 3
+    },
+    {
+      "date": "2026-02-24",
+      "label": "Amazon.com Inc.",
+      "market_cap": 2254333382700.0,
+      "asset_type": "company",
+      "source": "yfinance + FX conversion",
+      "confidence": "Medium",
+      "sector": "Consumer & Tech",
+      "region": "North America",
+      "rank": 4
+    },
+    {
+      "date": "2026-02-24",
+      "label": "Taiwan Semiconductor Manufacturing",
+      "market_cap": 1942760937297.3096,
+      "asset_type": "company",
+      "source": "yfinance + FX conversion",
+      "confidence": "Medium",
+      "sector": "Technology",
+      "region": "Asia",
+      "rank": 5
+    },
+    {
+      "date": "2026-02-24",
+      "label": "Alphabet Inc.",
+      "market_cap": 1815066776855.4688,
+      "asset_type": "company",
+      "source": "yfinance + FX conversion",
+      "confidence": "Medium",
+      "sector": "Technology",
+      "region": "North America",
+      "rank": 6
+    },
+    {
+      "date": "2026-02-24",
+      "label": "Saudi Aramco",
+      "market_cap": 1609784824153.4424,
+      "asset_type": "company",
+      "source": "yfinance + FX conversion",
+      "confidence": "Medium",
+      "sector": "Energy",
+      "region": "Middle East",
+      "rank": 7
+    },
+    {
+      "date": "2026-02-24",
+      "label": "Tesla Inc.",
+      "market_cap": 1510391434524.6836,
+      "asset_type": "company",
+      "source": "yfinance + FX conversion",
+      "confidence": "Medium",
+      "sector": "Automotive",
+      "region": "North America",
+      "rank": 8
+    },
+    {
+      "date": "2026-02-24",
+      "label": "Meta Platforms Inc.",
+      "market_cap": 1417684856679.2715,
+      "asset_type": "company",
+      "source": "yfinance + FX conversion",
+      "confidence": "Medium",
+      "sector": "Technology",
+      "region": "North America",
+      "rank": 9
+    },
+    {
+      "date": "2026-02-24",
+      "label": "Walmart Inc.",
+      "market_cap": 1019782838720.7808,
+      "asset_type": "company",
+      "source": "yfinance + FX conversion",
+      "confidence": "Medium",
+      "sector": "Retail",
+      "region": "North America",
+      "rank": 10
+    },
+    {
+      "date": "2026-01-01",
+      "label": "Gold",
+      "market_cap": 989918979492.1876,
+      "asset_type": "metal",
+      "source": "yfinance",
+      "confidence": "Medium",
+      "sector": NaN,
+      "region": NaN,
+      "rank": 11
+    },
+    {
+      "date": "2026-02-24",
+      "label": "Samsung Electronics",
+      "market_cap": 942455844388.8888,
+      "asset_type": "company",
+      "source": "yfinance + FX conversion",
+      "confidence": "Medium",
+      "sector": "Technology",
+      "region": "Asia",
+      "rank": 12
+    },
+    {
+      "date": "2026-02-24",
+      "label": "JPMorgan Chase & Co.",
+      "market_cap": 809918789289.7415,
+      "asset_type": "company",
+      "source": "yfinance + FX conversion",
+      "confidence": "Medium",
+      "sector": "Financials",
+      "region": "North America",
+      "rank": 13
+    },
+    {
+      "date": "2026-02-24",
+      "label": "ASML Holding NV",
+      "market_cap": 516976877336.60376,
+      "asset_type": "company",
+      "source": "yfinance + FX conversion",
+      "confidence": "Medium",
+      "sector": "Technology",
+      "region": "Europe",
+      "rank": 14
+    },
+    {
+      "date": "2026-02-24",
+      "label": "Bitcoin",
+      "market_cap": 505000000000.0,
+      "asset_type": "crypto",
+      "source": "coingecko",
+      "confidence": "High",
+      "sector": NaN,
+      "region": NaN,
+      "rank": 15
+    },
+    {
+      "date": "2026-01-01",
+      "label": "Platinum",
+      "market_cap": 420560009765.625,
+      "asset_type": "metal",
+      "source": "yfinance",
+      "confidence": "Medium",
+      "sector": NaN,
+      "region": NaN,
+      "rank": 16
+    },
+    {
+      "date": "2026-02-24",
+      "label": "Alibaba Group Holding",
+      "market_cap": 344038043452.76025,
+      "asset_type": "company",
+      "source": "yfinance + FX conversion",
+      "confidence": "Medium",
+      "sector": "Technology",
+      "region": "Asia",
+      "rank": 17
+    },
+    {
+      "date": "2026-01-01",
+      "label": "Palladium",
+      "market_cap": 253245007324.21875,
+      "asset_type": "metal",
+      "source": "yfinance",
+      "confidence": "Medium",
+      "sector": NaN,
+      "region": NaN,
+      "rank": 18
+    },
+    {
+      "date": "2026-02-24",
+      "label": "Reliance Industries",
+      "market_cap": 224558499225.1813,
+      "asset_type": "company",
+      "source": "yfinance + FX conversion",
+      "confidence": "Medium",
+      "sector": "Diversified",
+      "region": "Asia",
+      "rank": 19
+    },
+    {
+      "date": "2026-02-24",
+      "label": "SAP SE",
+      "market_cap": 217317305049.374,
+      "asset_type": "company",
+      "source": "yfinance + FX conversion",
+      "confidence": "Medium",
+      "sector": "Technology",
+      "region": "Europe",
+      "rank": 20
+    }
+  ]
+}

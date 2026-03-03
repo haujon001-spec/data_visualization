@@ -1,0 +1,21 @@
+ticker,name,sector,region,include_flag,notes
+AAPL,Apple Inc.,Technology,North America,true,Large cap tech leader
+MSFT,Microsoft Corporation,Technology,North America,true,Cloud and enterprise
+NVDA,NVIDIA Corporation,Technology,North America,true,AI and semiconductor leader
+TSLA,Tesla Inc.,Automotive,North America,true,EV manufacturer
+AMZN,Amazon.com Inc.,Consumer & Tech,North America,true,E-commerce and cloud
+META,Meta Platforms Inc.,Technology,North America,true,Social media and AI
+GOOGL,Alphabet Inc.,Technology,North America,true,Search and advertising
+BRK.B,Berkshire Hathaway Inc.,Diversified,North America,true,Conglomerate
+JPM,JPMorgan Chase & Co.,Financials,North America,true,Banking leader
+WMT,Walmart Inc.,Retail,North America,true,Retail giant
+BABA,Alibaba Group Holding,Technology,Asia,true,Chinese e-commerce
+TSM,Taiwan Semiconductor Manufacturing,Technology,Asia,true,Chip manufacturer
+SAP,SAP SE,Technology,Europe,true,Enterprise software
+ASML,ASML Holding NV,Technology,Europe,true,Semiconductor equipment
+RDSB,Royal Dutch Shell PLC,Energy,Europe,true,Oil and gas
+005930.KS,Samsung Electronics,Technology,Asia,true,Electronics conglomerate
+2222.SR,Saudi Aramco,Energy,Middle East,true,Oil producer
+HDB,HDFC Bank Limited,Financials,Asia,true,Banking India
+RELIANCE.NS,Reliance Industries,Diversified,Asia,true,Indian conglomerate
+SSNLF,Sony Group Corporation,Technology,Asia,true,Entertainment electronics

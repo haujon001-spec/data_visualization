@@ -1,0 +1,24 @@
+date,label,market_cap,asset_type,source,confidence,sector,region,rank
+2026-02-24,NVIDIA Corporation,4305717059326.172,company,yfinance + FX conversion,Medium,Technology,North America,1
+2026-02-24,Apple Inc.,3874837527922.9736,company,yfinance + FX conversion,Medium,Technology,North America,2
+2026-02-24,Microsoft Corporation,2909700166594.0176,company,yfinance + FX conversion,Medium,Technology,North America,3
+2026-02-24,Amazon.com Inc.,2254333382700.0,company,yfinance + FX conversion,Medium,Consumer & Tech,North America,4
+2026-02-24,Taiwan Semiconductor Manufacturing,1942760937297.3096,company,yfinance + FX conversion,Medium,Technology,Asia,5
+2026-02-24,Alphabet Inc.,1815066776855.4688,company,yfinance + FX conversion,Medium,Technology,North America,6
+2026-02-24,Saudi Aramco,1609784824153.4424,company,yfinance + FX conversion,Medium,Energy,Middle East,7
+2026-02-24,Tesla Inc.,1510391434524.6836,company,yfinance + FX conversion,Medium,Automotive,North America,8
+2026-02-24,Meta Platforms Inc.,1417684856679.2715,company,yfinance + FX conversion,Medium,Technology,North America,9
+2026-02-24,Walmart Inc.,1019782838720.7808,company,yfinance + FX conversion,Medium,Retail,North America,10
+2026-01-01,Gold,989918979492.1876,metal,yfinance,Medium,,,11
+2026-02-24,Samsung Electronics,942455844388.8888,company,yfinance + FX conversion,Medium,Technology,Asia,12
+2026-02-24,JPMorgan Chase & Co.,809918789289.7415,company,yfinance + FX conversion,Medium,Financials,North America,13
+2026-02-24,ASML Holding NV,516976877336.60376,company,yfinance + FX conversion,Medium,Technology,Europe,14
+2026-02-24,Bitcoin,505000000000.0,crypto,coingecko,High,,,15
+2026-01-01,Platinum,420560009765.625,metal,yfinance,Medium,,,16
+2026-02-24,Alibaba Group Holding,344038043452.76025,company,yfinance + FX conversion,Medium,Technology,Asia,17
+2026-01-01,Palladium,253245007324.21875,metal,yfinance,Medium,,,18
+2026-02-24,Reliance Industries,224558499225.1813,company,yfinance + FX conversion,Medium,Diversified,Asia,19
+2026-02-24,SAP SE,217317305049.374,company,yfinance + FX conversion,Medium,Technology,Europe,20
+2026-01-01,Silver,137007501602.17284,metal,yfinance,Medium,,,21
+2026-02-24,Sony Group Corporation,4033921741.201883,company,yfinance + FX conversion,Medium,Technology,Asia,22
+2026-02-24,HDFC Bank Limited,1944874196.960564,company,yfinance + FX conversion,Medium,Financials,Asia,23
