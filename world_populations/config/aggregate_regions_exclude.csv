@@ -1,0 +1,49 @@
+code,name,reason
+WLD,World,Global aggregate
+AFE,Africa Eastern and Southern,Regional aggregate
+AFW,Africa Western and Central,Regional aggregate
+ARB,Arab World,Regional aggregate
+CEB,Central Europe and the Baltics,Regional aggregate
+CSS,Caribbean small states,Regional aggregate
+EAP,East Asia & Pacific (excluding high income),Regional aggregate
+EAR,Early-demographic dividend,Demographic aggregate
+EAS,East Asia & Pacific,Regional aggregate
+ECA,Europe & Central Asia (excluding high income),Regional aggregate
+ECS,Europe & Central Asia,Regional aggregate
+EMU,Euro area,Regional aggregate
+EUU,European Union,Regional aggregate
+FCS,Fragile and conflict affected situations,Development aggregate
+HIC,High income,Income group
+HPC,Heavily indebted poor countries (HIPC),Development aggregate
+IBD,IBRD only,Financial aggregate
+IBT,IDA & IBRD total,Financial aggregate
+IDA,IDA total,Financial aggregate
+IDB,IDA blend,Financial aggregate
+IDX,IDA only,Financial aggregate
+LAC,Latin America & Caribbean (excluding high income),Regional aggregate
+LCN,Latin America & Caribbean,Regional aggregate
+LDC,Least developed countries: UN classification,Development aggregate
+LIC,Low income,Income group
+LMC,Lower middle income,Income group
+LMY,Low & middle income,Income group
+LTE,Late-demographic dividend,Demographic aggregate
+MEA,Middle East North Africa Afghanistan & Pakistan,Regional aggregate
+MIC,Middle income,Income group
+MNA,Middle East North Africa Afghanistan & Pakistan (excluding high income),Regional aggregate
+NAC,North America,Regional aggregate
+OED,OECD members,Development aggregate
+OSS,Other small states,Development aggregate
+PRE,Pre-demographic dividend,Demographic aggregate
+PSS,Pacific island small states,Regional aggregate
+PST,Post-demographic dividend,Demographic aggregate
+SAS,South Asia,Regional aggregate
+SSA,Sub-Saharan Africa (excluding high income),Regional aggregate
+SSF,Sub-Saharan Africa,Regional aggregate
+SST,Small states,Development aggregate
+TEA,East Asia & Pacific (IDA & IBRD countries),Regional aggregate
+TEC,Europe & Central Asia (IDA & IBRD countries),Regional aggregate
+TLA,Latin America & the Caribbean (IDA & IBRD countries),Regional aggregate
+TMN,Middle East North Africa Afghanistan & Pakistan (IDA & IBRD),Regional aggregate
+TSA,South Asia (IDA & IBRD),Regional aggregate
+TSS,Sub-Saharan Africa (IDA & IBRD countries),Regional aggregate
+UMC,Upper middle income,Income group

@@ -1,0 +1,14 @@
+year,country_code,country_name,expected_rank,pop_min,pop_max,validation_category
+1970,CHN,China,1,800000000,850000000,must_validate
+1970,IND,India,2,550000000,600000000,must_validate
+1970,USA,United States,3,200000000,220000000,must_validate
+2000,CHN,China,1,1250000000,1280000000,must_validate
+2000,IND,India,2,1000000000,1050000000,must_validate
+2000,USA,United States,3,280000000,290000000,must_validate
+2020,CHN,China,1,1400000000,1450000000,must_validate
+2020,IND,India,2,1350000000,1400000000,must_validate
+2020,USA,United States,3,325000000,335000000,must_validate
+2024,IND,India,1,1420000000,1450000000,critical_crossover
+2024,CHN,China,2,1410000000,1430000000,critical_crossover
+2026,IND,India,1,1430000000,1460000000,must_validate
+2026,CHN,China,2,1410000000,1430000000,must_validate

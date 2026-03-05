@@ -1,0 +1,38 @@
+project:
+  name: "World Population Dashboard"
+  version: "1.0.0"
+  start_year: 1970
+  end_year: 2026
+  top_n: 50
+
+data:
+  source: "World Bank API"
+  indicator: "SP.POP.TOTL"
+  endpoint: "https://api.worldbank.org/v2/country/all/indicator/SP.POP.TOTL"
+  format: "json"
+  per_page: 20000
+
+visualization:
+  resolution: "1080p"
+  width: 1920
+  height: 1080
+  theme: "dark"
+  font_family: "Arial"
+  mp4_fps: 30
+  gif_fps: 15
+  animation_duration_sec: 15
+
+qa:
+  enable_multi_layer_validation: true
+  enable_ocr_validation: false
+  enable_gold_standard: true
+  screenshot_key_years: [1970, 2000, 2020, 2026]
+
+publishing:
+  mode: "local"
+  auto_publish: false
+
+telegram:
+  enabled: false
+  bot_token: ""
+  chat_id: ""

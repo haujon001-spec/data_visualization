@@ -1,0 +1,44 @@
+{
+  "task_id": "TASK_QA_DATA_VALIDATION",
+  "task_name": "Data QA Agent - CSV Validation",
+  "phase": 1,
+  "description": "Validate CSV schema, row counts, rankings, and data integrity",
+  "created_by": "local_agent",
+  "created_at": "2026-03-05T08:16:59.882625Z",
+  "status": "pending",
+  "assigned_to": "background_agent",
+  "priority": "high",
+  "expected_outputs": [
+    "qa_agents/agent_data_qa.py"
+  ],
+  "expected_functions": [
+    "validate_schema",
+    "validate_row_count",
+    "validate_rankings",
+    "validate_data_integrity",
+    "generate_qa_report"
+  ],
+  "success_criteria": {
+    "code_passes_syntax": true,
+    "functions_present": true,
+    "has_docstrings": true,
+    "has_error_handling": true
+  },
+  "implementation_spec": {
+    "input_file": "csv/processed/population_top50_1970_now_5Mar2026.csv",
+    "expected_rows_per_year": 50,
+    "year_range": [
+      1970,
+      2026
+    ],
+    "validations": [
+      "schema_check",
+      "null_check",
+      "ranking_continuity",
+      "population_positive",
+      "year_coverage"
+    ],
+    "report_output": "reports/qa/data_qa_report_5Mar2026.json"
+  },
+  "started_at": "2026-03-05T08:26:44.895679Z"
+}

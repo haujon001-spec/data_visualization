@@ -1,0 +1,45 @@
+{
+  "report_id": "DATA_QA_20260305_091141",
+  "timestamp": "2026-03-05T09:11:41.421449Z",
+  "overall_status": "PASS",
+  "validations": {
+    "schema": {
+      "passed": true,
+      "expected": [
+        "country_name",
+        "country_code",
+        "year",
+        "population",
+        "rank"
+      ],
+      "actual": [
+        "country_name",
+        "country_code",
+        "year",
+        "population",
+        "rank"
+      ],
+      "missing": [],
+      "extra": []
+    },
+    "row_count": {
+      "passed": true,
+      "expected_per_year": 50,
+      "failures": [],
+      "total_years_checked": 65
+    },
+    "rankings": {
+      "passed": true,
+      "failures": []
+    },
+    "data_integrity": {
+      "passed": true,
+      "issues": []
+    }
+  },
+  "summary": {
+    "total_checks": 4,
+    "passed": 4,
+    "failed": 0
+  }
+}

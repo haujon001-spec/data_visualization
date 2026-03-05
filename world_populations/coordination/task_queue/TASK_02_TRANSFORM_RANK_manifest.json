@@ -1,0 +1,41 @@
+{
+  "task_id": "TASK_02_TRANSFORM_RANK",
+  "task_name": "Transform and Rank Top 50 Countries",
+  "phase": 1,
+  "description": "Filter top 50 countries by population, add ranking column, save processed CSV",
+  "created_by": "local_agent",
+  "created_at": "2026-03-05T08:16:59.882625Z",
+  "status": "pending",
+  "assigned_to": "background_agent",
+  "priority": "high",
+  "expected_outputs": [
+    "scripts/02_transform_rank_top50.py"
+  ],
+  "expected_functions": [
+    "load_raw_csv",
+    "filter_top50_per_year",
+    "add_ranking_column",
+    "save_processed_csv"
+  ],
+  "success_criteria": {
+    "code_passes_syntax": true,
+    "functions_present": true,
+    "has_docstrings": true,
+    "has_error_handling": true
+  },
+  "implementation_spec": {
+    "input_file": "csv/raw/worldbank_population_raw_5Mar2026.csv",
+    "output_file": "csv/processed/population_top50_1970_now_5Mar2026.csv",
+    "ranking_method": "per_year_descending",
+    "top_n": 50,
+    "required_columns": [
+      "country_name",
+      "country_code",
+      "year",
+      "population",
+      "rank"
+    ],
+    "exclude_aggregates": "config/aggregate_regions_exclude.csv"
+  },
+  "started_at": "2026-03-05T08:26:44.891579Z"
+}

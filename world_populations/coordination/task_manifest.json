@@ -1,0 +1,66 @@
+{
+    "task_id": "TASK_03_BUILD_VISUALIZATION",
+    "task_name": "Build Population Bar Race Visualization",
+    "phase": 3,
+    "description": "Implement animated bar race visualization for top 50 countries",
+    "created_by": "local_agent",
+    "created_at": "2026-03-05T14:30:00Z",
+    "status": "pending",
+    "assigned_to": "background_agent",
+    "priority": "high",
+    "specification_reference": "Phase_3_Visualization_Design.md",
+    "expected_outputs": [
+        "scripts/build_visualization.py"
+    ],
+    "expected_functions": [
+        "build_population_barrace",
+        "apply_flag_labels",
+        "apply_si_formatting",
+        "validate_visualization_output"
+    ],
+    "expected_imports": [
+        "pandas",
+        "matplotlib",
+        "numpy",
+        "plotly"
+    ],
+    "code_structure_requirements": {
+        "docstrings": true,
+        "type_hints": true,
+        "error_handling": true,
+        "logging": true
+    },
+    "output_validation_requirements": [
+        "figure_object_created",
+        "axis_labels_present",
+        "animation_frames_generated",
+        "si_formatting_applied",
+        "flag_images_embedded"
+    ],
+    "folder_structure": {
+        "scripts": "must exist",
+        "csv/processed": "must exist",
+        "reports/html": "must exist",
+        "data": "must exist"
+    },
+    "timestamp_format": "3Mar2026",
+    "estimated_duration_minutes": 30,
+    "dependencies": [
+        "01_fetch_population.py (completed)",
+        "02_transform_rank_top50.py (completed)"
+    ],
+    "success_criteria": {
+        "code_passes_syntax_check": true,
+        "functions_implemented": true,
+        "docstrings_complete": true,
+        "error_handling_present": true,
+        "can_be_imported": true,
+        "visualization_object_valid": true
+    },
+    "failure_handling": {
+        "reject_if_missing_functions": true,
+        "reject_if_invalid_syntax": true,
+        "reject_if_no_docstrings": true,
+        "reject_if_no_error_handling": true
+    }
+}

@@ -1,0 +1,199 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Agent Status Report",
+    "description": "Report submitted by background/cloud agent to local agent after task completion",
+    "type": "object",
+    "required": [
+        "report_id",
+        "task_id",
+        "agent_type",
+        "status",
+        "completed_at",
+        "outputs"
+    ],
+    "properties": {
+        "report_id": {
+            "type": "string",
+            "description": "Unique report identifier (e.g., REPORT_20260305_143000)",
+            "pattern": "^REPORT_[0-9]{8}_[0-9]{6}$"
+        },
+        "task_id": {
+            "type": "string",
+            "description": "Task ID this report corresponds to"
+        },
+        "agent_type": {
+            "type": "string",
+            "enum": [
+                "background_agent",
+                "cloud_agent"
+            ],
+            "description": "Which agent generated this report"
+        },
+        "status": {
+            "type": "string",
+            "enum": [
+                "pending",
+                "in_progress",
+                "completed",
+                "failed",
+                "rejected"
+            ],
+            "description": "Current task status"
+        },
+        "completed_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "ISO timestamp when task was completed"
+        },
+        "duration_seconds": {
+            "type": "integer",
+            "description": "How long the task took to complete"
+        },
+        "outputs": {
+            "type": "object",
+            "description": "Map of expected outputs to their file paths",
+            "additionalProperties": {
+                "type": "object",
+                "properties": {
+                    "path": {
+                        "type": "string",
+                        "description": "Absolute or relative file path"
+                    },
+                    "size_bytes": {
+                        "type": "integer",
+                        "description": "File size in bytes"
+                    },
+                    "created_at": {
+                        "type": "string",
+                        "format": "date-time"
+                    },
+                    "exists": {
+                        "type": "boolean"
+                    }
+                }
+            }
+        },
+        "implemented_functions": {
+            "type": "array",
+            "description": "List of functions that were implemented",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string"
+                    },
+                    "exists": {
+                        "type": "boolean"
+                    },
+                    "has_docstring": {
+                        "type": "boolean"
+                    },
+                    "has_type_hints": {
+                        "type": "boolean"
+                    },
+                    "error_handling": {
+                        "type": "boolean"
+                    }
+                }
+            }
+        },
+        "code_quality": {
+            "type": "object",
+            "properties": {
+                "syntax_valid": {
+                    "type": "boolean"
+                },
+                "can_import": {
+                    "type": "boolean"
+                },
+                "imports_successful": {
+                    "type": "boolean"
+                },
+                "no_undefined_references": {
+                    "type": "boolean"
+                },
+                "warnings": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                }
+            }
+        },
+        "validation_results": {
+            "type": "object",
+            "description": "Results of validation checks",
+            "properties": {
+                "all_expected_outputs_exist": {
+                    "type": "boolean"
+                },
+                "all_required_functions_present": {
+                    "type": "boolean"
+                },
+                "folder_structure_compliant": {
+                    "type": "boolean"
+                },
+                "timestamp_format_correct": {
+                    "type": "boolean"
+                },
+                "validation_checks": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "check_name": {
+                                "type": "string"
+                            },
+                            "result": {
+                                "type": "boolean"
+                            },
+                            "details": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "errors": {
+            "type": "array",
+            "description": "Errors encountered during task execution",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "error_type": {
+                        "type": "string"
+                    },
+                    "message": {
+                        "type": "string"
+                    },
+                    "line_number": {
+                        "type": "integer"
+                    },
+                    "file": {
+                        "type": "string"
+                    },
+                    "timestamp": {
+                        "type": "string",
+                        "format": "date-time"
+                    }
+                }
+            }
+        },
+        "warnings": {
+            "type": "array",
+            "description": "Non-critical warnings",
+            "items": {
+                "type": "string"
+            }
+        },
+        "ready_for_verification": {
+            "type": "boolean",
+            "description": "Whether outputs are ready for local agent verification"
+        },
+        "notes": {
+            "type": "string",
+            "description": "Any additional notes from the agent"
+        }
+    }
+}
