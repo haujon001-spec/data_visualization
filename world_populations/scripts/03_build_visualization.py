@@ -83,7 +83,7 @@ def format_population(pop: int) -> str:
         return f"{pop:,}"
 
 
-def create_bar_race(df: pd.DataFrame, top_n: int = 10) -> go.Figure:
+def create_bar_race(df: pd.DataFrame, top_n: int = 30) -> go.Figure:
     """
     Create animated bar race visualization.
     
@@ -94,22 +94,10 @@ def create_bar_race(df: pd.DataFrame, top_n: int = 10) -> go.Figure:
     Returns:
         Plotly Figure object
     """
-    print(f"[VIZ] Creating bar race for {df['year'].nunique()} years")
+    print(f"[VIZ] Creating bar race for {df['year'].nunique()} years, showing top {top_n} countries")
     
     # Sort data by year and rank
     df_sorted = df.sort_values(['year', 'rank']).copy()
-    
-    # Create custom labels with flags (HTML format)
-    df_sorted['label_with_flag'] = df_sorted.apply(
-        lambda row: f'<img src="{row["flag_url"]}" width="20" style="vertical-align:middle;"/> {row["country_name"]}',
-        axis=1
-    )
-    
-    # Create custom text for hover
-    df_sorted['hover_text'] = df_sorted.apply(
-        lambda row: f"<b>{row['country_name']}</b><br>Population: {format_population(row['population'])}<br>Rank: #{row['rank']}<br>Year: {row['year']}",
-        axis=1
-    )
     
     # Filter to top N per year for better visibility
     df_display = df_sorted.groupby('year').head(top_n).reset_index(drop=True)
@@ -125,22 +113,27 @@ def create_bar_race(df: pd.DataFrame, top_n: int = 10) -> go.Figure:
         range_x=[0, df_display['population'].max() * 1.1],
         labels={'population': 'Population', 'country_name': 'Country'},
         text='population',
-        hover_data={'country_name': False, 'population': False, 'year': False},
-        custom_data=['hover_text']
+        hover_data={'country_name': True, 'population': True, 'rank': True, 'year': True}
     )
     
-    # Update traces for better appearance
+    # Update traces for better appearance with high-contrast white text
     fig.update_traces(
         texttemplate='%{text:.2s}',
         textposition='outside',
-        hovertemplate='%{customdata[0]}<extra></extra>',
-        marker=dict(line=dict(width=0))
+        textfont=dict(size=14, color='#FFFFFF', family='Arial Black, sans-serif'),
+        hovertemplate='<b>%{y}</b><br><br>' +
+                      'Population: <b>%{x:,.0f}</b><br>' +
+                      'Rank: #%{customdata[0]}<br>' +
+                      'Year: %{customdata[1]}' +
+                      '<extra></extra>',
+        customdata=df_display[['rank', 'year']],
+        marker=dict(line=dict(width=1, color='rgba(255,255,255,0.3)'))
     )
     
-    # Apply modern dark theme
+    # Apply modern dark theme with better contrast
     fig.update_layout(
         title={
-            'text': '🌍 World Population Dashboard (1960 - 2024)<br><sub>Top 50 Most Populous Countries</sub>',
+            'text': '🌍 World Population Dashboard (1960 - 2024)<br><sub>Top 30 Most Populous Countries</sub>',
             'x': 0.5,
             'xanchor': 'center',
             'font': {'size': 24, 'color': '#FFFFFF'}
@@ -148,23 +141,32 @@ def create_bar_race(df: pd.DataFrame, top_n: int = 10) -> go.Figure:
         xaxis_title='Population',
         yaxis_title='',
         showlegend=False,
-        height=1400,
+        height=900,
         template='plotly_dark',
-        font=dict(family='Arial, sans-serif', size=12),
+        font=dict(family='Arial, sans-serif', size=13, color='#E0E0E0'),
         xaxis=dict(
             tickformat='~s',
             showgrid=True,
-            gridcolor='rgba(128, 128, 128, 0.2)'
+            gridcolor='rgba(128, 128, 128, 0.3)',
+            tickfont=dict(size=12, color='#FFFFFF')
         ),
         yaxis=dict(
             showgrid=False,
-            categoryorder='total ascending'
+            categoryorder='total ascending',
+            tickfont=dict(size=13, color='#FFFFFF')
         ),
         plot_bgcolor='#1e1e1e',
         paper_bgcolor='#121212',
-        margin=dict(l=250, r=100, t=120, b=80),
+        margin=dict(l=250, r=120, t=120, b=100),
         autosize=True,
-        transition={'duration': 500, 'easing': 'cubic-in-out'}
+        transition={'duration': 500, 'easing': 'cubic-in-out'},
+        hoverlabel=dict(
+            bgcolor='#1C1C1C',
+            font_size=20,
+            font_family='Arial, sans-serif',
+            font_color='#FFFFFF',
+            bordercolor='#666666'
+        )
     )
     
     # Update animation settings
@@ -232,8 +234,8 @@ def main():
     # Add flag URLs
     df = add_flag_urls(df, code_mapping)
     
-    # Create visualization (show all Top 50 countries)
-    fig = create_bar_race(df, top_n=50)
+    # Create visualization (Top 30 countries fit on screen without scrolling)
+    fig = create_bar_race(df, top_n=30)
     
     # Save HTML
     save_html(fig, output_html)

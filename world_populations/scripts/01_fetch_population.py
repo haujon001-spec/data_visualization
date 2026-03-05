@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 Fetch Population Data from World Bank API
 

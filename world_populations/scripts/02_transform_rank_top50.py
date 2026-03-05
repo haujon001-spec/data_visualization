@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 Transform and Rank Top 50 Countries
 
