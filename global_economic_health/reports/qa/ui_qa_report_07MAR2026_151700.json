@@ -1,0 +1,102 @@
+{
+  "timestamp": "2026-03-07T15:16:55.271003",
+  "checks": [
+    {
+      "check": "Bubble map file size",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:16:55.325826",
+      "details": "8.66 MB"
+    },
+    {
+      "check": "Bubble map has Plotly",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:16:55.413236"
+    },
+    {
+      "check": "Dashboard file size",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:16:55.413236",
+      "details": "0.01 MB"
+    },
+    {
+      "check": "Dashboard has content",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:16:55.417249"
+    },
+    {
+      "check": "bubble_map Plotly elements load",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:16:57.426347"
+    },
+    {
+      "check": "bubble_map JavaScript errors",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:16:57.426347",
+      "details": "No errors in console"
+    },
+    {
+      "check": "bubble_map screenshot captured",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:16:57.594567",
+      "details": "Screenshot: bubble_map_render_20260307_151657.png"
+    },
+    {
+      "check": "dashboard Plotly elements load",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:17:00.392725"
+    },
+    {
+      "check": "dashboard JavaScript errors",
+      "status": "FAIL",
+      "timestamp": "2026-03-07T15:17:00.392725",
+      "details": "1 errors: WARNING: plotly-latest.min.js and plotly-latest.js are NO LONGER the latest releases of plotly.js. They are v1.58.5 (released July 2021), the end of the v1.x line, and will not be updated again. To use more recent versions of plotly.js, please update your links to point to an explicit version on cdn.plot.ly. You can find the latest version information at https://github.com/plotly/plotly.js/releases"
+    },
+    {
+      "check": "Data has required columns",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:17:00.480416"
+    },
+    {
+      "check": "Data values valid",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:17:00.480416"
+    },
+    {
+      "check": "Data row count",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:17:00.480416",
+      "details": "17020 rows loaded"
+    }
+  ],
+  "warnings": [
+    {
+      "check": "Bubble map year slider exists",
+      "details": "No range slider found in page"
+    }
+  ],
+  "errors": [
+    {
+      "check": "dashboard JavaScript errors",
+      "details": "1 errors: WARNING: plotly-latest.min.js and plotly-latest.js are NO LONGER the latest releases of plotly.js. They are v1.58.5 (released July 2021), the end of the v1.x line, and will not be updated again. To use more recent versions of plotly.js, please update your links to point to an explicit version on cdn.plot.ly. You can find the latest version information at https://github.com/plotly/plotly.js/releases"
+    }
+  ],
+  "screenshots": [
+    {
+      "type": "bubble_map",
+      "file": "reports\\qa\\screenshots\\bubble_map_render_20260307_151657.png",
+      "timestamp": "20260307_151657"
+    }
+  ],
+  "browser_errors": [
+    {
+      "type": "error",
+      "text": "WARNING: plotly-latest.min.js and plotly-latest.js are NO LONGER the latest releases of plotly.js. They are v1.58.5 (released July 2021), the end of the v1.x line, and will not be updated again. To use more recent versions of plotly.js, please update your links to point to an explicit version on cdn.plot.ly. You can find the latest version information at https://github.com/plotly/plotly.js/releases"
+    }
+  ],
+  "summary": {
+    "total_checks": 13,
+    "passed": 11,
+    "failed": 1,
+    "overall_status": "FAIL"
+  }
+}

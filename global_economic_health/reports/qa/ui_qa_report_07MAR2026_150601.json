@@ -1,0 +1,96 @@
+{
+  "timestamp": "2026-03-07T15:05:48.542369",
+  "checks": [
+    {
+      "check": "Bubble map file size",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:05:48.592125",
+      "details": "8.66 MB"
+    },
+    {
+      "check": "Bubble map has Plotly",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:05:48.658452"
+    },
+    {
+      "check": "Dashboard file size",
+      "status": "FAIL",
+      "timestamp": "2026-03-07T15:05:48.658765",
+      "details": "Too small: 0.01 MB"
+    },
+    {
+      "check": "Dashboard has content",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:05:48.659105"
+    },
+    {
+      "check": "bubble_map Plotly elements load",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:05:52.212851"
+    },
+    {
+      "check": "bubble_map JavaScript errors",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:05:52.212851",
+      "details": "No errors in console"
+    },
+    {
+      "check": "bubble_map screenshot captured",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:05:52.319394",
+      "details": "Screenshot: bubble_map_render_20260307_150552.png"
+    },
+    {
+      "check": "dashboard Plotly elements load",
+      "status": "FAIL",
+      "timestamp": "2026-03-07T15:06:01.550872",
+      "details": "Plotly not found after 5 seconds"
+    },
+    {
+      "check": "Data has required columns",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:06:01.626319"
+    },
+    {
+      "check": "Data values valid",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:06:01.626319"
+    },
+    {
+      "check": "Data row count",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:06:01.626319",
+      "details": "17020 rows loaded"
+    }
+  ],
+  "warnings": [
+    {
+      "check": "Bubble map year slider exists",
+      "details": "No range slider found in page"
+    }
+  ],
+  "errors": [
+    {
+      "check": "Dashboard file size",
+      "details": "Too small: 0.01 MB"
+    },
+    {
+      "check": "dashboard Plotly elements load",
+      "details": "Plotly not found after 5 seconds"
+    }
+  ],
+  "screenshots": [
+    {
+      "type": "bubble_map",
+      "file": "reports\\qa\\screenshots\\bubble_map_render_20260307_150552.png",
+      "timestamp": "20260307_150552"
+    }
+  ],
+  "browser_errors": [],
+  "summary": {
+    "total_checks": 12,
+    "passed": 9,
+    "failed": 2,
+    "overall_status": "FAIL"
+  }
+}

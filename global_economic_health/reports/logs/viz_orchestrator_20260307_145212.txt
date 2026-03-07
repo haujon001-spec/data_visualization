@@ -1,0 +1,326 @@
+2026-03-07T14:52:12.773511 - [INFO] ======================================================================
+2026-03-07T14:52:12.775015 - [INFO] PHASE 2 VISUALIZATION ORCHESTRATOR
+2026-03-07T14:52:12.775373 - [INFO] ======================================================================
+2026-03-07T14:52:12.775373 - [INFO] Start Time: 2026-03-07T14:52:12.773511
+2026-03-07T14:52:12.775907 - [INFO] Project Root: C:\Users\haujo\projects\DEV\Data_visualization\global_economic_health
+2026-03-07T14:52:12.775907 - [INFO] Orchestrator PID: 30664
+2026-03-07T14:52:12.776929 - [INFO] 
+======================================================================
+2026-03-07T14:52:12.776929 - [INFO] [STEP 1/4] Build Bubble Map
+2026-03-07T14:52:12.777930 - [INFO] ======================================================================
+[HEARTBEAT] orchestrator_pid=30664, timestamp=2026-03-07T14:52:12.777930, phase=VIZ, step=1/4, elapsed_seconds=0.0, status=RUNNING_Build_Bubble_Map
+2026-03-07T14:52:12.777930 - [INFO] [EXEC] C:\Users\haujo\projects\DEV\Data_visualization\global_economic_health\scripts\05_build_bubble_map.py
+2026-03-07T14:52:13.951742 - [INFO] [SUCCESS] Build Bubble Map completed
+[HEARTBEAT] orchestrator_pid=30664, timestamp=2026-03-07T14:52:13.951742, phase=VIZ, step=1/4, elapsed_seconds=1.2, status=COMPLETED
+2026-03-07T14:52:14.455388 - [INFO] 
+======================================================================
+2026-03-07T14:52:14.455388 - [INFO] [STEP 2/4] Generate HTML Dashboard
+2026-03-07T14:52:14.455388 - [INFO] ======================================================================
+[HEARTBEAT] orchestrator_pid=30664, timestamp=2026-03-07T14:52:14.455388, phase=VIZ, step=2/4, elapsed_seconds=1.7, status=RUNNING_Generate_HTML_Dashboard
+2026-03-07T14:52:14.459048 - [INFO] [EXEC] C:\Users\haujo\projects\DEV\Data_visualization\global_economic_health\scripts\07_generate_html_dashboard.py
+2026-03-07T14:52:14.571239 - [INFO] [SUCCESS] Generate HTML Dashboard completed
+[HEARTBEAT] orchestrator_pid=30664, timestamp=2026-03-07T14:52:14.571239, phase=VIZ, step=2/4, elapsed_seconds=1.8, status=COMPLETED
+2026-03-07T14:52:15.072092 - [INFO] 
+======================================================================
+2026-03-07T14:52:15.072092 - [INFO] [STEP 3/4] Generate Preview Videos
+2026-03-07T14:52:15.072092 - [INFO] ======================================================================
+[HEARTBEAT] orchestrator_pid=30664, timestamp=2026-03-07T14:52:15.072092, phase=VIZ, step=3/4, elapsed_seconds=2.3, status=RUNNING_Generate_Preview_Videos
+2026-03-07T14:52:15.075804 - [INFO] [EXEC] C:\Users\haujo\projects\DEV\Data_visualization\global_economic_health\scripts\08_generate_previews.py
+2026-03-07T14:52:16.831200 - [ERROR] Step failed with return code: 1
+2026-03-07T14:52:16.831200 - [ERROR] [ERROR] 2026-03-07 14:52:15,487 - [INFO] ======================================================================
+2026-03-07T14:52:16.832200 - [ERROR] [ERROR] 2026-03-07 14:52:15,487 - [INFO] GENERATING PREVIEW VIDEOS
+2026-03-07T14:52:16.832200 - [ERROR] [ERROR] 2026-03-07 14:52:15,488 - [INFO] ======================================================================
+2026-03-07T14:52:16.833200 - [ERROR] [ERROR] 2026-03-07 14:52:15,488 - [INFO] [CHECK] Verifying dependencies...
+2026-03-07T14:52:16.833200 - [ERROR] [ERROR] 2026-03-07 14:52:15,488 - [WARNING] [CHECK] ffmpeg not installed - video generation disabled
+2026-03-07T14:52:16.833200 - [ERROR] [ERROR] 2026-03-07 14:52:15,489 - [INFO] [LOAD] Searching for macro_final data...
+2026-03-07T14:52:16.834200 - [ERROR] [ERROR] 2026-03-07 14:52:15,509 - [INFO] [LOAD] 17020 rows loaded
+2026-03-07T14:52:16.834200 - [ERROR] [ERROR] 2026-03-07 14:52:15,509 - [INFO] [FRAME] Creating animation frames...
+2026-03-07T14:52:16.834200 - [ERROR] [ERROR] 2026-03-07 14:52:15,578 - [INFO] [FRAME] 65 frames prepared
+2026-03-07T14:52:16.835200 - [ERROR] [ERROR] 2026-03-07 14:52:15,580 - [INFO] [STATIC] Generating 65 frame images...
+2026-03-07T14:52:16.835200 - [ERROR] [ERROR] 2026-03-07 14:52:15,882 - [WARNING] [STATIC] Could not render frame 0: 
+2026-03-07T14:52:16.835200 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.836200 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.836200 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.836200 - [ERROR] [ERROR] 2026-03-07 14:52:15,897 - [WARNING] [STATIC] Could not render frame 1: 
+2026-03-07T14:52:16.836200 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.837201 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.837201 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.837201 - [ERROR] [ERROR] 2026-03-07 14:52:15,913 - [WARNING] [STATIC] Could not render frame 2: 
+2026-03-07T14:52:16.837201 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.837201 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.838201 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.838201 - [ERROR] [ERROR] 2026-03-07 14:52:15,926 - [WARNING] [STATIC] Could not render frame 3: 
+2026-03-07T14:52:16.838201 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.838201 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.839202 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.839848 - [ERROR] [ERROR] 2026-03-07 14:52:15,938 - [WARNING] [STATIC] Could not render frame 4: 
+2026-03-07T14:52:16.839848 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.840855 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.840855 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.840855 - [ERROR] [ERROR] 2026-03-07 14:52:15,952 - [WARNING] [STATIC] Could not render frame 5: 
+2026-03-07T14:52:16.841854 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.841854 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.841854 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.843004 - [ERROR] [ERROR] 2026-03-07 14:52:15,966 - [WARNING] [STATIC] Could not render frame 6: 
+2026-03-07T14:52:16.843004 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.843004 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.843004 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.844003 - [ERROR] [ERROR] 2026-03-07 14:52:15,979 - [WARNING] [STATIC] Could not render frame 7: 
+2026-03-07T14:52:16.844003 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.845004 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.845004 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.845004 - [ERROR] [ERROR] 2026-03-07 14:52:15,990 - [WARNING] [STATIC] Could not render frame 8: 
+2026-03-07T14:52:16.846004 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.846004 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.846004 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.847004 - [ERROR] [ERROR] 2026-03-07 14:52:16,005 - [WARNING] [STATIC] Could not render frame 9: 
+2026-03-07T14:52:16.847004 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.847004 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.848004 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.848004 - [ERROR] [ERROR] 2026-03-07 14:52:16,018 - [WARNING] [STATIC] Could not render frame 10: 
+2026-03-07T14:52:16.848004 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.849003 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.849003 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.849003 - [ERROR] [ERROR] 2026-03-07 14:52:16,030 - [WARNING] [STATIC] Could not render frame 11: 
+2026-03-07T14:52:16.849003 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.850003 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.850003 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.850003 - [ERROR] [ERROR] 2026-03-07 14:52:16,043 - [WARNING] [STATIC] Could not render frame 12: 
+2026-03-07T14:52:16.851003 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.851003 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.851003 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.851003 - [ERROR] [ERROR] 2026-03-07 14:52:16,055 - [WARNING] [STATIC] Could not render frame 13: 
+2026-03-07T14:52:16.852003 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.852003 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.852003 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.853004 - [ERROR] [ERROR] 2026-03-07 14:52:16,060 - [WARNING] [STATIC] Could not render frame 14: 
+2026-03-07T14:52:16.853004 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.853004 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.853004 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.853004 - [ERROR] [ERROR] 2026-03-07 14:52:16,080 - [WARNING] [STATIC] Could not render frame 15: 
+2026-03-07T14:52:16.853004 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.854005 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.854005 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.854005 - [ERROR] [ERROR] 2026-03-07 14:52:16,093 - [WARNING] [STATIC] Could not render frame 16: 
+2026-03-07T14:52:16.854005 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.855003 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.855003 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.855003 - [ERROR] [ERROR] 2026-03-07 14:52:16,108 - [WARNING] [STATIC] Could not render frame 17: 
+2026-03-07T14:52:16.855003 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.855003 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.856509 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.856509 - [ERROR] [ERROR] 2026-03-07 14:52:16,123 - [WARNING] [STATIC] Could not render frame 18: 
+2026-03-07T14:52:16.856509 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.857516 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.857516 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.857516 - [ERROR] [ERROR] 2026-03-07 14:52:16,137 - [WARNING] [STATIC] Could not render frame 19: 
+2026-03-07T14:52:16.857516 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.858515 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.858515 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.858515 - [ERROR] [ERROR] 2026-03-07 14:52:16,150 - [WARNING] [STATIC] Could not render frame 20: 
+2026-03-07T14:52:16.858515 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.859716 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.859716 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.859716 - [ERROR] [ERROR] 2026-03-07 14:52:16,182 - [WARNING] [STATIC] Could not render frame 21: 
+2026-03-07T14:52:16.859716 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.859716 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.860720 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.860720 - [ERROR] [ERROR] 2026-03-07 14:52:16,194 - [WARNING] [STATIC] Could not render frame 22: 
+2026-03-07T14:52:16.860720 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.860720 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.860720 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.861721 - [ERROR] [ERROR] 2026-03-07 14:52:16,206 - [WARNING] [STATIC] Could not render frame 23: 
+2026-03-07T14:52:16.861721 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.861721 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.861721 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.862720 - [ERROR] [ERROR] 2026-03-07 14:52:16,220 - [WARNING] [STATIC] Could not render frame 24: 
+2026-03-07T14:52:16.862720 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.863723 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.863723 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.863723 - [ERROR] [ERROR] 2026-03-07 14:52:16,232 - [WARNING] [STATIC] Could not render frame 25: 
+2026-03-07T14:52:16.863723 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.863723 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.864721 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.864721 - [ERROR] [ERROR] 2026-03-07 14:52:16,251 - [WARNING] [STATIC] Could not render frame 26: 
+2026-03-07T14:52:16.864721 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.864721 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.864721 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.865720 - [ERROR] [ERROR] 2026-03-07 14:52:16,265 - [WARNING] [STATIC] Could not render frame 27: 
+2026-03-07T14:52:16.865720 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.865720 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.865720 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.866720 - [ERROR] [ERROR] 2026-03-07 14:52:16,277 - [WARNING] [STATIC] Could not render frame 28: 
+2026-03-07T14:52:16.866720 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.866720 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.866720 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.867721 - [ERROR] [ERROR] 2026-03-07 14:52:16,288 - [WARNING] [STATIC] Could not render frame 29: 
+2026-03-07T14:52:16.867721 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.867721 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.867721 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.868720 - [ERROR] [ERROR] 2026-03-07 14:52:16,298 - [WARNING] [STATIC] Could not render frame 30: 
+2026-03-07T14:52:16.868720 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.868720 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.868720 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.869720 - [ERROR] [ERROR] 2026-03-07 14:52:16,315 - [WARNING] [STATIC] Could not render frame 31: 
+2026-03-07T14:52:16.869720 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.869720 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.869720 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.870721 - [ERROR] [ERROR] 2026-03-07 14:52:16,330 - [WARNING] [STATIC] Could not render frame 32: 
+2026-03-07T14:52:16.870721 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.870721 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.870721 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.871721 - [ERROR] [ERROR] 2026-03-07 14:52:16,344 - [WARNING] [STATIC] Could not render frame 33: 
+2026-03-07T14:52:16.872204 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.872513 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.872912 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.872912 - [ERROR] [ERROR] 2026-03-07 14:52:16,360 - [WARNING] [STATIC] Could not render frame 34: 
+2026-03-07T14:52:16.872912 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.872912 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.873942 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.873942 - [ERROR] [ERROR] 2026-03-07 14:52:16,373 - [WARNING] [STATIC] Could not render frame 35: 
+2026-03-07T14:52:16.873942 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.873942 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.874943 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.874943 - [ERROR] [ERROR] 2026-03-07 14:52:16,385 - [WARNING] [STATIC] Could not render frame 36: 
+2026-03-07T14:52:16.874943 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.874943 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.876118 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.876118 - [ERROR] [ERROR] 2026-03-07 14:52:16,397 - [WARNING] [STATIC] Could not render frame 37: 
+2026-03-07T14:52:16.876118 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.877122 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.877122 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.877122 - [ERROR] [ERROR] 2026-03-07 14:52:16,412 - [WARNING] [STATIC] Could not render frame 38: 
+2026-03-07T14:52:16.877122 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.878122 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.878122 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.878122 - [ERROR] [ERROR] 2026-03-07 14:52:16,424 - [WARNING] [STATIC] Could not render frame 39: 
+2026-03-07T14:52:16.878122 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.878122 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.879122 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.879122 - [ERROR] [ERROR] 2026-03-07 14:52:16,435 - [WARNING] [STATIC] Could not render frame 40: 
+2026-03-07T14:52:16.879122 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.879122 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.879122 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.880122 - [ERROR] [ERROR] 2026-03-07 14:52:16,442 - [WARNING] [STATIC] Could not render frame 41: 
+2026-03-07T14:52:16.880122 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.880122 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.880122 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.881123 - [ERROR] [ERROR] 2026-03-07 14:52:16,459 - [WARNING] [STATIC] Could not render frame 42: 
+2026-03-07T14:52:16.881123 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.881123 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.881123 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.882123 - [ERROR] [ERROR] 2026-03-07 14:52:16,466 - [WARNING] [STATIC] Could not render frame 43: 
+2026-03-07T14:52:16.882123 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.882123 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.882123 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.883123 - [ERROR] [ERROR] 2026-03-07 14:52:16,487 - [WARNING] [STATIC] Could not render frame 44: 
+2026-03-07T14:52:16.883123 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.883123 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.883123 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.883123 - [ERROR] [ERROR] 2026-03-07 14:52:16,501 - [WARNING] [STATIC] Could not render frame 45: 
+2026-03-07T14:52:16.883123 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.884122 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.884122 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.884122 - [ERROR] [ERROR] 2026-03-07 14:52:16,513 - [WARNING] [STATIC] Could not render frame 46: 
+2026-03-07T14:52:16.884122 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.884122 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.885121 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.885121 - [ERROR] [ERROR] 2026-03-07 14:52:16,525 - [WARNING] [STATIC] Could not render frame 47: 
+2026-03-07T14:52:16.885121 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.885121 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.886122 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.886122 - [ERROR] [ERROR] 2026-03-07 14:52:16,537 - [WARNING] [STATIC] Could not render frame 48: 
+2026-03-07T14:52:16.886122 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.886122 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.886122 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.886122 - [ERROR] [ERROR] 2026-03-07 14:52:16,551 - [WARNING] [STATIC] Could not render frame 49: 
+2026-03-07T14:52:16.886122 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.886122 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.886122 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.886122 - [ERROR] [ERROR] 2026-03-07 14:52:16,563 - [WARNING] [STATIC] Could not render frame 50: 
+2026-03-07T14:52:16.886122 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.886122 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.886122 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.886122 - [ERROR] [ERROR] 2026-03-07 14:52:16,575 - [WARNING] [STATIC] Could not render frame 51: 
+2026-03-07T14:52:16.886122 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.886122 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.886122 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.886122 - [ERROR] [ERROR] 2026-03-07 14:52:16,575 - [WARNING] [STATIC] Could not render frame 52: 
+2026-03-07T14:52:16.886122 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.886122 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.891744 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.891744 - [ERROR] [ERROR] 2026-03-07 14:52:16,598 - [WARNING] [STATIC] Could not render frame 53: 
+2026-03-07T14:52:16.891744 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.892863 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.892863 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.892863 - [ERROR] [ERROR] 2026-03-07 14:52:16,611 - [WARNING] [STATIC] Could not render frame 54: 
+2026-03-07T14:52:16.893869 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.893869 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.893869 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.894871 - [ERROR] [ERROR] 2026-03-07 14:52:16,623 - [WARNING] [STATIC] Could not render frame 55: 
+2026-03-07T14:52:16.894871 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.894871 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.895871 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.895871 - [ERROR] [ERROR] 2026-03-07 14:52:16,636 - [WARNING] [STATIC] Could not render frame 56: 
+2026-03-07T14:52:16.895871 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.896870 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.896870 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.896870 - [ERROR] [ERROR] 2026-03-07 14:52:16,647 - [WARNING] [STATIC] Could not render frame 57: 
+2026-03-07T14:52:16.896870 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.897868 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.897868 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.897868 - [ERROR] [ERROR] 2026-03-07 14:52:16,659 - [WARNING] [STATIC] Could not render frame 58: 
+2026-03-07T14:52:16.898869 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.898869 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.898869 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.899869 - [ERROR] [ERROR] 2026-03-07 14:52:16,673 - [WARNING] [STATIC] Could not render frame 59: 
+2026-03-07T14:52:16.899869 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.899869 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.899869 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.899869 - [ERROR] [ERROR] 2026-03-07 14:52:16,685 - [WARNING] [STATIC] Could not render frame 60: 
+2026-03-07T14:52:16.900868 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.900868 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.900868 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.901868 - [ERROR] [ERROR] 2026-03-07 14:52:16,697 - [WARNING] [STATIC] Could not render frame 61: 
+2026-03-07T14:52:16.901868 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.901868 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.901868 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.901868 - [ERROR] [ERROR] 2026-03-07 14:52:16,710 - [WARNING] [STATIC] Could not render frame 62: 
+2026-03-07T14:52:16.902868 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.902868 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.902868 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.903868 - [ERROR] [ERROR] 2026-03-07 14:52:16,723 - [WARNING] [STATIC] Could not render frame 63: 
+2026-03-07T14:52:16.903868 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.903868 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.903868 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.904868 - [ERROR] [ERROR] 2026-03-07 14:52:16,737 - [WARNING] [STATIC] Could not render frame 64: 
+2026-03-07T14:52:16.904868 - [ERROR] [ERROR] Image export using the "kaleido" engine requires the Kaleido package,
+2026-03-07T14:52:16.904868 - [ERROR] [ERROR] which can be installed using pip:
+2026-03-07T14:52:16.905867 - [ERROR] [ERROR]     $ pip install --upgrade kaleido
+2026-03-07T14:52:16.905867 - [ERROR] [ERROR] 2026-03-07 14:52:16,737 - [INFO] [STATIC] 0 frames generated
+2026-03-07T14:52:16.905867 - [ERROR] [ERROR] 2026-03-07 14:52:16,738 - [ERROR] [PREVIEW] No frames generated
+2026-03-07T14:52:16.905867 - [ERROR] [ERROR] 2026-03-07 14:52:16,739 - [WARNING] 
+2026-03-07T14:52:16.906868 - [ERROR] [ERROR] \u26a0\ufe0f  Preview generation completed with warnings
+[HEARTBEAT] orchestrator_pid=30664, timestamp=2026-03-07T14:52:16.906868, phase=VIZ, step=3/4, elapsed_seconds=4.1, status=FAILED
+2026-03-07T14:52:16.906868 - [ERROR] Pipeline halted at step 3
+2026-03-07T14:52:16.906868 - [INFO] 
+[DISCOVERY] Locating output files...
+2026-03-07T14:52:16.908375 - [INFO] [FOUND] reports\html\bubble_map_07MAR2026_145213.html
+2026-03-07T14:52:16.909383 - [INFO] [FOUND] reports\html\dashboard_07MAR2026_145214.html
+2026-03-07T14:52:16.909383 - [WARNING] [MISSING] reports/html/preview_*.gif
+2026-03-07T14:52:16.910390 - [WARNING] [MISSING] reports/html/preview_*.mp4
+2026-03-07T14:52:16.910390 - [WARNING] [MISSING] reports/qa/ui_qa_report_*.json
+2026-03-07T14:52:16.911391 - [WARNING] [MISSING] reports/qa/ui_qa_summary_*.md
+[HEARTBEAT] orchestrator_pid=30664, timestamp=2026-03-07T14:52:16.911391, phase=VIZ, step=4/4, elapsed_seconds=4.1, status=FAILED
+2026-03-07T14:52:16.911391 - [INFO] 
+======================================================================
+2026-03-07T14:52:16.911391 - [INFO] ORCHESTRATION SUMMARY
+2026-03-07T14:52:16.912395 - [INFO] ======================================================================
+2026-03-07T14:52:16.912395 - [INFO] Overall Status: FAIL
+2026-03-07T14:52:16.913402 - [INFO] Steps Completed: 2/4
+2026-03-07T14:52:16.913402 - [INFO] Elapsed Time: 4.1 seconds
+2026-03-07T14:52:16.913402 - [INFO] ======================================================================
+2026-03-07T14:52:16.914404 - [INFO] 
+[SAVE] Results saved to reports\viz_result_20260307_145212.json
+2026-03-07T14:52:16.914404 - [ERROR] 
+[FAILED] PHASE 2 VISUALIZATION FAILED

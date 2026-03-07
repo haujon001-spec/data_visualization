@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-03-07T14:52:12.773511",
+  "orchestrator_pid": 30664,
+  "project_root": "C:\\Users\\haujo\\projects\\DEV\\Data_visualization\\global_economic_health",
+  "steps": [
+    {
+      "step_number": 1,
+      "step_name": "Build Bubble Map",
+      "script": "scripts/05_build_bubble_map.py",
+      "status": "PASS",
+      "timestamp": "2026-03-07T14:52:13.951742"
+    },
+    {
+      "step_number": 2,
+      "step_name": "Generate HTML Dashboard",
+      "script": "scripts/07_generate_html_dashboard.py",
+      "status": "PASS",
+      "timestamp": "2026-03-07T14:52:14.571239"
+    }
+  ],
+  "overall_status": "FAIL",
+  "outputs": {
+    "bubble_map_*.html": {
+      "path": "reports\\html\\bubble_map_07MAR2026_145213.html",
+      "size_bytes": 9077988,
+      "modified": "2026-03-07T14:52:13.866683"
+    },
+    "dashboard_*.html": {
+      "path": "reports\\html\\dashboard_07MAR2026_145214.html",
+      "size_bytes": 5914,
+      "modified": "2026-03-07T14:52:14.561323"
+    }
+  },
+  "verification": {}
+}

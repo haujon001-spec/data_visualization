@@ -1782,3 +1782,355 @@ Trying to import the above resulted in these errors:
 [OK] All quality checks passed!
 2026-03-03 11:56:52,478 - __main__ - INFO - ======================================================================
 
+2026-03-04 23:51:15,589 - __main__ - INFO - [OK] BarRaceVisualizer initialized (top_n=20)
+2026-03-04 23:51:15,590 - __main__ - INFO - ======================================================================
+2026-03-04 23:51:15,590 - __main__ - INFO - Starting Phase 3 Visualization Pipeline
+2026-03-04 23:51:15,590 - __main__ - INFO - ======================================================================
+2026-03-04 23:51:15,590 - __main__ - INFO - 
+[1/5] Reading data from: data/processed/top20_monthly.parquet
+2026-03-04 23:51:15,590 - __main__ - INFO - Loading parquet file: data/processed/top20_monthly.parquet
+2026-03-04 23:51:15,590 - __main__ - ERROR - Fatal error: Unable to find a usable engine; tried using: 'pyarrow', 'fastparquet'.
+A suitable version of pyarrow or fastparquet is required for parquet support.
+Trying to import the above resulted in these errors:
+ - Missing optional dependency 'pyarrow'. pyarrow is required for parquet support. Use pip or conda to install pyarrow.
+ - Missing optional dependency 'fastparquet'. fastparquet is required for parquet support. Use pip or conda to install fastparquet.
+Traceback (most recent call last):
+  File "c:\Users\haujo\projects\DEV\Data_visualization\scripts\03_build_visualizations.py", line 828, in main
+    result = visualizer.create_visualization(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\haujo\projects\DEV\Data_visualization\scripts\03_build_visualizations.py", line 698, in create_visualization
+    self.read_processed_data(input_path)
+  File "c:\Users\haujo\projects\DEV\Data_visualization\scripts\03_build_visualizations.py", line 177, in read_processed_data
+    self.df = pd.read_parquet(parquet_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haujo\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parquet.py", line 653, in read_parquet
+    impl = get_engine(engine)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haujo\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parquet.py", line 68, in get_engine
+    raise ImportError(
+ImportError: Unable to find a usable engine; tried using: 'pyarrow', 'fastparquet'.
+A suitable version of pyarrow or fastparquet is required for parquet support.
+Trying to import the above resulted in these errors:
+ - Missing optional dependency 'pyarrow'. pyarrow is required for parquet support. Use pip or conda to install pyarrow.
+ - Missing optional dependency 'fastparquet'. fastparquet is required for parquet support. Use pip or conda to install fastparquet.
+2026-03-04 23:52:11,906 - __main__ - INFO - [OK] BarRaceVisualizer initialized (top_n=20)
+2026-03-04 23:52:11,907 - __main__ - INFO - ======================================================================
+2026-03-04 23:52:11,907 - __main__ - INFO - Starting Phase 3 Visualization Pipeline
+2026-03-04 23:52:11,907 - __main__ - INFO - ======================================================================
+2026-03-04 23:52:11,907 - __main__ - INFO - 
+[1/5] Reading data from: data/processed/top20_monthly.parquet
+2026-03-04 23:52:11,907 - __main__ - INFO - Loading parquet file: data/processed/top20_monthly.parquet
+2026-03-04 23:52:11,944 - __main__ - INFO - [OK] Loaded 542 rows, 11 columns
+2026-03-04 23:52:11,944 - __main__ - INFO -   Date range: 2016-01-01 to 2026-02-24
+2026-03-04 23:52:11,944 - __main__ - INFO - [OK] All 9 required columns present
+2026-03-04 23:52:11,950 - __main__ - INFO - [OK] Data types validated
+2026-03-04 23:52:11,955 - __main__ - INFO - [OK] Enum columns validated
+2026-03-04 23:52:11,957 - __main__ - INFO - [OK] Data preparation complete: 122 rows, 122 unique dates
+2026-03-04 23:52:11,959 - __main__ - INFO - [OK] Metadata extracted: 122 dates, 1 asset types, 1 sectors
+2026-03-04 23:52:11,959 - __main__ - INFO - 
+[2/5] Building bar race visualization
+2026-03-04 23:52:11,959 - __main__ - INFO - Building bar race visualization...
+2026-03-04 23:52:12,085 - __main__ - INFO - [OK] Prepared 122 animation frames
+2026-03-04 23:52:12,562 - __main__ - INFO - [OK] Bar race created with 122 frames
+2026-03-04 23:52:12,562 - __main__ - INFO -   Figure size: 1400x900 px
+2026-03-04 23:52:12,562 - __main__ - INFO -   Unique dates: 122
+2026-03-04 23:52:12,562 - __main__ - INFO - 
+[3/5] Adding interactive controls
+2026-03-04 23:52:12,569 - __main__ - INFO - Adding interactive controls...
+2026-03-04 23:52:12,599 - __main__ - INFO - [OK] Interactive controls added
+2026-03-04 23:52:12,599 - __main__ - INFO -   - Play/Pause buttons (top left)
+2026-03-04 23:52:12,599 - __main__ - INFO -   - Date slider (122 frames)
+2026-03-04 23:52:12,605 - __main__ - INFO - 
+[4/5] Adding annotations and confidence badges
+2026-03-04 23:52:12,605 - __main__ - INFO - Adding professional legend annotations...
+2026-03-04 23:52:12,613 - __main__ - INFO - [OK] Added clean legend annotations
+2026-03-04 23:52:12,613 - __main__ - INFO - 
+[4.5/5] Adding legend and branding
+2026-03-04 23:52:12,613 - __main__ - INFO - Adding professional footer...
+2026-03-04 23:52:12,633 - __main__ - INFO - [OK] Added professional footer
+2026-03-04 23:52:12,633 - __main__ - INFO -   Sources: coingecko
+2026-03-04 23:52:12,634 - __main__ - INFO -   Generated: 2026-03-04 23:52:12
+2026-03-04 23:52:12,634 - __main__ - INFO - 
+[5/5] Saving visualization to: data/processed/bar_race_top20.html
+2026-03-04 23:52:12,758 - __main__ - INFO - 
+[VALIDATION] Validating output...
+2026-03-04 23:52:12,917 - __main__ - INFO - 
+======================================================================
+2026-03-04 23:52:12,919 - __main__ - INFO - VISUALIZATION CREATION SUMMARY
+2026-03-04 23:52:12,920 - __main__ - INFO - ======================================================================
+2026-03-04 23:52:12,920 - __main__ - INFO - [OK] File created: data/processed/bar_race_top20.html
+2026-03-04 23:52:12,920 - __main__ - INFO -   Size: 4.73MB
+2026-03-04 23:52:12,920 - __main__ - INFO -   Frames: 249
+2026-03-04 23:52:12,920 - __main__ - INFO -   Total records: 122
+2026-03-04 23:52:12,920 - __main__ - INFO -   Date range: 2016-01-29 to 2026-02-24
+2026-03-04 23:52:12,921 - __main__ - INFO -   Asset types: crypto
+2026-03-04 23:52:12,921 - __main__ - INFO -   Sectors: 1
+2026-03-04 23:52:12,921 - __main__ - INFO - 
+[OK] All quality checks passed!
+2026-03-04 23:52:12,921 - __main__ - INFO - ======================================================================
+
+2026-03-05 00:05:55,685 - __main__ - INFO - [OK] BarRaceVisualizer initialized (top_n=20)
+2026-03-05 00:05:55,685 - __main__ - INFO - ======================================================================
+2026-03-05 00:05:55,685 - __main__ - INFO - Starting Phase 3 Visualization Pipeline
+2026-03-05 00:05:55,686 - __main__ - INFO - ======================================================================
+2026-03-05 00:05:55,686 - __main__ - INFO - 
+[1/5] Reading data from: data/processed/top20_monthly.parquet
+2026-03-05 00:05:55,686 - __main__ - INFO - Loading parquet file: data/processed/top20_monthly.parquet
+2026-03-05 00:05:55,714 - __main__ - INFO - [OK] Loaded 542 rows, 11 columns
+2026-03-05 00:05:55,714 - __main__ - INFO -   Date range: 2016-01-01 to 2026-02-24
+2026-03-05 00:05:55,714 - __main__ - INFO - [OK] All 9 required columns present
+2026-03-05 00:05:55,719 - __main__ - INFO - [OK] Data types validated
+2026-03-05 00:05:55,721 - __main__ - INFO - [OK] Enum columns validated
+2026-03-05 00:05:55,722 - __main__ - INFO - [OK] Data preparation complete: 122 rows, 122 unique dates
+2026-03-05 00:05:55,722 - __main__ - INFO - [OK] Metadata extracted: 122 dates, 1 asset types, 1 sectors
+2026-03-05 00:05:55,724 - __main__ - INFO - 
+[2/5] Building bar race visualization
+2026-03-05 00:05:55,724 - __main__ - INFO - Building bar race visualization...
+2026-03-05 00:05:55,815 - __main__ - INFO - [OK] Prepared 122 animation frames
+2026-03-05 00:05:56,132 - __main__ - INFO - [OK] Bar race created with 122 frames
+2026-03-05 00:05:56,133 - __main__ - INFO -   Figure size: 1400x900 px
+2026-03-05 00:05:56,133 - __main__ - INFO -   Unique dates: 122
+2026-03-05 00:05:56,134 - __main__ - INFO - 
+[3/5] Adding interactive controls
+2026-03-05 00:05:56,135 - __main__ - INFO - Adding interactive controls...
+2026-03-05 00:05:56,154 - __main__ - INFO - [OK] Interactive controls added
+2026-03-05 00:05:56,154 - __main__ - INFO -   - Play/Pause buttons (top left)
+2026-03-05 00:05:56,154 - __main__ - INFO -   - Date slider (122 frames)
+2026-03-05 00:05:56,154 - __main__ - INFO - 
+[4/5] Adding annotations and confidence badges
+2026-03-05 00:05:56,154 - __main__ - INFO - Adding professional legend annotations...
+2026-03-05 00:05:56,158 - __main__ - INFO - [OK] Added clean legend annotations
+2026-03-05 00:05:56,158 - __main__ - INFO - 
+[4.5/5] Adding legend and branding
+2026-03-05 00:05:56,158 - __main__ - INFO - Adding professional footer...
+2026-03-05 00:05:56,167 - __main__ - INFO - [OK] Added professional footer
+2026-03-05 00:05:56,168 - __main__ - INFO -   Sources: coingecko
+2026-03-05 00:05:56,168 - __main__ - INFO -   Generated: 2026-03-05 00:05:56
+2026-03-05 00:05:56,168 - __main__ - INFO - 
+[5/5] Saving visualization to: data/processed/bar_race_top20.html
+2026-03-05 00:05:56,235 - __main__ - INFO - 
+[VALIDATION] Validating output...
+2026-03-05 00:05:56,314 - __main__ - INFO - 
+======================================================================
+2026-03-05 00:05:56,314 - __main__ - INFO - VISUALIZATION CREATION SUMMARY
+2026-03-05 00:05:56,314 - __main__ - INFO - ======================================================================
+2026-03-05 00:05:56,314 - __main__ - INFO - [OK] File created: data/processed/bar_race_top20.html
+2026-03-05 00:05:56,314 - __main__ - INFO -   Size: 4.73MB
+2026-03-05 00:05:56,314 - __main__ - INFO -   Frames: 249
+2026-03-05 00:05:56,314 - __main__ - INFO -   Total records: 122
+2026-03-05 00:05:56,314 - __main__ - INFO -   Date range: 2016-01-29 to 2026-02-24
+2026-03-05 00:05:56,314 - __main__ - INFO -   Asset types: crypto
+2026-03-05 00:05:56,315 - __main__ - INFO -   Sectors: 1
+2026-03-05 00:05:56,315 - __main__ - INFO - 
+[OK] All quality checks passed!
+2026-03-05 00:05:56,315 - __main__ - INFO - ======================================================================
+
+2026-03-05 00:10:09,065 - __main__ - INFO - [OK] BarRaceVisualizer initialized (top_n=20)
+2026-03-05 00:10:09,065 - __main__ - INFO - ======================================================================
+2026-03-05 00:10:09,065 - __main__ - INFO - Starting Phase 3 Visualization Pipeline
+2026-03-05 00:10:09,065 - __main__ - INFO - ======================================================================
+2026-03-05 00:10:09,065 - __main__ - INFO - 
+[1/5] Reading data from: data/processed/top20_monthly.parquet
+2026-03-05 00:10:09,065 - __main__ - INFO - Loading parquet file: data/processed/top20_monthly.parquet
+2026-03-05 00:10:09,094 - __main__ - INFO - [OK] Loaded 2513 rows, 11 columns
+2026-03-05 00:10:09,096 - __main__ - INFO -   Date range: 2016-01-01 to 2026-02-24
+2026-03-05 00:10:09,097 - __main__ - INFO - [OK] All 9 required columns present
+2026-03-05 00:10:09,099 - __main__ - INFO - [OK] Data types validated
+2026-03-05 00:10:09,100 - __main__ - INFO - [OK] Enum columns validated
+2026-03-05 00:10:09,100 - __main__ - INFO - [OK] Data preparation complete: 122 rows, 122 unique dates
+2026-03-05 00:10:09,104 - __main__ - INFO - [OK] Metadata extracted: 122 dates, 1 asset types, 1 sectors
+2026-03-05 00:10:09,104 - __main__ - INFO - 
+[2/5] Building bar race visualization
+2026-03-05 00:10:09,105 - __main__ - INFO - Building bar race visualization...
+2026-03-05 00:10:09,187 - __main__ - INFO - [OK] Prepared 122 animation frames
+2026-03-05 00:10:09,478 - __main__ - INFO - [OK] Bar race created with 122 frames
+2026-03-05 00:10:09,479 - __main__ - INFO -   Figure size: 1400x900 px
+2026-03-05 00:10:09,480 - __main__ - INFO -   Unique dates: 122
+2026-03-05 00:10:09,480 - __main__ - INFO - 
+[3/5] Adding interactive controls
+2026-03-05 00:10:09,481 - __main__ - INFO - Adding interactive controls...
+2026-03-05 00:10:09,498 - __main__ - INFO - [OK] Interactive controls added
+2026-03-05 00:10:09,498 - __main__ - INFO -   - Play/Pause buttons (top left)
+2026-03-05 00:10:09,498 - __main__ - INFO -   - Date slider (122 frames)
+2026-03-05 00:10:09,499 - __main__ - INFO - 
+[4/5] Adding annotations and confidence badges
+2026-03-05 00:10:09,499 - __main__ - INFO - Adding professional legend annotations...
+2026-03-05 00:10:09,501 - __main__ - INFO - [OK] Added clean legend annotations
+2026-03-05 00:10:09,501 - __main__ - INFO - 
+[4.5/5] Adding legend and branding
+2026-03-05 00:10:09,501 - __main__ - INFO - Adding professional footer...
+2026-03-05 00:10:09,513 - __main__ - INFO - [OK] Added professional footer
+2026-03-05 00:10:09,513 - __main__ - INFO -   Sources: coingecko
+2026-03-05 00:10:09,513 - __main__ - INFO -   Generated: 2026-03-05 00:10:09
+2026-03-05 00:10:09,514 - __main__ - INFO - 
+[5/5] Saving visualization to: data/processed/bar_race_top20.html
+2026-03-05 00:10:09,568 - __main__ - INFO - 
+[VALIDATION] Validating output...
+2026-03-05 00:10:09,633 - __main__ - INFO - 
+======================================================================
+2026-03-05 00:10:09,633 - __main__ - INFO - VISUALIZATION CREATION SUMMARY
+2026-03-05 00:10:09,633 - __main__ - INFO - ======================================================================
+2026-03-05 00:10:09,633 - __main__ - INFO - [OK] File created: data/processed/bar_race_top20.html
+2026-03-05 00:10:09,633 - __main__ - INFO -   Size: 4.73MB
+2026-03-05 00:10:09,633 - __main__ - INFO -   Frames: 249
+2026-03-05 00:10:09,633 - __main__ - INFO -   Total records: 122
+2026-03-05 00:10:09,633 - __main__ - INFO -   Date range: 2016-01-29 to 2026-02-24
+2026-03-05 00:10:09,634 - __main__ - INFO -   Asset types: crypto
+2026-03-05 00:10:09,634 - __main__ - INFO -   Sectors: 1
+2026-03-05 00:10:09,634 - __main__ - INFO - 
+[OK] All quality checks passed!
+2026-03-05 00:10:09,634 - __main__ - INFO - ======================================================================
+
+2026-03-05 00:10:53,656 - __main__ - INFO - [OK] BarRaceVisualizer initialized (top_n=20)
+2026-03-05 00:10:53,656 - __main__ - INFO - ======================================================================
+2026-03-05 00:10:53,656 - __main__ - INFO - Starting Phase 3 Visualization Pipeline
+2026-03-05 00:10:53,656 - __main__ - INFO - ======================================================================
+2026-03-05 00:10:53,656 - __main__ - INFO - 
+[1/5] Reading data from: data/processed/top20_monthly.parquet
+2026-03-05 00:10:53,656 - __main__ - INFO - Loading parquet file: data/processed/top20_monthly.parquet
+2026-03-05 00:10:53,685 - __main__ - INFO - [OK] Loaded 2513 rows, 11 columns
+2026-03-05 00:10:53,686 - __main__ - INFO -   Date range: 2016-01-01 to 2026-02-24
+2026-03-05 00:10:53,686 - __main__ - INFO - [OK] All 9 required columns present
+2026-03-05 00:10:53,689 - __main__ - INFO - [OK] Data types validated
+2026-03-05 00:10:53,690 - __main__ - INFO - [OK] Enum columns validated
+2026-03-05 00:10:53,690 - __main__ - INFO - [OK] Data preparation complete: 2513 rows, 244 unique dates
+2026-03-05 00:10:53,691 - __main__ - INFO - [OK] Metadata extracted: 244 dates, 3 asset types, 1 sectors
+2026-03-05 00:10:53,691 - __main__ - INFO - 
+[2/5] Building bar race visualization
+2026-03-05 00:10:53,691 - __main__ - INFO - Building bar race visualization...
+2026-03-05 00:10:53,896 - __main__ - INFO - [OK] Prepared 244 animation frames
+2026-03-05 00:10:54,498 - __main__ - INFO - [OK] Bar race created with 244 frames
+2026-03-05 00:10:54,498 - __main__ - INFO -   Figure size: 1400x1400 px
+2026-03-05 00:10:54,498 - __main__ - INFO -   Unique dates: 244
+2026-03-05 00:10:54,499 - __main__ - INFO - 
+[3/5] Adding interactive controls
+2026-03-05 00:10:54,500 - __main__ - INFO - Adding interactive controls...
+2026-03-05 00:10:54,519 - __main__ - INFO - [OK] Interactive controls added
+2026-03-05 00:10:54,519 - __main__ - INFO -   - Play/Pause buttons (top left)
+2026-03-05 00:10:54,519 - __main__ - INFO -   - Date slider (244 frames)
+2026-03-05 00:10:54,519 - __main__ - INFO - 
+[4/5] Adding annotations and confidence badges
+2026-03-05 00:10:54,520 - __main__ - INFO - Adding professional legend annotations...
+2026-03-05 00:10:54,522 - __main__ - INFO - [OK] Added clean legend annotations
+2026-03-05 00:10:54,522 - __main__ - INFO - 
+[4.5/5] Adding legend and branding
+2026-03-05 00:10:54,522 - __main__ - INFO - Adding professional footer...
+2026-03-05 00:10:54,531 - __main__ - INFO - [OK] Added professional footer
+2026-03-05 00:10:54,531 - __main__ - INFO -   Sources: coingecko, manual/yfinance, yfinance
+2026-03-05 00:10:54,531 - __main__ - INFO -   Generated: 2026-03-05 00:10:54
+2026-03-05 00:10:54,531 - __main__ - INFO - 
+[5/5] Saving visualization to: data/processed/bar_race_top20.html
+2026-03-05 00:10:54,592 - __main__ - INFO - 
+[VALIDATION] Validating output...
+2026-03-05 00:16:36,064 - __main__ - INFO - [OK] BarRaceVisualizer initialized (top_n=20)
+2026-03-05 00:16:36,064 - __main__ - INFO - ======================================================================
+2026-03-05 00:16:36,070 - __main__ - INFO - Starting Phase 3 Visualization Pipeline
+2026-03-05 00:16:36,070 - __main__ - INFO - ======================================================================
+2026-03-05 00:16:36,070 - __main__ - INFO - 
+[1/5] Reading data from: data/processed/top20_monthly.parquet
+2026-03-05 00:16:36,070 - __main__ - INFO - Loading parquet file: data/processed/top20_monthly.parquet
+2026-03-05 00:16:36,100 - __main__ - INFO - [OK] Loaded 2440 rows, 11 columns
+2026-03-05 00:16:36,100 - __main__ - INFO -   Date range: 2016-01-01 to 2026-02-01
+2026-03-05 00:16:36,100 - __main__ - INFO - [OK] All 9 required columns present
+2026-03-05 00:16:36,105 - __main__ - INFO - [OK] Data types validated
+2026-03-05 00:16:36,106 - __main__ - INFO - [OK] Enum columns validated
+2026-03-05 00:16:36,108 - __main__ - INFO - [OK] Data preparation complete: 2440 rows, 122 unique dates
+2026-03-05 00:16:36,109 - __main__ - INFO - [OK] Metadata extracted: 122 dates, 3 asset types, 1 sectors
+2026-03-05 00:16:36,109 - __main__ - INFO - 
+[2/5] Building bar race visualization
+2026-03-05 00:16:36,109 - __main__ - INFO - Building bar race visualization...
+2026-03-05 00:16:36,210 - __main__ - INFO - [OK] Prepared 122 animation frames
+2026-03-05 00:16:36,625 - __main__ - INFO - [OK] Bar race created with 122 frames
+2026-03-05 00:16:36,625 - __main__ - INFO -   Figure size: 1400x1400 px
+2026-03-05 00:16:36,625 - __main__ - INFO -   Unique dates: 122
+2026-03-05 00:16:36,628 - __main__ - INFO - 
+[3/5] Adding interactive controls
+2026-03-05 00:16:36,628 - __main__ - INFO - Adding interactive controls...
+2026-03-05 00:16:36,648 - __main__ - INFO - [OK] Interactive controls added
+2026-03-05 00:16:36,648 - __main__ - INFO -   - Play/Pause buttons (top left)
+2026-03-05 00:16:36,648 - __main__ - INFO -   - Date slider (122 frames)
+2026-03-05 00:16:36,649 - __main__ - INFO - 
+[4/5] Adding annotations and confidence badges
+2026-03-05 00:16:36,649 - __main__ - INFO - Adding professional legend annotations...
+2026-03-05 00:16:36,654 - __main__ - INFO - [OK] Added clean legend annotations
+2026-03-05 00:16:36,654 - __main__ - INFO - 
+[4.5/5] Adding legend and branding
+2026-03-05 00:16:36,655 - __main__ - INFO - Adding professional footer...
+2026-03-05 00:16:36,667 - __main__ - INFO - [OK] Added professional footer
+2026-03-05 00:16:36,667 - __main__ - INFO -   Sources: coingecko, manual/yfinance, yfinance
+2026-03-05 00:16:36,667 - __main__ - INFO -   Generated: 2026-03-05 00:16:36
+2026-03-05 00:16:36,667 - __main__ - INFO - 
+[5/5] Saving visualization to: data/processed/bar_race_top20.html
+2026-03-05 00:16:36,739 - __main__ - INFO - 
+[VALIDATION] Validating output...
+2026-03-05 00:16:36,821 - __main__ - INFO - 
+======================================================================
+2026-03-05 00:16:36,821 - __main__ - INFO - VISUALIZATION CREATION SUMMARY
+2026-03-05 00:16:36,821 - __main__ - INFO - ======================================================================
+2026-03-05 00:16:36,822 - __main__ - INFO - [OK] File created: data/processed/bar_race_top20.html
+2026-03-05 00:16:36,822 - __main__ - INFO -   Size: 4.87MB
+2026-03-05 00:16:36,822 - __main__ - INFO -   Frames: 249
+2026-03-05 00:16:36,822 - __main__ - INFO -   Total records: 2,440
+2026-03-05 00:16:36,822 - __main__ - INFO -   Date range: 2016-01-01 to 2026-02-01
+2026-03-05 00:16:36,822 - __main__ - INFO -   Asset types: company, crypto, metal
+2026-03-05 00:16:36,822 - __main__ - INFO -   Sectors: 1
+2026-03-05 00:16:36,822 - __main__ - INFO - 
+[OK] All quality checks passed!
+2026-03-05 00:16:36,822 - __main__ - INFO - ======================================================================
+
+2026-03-05 13:45:20,057 - __main__ - INFO - [OK] BarRaceVisualizer initialized (top_n=20)
+2026-03-05 13:45:20,058 - __main__ - INFO - ======================================================================
+2026-03-05 13:45:20,058 - __main__ - INFO - Starting Phase 3 Visualization Pipeline
+2026-03-05 13:45:20,058 - __main__ - INFO - ======================================================================
+2026-03-05 13:45:20,058 - __main__ - INFO - 
+[1/5] Reading data from: data/processed/top20_monthly.parquet
+2026-03-05 13:45:20,058 - __main__ - INFO - Loading parquet file: data/processed/top20_monthly.parquet
+2026-03-05 13:45:20,226 - __main__ - INFO - [OK] Loaded 2440 rows, 11 columns
+2026-03-05 13:45:20,235 - __main__ - INFO -   Date range: 2016-01-01 to 2026-02-01
+2026-03-05 13:45:20,236 - __main__ - INFO - [OK] All 9 required columns present
+2026-03-05 13:45:20,245 - __main__ - INFO - [OK] Data types validated
+2026-03-05 13:45:20,263 - __main__ - INFO - [OK] Enum columns validated
+2026-03-05 13:45:20,274 - __main__ - INFO - [OK] Data preparation complete: 2440 rows, 122 unique dates
+2026-03-05 13:45:20,276 - __main__ - INFO - [OK] Metadata extracted: 122 dates, 3 asset types, 1 sectors
+2026-03-05 13:45:20,276 - __main__ - INFO - 
+[2/5] Building bar race visualization
+2026-03-05 13:45:20,276 - __main__ - INFO - Building bar race visualization...
+2026-03-05 13:45:20,492 - __main__ - INFO - [OK] Prepared 122 animation frames
+2026-03-05 13:45:21,007 - __main__ - INFO - [OK] Bar race created with 122 frames
+2026-03-05 13:45:21,007 - __main__ - INFO -   Figure size: 1400x1400 px
+2026-03-05 13:45:21,007 - __main__ - INFO -   Unique dates: 122
+2026-03-05 13:45:21,008 - __main__ - INFO - 
+[3/5] Adding interactive controls
+2026-03-05 13:45:21,009 - __main__ - INFO - Adding interactive controls...
+2026-03-05 13:45:21,048 - __main__ - INFO - [OK] Interactive controls added
+2026-03-05 13:45:21,049 - __main__ - INFO -   - Play/Pause buttons (top left)
+2026-03-05 13:45:21,049 - __main__ - INFO -   - Date slider (122 frames)
+2026-03-05 13:45:21,049 - __main__ - INFO - 
+[4/5] Adding annotations and confidence badges
+2026-03-05 13:45:21,050 - __main__ - INFO - Adding professional legend annotations...
+2026-03-05 13:45:21,056 - __main__ - INFO - [OK] Added clean legend annotations
+2026-03-05 13:45:21,057 - __main__ - INFO - 
+[4.5/5] Adding legend and branding
+2026-03-05 13:45:21,057 - __main__ - INFO - Adding professional footer...
+2026-03-05 13:45:21,069 - __main__ - INFO - [OK] Added professional footer
+2026-03-05 13:45:21,070 - __main__ - INFO -   Sources: coingecko, manual/yfinance, yfinance
+2026-03-05 13:45:21,071 - __main__ - INFO -   Generated: 2026-03-05 13:45:21
+2026-03-05 13:45:21,071 - __main__ - INFO - 
+[5/5] Saving visualization to: data/processed/bar_race_top20.html
+2026-03-05 13:45:21,169 - __main__ - INFO - 
+[VALIDATION] Validating output...
+2026-03-05 13:45:21,272 - __main__ - INFO - 
+======================================================================
+2026-03-05 13:45:21,272 - __main__ - INFO - VISUALIZATION CREATION SUMMARY
+2026-03-05 13:45:21,272 - __main__ - INFO - ======================================================================
+2026-03-05 13:45:21,273 - __main__ - INFO - [OK] File created: data/processed/bar_race_top20.html
+2026-03-05 13:45:21,273 - __main__ - INFO -   Size: 4.86MB
+2026-03-05 13:45:21,273 - __main__ - INFO -   Frames: 249
+2026-03-05 13:45:21,274 - __main__ - INFO -   Total records: 2,440
+2026-03-05 13:45:21,274 - __main__ - INFO -   Date range: 2016-01-01 to 2026-02-01
+2026-03-05 13:45:21,274 - __main__ - INFO -   Asset types: company, crypto, metal
+2026-03-05 13:45:21,274 - __main__ - INFO -   Sectors: 1
+2026-03-05 13:45:21,274 - __main__ - INFO - 
+[OK] All quality checks passed!
+2026-03-05 13:45:21,274 - __main__ - INFO - ======================================================================
+

@@ -1,0 +1,29 @@
+rank,asset_name,ticker,type,market_cap_usd,market_cap_billions,source
+1,Microsoft,MSFT,company,3200000000000.0,3200.0,8marketcap.com reference
+2,Apple,AAPL,company,3100000000000.0,3100.0,8marketcap.com reference
+3,Saudi Aramco,2222.SR,company,2400000000000.0,2400.0,8marketcap.com reference
+4,Alphabet,GOOGL,company,2000000000000.0,2000.0,8marketcap.com reference
+5,Amazon,AMZN,company,1900000000000.0,1900.0,8marketcap.com reference
+6,Bitcoin,BTC,crypto,1800000000000.0,1800.0,8marketcap.com reference
+7,NVIDIA,NVDA,company,1450000000000.0,1450.0,8marketcap.com reference
+8,Meta,META,company,1250000000000.0,1250.0,8marketcap.com reference
+9,Tesla,TSLA,company,1100000000000.0,1100.0,8marketcap.com reference
+10,Berkshire Hathaway,BRK.B,company,950000000000.0,950.0,8marketcap.com reference
+11,Visa,V,company,750000000000.0,750.0,8marketcap.com reference
+12,JPMorgan Chase,JPM,company,650000000000.0,650.0,8marketcap.com reference
+13,Johnson & Johnson,JNJ,company,640000000000.0,640.0,8marketcap.com reference
+14,Walmart,WMT,company,600000000000.0,600.0,8marketcap.com reference
+15,ExxonMobil,XOM,company,500000000000.0,500.0,8marketcap.com reference
+16,Gold,GOLD,metal,483000000000.0,483.0,8marketcap.com reference
+17,Ethereum,ETH,crypto,420000000000.0,420.0,8marketcap.com reference
+18,Tether,USDT,crypto,100000000000.0,100.0,8marketcap.com reference
+19,Solana,SOL,crypto,80000000000.0,80.0,8marketcap.com reference
+20,BNB,BNB,crypto,78000000000.0,78.0,8marketcap.com reference
+21,XRP,XRP,crypto,65000000000.0,65.0,8marketcap.com reference
+22,Silver,SILVER,metal,56000000000.0,56.0,8marketcap.com reference
+23,Cardano,ADA,crypto,25000000000.0,25.0,8marketcap.com reference
+24,Polkadot,DOT,crypto,16000000000.0,16.0,8marketcap.com reference
+25,Dogecoin,DOGE,crypto,15000000000.0,15.0,8marketcap.com reference
+26,Polygon,MATIC,crypto,12000000000.0,12.0,8marketcap.com reference
+27,Platinum,PLAT,metal,8000000000.0,8.0,8marketcap.com reference
+28,Palladium,PALD,metal,6000000000.0,6.0,8marketcap.com reference

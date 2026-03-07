@@ -1,0 +1,49 @@
+2026-03-07T14:51:43.721733 - [INFO] ======================================================================
+2026-03-07T14:51:43.721733 - [INFO] PHASE 2 VISUALIZATION ORCHESTRATOR
+2026-03-07T14:51:43.721733 - [INFO] ======================================================================
+2026-03-07T14:51:43.721733 - [INFO] Start Time: 2026-03-07T14:51:43.719727
+2026-03-07T14:51:43.721733 - [INFO] Project Root: C:\Users\haujo\projects\DEV\Data_visualization\global_economic_health
+2026-03-07T14:51:43.721733 - [INFO] Orchestrator PID: 33540
+2026-03-07T14:51:43.721733 - [INFO] 
+======================================================================
+2026-03-07T14:51:43.724491 - [INFO] [STEP 1/4] Build Bubble Map
+2026-03-07T14:51:43.724995 - [INFO] ======================================================================
+[HEARTBEAT] orchestrator_pid=33540, timestamp=2026-03-07T14:51:43.724995, phase=VIZ, step=1/4, elapsed_seconds=0.0, status=RUNNING_Build_Bubble_Map
+2026-03-07T14:51:43.724995 - [INFO] [EXEC] C:\Users\haujo\projects\DEV\Data_visualization\global_economic_health\scripts\05_build_bubble_map.py
+2026-03-07T14:51:44.625226 - [ERROR] Step failed with return code: 1
+2026-03-07T14:51:44.625226 - [ERROR] [ERROR] 2026-03-07 14:51:44,291 - [INFO] [LOAD] Searching for macro_final data...
+2026-03-07T14:51:44.625226 - [ERROR] [ERROR] 2026-03-07 14:51:44,291 - [INFO] [LOAD] Using: macro_final_07MAR2026.csv
+2026-03-07T14:51:44.625226 - [ERROR] [ERROR] 2026-03-07 14:51:44,319 - [INFO] [LOAD] 17020 rows loaded
+2026-03-07T14:51:44.625226 - [ERROR] [ERROR] 2026-03-07 14:51:44,319 - [INFO] [VALIDATE] Schema OK
+2026-03-07T14:51:44.625226 - [ERROR] [ERROR] 2026-03-07 14:51:44,319 - [INFO] [PREPARE] Processing data...
+2026-03-07T14:51:44.625226 - [ERROR] [ERROR] 2026-03-07 14:51:44,458 - [INFO] [PREPARE] 17020 valid records ready
+2026-03-07T14:51:44.625226 - [ERROR] [ERROR] 2026-03-07 14:51:44,458 - [INFO] [BUILD] Creating figure...
+2026-03-07T14:51:44.625226 - [ERROR] [ERROR] 2026-03-07 14:51:44,537 - [ERROR] 
+2026-03-07T14:51:44.625226 - [ERROR] [ERROR] \u274c Error: 
+2026-03-07T14:51:44.625226 - [ERROR] [ERROR]     Invalid value of type 'numpy.bool' received for the 'showscale' property of scatter.marker
+2026-03-07T14:51:44.625226 - [ERROR] [ERROR]         Received value: np.True_
+2026-03-07T14:51:44.625226 - [ERROR] [ERROR]     The 'showscale' property is a boolean and must be specified as:
+2026-03-07T14:51:44.625226 - [ERROR] [ERROR]       - A boolean value: True or False
+[HEARTBEAT] orchestrator_pid=33540, timestamp=2026-03-07T14:51:44.625226, phase=VIZ, step=1/4, elapsed_seconds=0.9, status=FAILED
+2026-03-07T14:51:44.625226 - [ERROR] Pipeline halted at step 1
+2026-03-07T14:51:44.625226 - [INFO] 
+[DISCOVERY] Locating output files...
+2026-03-07T14:51:44.625226 - [WARNING] [MISSING] reports/html/bubble_map_*.html
+2026-03-07T14:51:44.625226 - [WARNING] [MISSING] reports/html/dashboard_*.html
+2026-03-07T14:51:44.625226 - [WARNING] [MISSING] reports/html/preview_*.gif
+2026-03-07T14:51:44.625226 - [WARNING] [MISSING] reports/html/preview_*.mp4
+2026-03-07T14:51:44.625226 - [WARNING] [MISSING] reports/qa/ui_qa_report_*.json
+2026-03-07T14:51:44.625226 - [WARNING] [MISSING] reports/qa/ui_qa_summary_*.md
+[HEARTBEAT] orchestrator_pid=33540, timestamp=2026-03-07T14:51:44.625226, phase=VIZ, step=4/4, elapsed_seconds=0.9, status=FAILED
+2026-03-07T14:51:44.625226 - [INFO] 
+======================================================================
+2026-03-07T14:51:44.625226 - [INFO] ORCHESTRATION SUMMARY
+2026-03-07T14:51:44.625226 - [INFO] ======================================================================
+2026-03-07T14:51:44.638333 - [INFO] Overall Status: FAIL
+2026-03-07T14:51:44.638333 - [INFO] Steps Completed: 0/4
+2026-03-07T14:51:44.638333 - [INFO] Elapsed Time: 0.9 seconds
+2026-03-07T14:51:44.638333 - [INFO] ======================================================================
+2026-03-07T14:51:44.638333 - [INFO] 
+[SAVE] Results saved to reports\viz_result_20260307_145143.json
+2026-03-07T14:51:44.638333 - [ERROR] 
+[FAILED] PHASE 2 VISUALIZATION FAILED

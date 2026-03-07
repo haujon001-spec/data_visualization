@@ -93,6 +93,44 @@
                 "reveal": "always",
                 "panel": "new"
             }
+        },
+        {
+            "label": "Population: Dashboard v2 with Trendlines",
+            "type": "shell",
+            "command": "c:\\Users\\haujo\\projects\\DEV\\Data_visualization\\.venv\\Scripts\\python.exe",
+            "args": [
+                "world_populations/scripts/04_build_visualization_v2_with_trendline.py"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "problemMatcher": [
+                "$python"
+            ],
+            "cwd": "c:\\Users\\haujo\\projects\\DEV\\Data_visualization",
+            "presentation": {
+                "reveal": "always"
+            }
+        },
+        {
+            "label": "Population: Dashboard v3 Animated Growing Trendlines",
+            "type": "shell",
+            "command": "c:\\Users\\haujo\\projects\\DEV\\Data_visualization\\.venv\\Scripts\\python.exe",
+            "args": [
+                "world_populations/scripts/05_build_visualization_v3_animated_trendline.py"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "problemMatcher": [
+                "$python"
+            ],
+            "cwd": "c:\\Users\\haujo\\projects\\DEV\\Data_visualization",
+            "presentation": {
+                "reveal": "always"
+            }
         }
     ]
 }

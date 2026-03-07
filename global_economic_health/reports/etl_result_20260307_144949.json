@@ -1,0 +1,71 @@
+{
+  "timestamp": "2026-03-07T14:49:49.374924",
+  "orchestrator_pid": 33256,
+  "project_root": "C:\\Users\\haujo\\projects\\DEV\\Data_visualization\\global_economic_health",
+  "steps": [
+    {
+      "step_number": 1,
+      "step_name": "Fetch GDP",
+      "script": "scripts/01_fetch_gdp.py",
+      "status": "PASS",
+      "timestamp": "2026-03-07T14:49:50.840114"
+    },
+    {
+      "step_number": 2,
+      "step_name": "Fetch Population",
+      "script": "scripts/01_fetch_population.py",
+      "status": "PASS",
+      "timestamp": "2026-03-07T14:49:52.762639"
+    },
+    {
+      "step_number": 3,
+      "step_name": "Fetch Debt",
+      "script": "scripts/03_fetch_debt.py",
+      "status": "PASS",
+      "timestamp": "2026-03-07T14:49:54.674880"
+    },
+    {
+      "step_number": 4,
+      "step_name": "Transform/Merge/Clean",
+      "script": "scripts/04_transform_merge_clean.py",
+      "status": "PASS",
+      "timestamp": "2026-03-07T14:49:55.953412"
+    },
+    {
+      "step_number": 5,
+      "step_name": "Data QA",
+      "script": "qa_agents/agent_data_qa.py",
+      "status": "PASS",
+      "timestamp": "2026-03-07T14:49:57.116872"
+    }
+  ],
+  "overall_status": "FAIL",
+  "outputs": {
+    "gdp_raw_*.csv": {
+      "path": "csv\\raw\\gdp_raw_07MAR2026.csv",
+      "size_bytes": 587560,
+      "modified": "2026-03-07T14:49:50.761194"
+    },
+    "debt_raw_*.csv": {
+      "path": "csv\\raw\\debt_raw_07MAR2026.csv",
+      "size_bytes": 226658,
+      "modified": "2026-03-07T14:49:54.595093"
+    },
+    "macro_*.csv": {
+      "path": "csv\\processed\\macro_final_07MAR2026.csv",
+      "size_bytes": 2105723,
+      "modified": "2026-03-07T14:49:55.898326"
+    },
+    "data_qa_report_*.json": {
+      "path": "reports\\qa\\data_qa_report_07MAR2026.json",
+      "size_bytes": 1805,
+      "modified": "2026-03-07T14:49:57.037244"
+    },
+    "data_qa_summary_*.md": {
+      "path": "reports\\qa\\data_qa_summary_07MAR2026.md",
+      "size_bytes": 554,
+      "modified": "2026-03-07T14:49:57.038230"
+    }
+  },
+  "verification": {}
+}

@@ -1,0 +1,89 @@
+2026-03-05 00:10:46 - __main__ - INFO - Starting data ranking process
+2026-03-05 00:10:46 - __main__ - INFO - Input directory: data\raw
+2026-03-05 00:10:46 - __main__ - INFO - Output directory: data\processed
+2026-03-05 00:10:46 - __main__ - INFO - Top N: 20
+2026-03-05 00:10:46 - __main__ - INFO - ================================================================================
+2026-03-05 00:10:46 - __main__ - INFO - STEP 1: Data Normalization
+2026-03-05 00:10:46 - __main__ - INFO - ================================================================================
+2026-03-05 00:10:46 - __main__ - INFO - Reading raw files from data\raw
+2026-03-05 00:10:46 - __main__ - INFO - Detected wide format companies data, converting...
+2026-03-05 00:10:46 - __main__ - INFO -   Converted to long format: 2083 rows
+2026-03-05 00:10:46 - __main__ - INFO -   Unique tickers: 18
+2026-03-05 00:10:46 - __main__ - INFO - Loaded 2083 company records
+2026-03-05 00:10:46 - __main__ - INFO - Loaded 122 crypto records
+2026-03-05 00:10:46 - __main__ - INFO - Loaded 420 metals records
+2026-03-05 00:10:46 - __main__ - INFO - Normalizing company data
+2026-03-05 00:10:46 - __main__ - INFO -   Input columns: ['date', 'ticker', 'adjusted_close']
+2026-03-05 00:10:46 - __main__ - INFO -   Unique tickers: 18
+2026-03-05 00:10:46 - __main__ - WARNING - Missing column 'name' in company data, adding default
+2026-03-05 00:10:46 - __main__ - INFO -   Created 'name' column from 'ticker'
+2026-03-05 00:10:46 - __main__ - INFO -   Sample names: ['SAP' 'META' 'ASML' 'GOOGL' '005930.KS']
+2026-03-05 00:10:46 - __main__ - INFO -   Final unique names: 18 (should be same as tickers)
+2026-03-05 00:10:46 - __main__ - INFO -   Sample names in output: ['SAP' 'META' 'ASML' 'GOOGL' '005930.KS']
+2026-03-05 00:10:46 - __main__ - INFO - Normalized 2083 company records
+2026-03-05 00:10:46 - __main__ - INFO - Normalizing crypto data
+2026-03-05 00:10:46 - __main__ - WARNING - Missing column 'name' in crypto data, adding default
+2026-03-05 00:10:46 - __main__ - INFO - Normalized 122 crypto records
+2026-03-05 00:10:46 - __main__ - INFO - Normalizing metals data
+2026-03-05 00:10:46 - __main__ - INFO - Normalized 420 metals records
+2026-03-05 00:10:46 - __main__ - INFO - Merging normalized datasets
+2026-03-05 00:10:46 - __main__ - INFO -   Preparing company: columns=['date', 'ticker', 'adjusted_close', 'name', 'market_cap', 'source', 'confidence', 'asset_type', 'asset_id', 'sector', 'region']
+2026-03-05 00:10:46 - __main__ - INFO -     'name' column exists, unique values: 18
+2026-03-05 00:10:46 - __main__ - INFO -   Preparing crypto: columns=['date', 'coin_id', 'symbol', 'market_cap', 'price', 'circulating_supply', 'name', 'source', 'confidence', 'asset_type', 'asset_id', 'sector', 'region']
+2026-03-05 00:10:46 - __main__ - INFO -     'name' column exists, unique values: 1
+2026-03-05 00:10:46 - __main__ - INFO -   Preparing metal: columns=['date', 'ticker', 'name', 'price_per_ounce', 'market_cap', 'source', 'confidence', 'asset_type', 'asset_id', 'sector', 'region']
+2026-03-05 00:10:46 - __main__ - INFO -     'name' column exists, unique values: 4
+2026-03-05 00:10:46 - __main__ - INFO -   After merge: unique labels = 23
+2026-03-05 00:10:46 - __main__ - INFO -   Sample labels: ['SAP' 'META' 'ASML' 'GOOGL' '005930.KS' 'JPM' 'MSFT' 'NVDA' '2222.SR'
+ 'WMT']
+2026-03-05 00:10:46 - __main__ - INFO - Merged dataset contains 2625 records across 244 dates
+2026-03-05 00:10:46 - __main__ - INFO - 
+================================================================================
+2026-03-05 00:10:46 - __main__ - INFO - STEP 2: Ranking by Market Cap
+2026-03-05 00:10:46 - __main__ - INFO - ================================================================================
+2026-03-05 00:10:46 - __main__ - INFO - Ranking assets by market cap (top 20)
+2026-03-05 00:10:46 - __main__ - INFO - Created rankings for 244 dates
+2026-03-05 00:10:46 - __main__ - INFO - 
+================================================================================
+2026-03-05 00:10:46 - __main__ - INFO - STEP 3: Computing Rank Transitions
+2026-03-05 00:10:46 - __main__ - INFO - ================================================================================
+2026-03-05 00:10:46 - __main__ - INFO - Computing rank transitions
+2026-03-05 00:10:48 - __main__ - INFO - Identified rank transitions for 242 months
+2026-03-05 00:10:48 - __main__ - INFO - 
+================================================================================
+2026-03-05 00:10:48 - __main__ - INFO - STEP 4: Injecting Corporate Action Flags
+2026-03-05 00:10:48 - __main__ - INFO - ================================================================================
+2026-03-05 00:10:48 - __main__ - INFO - Injecting corporate action flags
+2026-03-05 00:10:48 - __main__ - INFO - Corporate action injection complete
+2026-03-05 00:10:48 - __main__ - INFO - 
+================================================================================
+2026-03-05 00:10:48 - __main__ - INFO - STEP 5: Quality Validation
+2026-03-05 00:10:48 - __main__ - INFO - ================================================================================
+2026-03-05 00:10:48 - __main__ - INFO - Validating data quality
+2026-03-05 00:10:48 - __main__ - INFO - 
+================================================================================
+2026-03-05 00:10:48 - __main__ - INFO - STEP 6: Formatting Output
+2026-03-05 00:10:48 - __main__ - INFO - ================================================================================
+2026-03-05 00:10:48 - __main__ - INFO - 
+================================================================================
+2026-03-05 00:10:48 - __main__ - INFO - STEP 7: Saving Outputs
+2026-03-05 00:10:48 - __main__ - INFO - ================================================================================
+2026-03-05 00:10:48 - __main__ - INFO -   Rows: 2513, Columns: 11
+2026-03-05 00:10:48 - __main__ - INFO - 
+================================================================================
+2026-03-05 00:10:48 - __main__ - INFO - PROCESSING COMPLETE
+2026-03-05 00:10:48 - __main__ - INFO - ================================================================================
+2026-03-05 00:10:48 - __main__ - INFO - 
+Dataset Summary:
+2026-03-05 00:10:48 - __main__ - INFO -   First date: 2016-01-01
+2026-03-05 00:10:48 - __main__ - INFO -   Last date:  2026-02-24
+2026-03-05 00:10:48 - __main__ - INFO -   Unique dates: 244
+2026-03-05 00:10:48 - __main__ - INFO -   Total rows: 2513
+2026-03-05 00:10:48 - __main__ - INFO - 
+  Top asset on 2016-01-01: 005930.KS (005930.KS)
+2026-03-05 00:10:48 - __main__ - INFO -     Market Cap: $17,990,417,968,750
+2026-03-05 00:10:48 - __main__ - INFO -     Confidence: Medium
+2026-03-05 00:10:48 - __main__ - INFO - 
+  Top asset on 2026-02-24: bitcoin (bitcoin)
+2026-03-05 00:10:48 - __main__ - INFO -     Market Cap: $505,000,000,000
+2026-03-05 00:10:48 - __main__ - INFO -     Confidence: High

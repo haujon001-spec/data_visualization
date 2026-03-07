@@ -1,0 +1,74 @@
+{
+  "timestamp": "2026-03-07T14:51:20.816994",
+  "checks": [
+    {
+      "check": "Schema: macro_final",
+      "status": "PASS"
+    },
+    {
+      "check": "Data Types: macro_final",
+      "status": "PASS"
+    },
+    {
+      "check": "Validation: GDP values",
+      "status": "FAIL",
+      "message": "3 invalid GDP values (negative or out of range)"
+    },
+    {
+      "check": "Validation: Population values",
+      "status": "FAIL",
+      "message": "2 invalid population values"
+    },
+    {
+      "check": "Validation: Debt-to-GDP ratio",
+      "status": "PASS"
+    },
+    {
+      "check": "Validation: Growth rates",
+      "status": "WARNING",
+      "message": "150 rows with extreme growth rates (> \u00b1100%)"
+    },
+    {
+      "check": "Validation: No duplicates",
+      "status": "FAIL",
+      "message": "2772 duplicate country-year combinations"
+    },
+    {
+      "check": "Completeness: Minimum countries",
+      "status": "PASS"
+    },
+    {
+      "check": "Completeness: Minimum years",
+      "status": "PASS"
+    }
+  ],
+  "warnings": [
+    {
+      "check": "Validation: Growth rates",
+      "message": "150 rows with extreme growth rates (> \u00b1100%)"
+    }
+  ],
+  "errors": [
+    {
+      "check": "Validation: GDP values",
+      "message": "3 invalid GDP values (negative or out of range)"
+    },
+    {
+      "check": "Validation: Population values",
+      "message": "2 invalid population values"
+    },
+    {
+      "check": "Validation: No duplicates",
+      "message": "2772 duplicate country-year combinations"
+    }
+  ],
+  "summary": {
+    "total_rows": 17020,
+    "n_countries": 258,
+    "n_years": 65,
+    "checks_passed": 5,
+    "checks_failed": 3,
+    "warnings": 1,
+    "overall_status": "FAIL"
+  }
+}

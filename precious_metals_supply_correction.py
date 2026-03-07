@@ -105,10 +105,9 @@ def generate_correction_report():
 if __name__ == "__main__":
     new_config = generate_correction_report()
     
-    # Optionally save corrected config
+    # Automatically save corrected config (non-interactive mode)
     print("\n\n" + "="*80)
-    response = input("Save corrected config? (yes/no): ").strip().lower()
-    if response == 'yes':
+    try:
         old_config = pd.read_csv("config/precious_metals_supply.csv")
         backup_path = Path("config/precious_metals_supply_BACKUP_old.csv")
         old_config.to_csv(backup_path, index=False)
@@ -116,5 +115,10 @@ if __name__ == "__main__":
         
         new_config.to_csv("config/precious_metals_supply.csv", index=False)
         print(f"✓ Saved corrected config to config/precious_metals_supply.csv")
+        print("\n✅ PRECIOUS METALS DATA CORRECTED AND SAVED")
+    except Exception as e:
+        print(f"✗ Error saving config: {e}")
+        import sys
+        sys.exit(1)
     
     print("\n" + "="*80)

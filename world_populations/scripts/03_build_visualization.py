@@ -177,15 +177,35 @@ def create_bar_race(df: pd.DataFrame, top_n: int = 30) -> go.Figure:
     return fig
 
 
-def save_html(fig: go.Figure, output_path: Path) -> None:
+def save_html(fig: go.Figure, output_path: Path, creator: str = "John Hau", script_name: str = "03_build_visualization.py") -> None:
     """
-    Save figure as self-contained HTML.
+    Save figure as self-contained HTML with metadata.
     
     Args:
         fig: Plotly Figure object
         output_path: Path to save HTML file
+        creator: Name of creator
+        script_name: Name of the script that created the visualization
     """
     output_path.parent.mkdir(parents=True, exist_ok=True)
+    
+    # Add metadata to figure layout
+    metadata_text = (
+        f"<b>Creator:</b> {creator} | "
+        f"<b>Script:</b> {script_name} | "
+        f"<b>Output:</b> {output_path.name} | "
+        f"<b>Date:</b> {datetime.now().strftime('%d %b %Y')}"
+    )
+    
+    fig.add_annotation(
+        text=metadata_text,
+        xref="paper", yref="paper",
+        x=0.5, y=-0.08,
+        showarrow=False,
+        font=dict(size=10, color='#CCCCCC'),
+        xanchor='center',
+        yanchor='top'
+    )
     
     fig.write_html(
         str(output_path),
@@ -237,8 +257,13 @@ def main():
     # Create visualization (Top 30 countries fit on screen without scrolling)
     fig = create_bar_race(df, top_n=30)
     
-    # Save HTML
-    save_html(fig, output_html)
+    # Save HTML with metadata
+    save_html(
+        fig, 
+        output_html,
+        creator="John Hau",
+        script_name="03_build_visualization.py"
+    )
     
     print("=" * 70)
     print(f"COMPLETE: Visualization saved to {output_html.name}")

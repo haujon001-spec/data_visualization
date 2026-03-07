@@ -5,7 +5,7 @@
 
 ## 🎯 Project Goal
 
-Build a 50-year (1970–2026) world population dashboard with:
+Build a 56-year (1970–2026) world population dashboard with:
 - Automated ETL from World Bank API
 - Animated bar race visualization with country flags
 - 7-layer QA validation system

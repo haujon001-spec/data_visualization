@@ -1,0 +1,92 @@
+{
+  "timestamp": "2026-03-07T15:15:10.736355",
+  "checks": [
+    {
+      "check": "Bubble map file size",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:15:10.759738",
+      "details": "8.66 MB"
+    },
+    {
+      "check": "Bubble map has Plotly",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:15:10.830203"
+    },
+    {
+      "check": "Dashboard file size",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:15:10.830203",
+      "details": "0.01 MB"
+    },
+    {
+      "check": "Dashboard has content",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:15:10.830203"
+    },
+    {
+      "check": "bubble_map Plotly elements load",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:15:12.388058"
+    },
+    {
+      "check": "bubble_map JavaScript errors",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:15:12.388058",
+      "details": "No errors in console"
+    },
+    {
+      "check": "bubble_map screenshot captured",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:15:12.483907",
+      "details": "Screenshot: bubble_map_render_20260307_151512.png"
+    },
+    {
+      "check": "dashboard Plotly elements load",
+      "status": "FAIL",
+      "timestamp": "2026-03-07T15:15:20.259100",
+      "details": "Plotly not found after 5 seconds"
+    },
+    {
+      "check": "Data has required columns",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:15:20.354121"
+    },
+    {
+      "check": "Data values valid",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:15:20.354121"
+    },
+    {
+      "check": "Data row count",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:15:20.354121",
+      "details": "17020 rows loaded"
+    }
+  ],
+  "warnings": [
+    {
+      "check": "Bubble map year slider exists",
+      "details": "No range slider found in page"
+    }
+  ],
+  "errors": [
+    {
+      "check": "dashboard Plotly elements load",
+      "details": "Plotly not found after 5 seconds"
+    }
+  ],
+  "screenshots": [
+    {
+      "type": "bubble_map",
+      "file": "reports\\qa\\screenshots\\bubble_map_render_20260307_151512.png",
+      "timestamp": "20260307_151512"
+    }
+  ],
+  "browser_errors": [],
+  "summary": {
+    "total_checks": 12,
+    "passed": 10,
+    "failed": 1,
+    "overall_status": "FAIL"
+  }
+}

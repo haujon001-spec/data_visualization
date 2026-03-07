@@ -1,0 +1,369 @@
+# ============================================================================
+# Global Economic Health Dashboard - Configuration Settings
+# ============================================================================
+# 
+# This configuration file centralizes all tunable parameters for Project 2.
+# It ensures consistency across ETL, visualization, QA, and orchestrator.
+#
+# Date: March 7, 2026
+# Version: 1.0.0
+# ============================================================================
+
+project:
+  name: "Global Economic Health Dashboard"
+  code: "geh"
+  version: "1.0.0"
+  description: "Multi-metric global macro-economic dashboard"
+  root: "data_visualization/global_economic_health"
+  created: "2026-03-07"
+
+# ============================================================================
+# API CONFIGURATION
+# ============================================================================
+api_config:
+  world_bank:
+    base_url: "https://api.worldbank.org/v2"
+    timeout_seconds: 60
+    max_retries: 3
+    retry_backoff_seconds: 2
+    per_page: 20000
+    
+  indicators:
+    gdp:
+      code: "NY.GDP.MKTP.CD"
+      name: "GDP (current US$)"
+      description: "Nominal GDP in current USD"
+      units: "USD"
+      
+    population:
+      code: "SP.POP.TOTL"
+      name: "Population, total"
+      description: "Total population count"
+      units: "count"
+
+# ============================================================================
+# DATA SOURCES
+# ============================================================================
+data_sources:
+  gdp:
+    source: "World Bank"
+    api_endpoint: "/country/all/indicator/NY.GDP.MKTP.CD"
+    data_type: "API"
+    frequency: "Annual"
+    coverage: "1960-present"
+    reliability: "High"
+    
+  population:
+    source: "World Bank"
+    api_endpoint: "/country/all/indicator/SP.POP.TOTL"
+    data_type: "API"
+    frequency: "Annual"
+    coverage: "1960-present"
+    reliability: "High"
+    notes: "Reused from Project 1 (world_populations)"
+    
+  debt:
+    source: "World Bank (Recommended)"
+    api_endpoint: "/country/all/indicator"
+    # Alternative indicators for debt data:
+    indicators:
+      - code: "GB.XPD.RSDV.GN.CD"
+        name: "Total debt service (TDS)"
+        notes: "External debt service"
+      - code: "DT.DOD.DECT.CD"
+        name: "Total external debt"
+        notes: "Preferred for external debt metrics"
+      - code: "GB.GRT.GNRL.CD"
+        name: "Grants (current US$)"
+    
+    backup_source: "IMF Global Debt Database"
+    backup_url: "https://www.imf.org/external/datamapper/api/v1"
+    backup_notes: "Use if World Bank debt data is incomplete"
+    
+    conversion:
+      currency: "USD"
+      conversion_method: "API exchange rates or annual averages"
+
+# ============================================================================
+# DATA PATHS
+# ============================================================================
+database_paths:
+  raw_csv:
+    gdp: "csv/raw/gdp_raw_{timestamp}.csv"
+    population: "csv/raw/population_raw_{timestamp}.csv"
+    debt: "csv/raw/debt_raw_{timestamp}.csv"
+    
+  processed_csv:
+    merged: "csv/processed/macro_merged_{timestamp}.csv"
+    cleaned: "csv/processed/macro_clean_{timestamp}.csv"
+    final: "csv/processed/macro_final_{timestamp}.csv"
+    
+  reports:
+    html: "reports/html/"
+    media: "reports/media/"
+    qa: "reports/qa/"
+    screenshots: "reports/screenshots/"
+    logs: "reports/logs/"
+    
+  coordination:
+    status: "coordination/status_reports/"
+    audit: "coordination/audit_trail/"
+    task_queue: "coordination/task_queue/"
+
+# ============================================================================
+# QA THRESHOLDS AND VALIDATION RULES
+# ============================================================================
+qa_thresholds:
+  data_validation:
+    gdp:
+      min_value: 0
+      max_value: 100000000000000  # $100 trillion USD
+      allow_missing: false
+      description: "Annual GDP in current USD; must be positive"
+      
+    population:
+      min_value: 0
+      max_value: 8000000000  # 8 billion
+      allow_missing: false
+      description: "Total population count; must be positive"
+      
+    debt:
+      min_value: 0
+      max_value: 1000000000000000  # $1 quadrillion (very high threshold)
+      allow_missing: true  # debt data may be incomplete
+      description: "Total debt; must be non-negative"
+      
+    derived_metrics:
+      gdp_per_capita:
+        min_value: 0
+        max_value: 500000  # $500k USD per capita max
+        flag_if_negative: true
+        
+      debt_to_gdp:
+        min_value: 0
+        max_value: 5  # 500% ratio; above this is flagged as data error
+        flag_if_above: 10  # Hard stop at 10x
+        description: "Debt-to-GDP ratio; production error if > 10"
+        
+      population_growth_rate:
+        min_value: -0.5  # -50% per year (extreme decline)
+        max_value: 2  # +200% per year (extreme growth)
+        flag_if_exceeds: 0.1  # Flag if > 10% annual growth
+        
+      gdp_growth_rate:
+        min_value: -0.5  # -50% per year (extreme recession)
+        max_value: 2  # +200% per year (extreme expansion)
+        flag_if_exceeds: 0.2  # Flag if > 20% annual growth
+        
+  completeness:
+    min_countries: 150
+    min_years: 50
+    max_missing_percent: 0.15  # 15% missing data allowed
+    
+  time_series:
+    flag_population_jumps_exceeding: 0.1  # 10% year-over-year
+    flag_gdp_drops_exceeding: 0.5  # 50% year-over-year
+    
+  duplicates:
+    allow_multiple_entries_per_country_year: false
+
+# ============================================================================
+# VISUALIZATION CONFIGURATION
+# ============================================================================
+visualization_config:
+  bubble_map:
+    sizing:
+      variable: "gdp_usd"
+      scaling_method: "logarithmic"
+      min_size: 10
+      max_size: 100
+      
+    coloring:
+      variable: "debt_to_gdp"
+      scale_type: "diverging"
+      color_min: "#1f77b4"  # Dark blue (low debt)
+      color_center: "#7f7f7f"  # Gray (neutral)
+      color_max: "#d62728"  # Dark red (high debt)
+      
+    tooltip_fields:
+      - country_name
+      - gdp_usd
+      - population
+      - debt_total_usd
+      - debt_to_gdp
+      - gdp_growth
+      - population_growth
+      
+    interaction:
+      year_slider: true
+      zoom_pan: true
+      hover_highlight: true
+      click_country_profile: true
+      
+    theme: "dark"
+    resolution: "1920x1080"
+
+  population_trendline:
+    enabled: true
+    source: "Reused from Project 1"
+    version: "v3_animated"
+    script: "05_build_visualization_v3_animated_trendline.py"
+    top_countries: 15
+    trendline_degree: 2
+    animation_enabled: true
+    
+  dashboard:
+    layout: "Two-column on desktop, single-column on mobile"
+    sections:
+      - "Header (title, timestamp)"
+      - "Bubble map"
+      - "Population trendline"
+      - "Optional economics panels"
+      - "Footer (sources, version)"
+    responsive: true
+    theme: "dark"
+
+# ============================================================================
+# ORCHESTRATOR CONFIGURATION
+# ============================================================================
+orchestrator_config:
+  phases:
+    etl:
+      timeout_seconds: 300
+      steps:
+        - name: "Fetch GDP"
+          timeout: 60
+        - name: "Fetch Population"
+          timeout: 60
+        - name: "Fetch Debt"
+          timeout: 90
+        - name: "Transform + Merge + Clean"
+          timeout: 120
+        - name: "Data QA"
+          timeout: 60
+          
+    visualization:
+      timeout_seconds: 400
+      steps:
+        - name: "Build Bubble Map"
+          timeout: 120
+        - name: "Build Population Trendline"
+          timeout: 90
+        - name: "Generate HTML Dashboard"
+          timeout: 60
+        - name: "UI QA"
+          timeout: 60
+          
+    preview_generation:
+      timeout_seconds: 300
+      steps:
+        - name: "Generate Bubble Map Frames"
+          timeout: 120
+        - name: "Generate Trendline Frames"
+          timeout: 90
+        - name: "Generate GIF"
+          timeout: 60
+        - name: "Generate MP4"
+          timeout: 60
+        - name: "Preview QA"
+          timeout: 30
+          
+    verification:
+      timeout_seconds: 120
+      steps:
+        - name: "Code Structure Check"
+          timeout: 30
+        - name: "Output Validation"
+          timeout: 30
+        - name: "Visualization Check"
+          timeout: 30
+        - name: "Orchestrator Flow Check"
+          timeout: 30
+
+  failure_handling:
+    on_failure: "stop_immediately"
+    log_errors: true
+    rollback_incomplete_outputs: true
+    notification_on_failure: true
+
+  logging:
+    log_file: "reports/logs/orchestrator_log_{timestamp}.txt"
+    log_level: "INFO"
+    max_log_size_mb: 100
+
+# ============================================================================
+# CLOUD AGENT CONFIGURATION
+# ============================================================================
+cloud_agent_config:
+  communication:
+    protocol: "HTTP"
+    format: "JSON"
+    endpoint: "http://localhost:8000/api/task-queue"
+    
+  heartbeat:
+    interval_seconds: 5
+    timeout_seconds: 60
+    mechanism: "Log polling"
+    log_location: "reports/logs/"
+    
+  task_submission:
+    required_fields:
+      - task_id
+      - project_root
+      - script_path
+      - expected_outputs
+      - verification_rules
+      
+  orchestrator_communication:
+    status_polling_interval: 5
+    max_wait_seconds: 300
+    notification_on_completion: true
+    
+  notification:
+    on_success: true
+    on_failure: true
+    channels:
+      - telegram
+      - local_log
+    
+  result_format:
+    pass_example:
+      status: "PASS"
+      timestamp: "7Mar2026"
+      html: "reports/html/global_economic_health_dashboard_7Mar2026.html"
+      gif: "reports/media/global_economic_health_preview_7Mar2026.gif"
+      mp4: "reports/media/global_economic_health_preview_7Mar2026.mp4"
+      
+    fail_example:
+      status: "FAIL"
+      stage: "Data Merge"
+      timestamp: "7Mar2026"
+      error: "Missing GDP data for 5 countries"
+
+# ============================================================================
+# EXCLUSION LISTS AND AGGREGATES
+# ============================================================================
+exclusions:
+  aggregate_regions:
+    - code: "WLD"
+      name: "World"
+    - code: "EAS"
+      name: "East Asia & Pacific"
+    - code: "ECS"
+      name: "Europe & Central Asia"
+    - code: "HIC"
+      name: "High income"
+    - code: "LIC"
+      name: "Low income"
+    - code: "LMC"
+      name: "Lower middle income"
+    - code: "MIC"
+      name: "Middle income"
+    - code: "UMC"
+      name: "Upper middle income"
+  notes: "These regions are aggregates, not individual countries"
+
+# ============================================================================
+# Timestamp Format
+# ============================================================================
+timestamp_format: "dMmmYYYY"  # e.g., "7Mar2026"

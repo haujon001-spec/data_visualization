@@ -1,0 +1,109 @@
+{
+  "timestamp": "2026-03-07T15:17:32.908563",
+  "checks": [
+    {
+      "check": "Bubble map file size",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:17:32.942151",
+      "details": "8.66 MB"
+    },
+    {
+      "check": "Bubble map has Plotly",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:17:32.992511"
+    },
+    {
+      "check": "Dashboard file size",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:17:32.992511",
+      "details": "0.01 MB"
+    },
+    {
+      "check": "Dashboard has content",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:17:32.992511"
+    },
+    {
+      "check": "bubble_map Plotly elements load",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:17:34.700640"
+    },
+    {
+      "check": "bubble_map JavaScript errors",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:17:34.700640",
+      "details": "No errors in console"
+    },
+    {
+      "check": "bubble_map screenshot captured",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:17:34.803647",
+      "details": "Screenshot: bubble_map_render_20260307_151734.png"
+    },
+    {
+      "check": "dashboard Plotly elements load",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:17:37.244768"
+    },
+    {
+      "check": "dashboard JavaScript errors",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:17:37.244768",
+      "details": "No errors in console"
+    },
+    {
+      "check": "dashboard screenshot captured",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:17:37.369604",
+      "details": "Screenshot: dashboard_render_20260307_151737.png"
+    },
+    {
+      "check": "Dashboard iframe embeds",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:17:37.374913",
+      "details": "1 iframe(s) found"
+    },
+    {
+      "check": "Data has required columns",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:17:37.462844"
+    },
+    {
+      "check": "Data values valid",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:17:37.462844"
+    },
+    {
+      "check": "Data row count",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:17:37.462844",
+      "details": "17020 rows loaded"
+    }
+  ],
+  "warnings": [
+    {
+      "check": "Bubble map year slider exists",
+      "details": "No range slider found in page"
+    }
+  ],
+  "errors": [],
+  "screenshots": [
+    {
+      "type": "bubble_map",
+      "file": "reports\\qa\\screenshots\\bubble_map_render_20260307_151734.png",
+      "timestamp": "20260307_151734"
+    },
+    {
+      "type": "dashboard",
+      "file": "reports\\qa\\screenshots\\dashboard_render_20260307_151737.png",
+      "timestamp": "20260307_151737"
+    }
+  ],
+  "browser_errors": [],
+  "summary": {
+    "total_checks": 15,
+    "passed": 14,
+    "failed": 0,
+    "overall_status": "PASS"
+  }
+}

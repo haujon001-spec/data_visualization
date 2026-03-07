@@ -1,0 +1,115 @@
+2026-03-07T14:47:59.863701 - [INFO] ======================================================================
+2026-03-07T14:47:59.863701 - [INFO] PHASE 1 ETL ORCHESTRATOR
+2026-03-07T14:47:59.863701 - [INFO] ======================================================================
+2026-03-07T14:47:59.863701 - [INFO] Start Time: 2026-03-07T14:47:59.863701
+2026-03-07T14:47:59.863701 - [INFO] Project Root: C:\Users\haujo\projects\DEV\Data_visualization\global_economic_health
+2026-03-07T14:47:59.863701 - [INFO] Orchestrator PID: 17232
+2026-03-07T14:47:59.863701 - [INFO] 
+======================================================================
+2026-03-07T14:47:59.863701 - [INFO] [STEP 1/6] Fetch GDP
+2026-03-07T14:47:59.863701 - [INFO] ======================================================================
+[HEARTBEAT] orchestrator_pid=17232, timestamp=2026-03-07T14:47:59.863701, phase=ETL, step=1/6, elapsed_seconds=0.0, status=RUNNING_Fetch_GDP
+2026-03-07T14:47:59.863701 - [INFO] [EXEC] C:\Users\haujo\projects\DEV\Data_visualization\global_economic_health\scripts\01_fetch_gdp.py
+2026-03-07T14:48:02.935963 - [INFO] [SUCCESS] Fetch GDP completed
+[HEARTBEAT] orchestrator_pid=17232, timestamp=2026-03-07T14:48:02.935963, phase=ETL, step=1/6, elapsed_seconds=3.1, status=COMPLETED
+2026-03-07T14:48:03.437214 - [INFO] 
+======================================================================
+2026-03-07T14:48:03.437214 - [INFO] [STEP 2/6] Fetch Population
+2026-03-07T14:48:03.438467 - [INFO] ======================================================================
+[HEARTBEAT] orchestrator_pid=17232, timestamp=2026-03-07T14:48:03.438467, phase=ETL, step=2/6, elapsed_seconds=3.6, status=RUNNING_Fetch_Population
+2026-03-07T14:48:03.438467 - [INFO] [EXEC] C:\Users\haujo\projects\DEV\Data_visualization\global_economic_health\scripts\01_fetch_population.py
+2026-03-07T14:48:04.884973 - [INFO] [OUTPUT] ======================================================================
+2026-03-07T14:48:04.884973 - [INFO] [OUTPUT] FETCHING WORLD BANK POPULATION DATA
+2026-03-07T14:48:04.885930 - [INFO] [OUTPUT] ======================================================================
+2026-03-07T14:48:04.885930 - [INFO] [OUTPUT] [FETCH] Requesting data from World Bank API...
+2026-03-07T14:48:04.885930 - [INFO] [OUTPUT] [FETCH] URL: https://api.worldbank.org/v2/country/all/indicator/SP.POP.TOTL
+2026-03-07T14:48:04.886868 - [INFO] [OUTPUT] [FETCH] Date range: 1960-2026
+2026-03-07T14:48:04.886868 - [INFO] [OUTPUT] [VALIDATION] Response valid: 200
+2026-03-07T14:48:04.886868 - [INFO] [OUTPUT] [FETCH] Retrieved 17556 records
+2026-03-07T14:48:04.887867 - [INFO] [OUTPUT] [FETCH] Converted to DataFrame: 17195 rows
+2026-03-07T14:48:04.887867 - [INFO] [OUTPUT] [SAVE] Data saved to csv\raw\worldbank_population_raw_5Mar2026.csv
+2026-03-07T14:48:04.887867 - [INFO] [OUTPUT] [SAVE] File size: 551337 bytes
+2026-03-07T14:48:04.887867 - [INFO] [OUTPUT] ======================================================================
+2026-03-07T14:48:04.888918 - [INFO] [OUTPUT] COMPLETE: 17195 records saved
+2026-03-07T14:48:04.888918 - [INFO] [OUTPUT] ======================================================================
+2026-03-07T14:48:04.888918 - [INFO] [SUCCESS] Fetch Population completed
+[HEARTBEAT] orchestrator_pid=17232, timestamp=2026-03-07T14:48:04.888918, phase=ETL, step=2/6, elapsed_seconds=5.0, status=COMPLETED
+2026-03-07T14:48:05.390183 - [INFO] 
+======================================================================
+2026-03-07T14:48:05.390183 - [INFO] [STEP 3/6] Fetch Debt
+2026-03-07T14:48:05.390183 - [INFO] ======================================================================
+[HEARTBEAT] orchestrator_pid=17232, timestamp=2026-03-07T14:48:05.391951, phase=ETL, step=3/6, elapsed_seconds=5.5, status=RUNNING_Fetch_Debt
+2026-03-07T14:48:05.391951 - [INFO] [EXEC] C:\Users\haujo\projects\DEV\Data_visualization\global_economic_health\scripts\03_fetch_debt.py
+2026-03-07T14:48:06.833739 - [INFO] [SUCCESS] Fetch Debt completed
+[HEARTBEAT] orchestrator_pid=17232, timestamp=2026-03-07T14:48:06.833739, phase=ETL, step=3/6, elapsed_seconds=7.0, status=COMPLETED
+2026-03-07T14:48:07.335228 - [INFO] 
+======================================================================
+2026-03-07T14:48:07.336242 - [INFO] [STEP 4/6] Transform/Merge/Clean
+2026-03-07T14:48:07.336242 - [INFO] ======================================================================
+[HEARTBEAT] orchestrator_pid=17232, timestamp=2026-03-07T14:48:07.336242, phase=ETL, step=4/6, elapsed_seconds=7.5, status=RUNNING_Transform_Merge_Clean
+2026-03-07T14:48:07.337240 - [INFO] [EXEC] C:\Users\haujo\projects\DEV\Data_visualization\global_economic_health\scripts\04_transform_merge_clean.py
+2026-03-07T14:48:08.124037 - [INFO] [SUCCESS] Transform/Merge/Clean completed
+[HEARTBEAT] orchestrator_pid=17232, timestamp=2026-03-07T14:48:08.124037, phase=ETL, step=4/6, elapsed_seconds=8.3, status=COMPLETED
+2026-03-07T14:48:08.626144 - [INFO] 
+======================================================================
+2026-03-07T14:48:08.627296 - [INFO] [STEP 5/6] Data QA
+2026-03-07T14:48:08.627934 - [INFO] ======================================================================
+[HEARTBEAT] orchestrator_pid=17232, timestamp=2026-03-07T14:48:08.627934, phase=ETL, step=5/6, elapsed_seconds=8.8, status=RUNNING_Data_QA
+2026-03-07T14:48:08.628979 - [INFO] [EXEC] C:\Users\haujo\projects\DEV\Data_visualization\global_economic_health\qa_agents\agent_data_qa.py
+2026-03-07T14:48:09.278021 - [ERROR] Step failed with return code: 1
+2026-03-07T14:48:09.278021 - [ERROR] [ERROR] 2026-03-07 14:48:09,159 - [INFO] [LOAD] Loaded macro_final_07MAR2026.csv
+2026-03-07T14:48:09.278021 - [ERROR] [ERROR] 2026-03-07 14:48:09,177 - [INFO] ======================================================================
+2026-03-07T14:48:09.278021 - [ERROR] [ERROR] 2026-03-07 14:48:09,177 - [INFO] RUNNING DATA QA: macro_final
+2026-03-07T14:48:09.278021 - [ERROR] [ERROR] 2026-03-07 14:48:09,177 - [INFO] ======================================================================
+2026-03-07T14:48:09.278021 - [ERROR] [ERROR] 2026-03-07 14:48:09,177 - [INFO] [QA \u2713] Schema: macro_final
+2026-03-07T14:48:09.278021 - [ERROR] [ERROR] 2026-03-07 14:48:09,177 - [INFO] [QA \u2713] Data Types: macro_final
+2026-03-07T14:48:09.278021 - [ERROR] [ERROR] 2026-03-07 14:48:09,193 - [ERROR] [QA \u2717] Validation: GDP values
+2026-03-07T14:48:09.278021 - [ERROR] [ERROR] 2026-03-07 14:48:09,193 - [ERROR] [QA \u2717] Validation: Population values
+2026-03-07T14:48:09.278021 - [ERROR] [ERROR] 2026-03-07 14:48:09,194 - [INFO] [QA \u2713] Validation: Debt-to-GDP ratio
+2026-03-07T14:48:09.278021 - [ERROR] [ERROR] 2026-03-07 14:48:09,195 - [WARNING] [QA \u26a0] Validation: Growth rates
+2026-03-07T14:48:09.278021 - [ERROR] [ERROR] 2026-03-07 14:48:09,198 - [ERROR] [QA \u2717] Validation: No duplicates
+2026-03-07T14:48:09.278021 - [ERROR] [ERROR] 2026-03-07 14:48:09,198 - [INFO] [QA \u2713] Completeness: Minimum countries
+2026-03-07T14:48:09.278021 - [ERROR] [ERROR] 2026-03-07 14:48:09,198 - [INFO] [QA \u2713] Completeness: Minimum years
+2026-03-07T14:48:09.278021 - [ERROR] [ERROR] 2026-03-07 14:48:09,198 - [INFO] ======================================================================
+2026-03-07T14:48:09.278021 - [ERROR] [ERROR] 2026-03-07 14:48:09,198 - [INFO] QA SUMMARY:
+2026-03-07T14:48:09.278021 - [ERROR] [ERROR] 2026-03-07 14:48:09,198 - [INFO]   Status: FAIL
+2026-03-07T14:48:09.278021 - [ERROR] [ERROR] 2026-03-07 14:48:09,198 - [INFO]   Total rows: 17020
+2026-03-07T14:48:09.278021 - [ERROR] [ERROR] 2026-03-07 14:48:09,198 - [INFO]   Countries: 258
+2026-03-07T14:48:09.278021 - [ERROR] [ERROR] 2026-03-07 14:48:09,198 - [INFO]   Years: 65
+2026-03-07T14:48:09.278021 - [ERROR] [ERROR] 2026-03-07 14:48:09,198 - [INFO]   Checks passed: 5
+2026-03-07T14:48:09.278021 - [ERROR] [ERROR] 2026-03-07 14:48:09,198 - [INFO]   Checks failed: 3
+2026-03-07T14:48:09.290553 - [ERROR] [ERROR] 2026-03-07 14:48:09,198 - [INFO]   Warnings: 1
+2026-03-07T14:48:09.290553 - [ERROR] [ERROR] 2026-03-07 14:48:09,198 - [INFO] ======================================================================
+2026-03-07T14:48:09.290553 - [ERROR] [ERROR] 2026-03-07 14:48:09,198 - [INFO] [SAVE] QA report saved to C:\Users\haujo\projects\DEV\Data_visualization\global_economic_health\reports\qa\data_qa_report_07MAR2026.json
+2026-03-07T14:48:09.291384 - [ERROR] [ERROR] 2026-03-07 14:48:09,198 - [INFO] [SAVE] QA summary saved to C:\Users\haujo\projects\DEV\Data_visualization\global_economic_health\reports\qa\data_qa_summary_07MAR2026.md
+2026-03-07T14:48:09.291384 - [ERROR] [ERROR] 2026-03-07 14:48:09,198 - [WARNING] \u26a0\ufe0f Data QA completed with failures
+2026-03-07T14:48:09.291384 - [ERROR] [ERROR] 2026-03-07 14:48:09,198 - [ERROR] \u274c Data QA FAILED: Data QA validation failed
+2026-03-07T14:48:09.292092 - [ERROR] [ERROR] Traceback (most recent call last):
+2026-03-07T14:48:09.292092 - [ERROR] [ERROR]   File "C:\Users\haujo\projects\DEV\Data_visualization\global_economic_health\qa_agents\agent_data_qa.py", line 389, in <module>
+2026-03-07T14:48:09.293102 - [ERROR] [ERROR]     main()
+2026-03-07T14:48:09.293102 - [ERROR] [ERROR]   File "C:\Users\haujo\projects\DEV\Data_visualization\global_economic_health\qa_agents\agent_data_qa.py", line 381, in main
+2026-03-07T14:48:09.293102 - [ERROR] [ERROR]     raise ValueError("Data QA validation failed")
+2026-03-07T14:48:09.294131 - [ERROR] [ERROR] ValueError: Data QA validation failed
+[HEARTBEAT] orchestrator_pid=17232, timestamp=2026-03-07T14:48:09.294131, phase=ETL, step=5/6, elapsed_seconds=9.4, status=FAILED
+2026-03-07T14:48:09.295126 - [ERROR] Pipeline halted at step 5
+2026-03-07T14:48:09.295126 - [INFO] 
+[DISCOVERY] Locating output files...
+2026-03-07T14:48:09.297107 - [INFO] [FOUND] csv\raw\gdp_raw_07MAR2026.csv
+2026-03-07T14:48:09.297107 - [WARNING] [MISSING] csv/raw/population_raw_*.csv
+2026-03-07T14:48:09.298132 - [INFO] [FOUND] csv\raw\debt_raw_07MAR2026.csv
+2026-03-07T14:48:09.299123 - [INFO] [FOUND] csv\processed\macro_final_07MAR2026.csv
+2026-03-07T14:48:09.300125 - [INFO] [FOUND] reports\qa\data_qa_report_07MAR2026.json
+2026-03-07T14:48:09.300125 - [INFO] [FOUND] reports\qa\data_qa_summary_07MAR2026.md
+[HEARTBEAT] orchestrator_pid=17232, timestamp=2026-03-07T14:48:09.301123, phase=ETL, step=6/6, elapsed_seconds=9.4, status=FAILED
+2026-03-07T14:48:09.301123 - [INFO] 
+======================================================================
+2026-03-07T14:48:09.301123 - [INFO] ORCHESTRATION SUMMARY
+2026-03-07T14:48:09.301123 - [INFO] ======================================================================
+2026-03-07T14:48:09.302110 - [INFO] Overall Status: FAIL
+2026-03-07T14:48:09.302110 - [INFO] Steps Completed: 4/6
+2026-03-07T14:48:09.302110 - [INFO] Elapsed Time: 9.4 seconds
+2026-03-07T14:48:09.302110 - [INFO] ======================================================================
+2026-03-07T14:48:09.303109 - [INFO] 
+[SAVE] Results saved to reports\etl_result_20260307_144759.json
+2026-03-07T14:48:09.304109 - [ERROR] 
+[FAILED] PHASE 1 ETL FAILED

@@ -1,0 +1,176 @@
+2026-03-07T14:50:32.299355 - [INFO] ======================================================================
+2026-03-07T14:50:32.299355 - [INFO] PHASE 1 ETL ORCHESTRATOR
+2026-03-07T14:50:32.299355 - [INFO] ======================================================================
+2026-03-07T14:50:32.299355 - [INFO] Start Time: 2026-03-07T14:50:32.299355
+2026-03-07T14:50:32.299355 - [INFO] Project Root: C:\Users\haujo\projects\DEV\Data_visualization\global_economic_health
+2026-03-07T14:50:32.299355 - [INFO] Orchestrator PID: 25660
+2026-03-07T14:50:32.299355 - [INFO] 
+======================================================================
+2026-03-07T14:50:32.299355 - [INFO] [STEP 1/6] Fetch GDP
+2026-03-07T14:50:32.299355 - [INFO] ======================================================================
+[HEARTBEAT] orchestrator_pid=25660, timestamp=2026-03-07T14:50:32.299355, phase=ETL, step=1/6, elapsed_seconds=0.0, status=RUNNING_Fetch_GDP
+2026-03-07T14:50:32.308259 - [INFO] [EXEC] C:\Users\haujo\projects\DEV\Data_visualization\global_economic_health\scripts\01_fetch_gdp.py
+2026-03-07T14:50:34.173405 - [INFO] [SUCCESS] Fetch GDP completed
+[HEARTBEAT] orchestrator_pid=25660, timestamp=2026-03-07T14:50:34.174924, phase=ETL, step=1/6, elapsed_seconds=1.9, status=COMPLETED
+2026-03-07T14:50:34.675794 - [INFO] 
+======================================================================
+2026-03-07T14:50:34.675794 - [INFO] [STEP 2/6] Fetch Population
+2026-03-07T14:50:34.675794 - [INFO] ======================================================================
+[HEARTBEAT] orchestrator_pid=25660, timestamp=2026-03-07T14:50:34.676928, phase=ETL, step=2/6, elapsed_seconds=2.4, status=RUNNING_Fetch_Population
+2026-03-07T14:50:34.676928 - [INFO] [EXEC] C:\Users\haujo\projects\DEV\Data_visualization\global_economic_health\scripts\01_fetch_population.py
+2026-03-07T14:50:36.079266 - [INFO] [OUTPUT] ======================================================================
+2026-03-07T14:50:36.079266 - [INFO] [OUTPUT] FETCHING WORLD BANK POPULATION DATA
+2026-03-07T14:50:36.079266 - [INFO] [OUTPUT] ======================================================================
+2026-03-07T14:50:36.079266 - [INFO] [OUTPUT] [FETCH] Requesting data from World Bank API...
+2026-03-07T14:50:36.079266 - [INFO] [OUTPUT] [FETCH] URL: https://api.worldbank.org/v2/country/all/indicator/SP.POP.TOTL
+2026-03-07T14:50:36.079266 - [INFO] [OUTPUT] [FETCH] Date range: 1960-2026
+2026-03-07T14:50:36.079266 - [INFO] [OUTPUT] [VALIDATION] Response valid: 200
+2026-03-07T14:50:36.083855 - [INFO] [OUTPUT] [FETCH] Retrieved 17556 records
+2026-03-07T14:50:36.083855 - [INFO] [OUTPUT] [FETCH] Converted to DataFrame: 17195 rows
+2026-03-07T14:50:36.083855 - [INFO] [OUTPUT] [SAVE] Data saved to csv\raw\worldbank_population_raw_5Mar2026.csv
+2026-03-07T14:50:36.083855 - [INFO] [OUTPUT] [SAVE] File size: 551337 bytes
+2026-03-07T14:50:36.083855 - [INFO] [OUTPUT] ======================================================================
+2026-03-07T14:50:36.083855 - [INFO] [OUTPUT] COMPLETE: 17195 records saved
+2026-03-07T14:50:36.083855 - [INFO] [OUTPUT] ======================================================================
+2026-03-07T14:50:36.083855 - [INFO] [SUCCESS] Fetch Population completed
+[HEARTBEAT] orchestrator_pid=25660, timestamp=2026-03-07T14:50:36.083855, phase=ETL, step=2/6, elapsed_seconds=3.8, status=COMPLETED
+2026-03-07T14:50:36.587539 - [INFO] 
+======================================================================
+2026-03-07T14:50:36.587539 - [INFO] [STEP 3/6] Fetch Debt
+2026-03-07T14:50:36.588543 - [INFO] ======================================================================
+[HEARTBEAT] orchestrator_pid=25660, timestamp=2026-03-07T14:50:36.588543, phase=ETL, step=3/6, elapsed_seconds=4.3, status=RUNNING_Fetch_Debt
+2026-03-07T14:50:36.588543 - [INFO] [EXEC] C:\Users\haujo\projects\DEV\Data_visualization\global_economic_health\scripts\03_fetch_debt.py
+2026-03-07T14:50:37.823773 - [INFO] [SUCCESS] Fetch Debt completed
+[HEARTBEAT] orchestrator_pid=25660, timestamp=2026-03-07T14:50:37.823773, phase=ETL, step=3/6, elapsed_seconds=5.5, status=COMPLETED
+2026-03-07T14:50:38.325130 - [INFO] 
+======================================================================
+2026-03-07T14:50:38.326702 - [INFO] [STEP 4/6] Transform/Merge/Clean
+2026-03-07T14:50:38.326702 - [INFO] ======================================================================
+[HEARTBEAT] orchestrator_pid=25660, timestamp=2026-03-07T14:50:38.327895, phase=ETL, step=4/6, elapsed_seconds=6.0, status=RUNNING_Transform_Merge_Clean
+2026-03-07T14:50:38.327895 - [INFO] [EXEC] C:\Users\haujo\projects\DEV\Data_visualization\global_economic_health\scripts\04_transform_merge_clean.py
+2026-03-07T14:50:39.110130 - [INFO] [SUCCESS] Transform/Merge/Clean completed
+[HEARTBEAT] orchestrator_pid=25660, timestamp=2026-03-07T14:50:39.110130, phase=ETL, step=4/6, elapsed_seconds=6.8, status=COMPLETED
+2026-03-07T14:50:39.610797 - [INFO] 
+======================================================================
+2026-03-07T14:50:39.610797 - [INFO] [STEP 5/6] Data QA
+2026-03-07T14:50:39.611804 - [INFO] ======================================================================
+[HEARTBEAT] orchestrator_pid=25660, timestamp=2026-03-07T14:50:39.611804, phase=ETL, step=5/6, elapsed_seconds=7.3, status=RUNNING_Data_QA
+2026-03-07T14:50:39.611804 - [INFO] [EXEC] C:\Users\haujo\projects\DEV\Data_visualization\global_economic_health\qa_agents\agent_data_qa.py
+2026-03-07T14:50:40.129657 - [INFO] [SUCCESS] Data QA completed
+[HEARTBEAT] orchestrator_pid=25660, timestamp=2026-03-07T14:50:40.129657, phase=ETL, step=5/6, elapsed_seconds=7.8, status=COMPLETED
+2026-03-07T14:50:40.631139 - [INFO] 
+======================================================================
+2026-03-07T14:50:40.631139 - [INFO] [STEP 6/6] Verification
+2026-03-07T14:50:40.632279 - [INFO] ======================================================================
+[HEARTBEAT] orchestrator_pid=25660, timestamp=2026-03-07T14:50:40.632279, phase=ETL, step=6/6, elapsed_seconds=8.3, status=RUNNING_Verification
+2026-03-07T14:50:40.633280 - [INFO] [EXEC] C:\Users\haujo\projects\DEV\Data_visualization\global_economic_health\verification\verify_all.py
+2026-03-07T14:50:41.232216 - [ERROR] Step failed with return code: 1
+2026-03-07T14:50:41.232216 - [ERROR] [ERROR] 2026-03-07 14:50:40,705 - [INFO] ======================================================================
+2026-03-07T14:50:41.232216 - [ERROR] [ERROR] 2026-03-07 14:50:40,705 - [INFO] RUNNING FULL VERIFICATION SUITE
+2026-03-07T14:50:41.233216 - [ERROR] [ERROR] 2026-03-07 14:50:40,705 - [INFO] ======================================================================
+2026-03-07T14:50:41.233216 - [ERROR] [ERROR] 2026-03-07 14:50:40,705 - [INFO] 
+2026-03-07T14:50:41.233216 - [ERROR] [ERROR] [1/3] Code Structure Check...
+2026-03-07T14:50:41.233216 - [ERROR] [ERROR] 2026-03-07 14:50:40,713 - [INFO] ======================================================================
+2026-03-07T14:50:41.234216 - [ERROR] [ERROR] 2026-03-07 14:50:40,713 - [INFO] VERIFYING CODE STRUCTURE
+2026-03-07T14:50:41.234216 - [ERROR] [ERROR] 2026-03-07 14:50:40,713 - [INFO] ======================================================================
+2026-03-07T14:50:41.234216 - [ERROR] [ERROR] 2026-03-07 14:50:40,713 - [INFO] [VERIFY \u2713] File exists: scripts/01_fetch_gdp.py
+2026-03-07T14:50:41.235217 - [ERROR] [ERROR] 2026-03-07 14:50:40,714 - [INFO] [VERIFY \u2713] Syntax: scripts/01_fetch_gdp.py
+2026-03-07T14:50:41.235217 - [ERROR] [ERROR] 2026-03-07 14:50:40,716 - [INFO] [VERIFY \u2713] Required functions: scripts/01_fetch_gdp.py
+2026-03-07T14:50:41.235217 - [ERROR] [ERROR] 2026-03-07 14:50:40,716 - [INFO] [VERIFY \u2713] No hardcoded paths: scripts/01_fetch_gdp.py
+2026-03-07T14:50:41.236216 - [ERROR] [ERROR] 2026-03-07 14:50:40,716 - [ERROR] [VERIFY \u2717] File exists: scripts/02_fetch_population.py
+2026-03-07T14:50:41.236216 - [ERROR] [ERROR] 2026-03-07 14:50:40,716 - [INFO] [VERIFY \u2713] File exists: scripts/03_fetch_debt.py
+2026-03-07T14:50:41.236216 - [ERROR] [ERROR] 2026-03-07 14:50:40,717 - [INFO] [VERIFY \u2713] Syntax: scripts/03_fetch_debt.py
+2026-03-07T14:50:41.237216 - [ERROR] [ERROR] 2026-03-07 14:50:40,719 - [INFO] [VERIFY \u2713] Required functions: scripts/03_fetch_debt.py
+2026-03-07T14:50:41.237216 - [ERROR] [ERROR] 2026-03-07 14:50:40,719 - [INFO] [VERIFY \u2713] No hardcoded paths: scripts/03_fetch_debt.py
+2026-03-07T14:50:41.237216 - [ERROR] [ERROR] 2026-03-07 14:50:40,720 - [INFO] [VERIFY \u2713] File exists: scripts/04_transform_merge_clean.py
+2026-03-07T14:50:41.238217 - [ERROR] [ERROR] 2026-03-07 14:50:40,721 - [INFO] [VERIFY \u2713] Syntax: scripts/04_transform_merge_clean.py
+2026-03-07T14:50:41.238217 - [ERROR] [ERROR] 2026-03-07 14:50:40,723 - [INFO] [VERIFY \u2713] Required functions: scripts/04_transform_merge_clean.py
+2026-03-07T14:50:41.238217 - [ERROR] [ERROR] 2026-03-07 14:50:40,724 - [INFO] [VERIFY \u2713] No hardcoded paths: scripts/04_transform_merge_clean.py
+2026-03-07T14:50:41.238217 - [ERROR] [ERROR] 2026-03-07 14:50:40,724 - [INFO] [VERIFY \u2713] File exists: scripts/05_build_visualization_v3_animated_trendline.py
+2026-03-07T14:50:41.239360 - [ERROR] [ERROR] 2026-03-07 14:50:40,727 - [INFO] [VERIFY \u2713] Syntax: scripts/05_build_visualization_v3_animated_trendline.py
+2026-03-07T14:50:41.239360 - [ERROR] [ERROR] 2026-03-07 14:50:40,730 - [INFO] [VERIFY \u2713] Required functions: scripts/05_build_visualization_v3_animated_trendline.py
+2026-03-07T14:50:41.240361 - [ERROR] [ERROR] 2026-03-07 14:50:40,731 - [INFO] [VERIFY \u2713] No hardcoded paths: scripts/05_build_visualization_v3_animated_trendline.py
+2026-03-07T14:50:41.240361 - [ERROR] [ERROR] 2026-03-07 14:50:40,731 - [INFO] [VERIFY \u2713] File exists: qa_agents/agent_data_qa.py
+2026-03-07T14:50:41.240361 - [ERROR] [ERROR] 2026-03-07 14:50:40,734 - [INFO] [VERIFY \u2713] Syntax: qa_agents/agent_data_qa.py
+2026-03-07T14:50:41.240361 - [ERROR] [ERROR] 2026-03-07 14:50:40,737 - [INFO] [VERIFY \u2713] Required functions: qa_agents/agent_data_qa.py
+2026-03-07T14:50:41.241867 - [ERROR] [ERROR] 2026-03-07 14:50:40,738 - [INFO] [VERIFY \u2713] No hardcoded paths: qa_agents/agent_data_qa.py
+2026-03-07T14:50:41.242173 - [ERROR] [ERROR] 2026-03-07 14:50:40,738 - [INFO] [VERIFY \u2713] File exists: verification/verify_code_structure.py
+2026-03-07T14:50:41.242173 - [ERROR] [ERROR] 2026-03-07 14:50:40,739 - [INFO] [VERIFY \u2713] Syntax: verification/verify_code_structure.py
+2026-03-07T14:50:41.242173 - [ERROR] [ERROR] 2026-03-07 14:50:40,741 - [INFO] [VERIFY \u2713] Required functions: verification/verify_code_structure.py
+2026-03-07T14:50:41.243175 - [ERROR] [ERROR] 2026-03-07 14:50:40,742 - [INFO] ======================================================================
+2026-03-07T14:50:41.243175 - [ERROR] [ERROR] 2026-03-07 14:50:40,742 - [INFO] Verification Summary:
+2026-03-07T14:50:41.243175 - [ERROR] [ERROR] 2026-03-07 14:50:40,742 - [INFO]   Passed: 23
+2026-03-07T14:50:41.243175 - [ERROR] [ERROR] 2026-03-07 14:50:40,742 - [INFO]   Failed: 1
+2026-03-07T14:50:41.244181 - [ERROR] [ERROR] 2026-03-07 14:50:40,742 - [INFO]   Status: FAIL
+2026-03-07T14:50:41.244181 - [ERROR] [ERROR] 2026-03-07 14:50:40,742 - [INFO] ======================================================================
+2026-03-07T14:50:41.244181 - [ERROR] [ERROR] 2026-03-07 14:50:40,742 - [INFO] 
+2026-03-07T14:50:41.244181 - [ERROR] [ERROR] [2/3] Output Verification...
+2026-03-07T14:50:41.245180 - [ERROR] [ERROR] 2026-03-07 14:50:41,071 - [INFO] ======================================================================
+2026-03-07T14:50:41.245180 - [ERROR] [ERROR] 2026-03-07 14:50:41,071 - [INFO] VERIFYING ETL OUTPUTS
+2026-03-07T14:50:41.246180 - [ERROR] [ERROR] 2026-03-07 14:50:41,071 - [INFO] ======================================================================
+2026-03-07T14:50:41.246180 - [ERROR] [ERROR] 2026-03-07 14:50:41,071 - [INFO] 
+2026-03-07T14:50:41.246180 - [ERROR] [ERROR] [VERIFY] GDP raw data from World Bank
+2026-03-07T14:50:41.246180 - [ERROR] [ERROR] 2026-03-07 14:50:41,072 - [INFO] [VERIFY \u2713] File exists: csv/raw/gdp_raw_*.csv
+2026-03-07T14:50:41.247180 - [ERROR] [ERROR] 2026-03-07 14:50:41,081 - [INFO] [VERIFY \u2713] Schema: gdp_raw_07MAR2026.csv
+2026-03-07T14:50:41.247180 - [ERROR] [ERROR] 2026-03-07 14:50:41,089 - [INFO] [VERIFY \u2713] Row count: gdp_raw_07MAR2026.csv
+2026-03-07T14:50:41.247180 - [ERROR] [ERROR] 2026-03-07 14:50:41,098 - [ERROR] [VERIFY \u2717] No nulls: gdp_raw_07MAR2026.csv
+2026-03-07T14:50:41.248180 - [ERROR] [ERROR] 2026-03-07 14:50:41,098 - [INFO] 
+2026-03-07T14:50:41.248180 - [ERROR] [ERROR] [VERIFY] Population raw data from World Bank
+2026-03-07T14:50:41.248180 - [ERROR] [ERROR] 2026-03-07 14:50:41,098 - [ERROR] [VERIFY \u2717] File exists: csv/raw/population_raw_*.csv
+2026-03-07T14:50:41.248180 - [ERROR] [ERROR] 2026-03-07 14:50:41,098 - [INFO] 
+2026-03-07T14:50:41.249179 - [ERROR] [ERROR] [VERIFY] Debt raw data
+2026-03-07T14:50:41.249179 - [ERROR] [ERROR] 2026-03-07 14:50:41,098 - [INFO] [VERIFY \u2713] File exists: csv/raw/debt_raw_*.csv
+2026-03-07T14:50:41.249179 - [ERROR] [ERROR] 2026-03-07 14:50:41,104 - [INFO] [VERIFY \u2713] Schema: debt_raw_07MAR2026.csv
+2026-03-07T14:50:41.249179 - [ERROR] [ERROR] 2026-03-07 14:50:41,109 - [INFO] [VERIFY \u2713] Row count: debt_raw_07MAR2026.csv
+2026-03-07T14:50:41.250180 - [ERROR] [ERROR] 2026-03-07 14:50:41,115 - [ERROR] [VERIFY \u2717] No nulls: debt_raw_07MAR2026.csv
+2026-03-07T14:50:41.250180 - [ERROR] [ERROR] 2026-03-07 14:50:41,115 - [INFO] 
+2026-03-07T14:50:41.250180 - [ERROR] [ERROR] [VERIFY] Final macro-economic dataset
+2026-03-07T14:50:41.251180 - [ERROR] [ERROR] 2026-03-07 14:50:41,115 - [INFO] [VERIFY \u2713] File exists: csv/processed/macro_final_*.csv
+2026-03-07T14:50:41.251180 - [ERROR] [ERROR] 2026-03-07 14:50:41,134 - [INFO] [VERIFY \u2713] Schema: macro_final_07MAR2026.csv
+2026-03-07T14:50:41.251180 - [ERROR] [ERROR] 2026-03-07 14:50:41,158 - [INFO] [VERIFY \u2713] Row count: macro_final_07MAR2026.csv
+2026-03-07T14:50:41.251180 - [ERROR] [ERROR] 2026-03-07 14:50:41,181 - [ERROR] [VERIFY \u2717] No nulls: macro_final_07MAR2026.csv
+2026-03-07T14:50:41.252183 - [ERROR] [ERROR] 2026-03-07 14:50:41,181 - [INFO] 
+2026-03-07T14:50:41.252183 - [ERROR] [ERROR] ======================================================================
+2026-03-07T14:50:41.253180 - [ERROR] [ERROR] 2026-03-07 14:50:41,182 - [INFO] Verification Summary:
+2026-03-07T14:50:41.253180 - [ERROR] [ERROR] 2026-03-07 14:50:41,182 - [INFO]   Passed: 9
+2026-03-07T14:50:41.253180 - [ERROR] [ERROR] 2026-03-07 14:50:41,182 - [INFO]   Failed: 4
+2026-03-07T14:50:41.254180 - [ERROR] [ERROR] 2026-03-07 14:50:41,182 - [INFO]   Status: FAIL
+2026-03-07T14:50:41.254568 - [ERROR] [ERROR] 2026-03-07 14:50:41,182 - [INFO] ======================================================================
+2026-03-07T14:50:41.254568 - [ERROR] [ERROR] 2026-03-07 14:50:41,182 - [INFO] 
+2026-03-07T14:50:41.254568 - [ERROR] [ERROR] [3/3] QA Results Check...
+2026-03-07T14:50:41.254568 - [ERROR] [ERROR] 2026-03-07 14:50:41,182 - [INFO] 
+2026-03-07T14:50:41.255668 - [ERROR] [ERROR] ======================================================================
+2026-03-07T14:50:41.255668 - [ERROR] [ERROR] 2026-03-07 14:50:41,182 - [INFO] VERIFICATION SUMMARY
+2026-03-07T14:50:41.255668 - [ERROR] [ERROR] 2026-03-07 14:50:41,182 - [INFO] ======================================================================
+2026-03-07T14:50:41.256668 - [ERROR] [ERROR] 2026-03-07 14:50:41,182 - [INFO] Code Structure: FAIL
+2026-03-07T14:50:41.256668 - [ERROR] [ERROR] 2026-03-07 14:50:41,182 - [INFO] Outputs:        FAIL
+2026-03-07T14:50:41.256668 - [ERROR] [ERROR] 2026-03-07 14:50:41,182 - [INFO] QA Results:     FAIL
+2026-03-07T14:50:41.256668 - [ERROR] [ERROR] 2026-03-07 14:50:41,182 - [INFO] 
+2026-03-07T14:50:41.256668 - [ERROR] [ERROR] Overall Status: FAIL
+2026-03-07T14:50:41.256668 - [ERROR] [ERROR] 2026-03-07 14:50:41,182 - [INFO] ======================================================================
+2026-03-07T14:50:41.258172 - [ERROR] [ERROR] 2026-03-07 14:50:41,183 - [INFO] 
+2026-03-07T14:50:41.258172 - [ERROR] [ERROR] [SAVE] Verification summary saved to C:\Users\haujo\projects\DEV\Data_visualization\global_economic_health\reports\verification_summary_07MAR2026.json
+2026-03-07T14:50:41.258172 - [ERROR] [ERROR] 2026-03-07 14:50:41,183 - [ERROR] \u274c VERIFICATION FAILED
+[HEARTBEAT] orchestrator_pid=25660, timestamp=2026-03-07T14:50:41.258172, phase=ETL, step=6/6, elapsed_seconds=9.0, status=FAILED
+2026-03-07T14:50:41.259178 - [ERROR] Pipeline halted at step 6
+2026-03-07T14:50:41.259178 - [INFO] 
+[DISCOVERY] Locating output files...
+2026-03-07T14:50:41.261201 - [INFO] [FOUND] csv\raw\gdp_raw_07MAR2026.csv
+2026-03-07T14:50:41.262184 - [WARNING] [MISSING] csv/raw/population_raw_*.csv
+2026-03-07T14:50:41.263185 - [INFO] [FOUND] csv\raw\debt_raw_07MAR2026.csv
+2026-03-07T14:50:41.264184 - [INFO] [FOUND] csv\processed\macro_final_07MAR2026.csv
+2026-03-07T14:50:41.264184 - [INFO] [FOUND] reports\qa\data_qa_report_07MAR2026.json
+2026-03-07T14:50:41.265183 - [INFO] [FOUND] reports\qa\data_qa_summary_07MAR2026.md
+[HEARTBEAT] orchestrator_pid=25660, timestamp=2026-03-07T14:50:41.265183, phase=ETL, step=6/6, elapsed_seconds=9.0, status=FAILED
+2026-03-07T14:50:41.266184 - [INFO] 
+======================================================================
+2026-03-07T14:50:41.266184 - [INFO] ORCHESTRATION SUMMARY
+2026-03-07T14:50:41.266184 - [INFO] ======================================================================
+2026-03-07T14:50:41.266184 - [INFO] Overall Status: FAIL
+2026-03-07T14:50:41.267183 - [INFO] Steps Completed: 5/6
+2026-03-07T14:50:41.267183 - [INFO] Elapsed Time: 9.0 seconds
+2026-03-07T14:50:41.267183 - [INFO] ======================================================================
+2026-03-07T14:50:41.268184 - [INFO] 
+[SAVE] Results saved to reports\etl_result_20260307_145032.json
+2026-03-07T14:50:41.268184 - [ERROR] 
+[FAILED] PHASE 1 ETL FAILED

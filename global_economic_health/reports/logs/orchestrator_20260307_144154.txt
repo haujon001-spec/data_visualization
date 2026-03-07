@@ -1,0 +1,41 @@
+2026-03-07T14:41:54.991548 - [INFO] ======================================================================
+2026-03-07T14:41:54.991548 - [INFO] PHASE 1 ETL ORCHESTRATOR
+2026-03-07T14:41:54.991548 - [INFO] ======================================================================
+2026-03-07T14:41:55.006270 - [INFO] Start Time: 2026-03-07T14:41:54.991548
+2026-03-07T14:41:55.006270 - [INFO] Project Root: C:\Users\haujo\projects\DEV\Data_visualization\global_economic_health
+2026-03-07T14:41:55.006270 - [INFO] Orchestrator PID: 32236
+2026-03-07T14:41:55.006270 - [INFO] 
+======================================================================
+2026-03-07T14:41:55.006270 - [INFO] [STEP 1/6] Fetch GDP
+2026-03-07T14:41:55.006270 - [INFO] ======================================================================
+[HEARTBEAT] orchestrator_pid=32236, timestamp=2026-03-07T14:41:55.008275, phase=ETL, step=1/6, elapsed_seconds=0.0, status=RUNNING_Fetch_GDP
+2026-03-07T14:41:55.008897 - [INFO] [EXEC] C:\Users\haujo\projects\DEV\Data_visualization\global_economic_health\scripts\01_fetch_gdp.py
+2026-03-07T14:41:57.909151 - [INFO] [SUCCESS] Fetch GDP completed
+[HEARTBEAT] orchestrator_pid=32236, timestamp=2026-03-07T14:41:57.909151, phase=ETL, step=1/6, elapsed_seconds=2.9, status=COMPLETED
+2026-03-07T14:41:58.415481 - [INFO] 
+======================================================================
+2026-03-07T14:41:58.415481 - [INFO] [STEP 2/6] Fetch Population
+2026-03-07T14:41:58.415481 - [INFO] ======================================================================
+[HEARTBEAT] orchestrator_pid=32236, timestamp=2026-03-07T14:41:58.415481, phase=ETL, step=2/6, elapsed_seconds=3.4, status=RUNNING_Fetch_Population
+2026-03-07T14:41:58.415481 - [ERROR] Script not found: C:\Users\haujo\projects\DEV\Data_visualization\global_economic_health\scripts\02_fetch_population.py
+[HEARTBEAT] orchestrator_pid=32236, timestamp=2026-03-07T14:41:58.415481, phase=ETL, step=2/6, elapsed_seconds=3.4, status=FAILED
+2026-03-07T14:41:58.415481 - [ERROR] Pipeline halted at step 2
+2026-03-07T14:41:58.415481 - [INFO] 
+[DISCOVERY] Locating output files...
+2026-03-07T14:41:58.415481 - [INFO] [FOUND] csv\raw\gdp_raw_07MAR2026.csv
+2026-03-07T14:41:58.415481 - [WARNING] [MISSING] csv/raw/population_raw_*.csv
+2026-03-07T14:41:58.415481 - [WARNING] [MISSING] csv/raw/debt_raw_*.csv
+2026-03-07T14:41:58.415481 - [WARNING] [MISSING] csv/processed/macro_*.csv
+2026-03-07T14:41:58.420938 - [WARNING] [MISSING] reports/qa/data_qa_report_*.json
+2026-03-07T14:41:58.420938 - [WARNING] [MISSING] reports/qa/data_qa_summary_*.md
+[HEARTBEAT] orchestrator_pid=32236, timestamp=2026-03-07T14:41:58.420938, phase=ETL, step=6/6, elapsed_seconds=3.4, status=FAILED
+2026-03-07T14:41:58.422946 - [INFO] 
+======================================================================
+2026-03-07T14:41:58.422946 - [INFO] ORCHESTRATION SUMMARY
+2026-03-07T14:41:58.422946 - [INFO] ======================================================================
+2026-03-07T14:41:58.422946 - [INFO] Overall Status: FAIL
+2026-03-07T14:41:58.422946 - [INFO] Steps Completed: 1/6
+2026-03-07T14:41:58.422946 - [INFO] Elapsed Time: 3.4 seconds
+2026-03-07T14:41:58.422946 - [INFO] ======================================================================
+2026-03-07T14:41:58.426114 - [INFO] 
+[SAVE] Results saved to reports\etl_result_20260307_144154.json

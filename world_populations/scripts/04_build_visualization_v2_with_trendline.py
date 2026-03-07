@@ -287,8 +287,27 @@ class PopulationDashboardV2:
             row=2, col=1
         )
         
-        # Save HTML
+        # Save HTML with metadata
         output_path.parent.mkdir(parents=True, exist_ok=True)
+        
+        # Add metadata footer
+        metadata_text = (
+            f"<b>Creator:</b> John Hau | "
+            f"<b>Script:</b> 04_build_visualization_v2_with_trendline.py | "
+            f"<b>Output:</b> {output_path.name} | "
+            f"<b>Data Path:</b> csv/processed/population_top50_1970_now_5Mar2026.csv"
+        )
+        
+        fig.add_annotation(
+            text=metadata_text,
+            xref="paper", yref="paper",
+            x=0.5, y=-0.12,
+            showarrow=False,
+            font=dict(size=9, color='#AAAAAA'),
+            xanchor='center',
+            yanchor='top'
+        )
+        
         fig.write_html(
             str(output_path),
             config=dict(

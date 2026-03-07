@@ -1,0 +1,34 @@
+{
+  "timestamp": "2026-03-07T14:51:21.454242",
+  "checks": {
+    "code_structure": {
+      "status": "FAIL",
+      "details": {
+        "checks_passed": 23,
+        "checks_failed": 1,
+        "overall_status": "FAIL"
+      }
+    },
+    "outputs": {
+      "status": "FAIL",
+      "details": {
+        "checks_passed": 9,
+        "checks_failed": 4,
+        "overall_status": "FAIL"
+      }
+    },
+    "qa_results": {
+      "status": "FAIL",
+      "details": {
+        "total_rows": 17020,
+        "n_countries": 258,
+        "n_years": 65,
+        "checks_passed": 5,
+        "checks_failed": 3,
+        "warnings": 1,
+        "overall_status": "FAIL"
+      }
+    }
+  },
+  "overall_status": "PASS"
+}

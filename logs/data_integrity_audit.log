@@ -1,2 +1,8 @@
 2026-03-03 11:32:50,525 - __main__ - ERROR - Error auditing rankings: 'str' object has no attribute 'date'
 2026-03-03 11:54:59,252 - __main__ - ERROR - Error auditing rankings: 'str' object has no attribute 'date'
+2026-03-04 23:51:09,951 - __main__ - ERROR - Error auditing rankings: Unable to find a usable engine; tried using: 'pyarrow', 'fastparquet'.
+A suitable version of pyarrow or fastparquet is required for parquet support.
+Trying to import the above resulted in these errors:
+ - Missing optional dependency 'pyarrow'. pyarrow is required for parquet support. Use pip or conda to install pyarrow.
+ - Missing optional dependency 'fastparquet'. fastparquet is required for parquet support. Use pip or conda to install fastparquet.
+2026-03-04 23:52:06,374 - __main__ - ERROR - Error auditing rankings: 'str' object has no attribute 'date'

@@ -129,20 +129,73 @@ class DataNormalizer:
         """
         self.logger.info(f"Reading raw files from {data_dir}")
         
-        companies_file = data_dir / "companies_monthly.csv"
-        crypto_file = data_dir / "crypto_monthly.csv"
-        metals_file = data_dir / "metals_monthly.csv"
+        companies_file = data_dir / "companies_monthly_ALIGNED.csv"
+        crypto_file = data_dir / "crypto_monthly_ALIGNED.csv"
+        metals_file = data_dir / "metals_monthly_ALIGNED.csv"
+        
+        # Fall back to non-aligned files if aligned versions don't exist
+        if not companies_file.exists():
+            companies_file = data_dir / "companies_monthly.csv"
+        if not crypto_file.exists():
+            crypto_file = data_dir / "crypto_monthly.csv"
+        if not metals_file.exists():
+            metals_file = data_dir / "metals_monthly.csv"
         
         # Load files with error handling
         companies_df = pd.read_csv(companies_file) if companies_file.exists() else pd.DataFrame()
         crypto_df = pd.read_csv(crypto_file) if crypto_file.exists() else pd.DataFrame()
         metals_df = pd.read_csv(metals_file) if metals_file.exists() else pd.DataFrame()
         
+        # Fix companies data: convert from wide to long format if needed
+        # Wide format has many close_<ticker> columns; long format has just 'ticker' and 'adjusted_close'
+        if not companies_df.empty:
+            close_cols = [col for col in companies_df.columns if col.startswith('close_')]
+            has_ticker_column = 'ticker' in companies_df.columns
+            # If we have many close_* columns OR adjusted_close is all zeros/null, it's wide format
+            if len(close_cols) > 5 or (has_ticker_column and companies_df['adjusted_close'].sum() == 0):
+                self.logger.info("Detected wide format companies data, converting...")
+                companies_df = self._pivot_wide_companies_data(companies_df)
+        
         self.logger.info(f"Loaded {len(companies_df)} company records")
         self.logger.info(f"Loaded {len(crypto_df)} crypto records")
         self.logger.info(f"Loaded {len(metals_df)} metals records")
         
         return companies_df, crypto_df, metals_df
+    
+    def _pivot_wide_companies_data(self, df: pd.DataFrame) -> pd.DataFrame:
+        """
+        Convert wide format companies data (one row per date) to long format (one row per date-ticker).
+        
+        Input columns: date, close_sap, close_msft, etc.
+        Output columns: date, ticker, adjusted_close
+        """
+        # Keep date column
+        result_rows = []
+        date_col = df[['date']].copy()
+        
+        # Find all price columns (named close_<ticker>)
+        price_cols = [col for col in df.columns if col.startswith('close_')]
+        
+        for _, row in df.iterrows():
+            date = row['date']
+            for price_col in price_cols:
+                price = row[price_col]
+                # Extract ticker from column name (close_sap -> SAP)
+                ticker = price_col.replace('close_', '').upper()
+                
+                # Only include non-null prices
+                if pd.notna(price) and price > 0:
+                    result_rows.append({
+                        'date': date,
+                        'ticker': ticker,
+                        'adjusted_close': price
+                    })
+        
+        converted_df = pd.DataFrame(result_rows)
+        self.logger.info(f"  Converted to long format: {len(converted_df)} rows")
+        self.logger.info(f"  Unique tickers: {converted_df['ticker'].nunique()}")
+        
+        return converted_df
     
     def normalize_companies(
         self, 
@@ -167,15 +220,29 @@ class DataNormalizer:
         
         df = df.copy()
         
-        # Load shares outstanding reference if available
+        # DEBUG: Check incoming columns and data
+        self.logger.info(f"  Input columns: {list(df.columns)}")
+        if 'ticker' in df.columns:
+            self.logger.info(f"  Unique tickers: {df['ticker'].nunique()}")
+        
+        # Load shares outstanding reference with currency information
         shares_data = {}
+        currency_data = {}
         if shares_csv.exists():
             try:
                 shares_df = pd.read_csv(shares_csv)
-                # Assume columns: ticker, shares_outstanding
+                # Assume columns: ticker, shares_outstanding, [currency, exchange_rate_to_usd]
                 if 'ticker' in shares_df.columns and 'shares_outstanding' in shares_df.columns:
                     shares_data = dict(zip(shares_df['ticker'], shares_df['shares_outstanding']))
                     self.logger.info(f"Loaded shares data for {len(shares_data)} companies")
+                    
+                    # Load currency information if available
+                    if 'currency' in shares_df.columns and 'exchange_rate_to_usd' in shares_df.columns:
+                        currency_data = dict(zip(
+                            shares_df['ticker'],
+                            zip(shares_df['currency'], shares_df['exchange_rate_to_usd'])
+                        ))
+                        self.logger.info(f"Loaded currency conversion data for {len(currency_data)} companies")
             except Exception as e:
                 self.logger.warning(f"Could not load shares data: {e}")
         
@@ -186,10 +253,13 @@ class DataNormalizer:
                 self.logger.warning(f"Missing column '{col}' in company data, adding default")
                 if col == 'name':
                     df['name'] = df.get('ticker', 'Unknown')
+                    self.logger.info(f"  Created 'name' column from 'ticker'")
+                    if 'ticker' in df.columns:
+                        self.logger.info(f"  Sample names: {df['name'].unique()[:5]}")
                 else:
                     df[col] = None
         
-        # Compute market cap: price × shares outstanding
+        # Compute market cap: price (converted to USD) × shares outstanding
         def compute_market_cap(row):
             ticker = row.get('ticker', '')
             price = row.get('adjusted_close')
@@ -198,22 +268,36 @@ class DataNormalizer:
                 return None
             
             shares = shares_data.get(ticker)
+            
+            # Apply currency conversion if available
+            price_usd = price
+            if ticker in currency_data:
+                currency, exchange_rate = currency_data[ticker]
+                if currency != 'USD' and exchange_rate > 0:
+                    price_usd = price / exchange_rate
+            
             if shares:
-                return price * shares
+                return price_usd * shares
             else:
                 # Fallback: assume 1 billion shares if not in reference (Medium confidence)
-                return price * 1_000_000_000
+                return price_usd * 1_000_000_000
         
         df['market_cap'] = df.apply(compute_market_cap, axis=1)
         df['source'] = 'yfinance'
         df['confidence'] = 'Medium'  # Medium because using estimated/latest shares
         df['asset_type'] = 'company'
+        df['asset_id'] = df['ticker']  # SET ASSET_ID FROM TICKER
         
         # Keep sector and region if available
         if 'sector' not in df.columns:
             df['sector'] = None
         if 'region' not in df.columns:
             df['region'] = None
+        
+        # DEBUG: Check output
+        if 'name' in df.columns:
+            self.logger.info(f"  Final unique names: {df['name'].nunique()} (should be same as tickers)")
+            self.logger.info(f"  Sample names in output: {df['name'].unique()[:5]}")
         
         self.logger.info(f"Normalized {len(df)} company records")
         return df
@@ -261,7 +345,7 @@ class DataNormalizer:
         Normalize precious metals data: market cap already computed.
         
         Args:
-            df: Raw metals dataframe with columns: date, metal_id, market_cap
+            df: Raw metals dataframe with columns: date, ticker, name, market_cap
             
         Returns:
             Normalized dataframe with source and confidence columns
@@ -275,19 +359,16 @@ class DataNormalizer:
         df = df.copy()
         
         # Ensure required columns
-        required_cols = ['date', 'metal_id', 'market_cap', 'name']
+        # Metals CSV has: date, ticker, name, price_per_ounce, market_cap
+        required_cols = ['date', 'name', 'market_cap']
         for col in required_cols:
             if col not in df.columns:
-                self.logger.warning(f"Missing column '{col}' in metals data, adding default")
-                if col == 'name':
-                    df['name'] = df.get('metal_id', 'Unknown')
-                else:
-                    df[col] = None
+                self.logger.warning(f"Missing column '{col}' in metals data")
         
         df['source'] = 'manual/yfinance'
         df['confidence'] = 'Medium'  # Medium: manual calculation from yfinance
         df['asset_type'] = 'metal'
-        df['asset_id'] = df['metal_id']
+        df['asset_id'] = df.get('name',  'Unknown')  # USE NAME AS ASSET_ID, NOT TICKER
         df['sector'] = None
         df['region'] = None
         
@@ -314,22 +395,35 @@ class DataNormalizer:
         self.logger.info("Merging normalized datasets")
         
         # Standardize column names across all dataframes
-        def prepare_df(df: pd.DataFrame, label_col: str) -> pd.DataFrame:
+        def prepare_df(df: pd.DataFrame, label_col: str, asset_type: str) -> pd.DataFrame:
             if df.empty:
                 return pd.DataFrame()
             
-            std_cols = ['date', 'asset_id', 'asset_type', 'market_cap', 'source', 'confidence', 'sector', 'region']
+            # DEBUG
+            self.logger.info(f"  Preparing {asset_type}: columns={list(df.columns)}")
+            if label_col in df.columns:
+                self.logger.info(f"    '{label_col}' column exists, unique values: {df[label_col].nunique()}")
+            else:
+                self.logger.info(f"    WARNING: '{label_col}' column NOT found in {asset_type}!")
+            
+            # Include label_col in the selection
+            std_cols = ['date', 'asset_id', 'asset_type', 'market_cap', 'source', 'confidence', 'sector', 'region', label_col]
             df = df[[col for col in std_cols if col in df.columns]].copy()
             
-            # Add label column
-            df['label'] = df.get(label_col, 'Unknown')
+            # Add label column - use label_col if available, else try common fallbacks
+            if label_col in df.columns:
+                df['label'] = df[label_col]
+            elif 'name' in df.columns:
+                df['label'] = df['name']
+            else:
+                df['label'] = 'Unknown'
             
             return df
         
         # Map label columns for each asset type
-        company_df_prep = prepare_df(company_df, 'name')
-        crypto_df_prep = prepare_df(crypto_df, 'name')
-        metals_df_prep = prepare_df(metals_df, 'name')
+        company_df_prep = prepare_df(company_df, 'name', 'company')
+        crypto_df_prep = prepare_df(crypto_df, 'name', 'crypto')
+        metals_df_prep = prepare_df(metals_df, 'name', 'metal')
         
         # Concatenate all dataframes
         merged_df = pd.concat(
@@ -342,6 +436,10 @@ class DataNormalizer:
         
         # Ensure date is string in YYYY-MM-DD format
         merged_df['date'] = pd.to_datetime(merged_df['date']).dt.strftime('%Y-%m-%d')
+        
+        # DEBUG: Check merged result
+        self.logger.info(f"  After merge: unique labels = {merged_df['label'].nunique()}")
+        self.logger.info(f"  Sample labels: {merged_df['label'].unique()[:10]}")
         
         self.logger.info(f"Merged dataset contains {len(merged_df)} records across {merged_df['date'].nunique()} dates")
         
@@ -621,7 +719,11 @@ def process_data(
         normalizer = DataNormalizer(logger)
         companies_df, crypto_df, metals_df = normalizer.read_raw_files(input_dir)
         
-        shares_csv = input_dir / "shares_outstanding.csv"
+        # Try to use currency-enhanced shares file first, fall back to standard file
+        shares_csv = input_dir / "shares_outstanding_with_currency.csv"
+        if not shares_csv.exists():
+            shares_csv = input_dir / "shares_outstanding.csv"
+        
         companies_df = normalizer.normalize_companies(companies_df, shares_csv)
         crypto_df = normalizer.normalize_crypto(crypto_df)
         metals_df = normalizer.normalize_metals(metals_df)

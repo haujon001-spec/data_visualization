@@ -1,0 +1,53 @@
+{
+  "timestamp": "2026-03-07T15:05:43.193039",
+  "orchestrator_pid": 37240,
+  "project_root": "C:\\Users\\haujo\\projects\\DEV\\Data_visualization\\global_economic_health",
+  "steps": [
+    {
+      "step_number": 1,
+      "step_name": "Build Bubble Map",
+      "script": "scripts/05_build_bubble_map.py",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:05:44.746446"
+    },
+    {
+      "step_number": 2,
+      "step_name": "Generate HTML Dashboard",
+      "script": "scripts/07_generate_html_dashboard.py",
+      "status": "PASS",
+      "timestamp": "2026-03-07T15:05:45.375001"
+    },
+    {
+      "step_number": 3,
+      "step_name": "Generate Preview Videos",
+      "script": "scripts/08_generate_previews.py",
+      "status": "SKIPPED",
+      "reason": "Optional step (preview generation)",
+      "timestamp": "2026-03-07T15:05:47.649866"
+    }
+  ],
+  "overall_status": "FAIL",
+  "outputs": {
+    "bubble_map_*.html": {
+      "path": "reports\\html\\bubble_map_07MAR2026_150544.html",
+      "size_bytes": 9077988,
+      "modified": "2026-03-07T15:05:44.642754"
+    },
+    "dashboard_*.html": {
+      "path": "reports\\html\\dashboard_07MAR2026_150545.html",
+      "size_bytes": 5914,
+      "modified": "2026-03-07T15:05:45.362312"
+    },
+    "ui_qa_report_*.json": {
+      "path": "reports\\qa\\ui_qa_report_07MAR2026_150601.json",
+      "size_bytes": 2493,
+      "modified": "2026-03-07T15:06:01.641595"
+    },
+    "ui_qa_summary_*.md": {
+      "path": "reports\\qa\\ui_qa_summary_07MAR2026_150601.md",
+      "size_bytes": 1178,
+      "modified": "2026-03-07T15:06:01.642166"
+    }
+  },
+  "verification": {}
+}

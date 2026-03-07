@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-03-07T14:43:02.005320",
+  "orchestrator_pid": 33232,
+  "project_root": "C:\\Users\\haujo\\projects\\DEV\\Data_visualization\\global_economic_health",
+  "steps": [
+    {
+      "step_number": 1,
+      "step_name": "Fetch GDP",
+      "script": "scripts/01_fetch_gdp.py",
+      "status": "PASS",
+      "timestamp": "2026-03-07T14:43:03.275456"
+    },
+    {
+      "step_number": 2,
+      "step_name": "Fetch Population",
+      "script": "scripts/01_fetch_population.py",
+      "status": "PASS",
+      "timestamp": "2026-03-07T14:43:04.928575"
+    },
+    {
+      "step_number": 3,
+      "step_name": "Fetch Debt",
+      "script": "scripts/03_fetch_debt.py",
+      "status": "PASS",
+      "timestamp": "2026-03-07T14:43:06.790450"
+    }
+  ],
+  "overall_status": "FAIL",
+  "outputs": {
+    "gdp_raw_*.csv": {
+      "path": "csv\\raw\\gdp_raw_07MAR2026.csv",
+      "size_bytes": 587560,
+      "modified": "2026-03-07T14:43:03.207013"
+    },
+    "debt_raw_*.csv": {
+      "path": "csv\\raw\\debt_raw_07MAR2026.csv",
+      "size_bytes": 226658,
+      "modified": "2026-03-07T14:43:06.727679"
+    }
+  },
+  "verification": {}
+}

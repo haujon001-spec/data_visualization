@@ -1,0 +1,54 @@
+{
+  "timestamp": "2026-03-07T14:47:04.909147",
+  "orchestrator_pid": 5204,
+  "project_root": "C:\\Users\\haujo\\projects\\DEV\\Data_visualization\\global_economic_health",
+  "steps": [
+    {
+      "step_number": 1,
+      "step_name": "Fetch GDP",
+      "script": "scripts/01_fetch_gdp.py",
+      "status": "PASS",
+      "timestamp": "2026-03-07T14:47:06.116746"
+    },
+    {
+      "step_number": 2,
+      "step_name": "Fetch Population",
+      "script": "scripts/01_fetch_population.py",
+      "status": "PASS",
+      "timestamp": "2026-03-07T14:47:09.095001"
+    },
+    {
+      "step_number": 3,
+      "step_name": "Fetch Debt",
+      "script": "scripts/03_fetch_debt.py",
+      "status": "PASS",
+      "timestamp": "2026-03-07T14:47:11.005870"
+    },
+    {
+      "step_number": 4,
+      "step_name": "Transform/Merge/Clean",
+      "script": "scripts/04_transform_merge_clean.py",
+      "status": "PASS",
+      "timestamp": "2026-03-07T14:47:12.201301"
+    }
+  ],
+  "overall_status": "FAIL",
+  "outputs": {
+    "gdp_raw_*.csv": {
+      "path": "csv\\raw\\gdp_raw_07MAR2026.csv",
+      "size_bytes": 587560,
+      "modified": "2026-03-07T14:47:06.053595"
+    },
+    "debt_raw_*.csv": {
+      "path": "csv\\raw\\debt_raw_07MAR2026.csv",
+      "size_bytes": 226658,
+      "modified": "2026-03-07T14:47:10.947305"
+    },
+    "macro_*.csv": {
+      "path": "csv\\processed\\macro_final_07MAR2026.csv",
+      "size_bytes": 2105723,
+      "modified": "2026-03-07T14:47:12.151974"
+    }
+  },
+  "verification": {}
+}

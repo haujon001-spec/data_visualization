@@ -1,0 +1,3251 @@
+country_name,country_code,year,population,rank
+World,WLD,1960,3021512598,1
+IDA & IBRD total,IBT,1960,2289192009,2
+Low & middle income,LMY,1960,2083718515,3
+Middle income,MIC,1960,1968969477,4
+IBRD only,IBD,1960,1893704624,5
+Late-demographic dividend,LTE,1960,1094883717,6
+East Asia & Pacific,EAS,1960,1042818620,7
+Early-demographic dividend,EAR,1960,968909356,8
+East Asia & Pacific (excluding high income),EAP,1960,895961535,9
+East Asia & Pacific (IDA & IBRD countries),TEA,1960,884252517,10
+OECD members,OED,1960,809580211,11
+Post-demographic dividend,PST,1960,756359099,12
+Europe & Central Asia,ECS,1960,667887356,13
+China,CHN,1960,667070000,14
+South Asia,SAS,1960,507919318,15
+South Asia (IDA & IBRD),TSA,1960,507919318,15
+India,IND,1960,435990338,16
+IDA total,IDA,1960,395487385,17
+European Union,EUU,1960,357710476,18
+Europe & Central Asia (IDA & IBRD countries),TEC,1960,308759361,19
+IDA only,IDX,1960,271011918,20
+Euro area,EMU,1960,270148970,21
+Least developed countries: UN classification,LDC,1960,245048596,22
+Fragile and conflict affected situations,FCS,1960,244461631,23
+Sub-Saharan Africa,SSF,1960,227706653,24
+Sub-Saharan Africa (IDA & IBRD countries),TSS,1960,227706653,24
+Latin America & Caribbean,LCN,1960,218624695,25
+Latin America & the Caribbean (IDA & IBRD countries),TLA,1960,208671107,26
+Sub-Saharan Africa (excluding high income),SSA,1960,206288260,27
+North America,NAC,1960,198622564,28
+Latin America & Caribbean (excluding high income),LAC,1960,192855898,29
+Pre-demographic dividend,PRE,1960,188920253,30
+United States,USA,1960,180671000,31
+Heavily indebted poor countries (HIPC),HPC,1960,163650527,32
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,1960,157933392,33
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,1960,151883053,34
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,1960,151883053,34
+Africa Eastern and Southern,AFE,1960,130075728,35
+Europe & Central Asia (excluding high income),ECA,1960,128810451,36
+IDA blend,IDB,1960,124475467,37
+Russian Federation,RUS,1960,119897000,38
+Africa Western and Central,AFW,1960,97630925,39
+Japan,JPN,1960,93216000,40
+Arab World,ARB,1960,91540853,41
+Central Europe and the Baltics,CEB,1960,91401309,42
+Indonesia,IDN,1960,88296070,43
+Germany,DEU,1960,72814900,44
+Brazil,BRA,1960,72388126,45
+United Kingdom,GBR,1960,52400000,46
+Bangladesh,BGD,1960,51828660,47
+World,WLD,1961,3062768116,1
+IDA & IBRD total,IBT,1961,2321079191,2
+Low & middle income,LMY,1961,2112956756,3
+Middle income,MIC,1961,1995507534,4
+IBRD only,IBD,1961,1915613080,5
+Late-demographic dividend,LTE,1961,1096959453,6
+East Asia & Pacific,EAS,1961,1044749888,7
+Early-demographic dividend,EAR,1961,994176841,8
+East Asia & Pacific (excluding high income),EAP,1961,895534581,9
+East Asia & Pacific (IDA & IBRD countries),TEA,1961,883558197,10
+OECD members,OED,1961,820795966,11
+Post-demographic dividend,PST,1961,765442136,12
+Europe & Central Asia,ECS,1961,675548634,13
+China,CHN,1961,660330000,14
+South Asia,SAS,1961,520416897,15
+South Asia (IDA & IBRD),TSA,1961,520416897,15
+India,IND,1961,446564729,16
+IDA total,IDA,1961,405466111,17
+European Union,EUU,1961,360681613,18
+Europe & Central Asia (IDA & IBRD countries),TEC,1961,313483586,19
+IDA only,IDX,1961,277777327,20
+Euro area,EMU,1961,272472951,21
+Least developed countries: UN classification,LDC,1961,250984924,22
+Fragile and conflict affected situations,FCS,1961,249737371,23
+Sub-Saharan Africa,SSF,1961,233241597,24
+Sub-Saharan Africa (IDA & IBRD countries),TSS,1961,233241597,24
+Latin America & Caribbean,LCN,1961,224737321,25
+Latin America & the Caribbean (IDA & IBRD countries),TLA,1961,214582669,26
+Sub-Saharan Africa (excluding high income),SSA,1961,211292606,27
+North America,NAC,1961,202005123,28
+Latin America & Caribbean (excluding high income),LAC,1961,198298501,29
+Pre-demographic dividend,PRE,1961,193342737,30
+United States,USA,1961,183691000,31
+Heavily indebted poor countries (HIPC),HPC,1961,167634887,32
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,1961,162068656,33
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,1961,155796245,34
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,1961,155796245,34
+Africa Eastern and Southern,AFE,1961,133534923,35
+Europe & Central Asia (excluding high income),ECA,1961,131617926,36
+IDA blend,IDB,1961,127688784,37
+Russian Federation,RUS,1961,121236000,38
+Africa Western and Central,AFW,1961,99706674,39
+Japan,JPN,1961,94055000,40
+Arab World,ARB,1961,93931683,41
+Central Europe and the Baltics,CEB,1961,92231375,42
+Indonesia,IDN,1961,90791249,43
+Brazil,BRA,1961,74605447,44
+Germany,DEU,1961,73377632,45
+Bangladesh,BGD,1961,53310348,46
+United Kingdom,GBR,1961,52800000,47
+World,WLD,1962,3117372187,1
+IDA & IBRD total,IBT,1962,2366117598,2
+Low & middle income,LMY,1962,2155317281,3
+Middle income,MIC,1962,2035069774,4
+IBRD only,IBD,1962,1950274734,5
+Late-demographic dividend,LTE,1962,1111293141,6
+East Asia & Pacific,EAS,1962,1059216594,7
+Early-demographic dividend,EAR,1962,1020130725,8
+East Asia & Pacific (excluding high income),EAP,1962,907473022,9
+East Asia & Pacific (IDA & IBRD countries),TEA,1962,895224912,10
+OECD members,OED,1962,832227425,11
+Post-demographic dividend,PST,1962,774678780,12
+Europe & Central Asia,ECS,1962,683341199,13
+China,CHN,1962,665770000,14
+South Asia,SAS,1962,533162544,15
+South Asia (IDA & IBRD),TSA,1962,533162544,15
+India,IND,1962,457283090,16
+IDA total,IDA,1962,415842864,17
+European Union,EUU,1962,363707978,18
+Europe & Central Asia (IDA & IBRD countries),TEC,1962,318186127,19
+IDA only,IDX,1962,284793544,20
+Euro area,EMU,1962,274815182,21
+Least developed countries: UN classification,LDC,1962,257173413,22
+Fragile and conflict affected situations,FCS,1962,255228141,23
+Sub-Saharan Africa,SSF,1962,239026415,24
+Sub-Saharan Africa (IDA & IBRD countries),TSS,1962,239026415,24
+Latin America & Caribbean,LCN,1962,231038261,25
+Latin America & the Caribbean (IDA & IBRD countries),TLA,1962,220668336,26
+Sub-Saharan Africa (excluding high income),SSA,1962,216517247,27
+North America,NAC,1962,205196239,28
+Latin America & Caribbean (excluding high income),LAC,1962,203914785,29
+Pre-demographic dividend,PRE,1962,198004977,30
+United States,USA,1962,186538000,31
+Heavily indebted poor countries (HIPC),HPC,1962,171771666,32
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,1962,166390935,33
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,1962,159849264,34
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,1962,159849264,34
+Africa Eastern and Southern,AFE,1962,137171659,35
+Europe & Central Asia (excluding high income),ECA,1962,134400419,36
+IDA blend,IDB,1962,131049320,37
+Russian Federation,RUS,1962,122591000,38
+Africa Western and Central,AFW,1962,101854756,39
+Arab World,ARB,1962,96428599,40
+Japan,JPN,1962,94933000,41
+Indonesia,IDN,1962,93375850,42
+Central Europe and the Baltics,CEB,1962,93008589,43
+Brazil,BRA,1962,76865323,44
+Germany,DEU,1962,74025784,45
+Bangladesh,BGD,1962,54881146,46
+United Kingdom,GBR,1962,53250000,47
+World,WLD,1963,3184063049,1
+IDA & IBRD total,IBT,1963,2423348992,2
+Low & middle income,LMY,1963,2209805827,3
+Middle income,MIC,1963,2086651982,4
+IBRD only,IBD,1963,1996753344,5
+Late-demographic dividend,LTE,1963,1137056579,6
+East Asia & Pacific,EAS,1963,1085095424,7
+Early-demographic dividend,EAR,1963,1046697479,8
+East Asia & Pacific (excluding high income),EAP,1963,930810837,9
+East Asia & Pacific (IDA & IBRD countries),TEA,1963,918259043,10
+OECD members,OED,1963,843650775,11
+Post-demographic dividend,PST,1963,783736508,12
+Europe & Central Asia,ECS,1963,691189404,13
+China,CHN,1963,682335000,14
+South Asia,SAS,1963,546111213,15
+South Asia (IDA & IBRD),TSA,1963,546111213,15
+India,IND,1963,468138575,16
+IDA total,IDA,1963,426595648,17
+European Union,EUU,1963,366840786,18
+Europe & Central Asia (IDA & IBRD countries),TEC,1963,322961499,19
+IDA only,IDX,1963,292032194,20
+Euro area,EMU,1963,277205348,21
+Least developed countries: UN classification,LDC,1963,263557766,22
+Fragile and conflict affected situations,FCS,1963,260895002,23
+Sub-Saharan Africa,SSF,1963,245034711,24
+Sub-Saharan Africa (IDA & IBRD countries),TSS,1963,245034711,24
+Latin America & Caribbean,LCN,1963,237499676,25
+Latin America & the Caribbean (IDA & IBRD countries),TLA,1963,226899749,26
+Sub-Saharan Africa (excluding high income),SSA,1963,221937898,27
+Latin America & Caribbean (excluding high income),LAC,1963,209675273,28
+North America,NAC,1963,208251340,29
+Pre-demographic dividend,PRE,1963,202879347,30
+United States,USA,1963,189242000,31
+Heavily indebted poor countries (HIPC),HPC,1963,176063263,32
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,1963,170881281,33
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,1963,164082777,34
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,1963,164082777,34
+Africa Eastern and Southern,AFE,1963,140945536,35
+Europe & Central Asia (excluding high income),ECA,1963,137187829,36
+IDA blend,IDB,1963,134563454,37
+Russian Federation,RUS,1963,123960000,38
+Africa Western and Central,AFW,1963,104089175,39
+Arab World,ARB,1963,99038509,40
+Indonesia,IDN,1963,96051424,41
+Japan,JPN,1963,95900000,42
+Central Europe and the Baltics,CEB,1963,93840016,43
+Brazil,BRA,1963,79164235,44
+Germany,DEU,1963,74714353,45
+Bangladesh,BGD,1963,56504402,46
+United Kingdom,GBR,1963,53650000,47
+World,WLD,1964,3251253200,1
+IDA & IBRD total,IBT,1964,2481068241,2
+Low & middle income,LMY,1964,2264731089,3
+Middle income,MIC,1964,2138527555,4
+IBRD only,IBD,1964,2043309631,5
+Late-demographic dividend,LTE,1964,1162405292,6
+East Asia & Pacific,EAS,1964,1110651177,7
+Early-demographic dividend,EAR,1964,1074021283,8
+East Asia & Pacific (excluding high income),EAP,1964,953783472,9
+East Asia & Pacific (IDA & IBRD countries),TEA,1964,940909509,10
+OECD members,OED,1964,855135046,11
+Post-demographic dividend,PST,1964,792735136,12
+Europe & Central Asia,ECS,1964,699058435,13
+China,CHN,1964,698355000,14
+South Asia,SAS,1964,559361410,15
+South Asia (IDA & IBRD),TSA,1964,559361410,15
+India,IND,1964,479229598,16
+IDA total,IDA,1964,437758610,17
+European Union,EUU,1964,370055037,18
+Europe & Central Asia (IDA & IBRD countries),TEC,1964,327774760,19
+IDA only,IDX,1964,299550203,20
+Euro area,EMU,1964,279621056,21
+Least developed countries: UN classification,LDC,1964,270194662,22
+Fragile and conflict affected situations,FCS,1964,266719458,23
+Sub-Saharan Africa,SSF,1964,251292534,24
+Sub-Saharan Africa (IDA & IBRD countries),TSS,1964,251292534,24
+Latin America & Caribbean,LCN,1964,244080552,25
+Latin America & the Caribbean (IDA & IBRD countries),TLA,1964,233255631,26
+Sub-Saharan Africa (excluding high income),SSA,1964,227579664,27
+Latin America & Caribbean (excluding high income),LAC,1964,215558178,28
+North America,NAC,1964,211260410,29
+Pre-demographic dividend,PRE,1964,207958469,30
+United States,USA,1964,191889000,31
+Heavily indebted poor countries (HIPC),HPC,1964,180537667,32
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,1964,175548682,33
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,1964,168474397,34
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,1964,168474397,34
+Africa Eastern and Southern,AFE,1964,144904094,35
+Europe & Central Asia (excluding high income),ECA,1964,139973968,36
+IDA blend,IDB,1964,138208407,37
+Russian Federation,RUS,1964,125345000,38
+Africa Western and Central,AFW,1964,106388440,39
+Arab World,ARB,1964,101729760,40
+Indonesia,IDN,1964,98833749,41
+Japan,JPN,1964,96903000,42
+Central Europe and the Baltics,CEB,1964,94715795,43
+Brazil,BRA,1964,81488595,44
+Germany,DEU,1964,75318337,45
+Bangladesh,BGD,1964,58178374,46
+United Kingdom,GBR,1964,54000000,47
+World,WLD,1965,3318997522,1
+IDA & IBRD total,IBT,1965,2539564344,2
+Low & middle income,LMY,1965,2320529383,3
+Middle income,MIC,1965,2191141157,4
+IBRD only,IBD,1965,2090209567,5
+Late-demographic dividend,LTE,1965,1188451832,6
+East Asia & Pacific,EAS,1965,1136869154,7
+Early-demographic dividend,EAR,1965,1101264258,8
+East Asia & Pacific (excluding high income),EAP,1965,977366928,9
+East Asia & Pacific (IDA & IBRD countries),TEA,1965,964163938,10
+OECD members,OED,1965,866300939,11
+Post-demographic dividend,PST,1965,801451274,12
+China,CHN,1965,715185000,13
+Europe & Central Asia,ECS,1965,706683416,14
+South Asia,SAS,1965,572498343,15
+South Asia (IDA & IBRD),TSA,1965,572498343,15
+India,IND,1965,490140146,16
+IDA total,IDA,1965,449354777,17
+European Union,EUU,1965,373129199,18
+Europe & Central Asia (IDA & IBRD countries),TEC,1965,332375189,19
+IDA only,IDX,1965,307362551,20
+Euro area,EMU,1965,282028347,21
+Least developed countries: UN classification,LDC,1965,277101968,22
+Fragile and conflict affected situations,FCS,1965,272676376,23
+Sub-Saharan Africa,SSF,1965,257806104,24
+Sub-Saharan Africa (IDA & IBRD countries),TSS,1965,257806104,24
+Latin America & Caribbean,LCN,1965,250750949,25
+Latin America & the Caribbean (IDA & IBRD countries),TLA,1965,239708690,26
+Sub-Saharan Africa (excluding high income),SSA,1965,233447992,27
+Latin America & Caribbean (excluding high income),LAC,1965,221535468,28
+North America,NAC,1965,214028461,29
+Pre-demographic dividend,PRE,1965,213246024,30
+United States,USA,1965,194303000,31
+Heavily indebted poor countries (HIPC),HPC,1965,185208644,32
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,1965,180361095,33
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,1965,173012080,34
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,1965,173012080,34
+Africa Eastern and Southern,AFE,1965,149033472,35
+Europe & Central Asia (excluding high income),ECA,1965,142668572,36
+IDA blend,IDB,1965,141992226,37
+Russian Federation,RUS,1965,126745000,38
+Africa Western and Central,AFW,1965,108772632,39
+Arab World,ARB,1965,104494008,40
+Indonesia,IDN,1965,101365130,41
+Japan,JPN,1965,97952000,42
+Central Europe and the Baltics,CEB,1965,95440988,43
+Brazil,BRA,1965,83817583,44
+Germany,DEU,1965,75963695,45
+Bangladesh,BGD,1965,59902519,46
+United Kingdom,GBR,1965,54348050,47
+World,WLD,1966,3389087189,1
+IDA & IBRD total,IBT,1966,2600930009,2
+Low & middle income,LMY,1966,2379893006,3
+Middle income,MIC,1966,2247185714,4
+IBRD only,IBD,1966,2139608511,5
+Late-demographic dividend,LTE,1966,1217220438,6
+East Asia & Pacific,EAS,1966,1166223463,7
+Early-demographic dividend,EAR,1966,1128474732,8
+East Asia & Pacific (excluding high income),EAP,1966,1004271490,9
+East Asia & Pacific (IDA & IBRD countries),TEA,1966,990719244,10
+OECD members,OED,1966,877030636,11
+Post-demographic dividend,PST,1966,809623605,12
+China,CHN,1966,735400000,13
+Europe & Central Asia,ECS,1966,713443573,14
+South Asia,SAS,1966,585381018,15
+South Asia (IDA & IBRD),TSA,1966,585381018,15
+India,IND,1966,500740247,16
+IDA total,IDA,1966,461321498,17
+European Union,EUU,1966,376058575,18
+Europe & Central Asia (IDA & IBRD countries),TEC,1966,336304737,19
+IDA only,IDX,1966,315417039,20
+Euro area,EMU,1966,284299197,21
+Least developed countries: UN classification,LDC,1966,284221585,22
+Fragile and conflict affected situations,FCS,1966,278749755,23
+Sub-Saharan Africa,SSF,1966,264528156,24
+Sub-Saharan Africa (IDA & IBRD countries),TSS,1966,264528156,24
+Latin America & Caribbean,LCN,1966,257488362,25
+Latin America & the Caribbean (IDA & IBRD countries),TLA,1966,246239963,26
+Sub-Saharan Africa (excluding high income),SSA,1966,239526768,27
+Latin America & Caribbean (excluding high income),LAC,1966,227585310,28
+Pre-demographic dividend,PRE,1966,218721527,29
+North America,NAC,1966,216656534,30
+United States,USA,1966,196560000,31
+Heavily indebted poor countries (HIPC),HPC,1966,190048827,32
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,1966,185366083,33
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,1966,177756891,34
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,1966,177756891,34
+Africa Eastern and Southern,AFE,1966,153281203,35
+IDA blend,IDB,1966,145904459,36
+Europe & Central Asia (excluding high income),ECA,1966,145371529,37
+Russian Federation,RUS,1966,127468000,38
+Africa Western and Central,AFW,1966,111246953,39
+Arab World,ARB,1966,107403055,40
+Indonesia,IDN,1966,103792754,41
+Japan,JPN,1966,98851000,42
+Central Europe and the Baltics,CEB,1966,96146336,43
+Brazil,BRA,1966,86139359,44
+Germany,DEU,1966,76600311,45
+Bangladesh,BGD,1966,61669806,46
+United Kingdom,GBR,1966,54648500,47
+World,WLD,1967,3459015356,1
+IDA & IBRD total,IBT,1967,2662674586,2
+Low & middle income,LMY,1967,2439437803,3
+Middle income,MIC,1967,2303228602,4
+IBRD only,IBD,1967,2188950141,5
+Late-demographic dividend,LTE,1967,1245130293,6
+East Asia & Pacific,EAS,1967,1194633135,7
+Early-demographic dividend,EAR,1967,1156817324,8
+East Asia & Pacific (excluding high income),EAP,1967,1030471073,9
+East Asia & Pacific (IDA & IBRD countries),TEA,1967,1016529846,10
+OECD members,OED,1967,887553832,11
+Post-demographic dividend,PST,1967,817437528,12
+China,CHN,1967,754550000,13
+Europe & Central Asia,ECS,1967,720146318,14
+South Asia,SAS,1967,598618725,15
+South Asia (IDA & IBRD),TSA,1967,598618725,15
+India,IND,1967,511606372,16
+IDA total,IDA,1967,473724445,17
+European Union,EUU,1967,378902917,18
+Europe & Central Asia (IDA & IBRD countries),TEC,1967,340454289,19
+IDA only,IDX,1967,323800597,20
+Least developed countries: UN classification,LDC,1967,291642814,21
+Euro area,EMU,1967,286298506,22
+Fragile and conflict affected situations,FCS,1967,284996969,23
+Sub-Saharan Africa,SSF,1967,271499400,24
+Sub-Saharan Africa (IDA & IBRD countries),TSS,1967,271499400,24
+Latin America & Caribbean,LCN,1967,264279682,25
+Latin America & the Caribbean (IDA & IBRD countries),TLA,1967,252838271,26
+Sub-Saharan Africa (excluding high income),SSA,1967,245829213,27
+Latin America & Caribbean (excluding high income),LAC,1967,233696754,28
+Pre-demographic dividend,PRE,1967,224392810,29
+North America,NAC,1967,219173514,30
+United States,USA,1967,198712000,31
+Heavily indebted poor countries (HIPC),HPC,1967,195111370,32
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,1967,190664582,33
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,1967,182734055,34
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,1967,182734055,34
+Africa Eastern and Southern,AFE,1967,157704381,35
+IDA blend,IDB,1967,149923848,36
+Europe & Central Asia (excluding high income),ECA,1967,148087983,37
+Russian Federation,RUS,1967,128196000,38
+Africa Western and Central,AFW,1967,113795019,39
+Arab World,ARB,1967,110491709,40
+Indonesia,IDN,1967,106526393,41
+Japan,JPN,1967,99879000,42
+Central Europe and the Baltics,CEB,1967,97043270,43
+Brazil,BRA,1967,88446124,44
+Germany,DEU,1967,76951336,45
+Bangladesh,BGD,1967,63510929,46
+Pakistan,PAK,1967,55214768,47
+World,WLD,1968,3530703561,1
+IDA & IBRD total,IBT,1968,2726203260,2
+Low & middle income,LMY,1968,2500774399,3
+Middle income,MIC,1968,2360912065,4
+IBRD only,IBD,1968,2239610101,5
+Late-demographic dividend,LTE,1968,1273820149,6
+East Asia & Pacific,EAS,1968,1224397449,7
+Early-demographic dividend,EAR,1968,1185936827,8
+East Asia & Pacific (excluding high income),EAP,1968,1057697808,9
+East Asia & Pacific (IDA & IBRD countries),TEA,1968,1043349620,10
+OECD members,OED,1968,897869478,11
+Post-demographic dividend,PST,1968,825029113,12
+China,CHN,1968,774510000,13
+Europe & Central Asia,ECS,1968,726634174,14
+South Asia,SAS,1968,612171905,15
+South Asia (IDA & IBRD),TSA,1968,612171905,15
+India,IND,1968,522716889,16
+IDA total,IDA,1968,486593159,17
+European Union,EUU,1968,381579577,18
+Europe & Central Asia (IDA & IBRD countries),TEC,1968,344535295,19
+IDA only,IDX,1968,332513120,20
+Least developed countries: UN classification,LDC,1968,299374569,21
+Fragile and conflict affected situations,FCS,1968,291464978,22
+Euro area,EMU,1968,288206171,23
+Sub-Saharan Africa,SSF,1968,278774032,24
+Sub-Saharan Africa (IDA & IBRD countries),TSS,1968,278774032,24
+Latin America & Caribbean,LCN,1968,271127278,25
+Latin America & the Caribbean (IDA & IBRD countries),TLA,1968,259494716,26
+Sub-Saharan Africa (excluding high income),SSA,1968,252384968,27
+Latin America & Caribbean (excluding high income),LAC,1968,239864448,28
+Pre-demographic dividend,PRE,1968,230300956,29
+North America,NAC,1968,221500404,30
+United States,USA,1968,200706000,31
+Heavily indebted poor countries (HIPC),HPC,1968,200419142,32
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,1968,196098319,33
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,1968,187877692,34
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,1968,187877692,34
+Africa Eastern and Southern,AFE,1968,162329396,35
+IDA blend,IDB,1968,154080039,36
+Europe & Central Asia (excluding high income),ECA,1968,150777578,37
+Russian Federation,RUS,1968,128928000,38
+Africa Western and Central,AFW,1968,116444636,39
+Arab World,ARB,1968,113712171,40
+Indonesia,IDN,1968,109450006,41
+Japan,JPN,1968,101011000,42
+Central Europe and the Baltics,CEB,1968,97884022,43
+Brazil,BRA,1968,90741240,44
+Germany,DEU,1968,77294314,45
+Bangladesh,BGD,1968,65408276,46
+Pakistan,PAK,1968,56810507,47
+World,WLD,1969,3604815552,1
+IDA & IBRD total,IBT,1969,2791883177,2
+Low & middle income,LMY,1969,2564343032,3
+Middle income,MIC,1969,2420749411,4
+IBRD only,IBD,1969,2292098651,5
+Late-demographic dividend,LTE,1969,1304068257,6
+East Asia & Pacific,EAS,1969,1256167955,7
+Early-demographic dividend,EAR,1969,1215536741,8
+East Asia & Pacific (excluding high income),EAP,1969,1086662478,9
+East Asia & Pacific (IDA & IBRD countries),TEA,1969,1071912603,10
+OECD members,OED,1969,908238681,11
+Post-demographic dividend,PST,1969,832633761,12
+China,CHN,1969,796025000,13
+Europe & Central Asia,ECS,1969,733044421,14
+South Asia,SAS,1969,625773349,15
+South Asia (IDA & IBRD),TSA,1969,625773349,15
+India,IND,1969,533880544,16
+IDA total,IDA,1969,499784526,17
+European Union,EUU,1969,384226226,18
+Europe & Central Asia (IDA & IBRD countries),TEC,1969,348509849,19
+IDA only,IDX,1969,341390558,20
+Least developed countries: UN classification,LDC,1969,307260565,21
+Fragile and conflict affected situations,FCS,1969,298094137,22
+Euro area,EMU,1969,290179378,23
+Sub-Saharan Africa,SSF,1969,286291766,24
+Sub-Saharan Africa (IDA & IBRD countries),TSS,1969,286291766,24
+Latin America & Caribbean,LCN,1969,278039112,25
+Latin America & the Caribbean (IDA & IBRD countries),TLA,1969,266211242,26
+Sub-Saharan Africa (excluding high income),SSA,1969,259166830,27
+Latin America & Caribbean (excluding high income),LAC,1969,246093261,28
+Pre-demographic dividend,PRE,1969,236419165,29
+North America,NAC,1969,223756306,30
+Heavily indebted poor countries (HIPC),HPC,1969,205895893,31
+United States,USA,1969,202677000,32
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,1969,201742643,33
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,1969,193184368,34
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,1969,193184368,34
+Africa Eastern and Southern,AFE,1969,167088245,35
+IDA blend,IDB,1969,158393968,36
+Europe & Central Asia (excluding high income),ECA,1969,153462746,37
+Russian Federation,RUS,1969,129664000,38
+Africa Western and Central,AFW,1969,119203521,39
+Arab World,ARB,1969,117053219,40
+Indonesia,IDN,1969,112517639,41
+Japan,JPN,1969,102219000,42
+Central Europe and the Baltics,CEB,1969,98606630,43
+Brazil,BRA,1969,93045777,44
+Germany,DEU,1969,77909682,45
+Bangladesh,BGD,1969,67294133,46
+Pakistan,PAK,1969,58460939,47
+World,WLD,1970,3680589045,1
+IDA & IBRD total,IBT,1970,2859123476,2
+Low & middle income,LMY,1970,2629570646,3
+Middle income,MIC,1970,2482153349,4
+IBRD only,IBD,1970,2346056161,5
+Late-demographic dividend,LTE,1970,1334963829,6
+East Asia & Pacific,EAS,1970,1288721548,7
+Early-demographic dividend,EAR,1970,1245960808,8
+East Asia & Pacific (excluding high income),EAP,1970,1116395242,9
+East Asia & Pacific (IDA & IBRD countries),TEA,1970,1101240545,10
+OECD members,OED,1970,918489195,11
+Post-demographic dividend,PST,1970,840190480,12
+China,CHN,1970,818315000,13
+Europe & Central Asia,ECS,1970,738724073,14
+South Asia,SAS,1970,640078209,15
+South Asia (IDA & IBRD),TSA,1970,640078209,15
+India,IND,1970,545864268,16
+IDA total,IDA,1970,513067315,17
+European Union,EUU,1970,386406167,18
+Europe & Central Asia (IDA & IBRD countries),TEC,1970,352139347,19
+IDA only,IDX,1970,350214798,20
+Least developed countries: UN classification,LDC,1970,315102512,21
+Fragile and conflict affected situations,FCS,1970,304858040,22
+Sub-Saharan Africa,SSF,1970,294071521,23
+Sub-Saharan Africa (IDA & IBRD countries),TSS,1970,294071521,23
+Euro area,EMU,1970,291834356,24
+Latin America & Caribbean,LCN,1970,284995920,25
+Latin America & the Caribbean (IDA & IBRD countries),TLA,1970,272962813,26
+Sub-Saharan Africa (excluding high income),SSA,1970,266188793,27
+Latin America & Caribbean (excluding high income),LAC,1970,252358538,28
+Pre-demographic dividend,PRE,1970,242769169,29
+North America,NAC,1970,226428124,30
+Heavily indebted poor countries (HIPC),HPC,1970,211549510,31
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,1970,207569650,32
+United States,USA,1970,205052000,33
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,1970,198631041,34
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,1970,198631041,34
+Africa Eastern and Southern,AFE,1970,171984985,35
+IDA blend,IDB,1970,162852517,36
+Europe & Central Asia (excluding high income),ECA,1970,155918823,37
+Russian Federation,RUS,1970,130404000,38
+Africa Western and Central,AFW,1970,122086536,39
+Arab World,ARB,1970,120469263,40
+Indonesia,IDN,1970,115657495,41
+Japan,JPN,1970,103403000,42
+Central Europe and the Baltics,CEB,1970,99134548,43
+Brazil,BRA,1970,95375651,44
+Germany,DEU,1970,78169289,45
+Bangladesh,BGD,1970,69058894,46
+Pakistan,PAK,1970,60166719,47
+World,WLD,1971,3758613546,1
+IDA & IBRD total,IBT,1971,2926951963,2
+Low & middle income,LMY,1971,2695387305,3
+Middle income,MIC,1971,2544074050,4
+IBRD only,IBD,1971,2401008150,5
+Late-demographic dividend,LTE,1971,1366487769,6
+East Asia & Pacific,EAS,1971,1322856516,7
+Early-demographic dividend,EAR,1971,1276141826,8
+East Asia & Pacific (excluding high income),EAP,1971,1146649477,9
+East Asia & Pacific (IDA & IBRD countries),TEA,1971,1131095541,10
+OECD members,OED,1971,930596384,11
+Post-demographic dividend,PST,1971,849553629,12
+China,CHN,1971,841105000,13
+Europe & Central Asia,ECS,1971,744432963,14
+South Asia,SAS,1971,654081362,15
+South Asia (IDA & IBRD),TSA,1971,654081362,15
+India,IND,1971,558096387,16
+IDA total,IDA,1971,525943813,17
+European Union,EUU,1971,388553371,18
+IDA only,IDX,1971,358587698,19
+Europe & Central Asia (IDA & IBRD countries),TEC,1971,355796328,20
+Least developed countries: UN classification,LDC,1971,322517398,21
+Fragile and conflict affected situations,FCS,1971,311844505,22
+Sub-Saharan Africa,SSF,1971,302095262,23
+Sub-Saharan Africa (IDA & IBRD countries),TSS,1971,302095262,23
+Euro area,EMU,1971,293516097,24
+Latin America & Caribbean,LCN,1971,292033454,25
+Latin America & the Caribbean (IDA & IBRD countries),TLA,1971,279784152,26
+Sub-Saharan Africa (excluding high income),SSA,1971,273440461,27
+Latin America & Caribbean (excluding high income),LAC,1971,258688096,28
+Pre-demographic dividend,PRE,1971,249344292,29
+North America,NAC,1971,229675639,30
+Heavily indebted poor countries (HIPC),HPC,1971,217344674,31
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,1971,213438350,32
+United States,USA,1971,207661000,33
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,1971,204099318,34
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,1971,204099318,34
+Africa Eastern and Southern,AFE,1971,177022314,35
+IDA blend,IDB,1971,167356115,36
+Europe & Central Asia (excluding high income),ECA,1971,158428591,37
+Russian Federation,RUS,1971,131155000,38
+Africa Western and Central,AFW,1971,125072948,39
+Arab World,ARB,1971,123950810,40
+Indonesia,IDN,1971,118833702,41
+Japan,JPN,1971,105697000,42
+Central Europe and the Baltics,CEB,1971,99635258,43
+Brazil,BRA,1971,97739273,44
+Germany,DEU,1971,78312842,45
+Bangladesh,BGD,1971,70276758,46
+Pakistan,PAK,1971,61847899,47
+World,WLD,1972,3834446322,1
+IDA & IBRD total,IBT,1972,2994028911,2
+Low & middle income,LMY,1972,2760300540,3
+Middle income,MIC,1972,2605093564,4
+IBRD only,IBD,1972,2454764228,5
+Late-demographic dividend,LTE,1972,1396407513,6
+East Asia & Pacific,EAS,1972,1354228289,7
+Early-demographic dividend,EAR,1972,1307009646,8
+East Asia & Pacific (excluding high income),EAP,1972,1175176176,9
+East Asia & Pacific (IDA & IBRD countries),TEA,1972,1159220113,10
+OECD members,OED,1972,941467841,11
+China,CHN,1972,862030000,12
+Post-demographic dividend,PST,1972,857513072,13
+Europe & Central Asia,ECS,1972,750728655,14
+South Asia,SAS,1972,668383197,15
+South Asia (IDA & IBRD),TSA,1972,668383197,15
+India,IND,1972,570482142,16
+IDA total,IDA,1972,539264683,17
+European Union,EUU,1972,391197266,18
+IDA only,IDX,1972,367253289,19
+Europe & Central Asia (IDA & IBRD countries),TEC,1972,359698417,20
+Least developed countries: UN classification,LDC,1972,330244369,21
+Fragile and conflict affected situations,FCS,1972,319025117,22
+Sub-Saharan Africa,SSF,1972,310303050,23
+Sub-Saharan Africa (IDA & IBRD countries),TSS,1972,310303050,23
+Latin America & Caribbean,LCN,1972,299187510,24
+Euro area,EMU,1972,295527442,25
+Latin America & the Caribbean (IDA & IBRD countries),TLA,1972,286726529,26
+Sub-Saharan Africa (excluding high income),SSA,1972,280872413,27
+Latin America & Caribbean (excluding high income),LAC,1972,265122103,28
+Pre-demographic dividend,PRE,1972,256080715,29
+North America,NAC,1972,232167266,30
+Heavily indebted poor countries (HIPC),HPC,1972,223189830,31
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,1972,219448355,32
+United States,USA,1972,209896000,33
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,1972,209697605,34
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,1972,209697605,34
+Africa Eastern and Southern,AFE,1972,182126556,35
+IDA blend,IDB,1972,172011394,36
+Europe & Central Asia (excluding high income),ECA,1972,161049046,37
+Russian Federation,RUS,1972,131909000,38
+Africa Western and Central,AFW,1972,128176494,39
+Arab World,ARB,1972,127535560,40
+Indonesia,IDN,1972,122039841,41
+Japan,JPN,1972,107188000,42
+Central Europe and the Baltics,CEB,1972,100357161,43
+Brazil,BRA,1972,100146797,44
+Germany,DEU,1972,78688452,45
+Bangladesh,BGD,1972,71641519,46
+Pakistan,PAK,1972,63583194,47
+World,WLD,1973,3911068458,1
+IDA & IBRD total,IBT,1973,3062266606,2
+Low & middle income,LMY,1973,2826286599,3
+Middle income,MIC,1973,2666982084,4
+IBRD only,IBD,1973,2508370507,5
+Late-demographic dividend,LTE,1973,1425381475,6
+East Asia & Pacific,EAS,1973,1384605041,7
+Early-demographic dividend,EAR,1973,1339671375,8
+East Asia & Pacific (excluding high income),EAP,1973,1202715705,9
+East Asia & Pacific (IDA & IBRD countries),TEA,1973,1186384756,10
+OECD members,OED,1973,952000973,11
+China,CHN,1973,881940000,12
+Post-demographic dividend,PST,1973,865015884,13
+Europe & Central Asia,ECS,1973,756775460,14
+South Asia,SAS,1973,684000704,15
+South Asia (IDA & IBRD),TSA,1973,684000704,15
+India,IND,1973,583465598,16
+IDA total,IDA,1973,553896099,17
+European Union,EUU,1973,393739994,18
+IDA only,IDX,1973,376941153,19
+Europe & Central Asia (IDA & IBRD countries),TEC,1973,363554198,20
+Least developed countries: UN classification,LDC,1973,339000836,21
+Fragile and conflict affected situations,FCS,1973,326527998,22
+Sub-Saharan Africa,SSF,1973,318974077,23
+Sub-Saharan Africa (IDA & IBRD countries),TSS,1973,318974077,23
+Latin America & Caribbean,LCN,1973,306451409,24
+Euro area,EMU,1973,297413652,25
+Latin America & the Caribbean (IDA & IBRD countries),TLA,1973,293783764,26
+Sub-Saharan Africa (excluding high income),SSA,1973,288750400,27
+Latin America & Caribbean (excluding high income),LAC,1973,271649494,28
+Pre-demographic dividend,PRE,1973,263238228,29
+North America,NAC,1973,234453723,30
+Heavily indebted poor countries (HIPC),HPC,1973,229341403,31
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,1973,225808044,32
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,1973,215569107,33
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,1973,215569107,33
+United States,USA,1973,211909000,34
+Africa Eastern and Southern,AFE,1973,187524135,35
+IDA blend,IDB,1973,176954946,36
+Europe & Central Asia (excluding high income),ECA,1973,163601189,37
+Russian Federation,RUS,1973,132669000,38
+Africa Western and Central,AFW,1973,131449942,39
+Arab World,ARB,1973,131335660,40
+Indonesia,IDN,1973,125288515,41
+Japan,JPN,1973,108707000,42
+Brazil,BRA,1973,102600976,43
+Central Europe and the Baltics,CEB,1973,101112680,44
+Germany,DEU,1973,78936666,45
+Bangladesh,BGD,1973,73722294,46
+Pakistan,PAK,1973,65461912,47
+World,WLD,1974,3987294240,1
+IDA & IBRD total,IBT,1974,3130418531,2
+Low & middle income,LMY,1974,2892061210,3
+Middle income,MIC,1974,2728455818,4
+IBRD only,IBD,1974,2561343989,5
+Late-demographic dividend,LTE,1974,1452919554,6
+East Asia & Pacific,EAS,1974,1413496627,7
+Early-demographic dividend,EAR,1974,1373219822,8
+East Asia & Pacific (excluding high income),EAP,1974,1228688547,9
+East Asia & Pacific (IDA & IBRD countries),TEA,1974,1212035036,10
+OECD members,OED,1974,962281658,11
+China,CHN,1974,900350000,12
+Post-demographic dividend,PST,1974,872247955,13
+Europe & Central Asia,ECS,1974,762546552,14
+South Asia,SAS,1974,700247383,15
+South Asia (IDA & IBRD),TSA,1974,700247383,15
+India,IND,1974,597041391,16
+IDA total,IDA,1974,569074542,17
+European Union,EUU,1974,396124649,18
+IDA only,IDX,1974,386935938,19
+Europe & Central Asia (IDA & IBRD countries),TEC,1974,367431547,20
+Least developed countries: UN classification,LDC,1974,348044659,21
+Fragile and conflict affected situations,FCS,1974,334361510,22
+Sub-Saharan Africa,SSF,1974,328098223,23
+Sub-Saharan Africa (IDA & IBRD countries),TSS,1974,328098223,23
+Latin America & Caribbean,LCN,1974,313798324,24
+Latin America & the Caribbean (IDA & IBRD countries),TLA,1974,300937685,25
+Euro area,EMU,1974,299065145,26
+Sub-Saharan Africa (excluding high income),SSA,1974,297083013,27
+Latin America & Caribbean (excluding high income),LAC,1974,278251796,28
+Pre-demographic dividend,PRE,1974,270820390,29
+North America,NAC,1974,236715025,30
+Heavily indebted poor countries (HIPC),HPC,1974,235791936,31
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,1974,232392106,32
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,1974,221668657,33
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,1974,221668657,33
+United States,USA,1974,213854000,34
+Africa Eastern and Southern,AFE,1974,193186642,35
+IDA blend,IDB,1974,182138604,36
+Europe & Central Asia (excluding high income),ECA,1974,166121814,37
+Arab World,ARB,1974,135282861,38
+Africa Western and Central,AFW,1974,134911581,39
+Russian Federation,RUS,1974,133432000,40
+Indonesia,IDN,1974,128555045,41
+Japan,JPN,1974,110162000,42
+Brazil,BRA,1974,105089675,43
+Central Europe and the Baltics,CEB,1974,101939916,44
+Germany,DEU,1974,78967433,45
+Bangladesh,BGD,1974,75839348,46
+Pakistan,PAK,1974,67415487,47
+World,WLD,1975,4062070771,1
+IDA & IBRD total,IBT,1975,3197494325,2
+Low & middle income,LMY,1975,2956658953,3
+Middle income,MIC,1975,2788694766,4
+IBRD only,IBD,1975,2613194091,5
+Late-demographic dividend,LTE,1975,1478265786,6
+East Asia & Pacific,EAS,1975,1439634332,7
+Early-demographic dividend,EAR,1975,1407636737,8
+East Asia & Pacific (excluding high income),EAP,1975,1252174248,9
+East Asia & Pacific (IDA & IBRD countries),TEA,1975,1235222835,10
+OECD members,OED,1975,972242932,11
+China,CHN,1975,916395000,12
+Post-demographic dividend,PST,1975,879088327,13
+Europe & Central Asia,ECS,1975,768080678,14
+South Asia,SAS,1975,717092514,15
+South Asia (IDA & IBRD),TSA,1975,717092514,15
+India,IND,1975,611309535,16
+IDA total,IDA,1975,584300234,17
+European Union,EUU,1975,398397694,18
+IDA only,IDX,1975,396714176,19
+Europe & Central Asia (IDA & IBRD countries),TEC,1975,371336064,20
+Least developed countries: UN classification,LDC,1975,356845675,21
+Fragile and conflict affected situations,FCS,1975,342377291,22
+Sub-Saharan Africa,SSF,1975,337484491,23
+Sub-Saharan Africa (IDA & IBRD countries),TSS,1975,337484491,23
+Latin America & Caribbean,LCN,1975,321203546,24
+Latin America & the Caribbean (IDA & IBRD countries),TLA,1975,308171037,25
+Sub-Saharan Africa (excluding high income),SSA,1975,305701947,26
+Euro area,EMU,1975,300516726,27
+Latin America & Caribbean (excluding high income),LAC,1975,284908402,28
+Pre-demographic dividend,PRE,1975,278656584,29
+Heavily indebted poor countries (HIPC),HPC,1975,242344150,30
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,1975,239405806,31
+North America,NAC,1975,239169404,32
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,1975,228187384,33
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,1975,228187384,33
+United States,USA,1975,215973000,34
+Africa Eastern and Southern,AFE,1975,198914573,35
+IDA blend,IDB,1975,187586058,36
+Europe & Central Asia (excluding high income),ECA,1975,168594458,37
+Arab World,ARB,1975,139495837,38
+Africa Western and Central,AFW,1975,138569918,39
+Russian Federation,RUS,1975,134200000,40
+Indonesia,IDN,1975,131843848,41
+Japan,JPN,1975,111573000,42
+Brazil,BRA,1975,107619565,43
+Central Europe and the Baltics,CEB,1975,102860571,44
+Germany,DEU,1975,78673554,45
+Bangladesh,BGD,1975,77854351,46
+Pakistan,PAK,1975,69461175,47
+World,WLD,1976,4135758539,1
+IDA & IBRD total,IBT,1976,3264075702,2
+Low & middle income,LMY,1976,3020488457,3
+Middle income,MIC,1976,2848095176,4
+IBRD only,IBD,1976,2664387118,5
+Late-demographic dividend,LTE,1976,1502269051,6
+East Asia & Pacific,EAS,1976,1463747757,7
+Early-demographic dividend,EAR,1976,1442753987,8
+East Asia & Pacific (excluding high income),EAP,1976,1273922384,9
+East Asia & Pacific (IDA & IBRD countries),TEA,1976,1256698596,10
+OECD members,OED,1976,981612322,11
+China,CHN,1976,930685000,12
+Post-demographic dividend,PST,1976,885244462,13
+Europe & Central Asia,ECS,1976,773619713,14
+South Asia,SAS,1976,734217635,15
+South Asia (IDA & IBRD),TSA,1976,734217635,15
+India,IND,1976,625861883,16
+IDA total,IDA,1976,599688584,17
+IDA only,IDX,1976,406435903,18
+European Union,EUU,1976,400490355,19
+Europe & Central Asia (IDA & IBRD countries),TEC,1976,375469327,20
+Least developed countries: UN classification,LDC,1976,365558134,21
+Fragile and conflict affected situations,FCS,1976,350583131,22
+Sub-Saharan Africa,SSF,1976,347140248,23
+Sub-Saharan Africa (IDA & IBRD countries),TSS,1976,347140248,23
+Latin America & Caribbean,LCN,1976,328673285,24
+Latin America & the Caribbean (IDA & IBRD countries),TLA,1976,315490913,25
+Sub-Saharan Africa (excluding high income),SSA,1976,314545326,26
+Euro area,EMU,1976,301804324,27
+Latin America & Caribbean (excluding high income),LAC,1976,291624269,28
+Pre-demographic dividend,PRE,1976,286692896,29
+Heavily indebted poor countries (HIPC),HPC,1976,249034009,30
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,1976,246821883,31
+North America,NAC,1976,241538018,32
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,1976,235058983,33
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,1976,235058983,33
+United States,USA,1976,218035000,34
+Africa Eastern and Southern,AFE,1976,204802976,35
+IDA blend,IDB,1976,193252681,36
+Europe & Central Asia (excluding high income),ECA,1976,171119860,37
+Arab World,ARB,1976,144014135,38
+Africa Western and Central,AFW,1976,142337272,39
+Indonesia,IDN,1976,135173655,40
+Russian Federation,RUS,1976,135147000,41
+Japan,JPN,1976,112775000,42
+Brazil,BRA,1976,110213349,43
+Central Europe and the Baltics,CEB,1976,103776068,44
+Bangladesh,BGD,1976,79855318,45
+Germany,DEU,1976,78336950,46
+Pakistan,PAK,1976,71620254,47
+World,WLD,1977,4208958804,1
+IDA & IBRD total,IBT,1977,3330218383,2
+Low & middle income,LMY,1977,3084056561,3
+Middle income,MIC,1977,2907099421,4
+IBRD only,IBD,1977,2714845767,5
+Late-demographic dividend,LTE,1977,1524947137,6
+East Asia & Pacific,EAS,1977,1486397441,7
+Early-demographic dividend,EAR,1977,1478479688,8
+East Asia & Pacific (excluding high income),EAP,1977,1294303118,9
+East Asia & Pacific (IDA & IBRD countries),TEA,1977,1276830008,10
+OECD members,OED,1977,990951247,11
+China,CHN,1977,943455000,12
+Post-demographic dividend,PST,1977,891301791,13
+Europe & Central Asia,ECS,1977,779117798,14
+South Asia,SAS,1977,751760482,15
+South Asia (IDA & IBRD),TSA,1977,751760482,15
+India,IND,1977,640801103,16
+IDA total,IDA,1977,615372616,17
+IDA only,IDX,1977,416206887,18
+European Union,EUU,1977,402445831,19
+Europe & Central Asia (IDA & IBRD countries),TEC,1977,379635878,20
+Least developed countries: UN classification,LDC,1977,374293198,21
+Fragile and conflict affected situations,FCS,1977,358846637,22
+Sub-Saharan Africa,SSF,1977,356939418,23
+Sub-Saharan Africa (IDA & IBRD countries),TSS,1977,356939418,23
+Latin America & Caribbean,LCN,1977,336262441,24
+Sub-Saharan Africa (excluding high income),SSA,1977,323710360,25
+Latin America & the Caribbean (IDA & IBRD countries),TLA,1977,322954210,26
+Euro area,EMU,1977,303021757,27
+Latin America & Caribbean (excluding high income),LAC,1977,298457236,28
+Pre-demographic dividend,PRE,1977,295051411,29
+Heavily indebted poor countries (HIPC),HPC,1977,255707170,30
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,1977,254463059,31
+North America,NAC,1977,244018165,32
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,1977,242098387,33
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,1977,242098387,33
+United States,USA,1977,220239000,34
+Africa Eastern and Southern,AFE,1977,210680842,35
+IDA blend,IDB,1977,199165729,36
+Europe & Central Asia (excluding high income),ECA,1977,173726978,37
+Arab World,ARB,1977,148599336,38
+Africa Western and Central,AFW,1977,146258576,39
+Indonesia,IDN,1977,138533541,40
+Russian Federation,RUS,1977,136100000,41
+Japan,JPN,1977,113872000,42
+Brazil,BRA,1977,112875292,43
+Central Europe and the Baltics,CEB,1977,104616884,44
+Bangladesh,BGD,1977,81867264,45
+Germany,DEU,1977,78159814,46
+Pakistan,PAK,1977,73901827,47
+World,WLD,1978,4283431043,1
+IDA & IBRD total,IBT,1978,3397524507,2
+Low & middle income,LMY,1978,3148921134,3
+Middle income,MIC,1978,2966786263,4
+IBRD only,IBD,1978,2765565797,5
+Late-demographic dividend,LTE,1978,1547677040,6
+Early-demographic dividend,EAR,1978,1514572817,7
+East Asia & Pacific,EAS,1978,1509073118,8
+East Asia & Pacific (excluding high income),EAP,1978,1314775496,9
+East Asia & Pacific (IDA & IBRD countries),TEA,1978,1297059239,10
+OECD members,OED,1978,1000355869,11
+China,CHN,1978,956165000,12
+Post-demographic dividend,PST,1978,897398355,13
+Europe & Central Asia,ECS,1978,784556247,14
+South Asia,SAS,1978,769329109,15
+South Asia (IDA & IBRD),TSA,1978,769329109,15
+India,IND,1978,655728229,16
+IDA total,IDA,1978,631958710,17
+IDA only,IDX,1978,426640583,18
+European Union,EUU,1978,404312949,19
+Europe & Central Asia (IDA & IBRD countries),TEC,1978,383687824,20
+Least developed countries: UN classification,LDC,1978,383667234,21
+Fragile and conflict affected situations,FCS,1978,367727720,22
+Sub-Saharan Africa,SSF,1978,367476902,23
+Sub-Saharan Africa (IDA & IBRD countries),TSS,1978,367476902,23
+Latin America & Caribbean,LCN,1978,344000129,24
+Sub-Saharan Africa (excluding high income),SSA,1978,333680160,25
+Latin America & the Caribbean (IDA & IBRD countries),TLA,1978,330579364,26
+Latin America & Caribbean (excluding high income),LAC,1978,305428657,27
+Euro area,EMU,1978,304275086,28
+Pre-demographic dividend,PRE,1978,304240149,29
+Heavily indebted poor countries (HIPC),HPC,1978,262985512,30
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,1978,262393904,31
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,1978,249392069,32
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,1978,249392069,32
+North America,NAC,1978,246601634,33
+United States,USA,1978,222585000,34
+Africa Eastern and Southern,AFE,1978,217074286,35
+IDA blend,IDB,1978,205318127,36
+Europe & Central Asia (excluding high income),ECA,1978,176315643,37
+Arab World,ARB,1978,153568663,38
+Africa Western and Central,AFW,1978,150402616,39
+Indonesia,IDN,1978,141953163,40
+Russian Federation,RUS,1978,137060000,41
+Brazil,BRA,1978,115600942,42
+Japan,JPN,1978,114913000,43
+Central Europe and the Baltics,CEB,1978,105329397,44
+Bangladesh,BGD,1978,83889655,45
+Germany,DEU,1978,78091820,46
+Pakistan,PAK,1978,76307379,47
+World,WLD,1979,4360056401,1
+IDA & IBRD total,IBT,1979,3466649271,2
+Low & middle income,LMY,1979,3215700977,3
+Middle income,MIC,1979,3028044659,4
+IBRD only,IBD,1979,2816995104,5
+Late-demographic dividend,LTE,1979,1570272872,6
+Early-demographic dividend,EAR,1979,1552194676,7
+East Asia & Pacific,EAS,1979,1532261700,8
+East Asia & Pacific (excluding high income),EAP,1979,1335637622,9
+East Asia & Pacific (IDA & IBRD countries),TEA,1979,1317673957,10
+OECD members,OED,1979,1009880602,11
+China,CHN,1979,969005000,12
+Post-demographic dividend,PST,1979,903773491,13
+Europe & Central Asia,ECS,1979,789862141,14
+South Asia,SAS,1979,787440583,15
+South Asia (IDA & IBRD),TSA,1979,787440583,15
+India,IND,1979,671155747,16
+IDA total,IDA,1979,649654167,17
+IDA only,IDX,1979,437766309,18
+European Union,EUU,1979,406112162,19
+Least developed countries: UN classification,LDC,1979,393715341,20
+Europe & Central Asia (IDA & IBRD countries),TEC,1979,387559928,21
+Sub-Saharan Africa,SSF,1979,378695833,22
+Sub-Saharan Africa (IDA & IBRD countries),TSS,1979,378695833,22
+Fragile and conflict affected situations,FCS,1979,376996705,23
+Latin America & Caribbean,LCN,1979,351820083,24
+Sub-Saharan Africa (excluding high income),SSA,1979,344394495,25
+Latin America & the Caribbean (IDA & IBRD countries),TLA,1979,338302777,26
+Pre-demographic dividend,PRE,1979,313887702,27
+Latin America & Caribbean (excluding high income),LAC,1979,312477579,28
+Euro area,EMU,1979,305541545,29
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,1979,270666000,30
+Heavily indebted poor countries (HIPC),HPC,1979,270569759,31
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,1979,256976193,32
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,1979,256976193,32
+North America,NAC,1979,249310061,33
+United States,USA,1979,225055000,34
+Africa Eastern and Southern,AFE,1979,223974122,35
+IDA blend,IDB,1979,211887858,36
+Europe & Central Asia (excluding high income),ECA,1979,178774505,37
+Arab World,ARB,1979,159054118,38
+Africa Western and Central,AFW,1979,154721711,39
+Indonesia,IDN,1979,145434834,40
+Russian Federation,RUS,1979,138027000,41
+Brazil,BRA,1979,118380821,42
+Japan,JPN,1979,115890000,43
+Central Europe and the Baltics,CEB,1979,105948616,44
+Bangladesh,BGD,1979,85935072,45
+Pakistan,PAK,1979,78997039,46
+Germany,DEU,1979,78126350,47
+World,WLD,1980,4437602892,1
+IDA & IBRD total,IBT,1980,3536954994,2
+Low & middle income,LMY,1980,3283910246,3
+Middle income,MIC,1980,3091485829,4
+IBRD only,IBD,1980,2869277824,5
+Late-demographic dividend,LTE,1980,1592439385,6
+Early-demographic dividend,EAR,1980,1591961664,7
+East Asia & Pacific,EAS,1980,1555055871,8
+East Asia & Pacific (excluding high income),EAP,1980,1356226475,9
+East Asia & Pacific (IDA & IBRD countries),TEA,1980,1338009609,10
+OECD members,OED,1980,1019332414,11
+China,CHN,1980,981235000,12
+Post-demographic dividend,PST,1980,909919829,13
+South Asia,SAS,1980,806369775,14
+South Asia (IDA & IBRD),TSA,1980,806369775,14
+Europe & Central Asia,ECS,1980,795362835,15
+India,IND,1980,687354025,16
+IDA total,IDA,1980,667677170,17
+IDA only,IDX,1980,448125037,18
+European Union,EUU,1980,407986180,19
+Least developed countries: UN classification,LDC,1980,403007563,20
+Europe & Central Asia (IDA & IBRD countries),TEC,1980,391562181,21
+Sub-Saharan Africa,SSF,1980,389959247,22
+Sub-Saharan Africa (IDA & IBRD countries),TSS,1980,389959247,22
+Fragile and conflict affected situations,FCS,1980,385675261,23
+Latin America & Caribbean,LCN,1980,359713036,24
+Sub-Saharan Africa (excluding high income),SSA,1980,355467472,25
+Latin America & the Caribbean (IDA & IBRD countries),TLA,1980,346105657,26
+Pre-demographic dividend,PRE,1980,322965422,27
+Latin America & Caribbean (excluding high income),LAC,1980,319588567,28
+Euro area,EMU,1980,306894340,29
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,1980,279347788,30
+Heavily indebted poor countries (HIPC),HPC,1980,277128014,31
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,1980,264948525,32
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,1980,264948525,32
+North America,NAC,1980,251794340,33
+Africa Eastern and Southern,AFE,1980,230792729,34
+United States,USA,1980,227225000,35
+IDA blend,IDB,1980,219552133,36
+Europe & Central Asia (excluding high income),ECA,1980,181309432,37
+Arab World,ARB,1980,164657321,38
+Africa Western and Central,AFW,1980,159166518,39
+Indonesia,IDN,1980,148950540,40
+Russian Federation,RUS,1980,139010000,41
+Brazil,BRA,1980,121207461,42
+Japan,JPN,1980,116807000,43
+Central Europe and the Baltics,CEB,1980,106541316,44
+Bangladesh,BGD,1980,88016432,45
+Pakistan,PAK,1980,82291010,46
+Germany,DEU,1980,78288576,47
+World,WLD,1981,4516926190,1
+IDA & IBRD total,IBT,1981,3609089669,2
+Low & middle income,LMY,1981,3353295180,3
+Middle income,MIC,1981,3157264507,4
+IBRD only,IBD,1981,2923255528,5
+Early-demographic dividend,EAR,1981,1634107159,6
+Late-demographic dividend,LTE,1981,1615106897,7
+East Asia & Pacific,EAS,1981,1578588756,8
+East Asia & Pacific (excluding high income),EAP,1981,1377473854,9
+East Asia & Pacific (IDA & IBRD countries),TEA,1981,1358992800,10
+OECD members,OED,1981,1028615740,11
+China,CHN,1981,993885000,12
+Post-demographic dividend,PST,1981,916024683,13
+South Asia,SAS,1981,825638560,14
+South Asia (IDA & IBRD),TSA,1981,825638560,14
+Europe & Central Asia,ECS,1981,800542417,15
+India,IND,1981,703696250,16
+IDA total,IDA,1981,685834141,17
+IDA only,IDX,1981,458208924,18
+Least developed countries: UN classification,LDC,1981,412046787,19
+European Union,EUU,1981,409724709,20
+Sub-Saharan Africa,SSF,1981,401805572,21
+Sub-Saharan Africa (IDA & IBRD countries),TSS,1981,401805572,21
+Europe & Central Asia (IDA & IBRD countries),TEC,1981,395441598,22
+Fragile and conflict affected situations,FCS,1981,393958598,23
+Latin America & Caribbean,LCN,1981,367619244,24
+Sub-Saharan Africa (excluding high income),SSA,1981,366437525,25
+Latin America & the Caribbean (IDA & IBRD countries),TLA,1981,353922621,26
+Pre-demographic dividend,PRE,1981,330988678,27
+Latin America & Caribbean (excluding high income),LAC,1981,326710408,28
+Euro area,EMU,1981,308127421,29
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,1981,288391729,30
+Heavily indebted poor countries (HIPC),HPC,1981,283255371,31
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,1981,273288518,32
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,1981,273288518,32
+North America,NAC,1981,254339912,33
+Africa Eastern and Southern,AFE,1981,238043099,34
+United States,USA,1981,229466000,35
+IDA blend,IDB,1981,227625217,36
+Europe & Central Asia (excluding high income),ECA,1981,183746315,37
+Arab World,ARB,1981,170015485,38
+Africa Western and Central,AFW,1981,163762473,39
+Indonesia,IDN,1981,152485035,40
+Russian Federation,RUS,1981,139941000,41
+Brazil,BRA,1981,124063109,42
+Japan,JPN,1981,117661000,43
+Central Europe and the Baltics,CEB,1981,107129392,44
+Bangladesh,BGD,1981,90303105,45
+Pakistan,PAK,1981,85802049,46
+Germany,DEU,1981,78407907,47
+World,WLD,1982,4599539241,1
+IDA & IBRD total,IBT,1982,3685043956,2
+Low & middle income,LMY,1982,3426055936,3
+Middle income,MIC,1982,3225816449,4
+IBRD only,IBD,1982,2980033813,5
+Early-demographic dividend,EAR,1982,1677532811,6
+Late-demographic dividend,LTE,1982,1639793804,7
+East Asia & Pacific,EAS,1982,1604460320,8
+East Asia & Pacific (excluding high income),EAP,1982,1401081634,9
+East Asia & Pacific (IDA & IBRD countries),TEA,1982,1382326011,10
+OECD members,OED,1982,1037419356,11
+China,CHN,1982,1008630000,12
+Post-demographic dividend,PST,1982,921558505,13
+South Asia,SAS,1982,845349352,14
+South Asia (IDA & IBRD),TSA,1982,845349352,14
+Europe & Central Asia,ECS,1982,805247476,15
+India,IND,1982,720313473,16
+IDA total,IDA,1982,705010143,17
+IDA only,IDX,1982,469727285,18
+Least developed countries: UN classification,LDC,1982,422560922,19
+Sub-Saharan Africa,SSF,1982,414407128,20
+Sub-Saharan Africa (IDA & IBRD countries),TSS,1982,414407128,20
+European Union,EUU,1982,410988238,21
+Fragile and conflict affected situations,FCS,1982,402886924,22
+Europe & Central Asia (IDA & IBRD countries),TEC,1982,399353523,23
+Sub-Saharan Africa (excluding high income),SSA,1982,377641425,24
+Latin America & Caribbean,LCN,1982,375568417,25
+Latin America & the Caribbean (IDA & IBRD countries),TLA,1982,361763155,26
+Pre-demographic dividend,PRE,1982,339575832,27
+Latin America & Caribbean (excluding high income),LAC,1982,333866128,28
+Euro area,EMU,1982,308901125,29
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,1982,297671219,30
+Heavily indebted poor countries (HIPC),HPC,1982,290471550,31
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,1982,281844787,32
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,1982,281844787,32
+North America,NAC,1982,256835329,33
+Africa Eastern and Southern,AFE,1982,245822010,34
+IDA blend,IDB,1982,235282858,35
+United States,USA,1982,231664000,36
+Europe & Central Asia (excluding high income),ECA,1982,186272610,37
+Arab World,ARB,1982,175370356,38
+Africa Western and Central,AFW,1982,168585118,39
+Indonesia,IDN,1982,156052152,40
+Russian Federation,RUS,1982,140823000,41
+Brazil,BRA,1982,126923155,42
+Japan,JPN,1982,118480000,43
+Central Europe and the Baltics,CEB,1982,107730380,44
+Bangladesh,BGD,1982,92814507,45
+Pakistan,PAK,1982,89089246,46
+Nigeria,NGA,1982,78378701,47
+World,WLD,1983,4682924536,1
+IDA & IBRD total,IBT,1983,3762109361,2
+Low & middle income,LMY,1983,3500358704,3
+Middle income,MIC,1983,3294712711,4
+IBRD only,IBD,1983,3037252917,5
+Early-demographic dividend,EAR,1983,1721104015,6
+Late-demographic dividend,LTE,1983,1664394629,7
+East Asia & Pacific,EAS,1983,1630462798,8
+East Asia & Pacific (excluding high income),EAP,1983,1424971585,9
+East Asia & Pacific (IDA & IBRD countries),TEA,1983,1405938773,10
+OECD members,OED,1983,1046094679,11
+China,CHN,1983,1023310000,12
+Post-demographic dividend,PST,1983,926768139,13
+South Asia,SAS,1983,865442337,14
+South Asia (IDA & IBRD),TSA,1983,865442337,14
+Europe & Central Asia,ECS,1983,809947364,15
+India,IND,1983,737372681,16
+IDA total,IDA,1983,724856444,17
+IDA only,IDX,1983,482266809,18
+Least developed countries: UN classification,LDC,1983,434142125,19
+Sub-Saharan Africa,SSF,1983,426899800,20
+Sub-Saharan Africa (IDA & IBRD countries),TSS,1983,426899800,20
+Fragile and conflict affected situations,FCS,1983,412313057,21
+European Union,EUU,1983,412072128,22
+Europe & Central Asia (IDA & IBRD countries),TEC,1983,403378262,23
+Sub-Saharan Africa (excluding high income),SSA,1983,389094648,24
+Latin America & Caribbean,LCN,1983,383657148,25
+Latin America & the Caribbean (IDA & IBRD countries),TLA,1983,369728268,26
+Pre-demographic dividend,PRE,1983,349226289,27
+Latin America & Caribbean (excluding high income),LAC,1983,341148229,28
+Euro area,EMU,1983,309543455,29
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,1983,307301861,30
+Heavily indebted poor countries (HIPC),HPC,1983,298600262,31
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,1983,290721921,32
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,1983,290721921,32
+North America,NAC,1983,259213228,33
+Africa Eastern and Southern,AFE,1983,253644643,34
+IDA blend,IDB,1983,242589635,35
+United States,USA,1983,233792000,36
+Europe & Central Asia (excluding high income),ECA,1983,188979984,37
+Arab World,ARB,1983,180973288,38
+Africa Western and Central,AFW,1983,173255157,39
+Indonesia,IDN,1983,159651381,40
+Russian Federation,RUS,1983,141668000,41
+Brazil,BRA,1983,129790077,42
+Japan,JPN,1983,119307000,43
+Central Europe and the Baltics,CEB,1983,108297837,44
+Bangladesh,BGD,1983,95335155,45
+Pakistan,PAK,1983,92227711,46
+Nigeria,NGA,1983,80438260,47
+World,WLD,1984,4766040300,1
+IDA & IBRD total,IBT,1984,3839296592,2
+Low & middle income,LMY,1984,3574605687,3
+Middle income,MIC,1984,3363350352,4
+IBRD only,IBD,1984,3094477559,5
+Early-demographic dividend,EAR,1984,1765269111,6
+Late-demographic dividend,LTE,1984,1688121991,7
+East Asia & Pacific,EAS,1984,1655263328,8
+East Asia & Pacific (excluding high income),EAP,1984,1447871073,9
+East Asia & Pacific (IDA & IBRD countries),TEA,1984,1428557744,10
+OECD members,OED,1984,1054395892,11
+China,CHN,1984,1036825000,12
+Post-demographic dividend,PST,1984,931624894,13
+South Asia,SAS,1984,885894499,14
+South Asia (IDA & IBRD),TSA,1984,885894499,14
+Europe & Central Asia,ECS,1984,814856984,15
+India,IND,1984,754875449,16
+IDA total,IDA,1984,744819033,17
+IDA only,IDX,1984,494950768,18
+Least developed countries: UN classification,LDC,1984,445947594,19
+Sub-Saharan Africa,SSF,1984,439338948,20
+Sub-Saharan Africa (IDA & IBRD countries),TSS,1984,439338948,20
+Fragile and conflict affected situations,FCS,1984,422123181,21
+European Union,EUU,1984,412998350,22
+Europe & Central Asia (IDA & IBRD countries),TEC,1984,407686015,23
+Sub-Saharan Africa (excluding high income),SSA,1984,400538509,24
+Latin America & Caribbean,LCN,1984,391832861,25
+Latin America & the Caribbean (IDA & IBRD countries),TLA,1984,377777260,26
+Pre-demographic dividend,PRE,1984,359259708,27
+Latin America & Caribbean (excluding high income),LAC,1984,348504110,28
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,1984,317366458,29
+Euro area,EMU,1984,310046458,30
+Heavily indebted poor countries (HIPC),HPC,1984,306943902,31
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,1984,300042126,32
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,1984,300042126,32
+North America,NAC,1984,261487222,33
+Africa Eastern and Southern,AFE,1984,261458202,34
+IDA blend,IDB,1984,249868265,35
+United States,USA,1984,235825000,36
+Europe & Central Asia (excluding high income),ECA,1984,191755370,37
+Arab World,ARB,1984,186733957,38
+Africa Western and Central,AFW,1984,177880746,39
+Indonesia,IDN,1984,163251124,40
+Russian Federation,RUS,1984,142745000,41
+Brazil,BRA,1984,132658864,42
+Japan,JPN,1984,120083000,43
+Central Europe and the Baltics,CEB,1984,108838073,44
+Bangladesh,BGD,1984,97814966,45
+Pakistan,PAK,1984,95164936,46
+Nigeria,NGA,1984,82526443,47
+World,WLD,1985,4850740788,1
+IDA & IBRD total,IBT,1985,3918002286,2
+Low & middle income,LMY,1985,3650257753,3
+Middle income,MIC,1985,3433380482,4
+IBRD only,IBD,1985,3152581662,5
+Early-demographic dividend,EAR,1985,1810019176,6
+Late-demographic dividend,LTE,1985,1712585483,7
+East Asia & Pacific,EAS,1985,1680467718,8
+East Asia & Pacific (excluding high income),EAP,1985,1471340337,9
+East Asia & Pacific (IDA & IBRD countries),TEA,1985,1451742188,10
+OECD members,OED,1985,1062728299,11
+China,CHN,1985,1051040000,12
+Post-demographic dividend,PST,1985,936480384,13
+South Asia,SAS,1985,906622025,14
+South Asia (IDA & IBRD),TSA,1985,906622025,14
+Europe & Central Asia,ECS,1985,819874109,15
+India,IND,1985,772647793,16
+IDA total,IDA,1985,765420624,17
+IDA only,IDX,1985,507758711,18
+Least developed countries: UN classification,LDC,1985,457866946,19
+Sub-Saharan Africa,SSF,1985,452261445,20
+Sub-Saharan Africa (IDA & IBRD countries),TSS,1985,452261445,20
+Fragile and conflict affected situations,FCS,1985,432271865,21
+European Union,EUU,1985,413962998,22
+Sub-Saharan Africa (excluding high income),SSA,1985,412354065,23
+Europe & Central Asia (IDA & IBRD countries),TEC,1985,411980043,24
+Latin America & Caribbean,LCN,1985,400012327,25
+Latin America & the Caribbean (IDA & IBRD countries),TLA,1985,385830246,26
+Pre-demographic dividend,PRE,1985,369570962,27
+Latin America & Caribbean (excluding high income),LAC,1985,355849792,28
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,1985,327681501,29
+Heavily indebted poor countries (HIPC),HPC,1985,315429759,30
+Euro area,EMU,1985,310617659,31
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,1985,309566339,32
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,1985,309566339,32
+Africa Eastern and Southern,AFE,1985,269450407,33
+North America,NAC,1985,263821663,34
+IDA blend,IDB,1985,257661913,35
+United States,USA,1985,237924000,36
+Europe & Central Asia (excluding high income),ECA,1985,194525195,37
+Arab World,ARB,1985,192563243,38
+Africa Western and Central,AFW,1985,182811038,39
+Indonesia,IDN,1985,166776185,40
+Russian Federation,RUS,1985,143858000,41
+Brazil,BRA,1985,135515595,42
+Japan,JPN,1985,120837000,43
+Central Europe and the Baltics,CEB,1985,109338285,44
+Bangladesh,BGD,1985,100253825,45
+Pakistan,PAK,1985,98229285,46
+Nigeria,NGA,1985,84897973,47
+World,WLD,1986,4937711562,1
+IDA & IBRD total,IBT,1986,3998725110,2
+Low & middle income,LMY,1986,3727939991,3
+Middle income,MIC,1986,3505495513,4
+IBRD only,IBD,1986,3212177926,5
+Early-demographic dividend,EAR,1986,1855391159,6
+Late-demographic dividend,LTE,1986,1738504785,7
+East Asia & Pacific,EAS,1986,1706848439,8
+East Asia & Pacific (excluding high income),EAP,1986,1496124294,9
+East Asia & Pacific (IDA & IBRD countries),TEA,1986,1476236205,10
+OECD members,OED,1986,1071222636,11
+China,CHN,1986,1066790000,12
+Post-demographic dividend,PST,1986,941566838,13
+South Asia,SAS,1986,927646189,14
+South Asia (IDA & IBRD),TSA,1986,927646189,14
+Europe & Central Asia,ECS,1986,825034695,15
+India,IND,1986,790689978,16
+IDA total,IDA,1986,786547184,17
+IDA only,IDX,1986,520745833,18
+Least developed countries: UN classification,LDC,1986,469843634,19
+Sub-Saharan Africa,SSF,1986,465510912,20
+Sub-Saharan Africa (IDA & IBRD countries),TSS,1986,465510912,20
+Fragile and conflict affected situations,FCS,1986,442386405,21
+Sub-Saharan Africa (excluding high income),SSA,1986,424407604,22
+Europe & Central Asia (IDA & IBRD countries),TEC,1986,416211558,23
+European Union,EUU,1986,415087013,24
+Latin America & Caribbean,LCN,1986,408172564,25
+Latin America & the Caribbean (IDA & IBRD countries),TLA,1986,393862440,26
+Pre-demographic dividend,PRE,1986,379883689,27
+Latin America & Caribbean (excluding high income),LAC,1986,363159117,28
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,1986,338209596,29
+Heavily indebted poor countries (HIPC),HPC,1986,324025001,30
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,1986,319257806,31
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,1986,319257806,31
+Euro area,EMU,1986,311372728,32
+Africa Eastern and Southern,AFE,1986,277621771,33
+North America,NAC,1986,266289167,34
+IDA blend,IDB,1986,265801351,35
+United States,USA,1986,240133000,36
+Arab World,ARB,1986,198509771,37
+Europe & Central Asia (excluding high income),ECA,1986,197344981,38
+Africa Western and Central,AFW,1986,187889141,39
+Indonesia,IDN,1986,170175065,40
+Russian Federation,RUS,1986,144894000,41
+Brazil,BRA,1986,138336370,42
+Japan,JPN,1986,121482000,43
+Central Europe and the Baltics,CEB,1986,109824166,44
+Bangladesh,BGD,1986,102635572,45
+Pakistan,PAK,1986,101606764,46
+Nigeria,NGA,1986,87235953,47
+World,WLD,1987,5027030278,1
+IDA & IBRD total,IBT,1987,4081589183,2
+Low & middle income,LMY,1987,3807567876,3
+Middle income,MIC,1987,3579488782,4
+IBRD only,IBD,1987,3273388723,5
+Early-demographic dividend,EAR,1987,1901405537,6
+Late-demographic dividend,LTE,1987,1765799733,7
+East Asia & Pacific,EAS,1987,1734703629,8
+East Asia & Pacific (excluding high income),EAP,1987,1522374575,9
+East Asia & Pacific (IDA & IBRD countries),TEA,1987,1502192372,10
+China,CHN,1987,1084035000,11
+OECD members,OED,1987,1079813087,12
+South Asia,SAS,1987,948802143,13
+South Asia (IDA & IBRD),TSA,1987,948802143,13
+Post-demographic dividend,PST,1987,946817118,14
+Europe & Central Asia,ECS,1987,830294805,15
+India,IND,1987,808931270,16
+IDA total,IDA,1987,808200460,17
+IDA only,IDX,1987,534038822,18
+Least developed countries: UN classification,LDC,1987,482075790,19
+Sub-Saharan Africa,SSF,1987,479171693,20
+Sub-Saharan Africa (IDA & IBRD countries),TSS,1987,479171693,20
+Fragile and conflict affected situations,FCS,1987,452678880,21
+Sub-Saharan Africa (excluding high income),SSA,1987,436643155,22
+Europe & Central Asia (IDA & IBRD countries),TEC,1987,420430601,23
+Latin America & Caribbean,LCN,1987,416332693,24
+European Union,EUU,1987,416296769,25
+Latin America & the Caribbean (IDA & IBRD countries),TLA,1987,401890697,26
+Pre-demographic dividend,PRE,1987,390374024,27
+Latin America & Caribbean (excluding high income),LAC,1987,370452304,28
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,1987,348933449,29
+Heavily indebted poor countries (HIPC),HPC,1987,333016950,30
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,1987,329101677,31
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,1987,329101677,31
+Euro area,EMU,1987,312223048,32
+Africa Eastern and Southern,AFE,1987,286067346,33
+IDA blend,IDB,1987,274161638,34
+North America,NAC,1987,268791866,35
+United States,USA,1987,242289000,36
+Arab World,ARB,1987,204524595,37
+Europe & Central Asia (excluding high income),ECA,1987,200194022,38
+Africa Western and Central,AFW,1987,193104347,39
+Indonesia,IDN,1987,173511154,40
+Russian Federation,RUS,1987,145908000,41
+Brazil,BRA,1987,141104944,42
+Japan,JPN,1987,122069000,43
+Central Europe and the Baltics,CEB,1987,110296425,44
+Pakistan,PAK,1987,105130717,45
+Bangladesh,BGD,1987,104959291,46
+Nigeria,NGA,1987,89591716,47
+World,WLD,1988,5117167006,1
+IDA & IBRD total,IBT,1988,4165012459,2
+Low & middle income,LMY,1988,3887617477,3
+Middle income,MIC,1988,3653960889,4
+IBRD only,IBD,1988,3334875641,5
+Early-demographic dividend,EAR,1988,1947928955,6
+Late-demographic dividend,LTE,1988,1793220326,7
+East Asia & Pacific,EAS,1988,1762936165,8
+East Asia & Pacific (excluding high income),EAP,1988,1549038591,9
+East Asia & Pacific (IDA & IBRD countries),TEA,1988,1528559240,10
+China,CHN,1988,1101630000,11
+OECD members,OED,1988,1088587717,12
+South Asia,SAS,1988,970044151,13
+South Asia (IDA & IBRD),TSA,1988,970044151,13
+Post-demographic dividend,PST,1988,952284317,14
+Europe & Central Asia,ECS,1988,835601587,15
+IDA total,IDA,1988,830136818,16
+India,IND,1988,827342990,17
+IDA only,IDX,1988,547428806,18
+Least developed countries: UN classification,LDC,1988,494400159,19
+Sub-Saharan Africa,SSF,1988,492983652,20
+Sub-Saharan Africa (IDA & IBRD countries),TSS,1988,492983652,20
+Fragile and conflict affected situations,FCS,1988,463045466,21
+Sub-Saharan Africa (excluding high income),SSA,1988,448764072,22
+Latin America & Caribbean,LCN,1988,424525590,23
+Europe & Central Asia (IDA & IBRD countries),TEC,1988,424466137,24
+European Union,EUU,1988,417653885,25
+Latin America & the Caribbean (IDA & IBRD countries),TLA,1988,409945610,26
+Pre-demographic dividend,PRE,1988,400820214,27
+Latin America & Caribbean (excluding high income),LAC,1988,377766659,28
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,1988,359728415,29
+Heavily indebted poor countries (HIPC),HPC,1988,342381086,30
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,1988,339013669,31
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,1988,339013669,31
+Euro area,EMU,1988,313272522,32
+Africa Eastern and Southern,AFE,1988,294498625,33
+IDA blend,IDB,1988,282708012,34
+North America,NAC,1988,271347446,35
+United States,USA,1988,244499000,36
+Arab World,ARB,1988,210269696,37
+Europe & Central Asia (excluding high income),ECA,1988,202990335,38
+Africa Western and Central,AFW,1988,198485027,39
+Indonesia,IDN,1988,176855065,40
+Russian Federation,RUS,1988,146857000,41
+Brazil,BRA,1988,143826357,42
+Japan,JPN,1988,122578000,43
+Central Europe and the Baltics,CEB,1988,110686740,44
+Pakistan,PAK,1988,108724739,45
+Bangladesh,BGD,1988,107216008,46
+Nigeria,NGA,1988,92020090,47
+World,WLD,1989,5207654866,1
+IDA & IBRD total,IBT,1989,4248240134,2
+Low & middle income,LMY,1989,3967659848,3
+Middle income,MIC,1989,3728139137,4
+IBRD only,IBD,1989,3395765359,5
+Early-demographic dividend,EAR,1989,1994666990,6
+Late-demographic dividend,LTE,1989,1819952808,7
+East Asia & Pacific,EAS,1989,1790597018,8
+East Asia & Pacific (excluding high income),EAP,1989,1575101307,9
+East Asia & Pacific (IDA & IBRD countries),TEA,1989,1554321275,10
+China,CHN,1989,1118650000,11
+OECD members,OED,1989,1097876374,12
+South Asia,SAS,1989,991571016,13
+South Asia (IDA & IBRD),TSA,1989,991571016,13
+Post-demographic dividend,PST,1989,958176572,14
+IDA total,IDA,1989,852474775,15
+India,IND,1989,846039529,16
+Europe & Central Asia,ECS,1989,840881506,17
+IDA only,IDX,1989,561093211,18
+Sub-Saharan Africa,SSF,1989,507001395,19
+Sub-Saharan Africa (IDA & IBRD countries),TSS,1989,507001395,19
+Least developed countries: UN classification,LDC,1989,506991476,20
+Fragile and conflict affected situations,FCS,1989,473853393,21
+Sub-Saharan Africa (excluding high income),SSA,1989,461052538,22
+Latin America & Caribbean,LCN,1989,432726590,23
+Europe & Central Asia (IDA & IBRD countries),TEC,1989,428221424,24
+European Union,EUU,1989,419102379,25
+Latin America & the Caribbean (IDA & IBRD countries),TLA,1989,418004229,26
+Pre-demographic dividend,PRE,1989,411682495,27
+Latin America & Caribbean (excluding high income),LAC,1989,385080987,28
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,1989,370724431,29
+Heavily indebted poor countries (HIPC),HPC,1989,352065913,30
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,1989,349120795,31
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,1989,349120795,31
+Euro area,EMU,1989,314634075,32
+Africa Eastern and Southern,AFE,1989,302939121,33
+IDA blend,IDB,1989,291381564,34
+North America,NAC,1989,274152910,35
+United States,USA,1989,246819000,36
+Arab World,ARB,1989,215969068,37
+Europe & Central Asia (excluding high income),ECA,1989,205733205,38
+Africa Western and Central,AFW,1989,204062274,39
+Indonesia,IDN,1989,180201630,40
+Russian Federation,RUS,1989,147721000,41
+Brazil,BRA,1989,146502972,42
+Japan,JPN,1989,123069000,43
+Pakistan,PAK,1989,112336629,44
+Central Europe and the Baltics,CEB,1989,110801640,45
+Bangladesh,BGD,1989,109433799,46
+Nigeria,NGA,1989,94531014,47
+World,WLD,1990,5299246757,1
+IDA & IBRD total,IBT,1990,4330689753,2
+Low & middle income,LMY,1990,4049620054,3
+Middle income,MIC,1990,3804281569,4
+IBRD only,IBD,1990,3455533853,5
+Early-demographic dividend,EAR,1990,2044241467,6
+Late-demographic dividend,LTE,1990,1844718134,7
+East Asia & Pacific,EAS,1990,1817735909,8
+East Asia & Pacific (excluding high income),EAP,1990,1600739173,9
+East Asia & Pacific (IDA & IBRD countries),TEA,1990,1579651917,10
+China,CHN,1990,1135185000,11
+OECD members,OED,1990,1107695519,12
+South Asia,SAS,1990,1013297018,13
+South Asia (IDA & IBRD),TSA,1990,1013297018,13
+Post-demographic dividend,PST,1990,964371624,14
+IDA total,IDA,1990,875155900,15
+India,IND,1990,864972221,16
+Europe & Central Asia,ECS,1990,845290251,17
+IDA only,IDX,1990,574789532,18
+Sub-Saharan Africa,SSF,1990,521314712,19
+Sub-Saharan Africa (IDA & IBRD countries),TSS,1990,521314712,19
+Least developed countries: UN classification,LDC,1990,519693837,20
+Fragile and conflict affected situations,FCS,1990,486723712,21
+Sub-Saharan Africa (excluding high income),SSA,1990,473635450,22
+Latin America & Caribbean,LCN,1990,440958144,23
+Europe & Central Asia (IDA & IBRD countries),TEC,1990,430990546,24
+Latin America & the Caribbean (IDA & IBRD countries),TLA,1990,426091608,25
+Pre-demographic dividend,PRE,1990,422471117,26
+European Union,EUU,1990,420525030,27
+Latin America & Caribbean (excluding high income),LAC,1990,392413347,28
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,1990,383279026,29
+Heavily indebted poor countries (HIPC),HPC,1990,361657937,30
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,1990,361322200,31
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,1990,359343952,32
+Euro area,EMU,1990,316087007,33
+Africa Eastern and Southern,AFE,1990,311748681,34
+IDA blend,IDB,1990,300366368,35
+North America,NAC,1990,277371697,36
+United States,USA,1990,249623000,37
+Arab World,ARB,1990,223184294,38
+Africa Western and Central,AFW,1990,209566031,39
+Europe & Central Asia (excluding high income),ECA,1990,208212866,40
+Indonesia,IDN,1990,183501098,41
+Brazil,BRA,1990,149143223,42
+Russian Federation,RUS,1990,147969406,43
+Japan,JPN,1990,123478000,44
+Pakistan,PAK,1990,116155576,45
+Bangladesh,BGD,1990,111633717,46
+Central Europe and the Baltics,CEB,1990,110743128,47
+Nigeria,NGA,1990,97120925,48
+World,WLD,1991,5388496229,1
+IDA & IBRD total,IBT,1991,4411587746,2
+Low & middle income,LMY,1991,4127853483,3
+Middle income,MIC,1991,3876917760,4
+IBRD only,IBD,1991,3513390696,5
+Early-demographic dividend,EAR,1991,2092102478,6
+Late-demographic dividend,LTE,1991,1868272190,7
+East Asia & Pacific,EAS,1991,1844189975,8
+East Asia & Pacific (excluding high income),EAP,1991,1625498444,9
+East Asia & Pacific (IDA & IBRD countries),TEA,1991,1604095270,10
+China,CHN,1991,1150780000,11
+OECD members,OED,1991,1118410105,12
+South Asia,SAS,1991,1035058149,13
+South Asia (IDA & IBRD),TSA,1991,1035058149,13
+Post-demographic dividend,PST,1991,971291914,14
+IDA total,IDA,1991,898197050,15
+India,IND,1991,883927600,16
+Europe & Central Asia,ECS,1991,849169385,17
+IDA only,IDX,1991,588705533,18
+Sub-Saharan Africa,SSF,1991,535621670,19
+Sub-Saharan Africa (IDA & IBRD countries),TSS,1991,535621670,19
+Least developed countries: UN classification,LDC,1991,532595517,20
+Fragile and conflict affected situations,FCS,1991,497970454,21
+Sub-Saharan Africa (excluding high income),SSA,1991,485834033,22
+Latin America & Caribbean,LCN,1991,449128999,23
+Latin America & the Caribbean (IDA & IBRD countries),TLA,1991,434138780,24
+Europe & Central Asia (IDA & IBRD countries),TEC,1991,433132067,25
+Pre-demographic dividend,PRE,1991,433111892,26
+European Union,EUU,1991,421741276,27
+Latin America & Caribbean (excluding high income),LAC,1991,399683088,28
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,1991,394251647,29
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,1991,371610655,30
+Heavily indebted poor countries (HIPC),HPC,1991,371411648,31
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,1991,369541810,32
+Africa Eastern and Southern,AFE,1991,320442961,33
+Euro area,EMU,1991,317407910,34
+IDA blend,IDB,1991,309491517,35
+North America,NAC,1991,281076404,36
+United States,USA,1991,252981000,37
+Arab World,ARB,1991,228402316,38
+Africa Western and Central,AFW,1991,215178709,39
+Europe & Central Asia (excluding high income),ECA,1991,210169114,40
+Indonesia,IDN,1991,186778238,41
+Brazil,BRA,1991,151724256,42
+Russian Federation,RUS,1991,148394216,43
+Japan,JPN,1991,123964000,44
+Pakistan,PAK,1991,120060406,45
+Bangladesh,BGD,1991,113787109,46
+Central Europe and the Baltics,CEB,1991,110469467,47
+Nigeria,NGA,1991,99720162,48
+World,WLD,1992,5477123966,1
+IDA & IBRD total,IBT,1992,4491324220,2
+Low & middle income,LMY,1992,4205224081,3
+Middle income,MIC,1992,3947406975,4
+IBRD only,IBD,1992,3568890021,5
+Early-demographic dividend,EAR,1992,2138854231,6
+Late-demographic dividend,LTE,1992,1890820460,7
+East Asia & Pacific,EAS,1992,1869074614,8
+East Asia & Pacific (excluding high income),EAP,1992,1648872786,9
+East Asia & Pacific (IDA & IBRD countries),TEA,1992,1627147885,10
+China,CHN,1992,1164970000,11
+OECD members,OED,1992,1129039882,12
+South Asia,SAS,1992,1057074570,13
+South Asia (IDA & IBRD),TSA,1992,1057074570,13
+Post-demographic dividend,PST,1992,978087877,14
+IDA total,IDA,1992,922434199,15
+India,IND,1992,902957070,16
+Europe & Central Asia,ECS,1992,852664501,17
+IDA only,IDX,1992,604096384,18
+Sub-Saharan Africa,SSF,1992,550274082,19
+Sub-Saharan Africa (IDA & IBRD countries),TSS,1992,550274082,19
+Least developed countries: UN classification,LDC,1992,546905231,20
+Fragile and conflict affected situations,FCS,1992,510691966,21
+Sub-Saharan Africa (excluding high income),SSA,1992,498349572,22
+Latin America & Caribbean,LCN,1992,457245250,23
+Pre-demographic dividend,PRE,1992,445411988,24
+Latin America & the Caribbean (IDA & IBRD countries),TLA,1992,442150885,25
+Europe & Central Asia (IDA & IBRD countries),TEC,1992,434844449,26
+European Union,EUU,1992,422968989,27
+Latin America & Caribbean (excluding high income),LAC,1992,406898894,28
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,1992,405847278,29
+Heavily indebted poor countries (HIPC),HPC,1992,382507617,30
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,1992,381995940,31
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,1992,379832349,32
+Africa Eastern and Southern,AFE,1992,329082707,33
+Euro area,EMU,1992,318742973,34
+IDA blend,IDB,1992,318337815,35
+North America,NAC,1992,284943671,36
+United States,USA,1992,256514000,37
+Arab World,ARB,1992,234321565,38
+Africa Western and Central,AFW,1992,221191375,39
+Europe & Central Asia (excluding high income),ECA,1992,212032319,40
+Indonesia,IDN,1992,190043744,41
+Brazil,BRA,1992,154275079,42
+Russian Federation,RUS,1992,148538197,43
+Japan,JPN,1992,124425000,44
+Pakistan,PAK,1992,123546848,45
+Bangladesh,BGD,1992,115952192,46
+Central Europe and the Baltics,CEB,1992,110111454,47
+Nigeria,NGA,1992,102372770,48
+World,WLD,1993,5564778621,1
+IDA & IBRD total,IBT,1993,4570777029,2
+Low & middle income,LMY,1993,4282493268,3
+Middle income,MIC,1993,4016605020,4
+IBRD only,IBD,1993,3622924380,5
+Early-demographic dividend,EAR,1993,2184656122,6
+Late-demographic dividend,LTE,1993,1912010271,7
+East Asia & Pacific,EAS,1993,1893258583,8
+East Asia & Pacific (excluding high income),EAP,1993,1671604370,9
+East Asia & Pacific (IDA & IBRD countries),TEA,1993,1649557492,10
+China,CHN,1993,1178440000,11
+OECD members,OED,1993,1139203498,12
+South Asia,SAS,1993,1079256381,13
+South Asia (IDA & IBRD),TSA,1993,1079256381,13
+Post-demographic dividend,PST,1993,984398082,14
+IDA total,IDA,1993,947852649,15
+India,IND,1993,922118387,16
+Europe & Central Asia,ECS,1993,855554222,17
+IDA only,IDX,1993,620712335,18
+Sub-Saharan Africa,SSF,1993,565570780,19
+Sub-Saharan Africa (IDA & IBRD countries),TSS,1993,565570780,19
+Least developed countries: UN classification,LDC,1993,562489881,20
+Fragile and conflict affected situations,FCS,1993,524592905,21
+Sub-Saharan Africa (excluding high income),SSA,1993,511789636,22
+Latin America & Caribbean,LCN,1993,465325731,23
+Pre-demographic dividend,PRE,1993,459529211,24
+Latin America & the Caribbean (IDA & IBRD countries),TLA,1993,450131381,25
+Europe & Central Asia (IDA & IBRD countries),TEC,1993,436152186,26
+European Union,EUU,1993,424344744,27
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,1993,417150344,28
+Latin America & Caribbean (excluding high income),LAC,1993,414075451,29
+Heavily indebted poor countries (HIPC),HPC,1993,394851493,30
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,1993,392371485,31
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,1993,390108809,32
+Africa Eastern and Southern,AFE,1993,338324002,33
+IDA blend,IDB,1993,327140314,34
+Euro area,EMU,1993,320053176,35
+North America,NAC,1993,288662580,36
+United States,USA,1993,259919000,37
+Arab World,ARB,1993,240926205,38
+Africa Western and Central,AFW,1993,227246778,39
+Europe & Central Asia (excluding high income),ECA,1993,213395945,40
+Indonesia,IDN,1993,193305168,41
+Brazil,BRA,1993,156794577,42
+Russian Federation,RUS,1993,148458777,43
+Pakistan,PAK,1993,127020117,44
+Japan,JPN,1993,124829000,45
+Bangladesh,BGD,1993,118132360,46
+Central Europe and the Baltics,CEB,1993,110041924,47
+Nigeria,NGA,1993,105122069,48
+World,WLD,1994,5650853178,1
+IDA & IBRD total,IBT,1994,4649243135,2
+Low & middle income,LMY,1994,4358651071,3
+Middle income,MIC,1994,4085142527,4
+IBRD only,IBD,1994,3675872938,5
+Early-demographic dividend,EAR,1994,2228719169,6
+Late-demographic dividend,LTE,1994,1932650915,7
+East Asia & Pacific,EAS,1994,1917389243,8
+East Asia & Pacific (excluding high income),EAP,1994,1694244506,9
+East Asia & Pacific (IDA & IBRD countries),TEA,1994,1671877438,10
+China,CHN,1994,1191835000,11
+OECD members,OED,1994,1148779736,12
+South Asia,SAS,1994,1101305517,13
+South Asia (IDA & IBRD),TSA,1994,1101305517,13
+Post-demographic dividend,PST,1994,990028770,14
+IDA total,IDA,1994,973370197,15
+India,IND,1994,941163767,16
+Europe & Central Asia,ECS,1994,857724587,17
+IDA only,IDX,1994,637273776,18
+Sub-Saharan Africa,SSF,1994,580801913,19
+Sub-Saharan Africa (IDA & IBRD countries),TSS,1994,580801913,19
+Least developed countries: UN classification,LDC,1994,578028937,20
+Fragile and conflict affected situations,FCS,1994,539513196,21
+Sub-Saharan Africa (excluding high income),SSA,1994,525116200,22
+Pre-demographic dividend,PRE,1994,475022693,23
+Latin America & Caribbean,LCN,1994,473328616,24
+Latin America & the Caribbean (IDA & IBRD countries),TLA,1994,458042874,25
+Europe & Central Asia (IDA & IBRD countries),TEC,1994,437106291,26
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,1994,428117445,27
+European Union,EUU,1994,425404352,28
+Latin America & Caribbean (excluding high income),LAC,1994,421179547,29
+Heavily indebted poor countries (HIPC),HPC,1994,406935718,30
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,1994,402475400,31
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,1994,400109102,32
+Africa Eastern and Southern,AFE,1994,347441809,33
+IDA blend,IDB,1994,336096421,34
+Euro area,EMU,1994,321024031,35
+North America,NAC,1994,292185857,36
+United States,USA,1994,263126000,37
+Arab World,ARB,1994,247626514,38
+Africa Western and Central,AFW,1994,233360104,39
+Europe & Central Asia (excluding high income),ECA,1994,214329901,40
+Indonesia,IDN,1994,196591828,41
+Brazil,BRA,1994,159265006,42
+Russian Federation,RUS,1994,148407912,43
+Pakistan,PAK,1994,130748083,44
+Japan,JPN,1994,125178000,45
+Bangladesh,BGD,1994,120343179,46
+Central Europe and the Baltics,CEB,1994,110021594,47
+Nigeria,NGA,1994,107935714,48
+World,WLD,1995,5736505517,1
+IDA & IBRD total,IBT,1995,4727566480,2
+Low & middle income,LMY,1995,4434718175,3
+Middle income,MIC,1995,4153549029,4
+IBRD only,IBD,1995,3728290191,5
+Early-demographic dividend,EAR,1995,2273692181,6
+Late-demographic dividend,LTE,1995,1952702058,7
+East Asia & Pacific,EAS,1995,1941185229,8
+East Asia & Pacific (excluding high income),EAP,1995,1716602413,9
+East Asia & Pacific (IDA & IBRD countries),TEA,1995,1693960469,10
+China,CHN,1995,1204855000,11
+OECD members,OED,1995,1158068699,12
+South Asia,SAS,1995,1123515559,13
+South Asia (IDA & IBRD),TSA,1995,1123515559,13
+IDA total,IDA,1995,999276289,14
+Post-demographic dividend,PST,1995,995338472,15
+India,IND,1995,960301044,16
+Europe & Central Asia,ECS,1995,859504754,17
+IDA only,IDX,1995,653949075,18
+Sub-Saharan Africa,SSF,1995,596382250,19
+Sub-Saharan Africa (IDA & IBRD countries),TSS,1995,596382250,19
+Least developed countries: UN classification,LDC,1995,593609643,20
+Fragile and conflict affected situations,FCS,1995,554041514,21
+Sub-Saharan Africa (excluding high income),SSA,1995,538769611,22
+Pre-demographic dividend,PRE,1995,490118620,23
+Latin America & Caribbean,LCN,1995,481309028,24
+Latin America & the Caribbean (IDA & IBRD countries),TLA,1995,465939463,25
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,1995,438968860,26
+Europe & Central Asia (IDA & IBRD countries),TEC,1995,437796116,27
+Latin America & Caribbean (excluding high income),LAC,1995,428268339,28
+European Union,EUU,1995,426210050,29
+Heavily indebted poor countries (HIPC),HPC,1995,418830100,30
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,1995,412447289,31
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,1995,409972623,32
+Africa Eastern and Southern,AFE,1995,356580375,33
+IDA blend,IDB,1995,345327214,34
+Euro area,EMU,1995,321808185,35
+North America,NAC,1995,295639837,36
+United States,USA,1995,266278000,37
+Arab World,ARB,1995,253952538,38
+Africa Western and Central,AFW,1995,239801875,39
+Europe & Central Asia (excluding high income),ECA,1995,215114964,40
+Indonesia,IDN,1995,199888057,41
+Brazil,BRA,1995,161735073,42
+Russian Federation,RUS,1995,148375787,43
+Pakistan,PAK,1995,134582253,44
+Japan,JPN,1995,125472000,45
+Bangladesh,BGD,1995,122600370,46
+Nigeria,NGA,1995,110819428,47
+Central Europe and the Baltics,CEB,1995,109864246,48
+World,WLD,1996,5822614627,1
+IDA & IBRD total,IBT,1996,4806199043,2
+Low & middle income,LMY,1996,4511311531,3
+Middle income,MIC,1996,4221979035,4
+IBRD only,IBD,1996,3780446473,5
+Early-demographic dividend,EAR,1996,2321284245,6
+Late-demographic dividend,LTE,1996,1972254664,7
+East Asia & Pacific,EAS,1996,1964830092,8
+East Asia & Pacific (excluding high income),EAP,1996,1738632397,9
+East Asia & Pacific (IDA & IBRD countries),TEA,1996,1715764488,10
+China,CHN,1996,1217550000,11
+OECD members,OED,1996,1167149370,12
+South Asia,SAS,1996,1145998648,13
+South Asia (IDA & IBRD),TSA,1996,1145998648,13
+IDA total,IDA,1996,1025752570,14
+Post-demographic dividend,PST,1996,1000836719,15
+India,IND,1996,979678458,16
+Europe & Central Asia,ECS,1996,861073426,17
+IDA only,IDX,1996,670890750,18
+Sub-Saharan Africa,SSF,1996,612553970,19
+Sub-Saharan Africa (IDA & IBRD countries),TSS,1996,612553970,19
+Least developed countries: UN classification,LDC,1996,609407699,20
+Fragile and conflict affected situations,FCS,1996,566796346,21
+Sub-Saharan Africa (excluding high income),SSA,1996,553009918,22
+Pre-demographic dividend,PRE,1996,503373634,23
+Latin America & Caribbean,LCN,1996,489235073,24
+Latin America & the Caribbean (IDA & IBRD countries),TLA,1996,473775482,25
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,1996,449859387,26
+Europe & Central Asia (IDA & IBRD countries),TEC,1996,438325526,27
+Latin America & Caribbean (excluding high income),LAC,1996,435299542,28
+Heavily indebted poor countries (HIPC),HPC,1996,431006940,29
+European Union,EUU,1996,426905134,30
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,1996,422368926,31
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,1996,419780929,32
+Africa Eastern and Southern,AFE,1996,366138524,33
+IDA blend,IDB,1996,354861820,34
+Euro area,EMU,1996,322568383,35
+North America,NAC,1996,299064031,36
+United States,USA,1996,269394000,37
+Arab World,ARB,1996,260229121,38
+Africa Western and Central,AFW,1996,246415446,39
+Europe & Central Asia (excluding high income),ECA,1996,216002100,40
+Indonesia,IDN,1996,203204348,41
+Brazil,BRA,1996,164202549,42
+Russian Federation,RUS,1996,148160129,43
+Pakistan,PAK,1996,138557092,44
+Japan,JPN,1996,125757000,45
+Bangladesh,BGD,1996,124862179,46
+Nigeria,NGA,1996,113754779,47
+Central Europe and the Baltics,CEB,1996,109626194,48
+World,WLD,1997,5908466558,1
+IDA & IBRD total,IBT,1997,4884731621,2
+Low & middle income,LMY,1997,4587799929,3
+Middle income,MIC,1997,4290382932,4
+IBRD only,IBD,1997,3832391543,5
+Early-demographic dividend,EAR,1997,2369042441,6
+Late-demographic dividend,LTE,1997,1991505992,7
+East Asia & Pacific,EAS,1997,1988067577,8
+East Asia & Pacific (excluding high income),EAP,1997,1760512371,9
+East Asia & Pacific (IDA & IBRD countries),TEA,1997,1737429846,10
+China,CHN,1997,1230075000,11
+OECD members,OED,1997,1176191803,12
+South Asia,SAS,1997,1168625898,13
+South Asia (IDA & IBRD),TSA,1997,1168625898,13
+IDA total,IDA,1997,1052340078,14
+Post-demographic dividend,PST,1997,1006102041,15
+India,IND,1997,999133762,16
+Europe & Central Asia,ECS,1997,862335057,17
+IDA only,IDX,1997,687850227,18
+Sub-Saharan Africa,SSF,1997,628853819,19
+Sub-Saharan Africa (IDA & IBRD countries),TSS,1997,628853819,19
+Least developed countries: UN classification,LDC,1997,625267815,20
+Fragile and conflict affected situations,FCS,1997,579354582,21
+Sub-Saharan Africa (excluding high income),SSA,1997,567371961,22
+Pre-demographic dividend,PRE,1997,516729805,23
+Latin America & Caribbean,LCN,1997,497097004,24
+Latin America & the Caribbean (IDA & IBRD countries),TLA,1997,481555614,25
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,1997,460864078,26
+Heavily indebted poor countries (HIPC),HPC,1997,443196153,27
+Latin America & Caribbean (excluding high income),LAC,1997,442282724,28
+Europe & Central Asia (IDA & IBRD countries),TEC,1997,438638046,29
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,1997,432334916,30
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,1997,429628398,31
+European Union,EUU,1997,427547651,32
+Africa Eastern and Southern,AFE,1997,375646235,33
+IDA blend,IDB,1997,364489851,34
+Euro area,EMU,1997,323306275,35
+North America,NAC,1997,302623125,36
+United States,USA,1997,272657000,37
+Arab World,ARB,1997,266565183,38
+Africa Western and Central,AFW,1997,253207584,39
+Europe & Central Asia (excluding high income),ECA,1997,216672059,40
+Indonesia,IDN,1997,206536095,41
+Brazil,BRA,1997,166661659,42
+Russian Federation,RUS,1997,147915361,43
+Pakistan,PAK,1997,142531804,44
+Bangladesh,BGD,1997,127198069,45
+Japan,JPN,1997,126057000,46
+Nigeria,NGA,1997,116754792,47
+Central Europe and the Baltics,CEB,1997,109422013,48
+World,WLD,1998,5994040064,1
+IDA & IBRD total,IBT,1998,4963254080,2
+Low & middle income,LMY,1998,4664177477,3
+Middle income,MIC,1998,4358459090,4
+IBRD only,IBD,1998,3884078902,5
+Early-demographic dividend,EAR,1998,2416119734,6
+East Asia & Pacific,EAS,1998,2010443502,7
+Late-demographic dividend,LTE,1998,2010169496,8
+East Asia & Pacific (excluding high income),EAP,1998,1781546477,9
+East Asia & Pacific (IDA & IBRD countries),TEA,1998,1758263635,10
+China,CHN,1998,1241935000,11
+South Asia,SAS,1998,1191405930,12
+South Asia (IDA & IBRD),TSA,1998,1191405930,12
+OECD members,OED,1998,1184928348,13
+IDA total,IDA,1998,1079175178,14
+India,IND,1998,1018665080,15
+Post-demographic dividend,PST,1998,1011086034,16
+Europe & Central Asia,ECS,1998,863317613,17
+IDA only,IDX,1998,704912232,18
+Sub-Saharan Africa,SSF,1998,645803591,19
+Sub-Saharan Africa (IDA & IBRD countries),TSS,1998,645803591,19
+Least developed countries: UN classification,LDC,1998,641401023,20
+Fragile and conflict affected situations,FCS,1998,592889780,21
+Sub-Saharan Africa (excluding high income),SSA,1998,582361221,22
+Pre-demographic dividend,PRE,1998,531450214,23
+Latin America & Caribbean,LCN,1998,504952583,24
+Latin America & the Caribbean (IDA & IBRD countries),TLA,1998,489346270,25
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,1998,472047033,26
+Heavily indebted poor countries (HIPC),HPC,1998,455939263,27
+Latin America & Caribbean (excluding high income),LAC,1998,449283157,28
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,1998,442475967,29
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,1998,439699399,30
+Europe & Central Asia (IDA & IBRD countries),TEC,1998,438735255,31
+European Union,EUU,1998,428120105,32
+Africa Eastern and Southern,AFE,1998,385505757,33
+IDA blend,IDB,1998,374262946,34
+Euro area,EMU,1998,323976358,35
+North America,NAC,1998,306069812,36
+United States,USA,1998,275854000,37
+Arab World,ARB,1998,273094199,38
+Africa Western and Central,AFW,1998,260297834,39
+Europe & Central Asia (excluding high income),ECA,1998,217104725,40
+Indonesia,IDN,1998,209826788,41
+Brazil,BRA,1998,169159655,42
+Russian Federation,RUS,1998,147670784,43
+Pakistan,PAK,1998,146522356,44
+Bangladesh,BGD,1998,129622332,45
+Japan,JPN,1998,126400000,46
+Nigeria,NGA,1998,119846254,47
+Central Europe and the Baltics,CEB,1998,109238340,48
+World,WLD,1999,6078404337,1
+IDA & IBRD total,IBT,1999,5040645749,2
+Low & middle income,LMY,1999,4739595823,3
+Middle income,MIC,1999,4425269853,4
+IBRD only,IBD,1999,3934521819,5
+Early-demographic dividend,EAR,1999,2462704115,6
+East Asia & Pacific,EAS,1999,2030912462,7
+Late-demographic dividend,LTE,1999,2027628907,8
+East Asia & Pacific (excluding high income),EAP,1999,1800932833,9
+East Asia & Pacific (IDA & IBRD countries),TEA,1999,1777464322,10
+China,CHN,1999,1252735000,11
+South Asia,SAS,1999,1214263809,12
+South Asia (IDA & IBRD),TSA,1999,1214263809,12
+OECD members,OED,1999,1193682861,13
+IDA total,IDA,1999,1106123930,14
+India,IND,1999,1038225823,15
+Post-demographic dividend,PST,1999,1015990094,16
+Europe & Central Asia,ECS,1999,864306932,17
+IDA only,IDX,1999,722105611,18
+Sub-Saharan Africa,SSF,1999,663257231,19
+Sub-Saharan Africa (IDA & IBRD countries),TSS,1999,663257231,19
+Least developed countries: UN classification,LDC,1999,657616923,20
+Fragile and conflict affected situations,FCS,1999,607064140,21
+Sub-Saharan Africa (excluding high income),SSA,1999,597802260,22
+Pre-demographic dividend,PRE,1999,546890075,23
+Latin America & Caribbean,LCN,1999,512730984,24
+Latin America & the Caribbean (IDA & IBRD countries),TLA,1999,497065139,25
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,1999,483430509,26
+Heavily indebted poor countries (HIPC),HPC,1999,469076891,27
+Latin America & Caribbean (excluding high income),LAC,1999,456223550,28
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,1999,452793419,29
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,1999,449944988,30
+Europe & Central Asia (IDA & IBRD countries),TEC,1999,438650260,31
+European Union,EUU,1999,428825949,32
+Africa Eastern and Southern,AFE,1999,395750933,33
+IDA blend,IDB,1999,384018319,34
+Euro area,EMU,1999,324781951,35
+North America,NAC,1999,309502410,36
+Arab World,ARB,1999,279709634,37
+United States,USA,1999,279040000,38
+Africa Western and Central,AFW,1999,267506298,39
+Europe & Central Asia (excluding high income),ECA,1999,217579952,40
+Indonesia,IDN,1999,213004668,41
+Brazil,BRA,1999,171641543,42
+Pakistan,PAK,1999,150565377,43
+Russian Federation,RUS,1999,147214776,44
+Bangladesh,BGD,1999,132108065,45
+Japan,JPN,1999,126631000,46
+Nigeria,NGA,1999,123047320,47
+Central Europe and the Baltics,CEB,1999,109060951,48
+World,WLD,2000,6161884811,1
+IDA & IBRD total,IBT,2000,5116723507,2
+Low & middle income,LMY,2000,4814250279,3
+Middle income,MIC,2000,4491582042,4
+IBRD only,IBD,2000,3983328255,5
+Early-demographic dividend,EAR,2000,2509431470,6
+East Asia & Pacific,EAS,2000,2050149617,7
+Late-demographic dividend,LTE,2000,2043581322,8
+East Asia & Pacific (excluding high income),EAP,2000,1819011507,9
+East Asia & Pacific (IDA & IBRD countries),TEA,2000,1795374943,10
+China,CHN,2000,1262645000,11
+South Asia,SAS,2000,1237185482,12
+South Asia (IDA & IBRD),TSA,2000,1237185482,12
+OECD members,OED,2000,1202226474,13
+IDA total,IDA,2000,1133395252,14
+India,IND,2000,1057922733,15
+Post-demographic dividend,PST,2000,1021150563,16
+Europe & Central Asia,ECS,2000,865392479,17
+IDA only,IDX,2000,739265295,18
+Sub-Saharan Africa,SSF,2000,681125107,19
+Sub-Saharan Africa (IDA & IBRD countries),TSS,2000,681125107,19
+Least developed countries: UN classification,LDC,2000,673630102,20
+Fragile and conflict affected situations,FCS,2000,621080692,21
+Sub-Saharan Africa (excluding high income),SSA,2000,613632482,22
+Pre-demographic dividend,PRE,2000,562428025,23
+Latin America & Caribbean,LCN,2000,520272118,24
+Latin America & the Caribbean (IDA & IBRD countries),TLA,2000,504556065,25
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,2000,494850317,26
+Heavily indebted poor countries (HIPC),HPC,2000,481984327,27
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,2000,462980522,28
+Latin America & Caribbean (excluding high income),LAC,2000,462953688,29
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,2000,460058369,30
+Europe & Central Asia (IDA & IBRD countries),TEC,2000,438423541,31
+European Union,EUU,2000,429339162,32
+Africa Eastern and Southern,AFE,2000,406156661,33
+IDA blend,IDB,2000,394129957,34
+Euro area,EMU,2000,325789631,35
+North America,NAC,2000,312909691,36
+Arab World,ARB,2000,286548096,37
+United States,USA,2000,282162411,38
+Africa Western and Central,AFW,2000,274968446,39
+Europe & Central Asia (excluding high income),ECA,2000,218486598,40
+Indonesia,IDN,2000,216077790,41
+Brazil,BRA,2000,174018282,42
+Pakistan,PAK,2000,154879127,43
+Russian Federation,RUS,2000,146596869,44
+Bangladesh,BGD,2000,134544304,45
+Japan,JPN,2000,126843000,46
+Nigeria,NGA,2000,126382494,47
+Central Europe and the Baltics,CEB,2000,108447824,48
+World,WLD,2001,6245112906,1
+IDA & IBRD total,IBT,2001,5192348770,2
+Low & middle income,LMY,2001,4888551481,3
+Middle income,MIC,2001,4557281954,4
+IBRD only,IBD,2001,4031080605,5
+Early-demographic dividend,EAR,2001,2556335424,6
+East Asia & Pacific,EAS,2001,2068682053,7
+Late-demographic dividend,LTE,2001,2058600486,8
+East Asia & Pacific (excluding high income),EAP,2001,1836260943,9
+East Asia & Pacific (IDA & IBRD countries),TEA,2001,1812475067,10
+China,CHN,2001,1271850000,11
+South Asia,SAS,2001,1260149056,12
+South Asia (IDA & IBRD),TSA,2001,1260149056,12
+OECD members,OED,2001,1211109104,13
+IDA total,IDA,2001,1161268165,14
+India,IND,2001,1077898575,15
+Post-demographic dividend,PST,2001,1026105872,16
+Europe & Central Asia,ECS,2001,866590696,17
+IDA only,IDX,2001,756605780,18
+Sub-Saharan Africa,SSF,2001,699588585,19
+Sub-Saharan Africa (IDA & IBRD countries),TSS,2001,699588585,19
+Least developed countries: UN classification,LDC,2001,689878805,20
+Fragile and conflict affected situations,FCS,2001,635481068,21
+Sub-Saharan Africa (excluding high income),SSA,2001,630019621,22
+Pre-demographic dividend,PRE,2001,578587390,23
+Latin America & Caribbean,LCN,2001,527572583,24
+Latin America & the Caribbean (IDA & IBRD countries),TLA,2001,511809816,25
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,2001,506478256,26
+Heavily indebted poor countries (HIPC),HPC,2001,495197350,27
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,2001,473223662,28
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,2001,470225878,29
+Latin America & Caribbean (excluding high income),LAC,2001,469463143,30
+Europe & Central Asia (IDA & IBRD countries),TEC,2001,438100368,31
+European Union,EUU,2001,429909307,32
+Africa Eastern and Southern,AFE,2001,416807868,33
+IDA blend,IDB,2001,404662385,34
+Euro area,EMU,2001,326861195,35
+North America,NAC,2001,316051677,36
+Arab World,ARB,2001,293580252,37
+United States,USA,2001,284968955,38
+Africa Western and Central,AFW,2001,282780717,39
+Europe & Central Asia (excluding high income),ECA,2001,219435056,40
+Indonesia,IDN,2001,219097902,41
+Brazil,BRA,2001,176301203,42
+Pakistan,PAK,2001,159270907,43
+Russian Federation,RUS,2001,145976482,44
+Bangladesh,BGD,2001,136805810,45
+Nigeria,NGA,2001,129862595,46
+Japan,JPN,2001,127149000,47
+Central Europe and the Baltics,CEB,2001,107660041,48
+World,WLD,2002,6327557399,1
+IDA & IBRD total,IBT,2002,5267145775,2
+Low & middle income,LMY,2002,4961926647,3
+Middle income,MIC,2002,4620891319,4
+IBRD only,IBD,2002,4077229003,5
+Early-demographic dividend,EAR,2002,2601917557,6
+East Asia & Pacific,EAS,2002,2086144389,7
+Late-demographic dividend,LTE,2002,2072599555,8
+East Asia & Pacific (excluding high income),EAP,2002,1852659155,9
+East Asia & Pacific (IDA & IBRD countries),TEA,2002,1828744767,10
+South Asia,SAS,2002,1282584796,11
+South Asia (IDA & IBRD),TSA,2002,1282584796,11
+China,CHN,2002,1280400000,12
+OECD members,OED,2002,1220101353,13
+IDA total,IDA,2002,1189916772,14
+India,IND,2002,1097600380,15
+Post-demographic dividend,PST,2002,1031302538,16
+Europe & Central Asia,ECS,2002,868234843,17
+IDA only,IDX,2002,774981706,18
+Sub-Saharan Africa,SSF,2002,718662153,19
+Sub-Saharan Africa (IDA & IBRD countries),TSS,2002,718662153,19
+Least developed countries: UN classification,LDC,2002,707266809,20
+Fragile and conflict affected situations,FCS,2002,651226758,21
+Sub-Saharan Africa (excluding high income),SSA,2002,646942913,22
+Pre-demographic dividend,PRE,2002,596114535,23
+Latin America & Caribbean,LCN,2002,534691591,24
+Latin America & the Caribbean (IDA & IBRD countries),TLA,2002,518881965,25
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,2002,518193093,26
+Heavily indebted poor countries (HIPC),HPC,2002,509679981,27
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,2002,483540516,28
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,2002,480465143,29
+Latin America & Caribbean (excluding high income),LAC,2002,475799008,30
+Europe & Central Asia (IDA & IBRD countries),TEC,2002,437806951,31
+European Union,EUU,2002,430924112,32
+Africa Eastern and Southern,AFE,2002,427820358,33
+IDA blend,IDB,2002,414935066,34
+Euro area,EMU,2002,328469678,35
+North America,NAC,2002,319046534,36
+Arab World,ARB,2002,300691509,37
+Africa Western and Central,AFW,2002,290841795,38
+United States,USA,2002,287625193,39
+Indonesia,IDN,2002,222088495,40
+Europe & Central Asia (excluding high income),ECA,2002,220400259,41
+Brazil,BRA,2002,178503484,42
+Pakistan,PAK,2002,163222549,43
+Russian Federation,RUS,2002,145306497,44
+Bangladesh,BGD,2002,138933658,45
+Nigeria,NGA,2002,133471989,46
+Japan,JPN,2002,127445000,47
+Central Europe and the Baltics,CEB,2002,106959751,48
+World,WLD,2003,6409750441,1
+IDA & IBRD total,IBT,2003,5341840046,2
+Low & middle income,LMY,2003,5034824498,3
+Middle income,MIC,2003,4683580056,4
+IBRD only,IBD,2003,4122775918,5
+Early-demographic dividend,EAR,2003,2647109296,6
+East Asia & Pacific,EAS,2003,2102761941,7
+Late-demographic dividend,LTE,2003,2086139068,8
+East Asia & Pacific (excluding high income),EAP,2003,1868409996,9
+East Asia & Pacific (IDA & IBRD countries),TEA,2003,1844349334,10
+South Asia,SAS,2003,1304347790,11
+South Asia (IDA & IBRD),TSA,2003,1304347790,11
+China,CHN,2003,1288400000,12
+OECD members,OED,2003,1229012217,13
+IDA total,IDA,2003,1219064128,14
+India,IND,2003,1116803006,15
+Post-demographic dividend,PST,2003,1036498631,16
+Europe & Central Asia,ECS,2003,870529446,17
+IDA only,IDX,2003,793752826,18
+Sub-Saharan Africa,SSF,2003,738316131,19
+Sub-Saharan Africa (IDA & IBRD countries),TSS,2003,738316131,19
+Least developed countries: UN classification,LDC,2003,725111768,20
+Fragile and conflict affected situations,FCS,2003,667644273,21
+Sub-Saharan Africa (excluding high income),SSA,2003,664400687,22
+Pre-demographic dividend,PRE,2003,614269146,23
+Latin America & Caribbean,LCN,2003,541643365,24
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,2003,530338988,25
+Latin America & the Caribbean (IDA & IBRD countries),TLA,2003,525787222,26
+Heavily indebted poor countries (HIPC),HPC,2003,524773987,27
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,2003,494288606,28
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,2003,491133637,29
+Latin America & Caribbean (excluding high income),LAC,2003,481977727,30
+Africa Eastern and Southern,AFE,2003,439173286,31
+Europe & Central Asia (IDA & IBRD countries),TEC,2003,437905932,32
+European Union,EUU,2003,432512916,33
+IDA blend,IDB,2003,425311302,34
+Euro area,EMU,2003,330286340,35
+North America,NAC,2003,321812780,36
+Arab World,ARB,2003,307815105,37
+Africa Western and Central,AFW,2003,299142845,38
+United States,USA,2003,290107933,39
+Indonesia,IDN,2003,225048008,40
+Europe & Central Asia (excluding high income),ECA,2003,221399692,41
+Brazil,BRA,2003,180622688,42
+Pakistan,PAK,2003,167110248,43
+Russian Federation,RUS,2003,144648618,44
+Bangladesh,BGD,2003,140970351,45
+Nigeria,NGA,2003,137202644,46
+Japan,JPN,2003,127718000,47
+Central Europe and the Baltics,CEB,2003,106624167,48
+World,WLD,2004,6492769815,1
+IDA & IBRD total,IBT,2004,5417128229,2
+Low & middle income,LMY,2004,5108183576,3
+Middle income,MIC,2004,4746877931,4
+IBRD only,IBD,2004,4168676771,5
+Early-demographic dividend,EAR,2004,2693184997,6
+East Asia & Pacific,EAS,2004,2118747885,7
+Late-demographic dividend,LTE,2004,2099412663,8
+East Asia & Pacific (excluding high income),EAP,2004,1883675167,9
+East Asia & Pacific (IDA & IBRD countries),TEA,2004,1859450104,10
+South Asia,SAS,2004,1325950587,11
+South Asia (IDA & IBRD),TSA,2004,1325950587,11
+China,CHN,2004,1296075000,12
+IDA total,IDA,2004,1248451458,13
+OECD members,OED,2004,1237896576,14
+India,IND,2004,1135991513,15
+Post-demographic dividend,PST,2004,1041890752,16
+Europe & Central Asia,ECS,2004,873069464,17
+IDA only,IDX,2004,812304004,18
+Sub-Saharan Africa,SSF,2004,758653144,19
+Sub-Saharan Africa (IDA & IBRD countries),TSS,2004,758653144,19
+Least developed countries: UN classification,LDC,2004,742717957,20
+Fragile and conflict affected situations,FCS,2004,684007365,21
+Sub-Saharan Africa (excluding high income),SSA,2004,682493463,22
+Pre-demographic dividend,PRE,2004,632445407,23
+Latin America & Caribbean,LCN,2004,548455563,24
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,2004,543086512,25
+Heavily indebted poor countries (HIPC),HPC,2004,539803501,26
+Latin America & the Caribbean (IDA & IBRD countries),TLA,2004,532556401,27
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,2004,505618583,28
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,2004,502381957,29
+Latin America & Caribbean (excluding high income),LAC,2004,488032486,30
+Africa Eastern and Southern,AFE,2004,450928044,31
+Europe & Central Asia (IDA & IBRD countries),TEC,2004,438136036,32
+IDA blend,IDB,2004,436147454,33
+European Union,EUU,2004,434193248,34
+Euro area,EMU,2004,332140117,35
+North America,NAC,2004,324806660,36
+Arab World,ARB,2004,315060277,37
+Africa Western and Central,AFW,2004,307725100,38
+United States,USA,2004,292805298,39
+Indonesia,IDN,2004,227926649,40
+Europe & Central Asia (excluding high income),ECA,2004,222413290,41
+Brazil,BRA,2004,182675143,42
+Pakistan,PAK,2004,171286000,43
+Russian Federation,RUS,2004,144067316,44
+Bangladesh,BGD,2004,142902856,45
+Nigeria,NGA,2004,141057045,46
+Japan,JPN,2004,127761000,47
+Central Europe and the Baltics,CEB,2004,106331716,48
+World,WLD,2005,6575841506,1
+IDA & IBRD total,IBT,2005,5492481030,2
+Low & middle income,LMY,2005,5181562375,3
+Middle income,MIC,2005,4809774178,4
+IBRD only,IBD,2005,4214082145,5
+Early-demographic dividend,EAR,2005,2738846905,6
+East Asia & Pacific,EAS,2005,2134573057,7
+Late-demographic dividend,LTE,2005,2112603351,8
+East Asia & Pacific (excluding high income),EAP,2005,1898853723,9
+East Asia & Pacific (IDA & IBRD countries),TEA,2005,1874487158,10
+South Asia,SAS,2005,1346886384,11
+South Asia (IDA & IBRD),TSA,2005,1346886384,11
+China,CHN,2005,1303720000,12
+IDA total,IDA,2005,1278398885,13
+OECD members,OED,2005,1246656490,14
+India,IND,2005,1154676322,15
+Post-demographic dividend,PST,2005,1047140108,16
+Europe & Central Asia,ECS,2005,875563919,17
+IDA only,IDX,2005,831265940,18
+Sub-Saharan Africa,SSF,2005,779665113,19
+Sub-Saharan Africa (IDA & IBRD countries),TSS,2005,779665113,19
+Least developed countries: UN classification,LDC,2005,760741611,20
+Sub-Saharan Africa (excluding high income),SSA,2005,701214785,21
+Fragile and conflict affected situations,FCS,2005,700820603,22
+Pre-demographic dividend,PRE,2005,651320620,23
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,2005,556210211,24
+Heavily indebted poor countries (HIPC),HPC,2005,555358929,25
+Latin America & Caribbean,LCN,2005,555120780,26
+Latin America & the Caribbean (IDA & IBRD countries),TLA,2005,539188798,27
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,2005,517240777,28
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,2005,513920381,29
+Latin America & Caribbean (excluding high income),LAC,2005,494006571,30
+Africa Eastern and Southern,AFE,2005,463076637,31
+IDA blend,IDB,2005,447132945,32
+Europe & Central Asia (IDA & IBRD countries),TEC,2005,438333196,33
+European Union,EUU,2005,435789139,34
+Euro area,EMU,2005,333897752,35
+North America,NAC,2005,327822042,36
+Arab World,ARB,2005,322628451,37
+Africa Western and Central,AFW,2005,316588476,38
+United States,USA,2005,295516599,39
+Indonesia,IDN,2005,230871650,40
+Europe & Central Asia (excluding high income),ECA,2005,223360135,41
+Brazil,BRA,2005,184688101,42
+Pakistan,PAK,2005,175453212,43
+Nigeria,NGA,2005,145017253,44
+Bangladesh,BGD,2005,144715786,45
+Russian Federation,RUS,2005,143518814,46
+Japan,JPN,2005,127773000,47
+Central Europe and the Baltics,CEB,2005,106041911,48
+World,WLD,2006,6659977025,1
+IDA & IBRD total,IBT,2006,5568236362,2
+Low & middle income,LMY,2006,5255157355,3
+Middle income,MIC,2006,4872116354,4
+IBRD only,IBD,2006,4258827055,5
+Early-demographic dividend,EAR,2006,2784726644,6
+East Asia & Pacific,EAS,2006,2150688938,7
+Late-demographic dividend,LTE,2006,2126122277,8
+East Asia & Pacific (excluding high income),EAP,2006,1914002124,9
+East Asia & Pacific (IDA & IBRD countries),TEA,2006,1889507244,10
+South Asia,SAS,2006,1367187349,11
+South Asia (IDA & IBRD),TSA,2006,1367187349,11
+China,CHN,2006,1311020000,12
+IDA total,IDA,2006,1309409307,13
+OECD members,OED,2006,1255746646,14
+India,IND,2006,1172878890,15
+Post-demographic dividend,PST,2006,1052866351,16
+Europe & Central Asia,ECS,2006,878166933,17
+IDA only,IDX,2006,851014854,18
+Sub-Saharan Africa,SSF,2006,801269368,19
+Sub-Saharan Africa (IDA & IBRD countries),TSS,2006,801269368,19
+Least developed countries: UN classification,LDC,2006,779230030,20
+Sub-Saharan Africa (excluding high income),SSA,2006,720481278,21
+Fragile and conflict affected situations,FCS,2006,717975893,22
+Pre-demographic dividend,PRE,2006,670229212,23
+Heavily indebted poor countries (HIPC),HPC,2006,571454590,24
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,2006,569898499,25
+Latin America & Caribbean,LCN,2006,561751999,26
+Latin America & the Caribbean (IDA & IBRD countries),TLA,2006,545805913,27
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,2006,529158464,28
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,2006,525752130,29
+Latin America & Caribbean (excluding high income),LAC,2006,499910627,30
+Africa Eastern and Southern,AFE,2006,475606210,31
+IDA blend,IDB,2006,458394453,32
+Europe & Central Asia (IDA & IBRD countries),TEC,2006,438714358,33
+European Union,EUU,2006,437263803,34
+Euro area,EMU,2006,335499702,35
+North America,NAC,2006,331013939,36
+Arab World,ARB,2006,330526310,37
+Africa Western and Central,AFW,2006,325663158,38
+United States,USA,2006,298379912,39
+Indonesia,IDN,2006,233951652,40
+Europe & Central Asia (excluding high income),ECA,2006,224417513,41
+Brazil,BRA,2006,186653106,42
+Pakistan,PAK,2006,179682690,43
+Nigeria,NGA,2006,149077334,44
+Bangladesh,BGD,2006,146405973,45
+Russian Federation,RUS,2006,143049637,46
+Japan,JPN,2006,127854000,47
+Mexico,MEX,2006,107253666,48
+World,WLD,2007,6744489399,1
+IDA & IBRD total,IBT,2007,5643505923,2
+Low & middle income,LMY,2007,5328158709,3
+Middle income,MIC,2007,4933710362,4
+IBRD only,IBD,2007,4302067550,5
+Early-demographic dividend,EAR,2007,2830531957,6
+East Asia & Pacific,EAS,2007,2167046538,7
+Late-demographic dividend,LTE,2007,2139958608,8
+East Asia & Pacific (excluding high income),EAP,2007,1929185103,9
+East Asia & Pacific (IDA & IBRD countries),TEA,2007,1904568042,10
+South Asia,SAS,2007,1386949456,11
+South Asia (IDA & IBRD),TSA,2007,1386949456,11
+IDA total,IDA,2007,1341438373,12
+China,CHN,2007,1317885000,13
+OECD members,OED,2007,1264728255,14
+India,IND,2007,1190676021,15
+Post-demographic dividend,PST,2007,1059147302,16
+Europe & Central Asia,ECS,2007,880656346,17
+IDA only,IDX,2007,870961847,18
+Sub-Saharan Africa,SSF,2007,823564883,19
+Sub-Saharan Africa (IDA & IBRD countries),TSS,2007,823564883,19
+Least developed countries: UN classification,LDC,2007,797516000,20
+Sub-Saharan Africa (excluding high income),SSA,2007,740376633,21
+Fragile and conflict affected situations,FCS,2007,735110300,22
+Pre-demographic dividend,PRE,2007,688722596,23
+Heavily indebted poor countries (HIPC),HPC,2007,587432384,24
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,2007,583743828,25
+Latin America & Caribbean,LCN,2007,568345245,26
+Latin America & the Caribbean (IDA & IBRD countries),TLA,2007,552399650,27
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,2007,540838105,28
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,2007,537343609,29
+Latin America & Caribbean (excluding high income),LAC,2007,505793340,30
+Africa Eastern and Southern,AFE,2007,488580707,31
+IDA blend,IDB,2007,470476526,32
+European Union,EUU,2007,438796003,33
+Europe & Central Asia (IDA & IBRD countries),TEC,2007,438680283,34
+Arab World,ARB,2007,338947976,35
+Euro area,EMU,2007,337282985,36
+Africa Western and Central,AFW,2007,334984176,37
+North America,NAC,2007,334183103,38
+United States,USA,2007,301231207,39
+Indonesia,IDN,2007,237062337,40
+Europe & Central Asia (excluding high income),ECA,2007,225016072,41
+Brazil,BRA,2007,188552320,42
+Pakistan,PAK,2007,184493231,43
+Nigeria,NGA,2007,153267261,44
+Bangladesh,BGD,2007,147989278,45
+Russian Federation,RUS,2007,142805114,46
+Japan,JPN,2007,128001000,47
+Mexico,MEX,2007,108774360,48
+World,WLD,2008,6830513541,1
+IDA & IBRD total,IBT,2008,5720065907,2
+Low & middle income,LMY,2008,5402245137,3
+Middle income,MIC,2008,4996382425,4
+IBRD only,IBD,2008,4346234014,5
+Early-demographic dividend,EAR,2008,2875943965,6
+East Asia & Pacific,EAS,2008,2183472438,7
+Late-demographic dividend,LTE,2008,2153941306,8
+East Asia & Pacific (excluding high income),EAP,2008,1944305887,9
+East Asia & Pacific (IDA & IBRD countries),TEA,2008,1919570287,10
+South Asia,SAS,2008,1406047164,11
+South Asia (IDA & IBRD),TSA,2008,1406047164,11
+IDA total,IDA,2008,1373831893,12
+China,CHN,2008,1324655000,13
+OECD members,OED,2008,1274711058,14
+India,IND,2008,1207930964,15
+Post-demographic dividend,PST,2008,1065603711,16
+IDA only,IDX,2008,890856012,17
+Europe & Central Asia,ECS,2008,884224673,18
+Sub-Saharan Africa,SSF,2008,846656872,19
+Sub-Saharan Africa (IDA & IBRD countries),TSS,2008,846656872,19
+Least developed countries: UN classification,LDC,2008,816268129,20
+Sub-Saharan Africa (excluding high income),SSA,2008,761026248,21
+Fragile and conflict affected situations,FCS,2008,753058095,22
+Pre-demographic dividend,PRE,2008,708796270,23
+Heavily indebted poor countries (HIPC),HPC,2008,604007702,24
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,2008,597799097,25
+Latin America & Caribbean,LCN,2008,574908733,26
+Latin America & the Caribbean (IDA & IBRD countries),TLA,2008,558968822,27
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,2008,552681993,28
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,2008,549090016,29
+Latin America & Caribbean (excluding high income),LAC,2008,511659365,30
+Africa Eastern and Southern,AFE,2008,502070763,31
+IDA blend,IDB,2008,482975881,32
+European Union,EUU,2008,440270719,33
+Europe & Central Asia (IDA & IBRD countries),TEC,2008,439732746,34
+Arab World,ARB,2008,347684619,35
+Africa Western and Central,AFW,2008,344586109,36
+Euro area,EMU,2008,338978475,37
+North America,NAC,2008,337404564,38
+United States,USA,2008,304093966,39
+Indonesia,IDN,2008,240157903,40
+Europe & Central Asia (excluding high income),ECA,2008,226524480,41
+Brazil,BRA,2008,190367302,42
+Pakistan,PAK,2008,189499113,43
+Nigeria,NGA,2008,157595014,44
+Bangladesh,BGD,2008,149474264,45
+Russian Federation,RUS,2008,142742366,46
+Japan,JPN,2008,128063000,47
+Mexico,MEX,2008,110374288,48
+World,WLD,2009,6916589116,1
+IDA & IBRD total,IBT,2009,5797994405,2
+Low & middle income,LMY,2009,5477389130,3
+Middle income,MIC,2009,5059811744,4
+IBRD only,IBD,2009,4391389527,5
+Early-demographic dividend,EAR,2009,2921563644,6
+East Asia & Pacific,EAS,2009,2199148703,7
+Late-demographic dividend,LTE,2009,2167303374,8
+East Asia & Pacific (excluding high income),EAP,2009,1959017463,9
+East Asia & Pacific (IDA & IBRD countries),TEA,2009,1934167856,10
+South Asia,SAS,2009,1425370200,11
+South Asia (IDA & IBRD),TSA,2009,1425370200,11
+IDA total,IDA,2009,1406604878,12
+China,CHN,2009,1331260000,13
+OECD members,OED,2009,1283973216,14
+India,IND,2009,1225524753,15
+Post-demographic dividend,PST,2009,1071118156,16
+IDA only,IDX,2009,910994308,17
+Europe & Central Asia,ECS,2009,887741128,18
+Sub-Saharan Africa,SSF,2009,870347292,19
+Sub-Saharan Africa (IDA & IBRD countries),TSS,2009,870347292,19
+Least developed countries: UN classification,LDC,2009,835687108,20
+Sub-Saharan Africa (excluding high income),SSA,2009,782252358,21
+Fragile and conflict affected situations,FCS,2009,772015937,22
+Pre-demographic dividend,PRE,2009,730293963,23
+Heavily indebted poor countries (HIPC),HPC,2009,621337653,24
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,2009,612128501,25
+Latin America & Caribbean,LCN,2009,581388129,26
+Latin America & the Caribbean (IDA & IBRD countries),TLA,2009,565454932,27
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,2009,565038251,28
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,2009,561349152,29
+Latin America & Caribbean (excluding high income),LAC,2009,517459947,30
+Africa Eastern and Southern,AFE,2009,516003448,31
+IDA blend,IDB,2009,495610570,32
+European Union,EUU,2009,441388573,33
+Europe & Central Asia (IDA & IBRD countries),TEC,2009,441304973,34
+Arab World,ARB,2009,356386673,35
+Africa Western and Central,AFW,2009,354343844,36
+North America,NAC,2009,340465163,37
+Euro area,EMU,2009,340136844,38
+United States,USA,2009,306771529,39
+Indonesia,IDN,2009,243220028,40
+Europe & Central Asia (excluding high income),ECA,2009,228250911,41
+Pakistan,PAK,2009,194376534,42
+Brazil,BRA,2009,192079951,43
+Nigeria,NGA,2009,162049464,44
+Bangladesh,BGD,2009,150873714,45
+Russian Federation,RUS,2009,142785348,46
+Japan,JPN,2009,128047000,47
+Mexico,MEX,2009,111999721,48
+World,WLD,2010,7001266876,1
+IDA & IBRD total,IBT,2010,5876645582,2
+Low & middle income,LMY,2010,5553257507,3
+Middle income,MIC,2010,5123741911,4
+IBRD only,IBD,2010,4436714947,5
+Early-demographic dividend,EAR,2010,2967104472,6
+East Asia & Pacific,EAS,2010,2214613815,7
+Late-demographic dividend,LTE,2010,2179525352,8
+East Asia & Pacific (excluding high income),EAP,2010,1973602166,9
+East Asia & Pacific (IDA & IBRD countries),TEA,2010,1948643347,10
+South Asia,SAS,2010,1444967010,11
+South Asia (IDA & IBRD),TSA,2010,1444967010,11
+IDA total,IDA,2010,1439930635,12
+China,CHN,2010,1337705000,13
+OECD members,OED,2010,1292701737,14
+India,IND,2010,1243481564,15
+Post-demographic dividend,PST,2010,1076208648,16
+IDA only,IDX,2010,931508127,17
+Sub-Saharan Africa,SSF,2010,894666657,18
+Sub-Saharan Africa (IDA & IBRD countries),TSS,2010,894666657,18
+Europe & Central Asia,ECS,2010,890990371,19
+Least developed countries: UN classification,LDC,2010,855348118,20
+Sub-Saharan Africa (excluding high income),SSA,2010,804038373,21
+Fragile and conflict affected situations,FCS,2010,791371804,22
+Pre-demographic dividend,PRE,2010,752046672,23
+Heavily indebted poor countries (HIPC),HPC,2010,638796398,24
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,2010,624828664,25
+Latin America & Caribbean,LCN,2010,587752505,26
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,2010,577396038,27
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,2010,573609877,28
+Latin America & the Caribbean (IDA & IBRD countries),TLA,2010,571822092,29
+Africa Eastern and Southern,AFE,2010,530308387,30
+Latin America & Caribbean (excluding high income),LAC,2010,523147480,31
+IDA blend,IDB,2010,508422508,32
+Europe & Central Asia (IDA & IBRD countries),TEC,2010,442936599,33
+European Union,EUU,2010,442088310,34
+Africa Western and Central,AFW,2010,364358270,35
+Arab World,ARB,2010,363568534,36
+North America,NAC,2010,343447854,37
+Euro area,EMU,2010,341002804,38
+United States,USA,2010,309378227,39
+Indonesia,IDN,2010,246305322,40
+Europe & Central Asia (excluding high income),ECA,2010,230106440,41
+Pakistan,PAK,2010,199239047,42
+Brazil,BRA,2010,193701929,43
+Nigeria,NGA,2010,166642886,44
+Bangladesh,BGD,2010,152201981,45
+Russian Federation,RUS,2010,142849468,46
+Japan,JPN,2010,128070000,47
+Mexico,MEX,2010,113623895,48
+World,WLD,2011,7087120034,1
+IDA & IBRD total,IBT,2011,5956718993,2
+Low & middle income,LMY,2011,5630227189,3
+Middle income,MIC,2011,5188568435,4
+IBRD only,IBD,2011,4483152627,5
+Early-demographic dividend,EAR,2011,3013476947,6
+East Asia & Pacific,EAS,2011,2230826576,7
+Late-demographic dividend,LTE,2011,2193171336,8
+East Asia & Pacific (excluding high income),EAP,2011,1989106668,9
+East Asia & Pacific (IDA & IBRD countries),TEA,2011,1964036970,10
+IDA total,IDA,2011,1473566366,11
+South Asia,SAS,2011,1464372623,12
+South Asia (IDA & IBRD),TSA,2011,1464372623,12
+China,CHN,2011,1345035000,13
+OECD members,OED,2011,1299644689,14
+India,IND,2011,1261224954,15
+Post-demographic dividend,PST,2011,1079468050,16
+IDA only,IDX,2011,952581923,17
+Sub-Saharan Africa,SSF,2011,919528126,18
+Sub-Saharan Africa (IDA & IBRD countries),TSS,2011,919528126,18
+Europe & Central Asia,ECS,2011,893009595,19
+Least developed countries: UN classification,LDC,2011,875685078,20
+Sub-Saharan Africa (excluding high income),SSA,2011,826290715,21
+Fragile and conflict affected situations,FCS,2011,810972272,22
+Pre-demographic dividend,PRE,2011,774567417,23
+Heavily indebted poor countries (HIPC),HPC,2011,656783491,24
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,2011,639053870,25
+Latin America & Caribbean,LCN,2011,594086829,26
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,2011,589646039,27
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,2011,585763053,28
+Latin America & the Caribbean (IDA & IBRD countries),TLA,2011,578171855,29
+Africa Eastern and Southern,AFE,2011,544737983,30
+Latin America & Caribbean (excluding high income),LAC,2011,528822706,31
+IDA blend,IDB,2011,520984443,32
+Europe & Central Asia (IDA & IBRD countries),TEC,2011,444846366,33
+European Union,EUU,2011,441414078,34
+Africa Western and Central,AFW,2011,374790143,35
+Arab World,ARB,2011,372054934,36
+North America,NAC,2011,346242415,37
+Euro area,EMU,2011,340367367,38
+United States,USA,2011,311839461,39
+Indonesia,IDN,2011,249470032,40
+Europe & Central Asia (excluding high income),ECA,2011,231988438,41
+Pakistan,PAK,2011,203746065,42
+Brazil,BRA,2011,195284734,43
+Nigeria,NGA,2011,171379598,44
+Bangladesh,BGD,2011,153591076,45
+Russian Federation,RUS,2011,143018195,46
+Japan,JPN,2011,127833000,47
+Mexico,MEX,2011,115243504,48
+World,WLD,2012,7176929184,1
+IDA & IBRD total,IBT,2012,6038958543,2
+Low & middle income,LMY,2012,5709148191,3
+Middle income,MIC,2012,5255495302,4
+IBRD only,IBD,2012,4532100585,5
+Early-demographic dividend,EAR,2012,3058869436,6
+East Asia & Pacific,EAS,2012,2249081393,7
+Late-demographic dividend,LTE,2012,2209319631,8
+East Asia & Pacific (excluding high income),EAP,2012,2006566431,9
+East Asia & Pacific (IDA & IBRD countries),TEA,2012,1981382735,10
+IDA total,IDA,2012,1506857958,11
+South Asia,SAS,2012,1483553073,12
+South Asia (IDA & IBRD),TSA,2012,1483553073,12
+China,CHN,2012,1354190000,13
+OECD members,OED,2012,1307733583,14
+India,IND,2012,1278674502,15
+Post-demographic dividend,PST,2012,1084193277,16
+IDA only,IDX,2012,973877784,17
+Sub-Saharan Africa,SSF,2012,944970310,18
+Sub-Saharan Africa (IDA & IBRD countries),TSS,2012,944970310,18
+Least developed countries: UN classification,LDC,2012,896684951,19
+Europe & Central Asia,ECS,2012,896514510,20
+Sub-Saharan Africa (excluding high income),SSA,2012,849083240,21
+Fragile and conflict affected situations,FCS,2012,831065598,22
+Pre-demographic dividend,PRE,2012,798002725,23
+Heavily indebted poor countries (HIPC),HPC,2012,675397557,24
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,2012,653273442,25
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,2012,601566988,26
+Latin America & Caribbean,LCN,2012,600420316,27
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,2012,597586990,28
+Latin America & the Caribbean (IDA & IBRD countries),TLA,2012,584524334,29
+Africa Eastern and Southern,AFE,2012,559609961,30
+Latin America & Caribbean (excluding high income),LAC,2012,534503260,31
+IDA blend,IDB,2012,532980174,32
+Europe & Central Asia (IDA & IBRD countries),TEC,2012,446941101,33
+European Union,EUU,2012,442069839,34
+Africa Western and Central,AFW,2012,385360349,35
+Arab World,ARB,2012,381030177,36
+North America,NAC,2012,349116140,37
+Euro area,EMU,2012,341100659,38
+United States,USA,2012,314339099,39
+Indonesia,IDN,2012,252698525,40
+Europe & Central Asia (excluding high income),ECA,2012,233875199,41
+Pakistan,PAK,2012,207667125,42
+Brazil,BRA,2012,196876111,43
+Nigeria,NGA,2012,176200625,44
+Bangladesh,BGD,2012,155070101,45
+Russian Federation,RUS,2012,143378447,46
+Japan,JPN,2012,127629000,47
+Mexico,MEX,2012,116818208,48
+World,WLD,2013,7265892332,1
+IDA & IBRD total,IBT,2013,6120456890,2
+Low & middle income,LMY,2013,5787391504,3
+Middle income,MIC,2013,5322303622,4
+IBRD only,IBD,2013,4581958556,5
+Early-demographic dividend,EAR,2013,3103677284,6
+East Asia & Pacific,EAS,2013,2267072102,7
+Late-demographic dividend,LTE,2013,2225005187,8
+East Asia & Pacific (excluding high income),EAP,2013,2023850158,9
+East Asia & Pacific (IDA & IBRD countries),TEA,2013,1998548872,10
+IDA total,IDA,2013,1538498334,11
+South Asia,SAS,2013,1501661991,12
+South Asia (IDA & IBRD),TSA,2013,1501661991,12
+China,CHN,2013,1363240000,13
+OECD members,OED,2013,1315427979,14
+India,IND,2013,1295829511,15
+Post-demographic dividend,PST,2013,1088424167,16
+IDA only,IDX,2013,994055686,17
+Sub-Saharan Africa,SSF,2013,971232906,18
+Sub-Saharan Africa (IDA & IBRD countries),TSS,2013,971232906,18
+Least developed countries: UN classification,LDC,2013,918269633,19
+Europe & Central Asia,ECS,2013,899907172,20
+Sub-Saharan Africa (excluding high income),SSA,2013,872704206,21
+Fragile and conflict affected situations,FCS,2013,851404936,22
+Pre-demographic dividend,PRE,2013,822138419,23
+Heavily indebted poor countries (HIPC),HPC,2013,694622934,24
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,2013,667464006,25
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,2013,613151287,26
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,2013,609074579,27
+Latin America & Caribbean,LCN,2013,606683307,28
+Latin America & the Caribbean (IDA & IBRD countries),TLA,2013,590809938,29
+Africa Eastern and Southern,AFE,2013,575202699,30
+IDA blend,IDB,2013,544442648,31
+Latin America & Caribbean (excluding high income),LAC,2013,540118712,32
+Europe & Central Asia (IDA & IBRD countries),TEC,2013,449128604,33
+European Union,EUU,2013,442425741,34
+Africa Western and Central,AFW,2013,396030207,35
+Arab World,ARB,2013,390954281,36
+North America,NAC,2013,351870848,37
+Euro area,EMU,2013,341639530,38
+United States,USA,2013,316726282,39
+Indonesia,IDN,2013,255852467,40
+Europe & Central Asia (excluding high income),ECA,2013,235905150,41
+Pakistan,PAK,2013,211073978,42
+Brazil,BRA,2013,198478299,43
+Nigeria,NGA,2013,181049443,44
+Bangladesh,BGD,2013,156532141,45
+Russian Federation,RUS,2013,143805638,46
+Japan,JPN,2013,127445000,47
+Mexico,MEX,2013,118343573,48
+World,WLD,2014,7354068030,1
+IDA & IBRD total,IBT,2014,6201607778,2
+Low & middle income,LMY,2014,5865202078,3
+Middle income,MIC,2014,5388731311,4
+IBRD only,IBD,2014,4630607878,5
+Early-demographic dividend,EAR,2014,3146800078,6
+East Asia & Pacific,EAS,2014,2284385542,7
+Late-demographic dividend,LTE,2014,2241122152,8
+East Asia & Pacific (excluding high income),EAP,2014,2040383789,9
+East Asia & Pacific (IDA & IBRD countries),TEA,2014,2014960984,10
+IDA total,IDA,2014,1570999900,11
+South Asia,SAS,2014,1519839246,12
+South Asia (IDA & IBRD),TSA,2014,1519839246,12
+China,CHN,2014,1371860000,13
+OECD members,OED,2014,1323459714,14
+India,IND,2014,1312277191,15
+Post-demographic dividend,PST,2014,1093025476,16
+IDA only,IDX,2014,1015131349,17
+Sub-Saharan Africa,SSF,2014,997961037,18
+Sub-Saharan Africa (IDA & IBRD countries),TSS,2014,997961037,18
+Least developed countries: UN classification,LDC,2014,940284138,19
+Europe & Central Asia,ECS,2014,903561071,20
+Sub-Saharan Africa (excluding high income),SSA,2014,896754068,21
+Fragile and conflict affected situations,FCS,2014,871345375,22
+Pre-demographic dividend,PRE,2014,846420736,23
+Heavily indebted poor countries (HIPC),HPC,2014,714769441,24
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,2014,680716578,25
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,2014,624564062,26
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,2014,620390664,27
+Latin America & Caribbean,LCN,2014,612849401,28
+Latin America & the Caribbean (IDA & IBRD countries),TLA,2014,597023419,29
+Africa Eastern and Southern,AFE,2014,590968990,30
+IDA blend,IDB,2014,555868551,31
+Latin America & Caribbean (excluding high income),LAC,2014,545661592,32
+Europe & Central Asia (IDA & IBRD countries),TEC,2014,451432428,33
+European Union,EUU,2014,442920819,34
+Africa Western and Central,AFW,2014,406992047,35
+Arab World,ARB,2014,400231008,36
+North America,NAC,2014,354755155,37
+Euro area,EMU,2014,342228563,38
+United States,USA,2014,319257560,39
+Indonesia,IDN,2014,258877399,40
+Europe & Central Asia (excluding high income),ECA,2014,237999321,41
+Pakistan,PAK,2014,214264647,42
+Brazil,BRA,2014,200085127,43
+Nigeria,NGA,2014,185896915,44
+Bangladesh,BGD,2014,157964929,45
+Russian Federation,RUS,2014,144237223,46
+Japan,JPN,2014,127276000,47
+Mexico,MEX,2014,119784261,48
+World,WLD,2015,7441677465,1
+IDA & IBRD total,IBT,2015,6280961830,2
+Low & middle income,LMY,2015,5941222744,3
+Middle income,MIC,2015,5452914477,4
+IBRD only,IBD,2015,4676773551,5
+Early-demographic dividend,EAR,2015,3190318707,6
+East Asia & Pacific,EAS,2015,2300844269,7
+Late-demographic dividend,LTE,2015,2256126712,8
+East Asia & Pacific (excluding high income),EAP,2015,2056050896,9
+East Asia & Pacific (IDA & IBRD countries),TEA,2015,2030504270,10
+IDA total,IDA,2015,1604188279,11
+South Asia,SAS,2015,1537370078,12
+South Asia (IDA & IBRD),TSA,2015,1537370078,12
+China,CHN,2015,1379860000,13
+OECD members,OED,2015,1331675197,14
+India,IND,2015,1328024498,15
+Post-demographic dividend,PST,2015,1097890139,16
+IDA only,IDX,2015,1036954223,17
+Sub-Saharan Africa,SSF,2015,1025251114,18
+Sub-Saharan Africa (IDA & IBRD countries),TSS,2015,1025251114,18
+Least developed countries: UN classification,LDC,2015,962508256,19
+Sub-Saharan Africa (excluding high income),SSA,2015,921290560,20
+Europe & Central Asia,ECS,2015,907527486,21
+Fragile and conflict affected situations,FCS,2015,890869511,22
+Pre-demographic dividend,PRE,2015,870587800,23
+Heavily indebted poor countries (HIPC),HPC,2015,735429414,24
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,2015,694232973,25
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,2015,635352686,26
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,2015,631082594,27
+Latin America & Caribbean,LCN,2015,618868462,28
+Africa Eastern and Southern,AFE,2015,607123269,29
+Latin America & the Caribbean (IDA & IBRD countries),TLA,2015,603091701,30
+IDA blend,IDB,2015,567234056,31
+Latin America & Caribbean (excluding high income),LAC,2015,551075145,32
+Europe & Central Asia (IDA & IBRD countries),TEC,2015,453662073,33
+European Union,EUU,2015,443793218,34
+Africa Western and Central,AFW,2015,418127845,35
+Arab World,ARB,2015,410190679,36
+North America,NAC,2015,357583083,37
+Euro area,EMU,2015,343180482,38
+United States,USA,2015,321815121,39
+Indonesia,IDN,2015,261799249,40
+Europe & Central Asia (excluding high income),ECA,2015,240083379,41
+Pakistan,PAK,2015,217290883,42
+Brazil,BRA,2015,201675532,43
+Nigeria,NGA,2015,190671878,44
+Bangladesh,BGD,2015,159383179,45
+Russian Federation,RUS,2015,144640716,46
+Japan,JPN,2015,127141000,47
+Mexico,MEX,2015,121072306,48
+World,WLD,2016,7528879985,1
+IDA & IBRD total,IBT,2016,6360153661,2
+Low & middle income,LMY,2016,6017111688,3
+Middle income,MIC,2016,5515962374,4
+IBRD only,IBD,2016,4721566970,5
+Early-demographic dividend,EAR,2016,3233033717,6
+East Asia & Pacific,EAS,2016,2317076058,7
+Late-demographic dividend,LTE,2016,2270841806,8
+East Asia & Pacific (excluding high income),EAP,2016,2071486140,9
+East Asia & Pacific (IDA & IBRD countries),TEA,2016,2045816761,10
+IDA total,IDA,2016,1638586691,11
+South Asia,SAS,2016,1555111864,12
+South Asia (IDA & IBRD),TSA,2016,1555111864,12
+China,CHN,2016,1387790000,13
+India,IND,2016,1343944296,14
+OECD members,OED,2016,1340142055,15
+Post-demographic dividend,PST,2016,1102966925,16
+IDA only,IDX,2016,1060123021,17
+Sub-Saharan Africa,SSF,2016,1052824144,18
+Sub-Saharan Africa (IDA & IBRD countries),TSS,2016,1052824144,18
+Least developed countries: UN classification,LDC,2016,985414939,19
+Sub-Saharan Africa (excluding high income),SSA,2016,946011305,20
+Europe & Central Asia,ECS,2016,911579016,21
+Fragile and conflict affected situations,FCS,2016,910836458,22
+Pre-demographic dividend,PRE,2016,895239872,23
+Heavily indebted poor countries (HIPC),HPC,2016,756895035,24
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,2016,707023525,25
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,2016,645837915,26
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,2016,641470827,27
+Latin America & Caribbean,LCN,2016,624737786,28
+Africa Eastern and Southern,AFE,2016,623369401,29
+Latin America & the Caribbean (IDA & IBRD countries),TLA,2016,609017063,30
+IDA blend,IDB,2016,578463670,31
+Latin America & Caribbean (excluding high income),LAC,2016,556440282,32
+Europe & Central Asia (IDA & IBRD countries),TEC,2016,455913002,33
+European Union,EUU,2016,444676652,34
+Africa Western and Central,AFW,2016,429454743,35
+Arab World,ARB,2016,419808341,36
+North America,NAC,2016,360527592,37
+Euro area,EMU,2016,344132977,38
+United States,USA,2016,324353340,39
+Indonesia,IDN,2016,264627418,40
+Europe & Central Asia (excluding high income),ECA,2016,242224182,41
+Pakistan,PAK,2016,220138869,42
+Brazil,BRA,2016,203218114,43
+Nigeria,NGA,2016,195443700,44
+Bangladesh,BGD,2016,160811932,45
+Russian Federation,RUS,2016,145015460,46
+Japan,JPN,2016,127076000,47
+Mexico,MEX,2016,122251351,48
+World,WLD,2017,7614523410,1
+IDA & IBRD total,IBT,2017,6440011821,2
+Low & middle income,LMY,2017,6093971714,3
+Middle income,MIC,2017,5579081195,4
+IBRD only,IBD,2017,4765773411,5
+Early-demographic dividend,EAR,2017,3274060446,6
+East Asia & Pacific,EAS,2017,2333475520,7
+Late-demographic dividend,LTE,2017,2285870134,8
+East Asia & Pacific (excluding high income),EAP,2017,2087238522,9
+East Asia & Pacific (IDA & IBRD countries),TEA,2017,2061449949,10
+IDA total,IDA,2017,1674238410,11
+South Asia,SAS,2017,1572520427,12
+South Asia (IDA & IBRD),TSA,2017,1572520427,12
+China,CHN,2017,1396215000,13
+India,IND,2017,1359657400,14
+OECD members,OED,2017,1348127258,15
+Post-demographic dividend,PST,2017,1107161559,16
+IDA only,IDX,2017,1084214336,17
+Sub-Saharan Africa,SSF,2017,1080941647,18
+Sub-Saharan Africa (IDA & IBRD countries),TSS,2017,1080941647,18
+Least developed countries: UN classification,LDC,2017,1008993468,19
+Sub-Saharan Africa (excluding high income),SSA,2017,971179323,20
+Fragile and conflict affected situations,FCS,2017,931222867,21
+Pre-demographic dividend,PRE,2017,920568701,22
+Europe & Central Asia,ECS,2017,915065824,23
+Heavily indebted poor countries (HIPC),HPC,2017,779389964,24
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,2017,718887744,25
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,2017,656767614,26
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,2017,652312809,27
+Africa Eastern and Southern,AFE,2017,640058741,28
+Latin America & Caribbean,LCN,2017,630414986,29
+Latin America & the Caribbean (IDA & IBRD countries),TLA,2017,614776664,30
+IDA blend,IDB,2017,590024074,31
+Latin America & Caribbean (excluding high income),LAC,2017,561957179,32
+Europe & Central Asia (IDA & IBRD countries),TEC,2017,458010325,33
+European Union,EUU,2017,445321060,34
+Africa Western and Central,AFW,2017,440882906,35
+Arab World,ARB,2017,428315886,36
+North America,NAC,2017,363217262,37
+Euro area,EMU,2017,344810179,38
+United States,USA,2017,326608609,39
+Indonesia,IDN,2017,267346658,40
+Europe & Central Asia (excluding high income),ECA,2017,244308649,41
+Pakistan,PAK,2017,223273967,42
+Brazil,BRA,2017,204703445,43
+Nigeria,NGA,2017,200254579,44
+Bangladesh,BGD,2017,162186147,45
+Russian Federation,RUS,2017,145293260,46
+Japan,JPN,2017,126972000,47
+Mexico,MEX,2017,123400057,48
+World,WLD,2018,7697233736,1
+IDA & IBRD total,IBT,2018,6518058354,2
+Low & middle income,LMY,2018,6169658713,3
+Middle income,MIC,2018,5640136670,4
+IBRD only,IBD,2018,4806981820,5
+Early-demographic dividend,EAR,2018,3314245247,6
+East Asia & Pacific,EAS,2018,2347576325,7
+Late-demographic dividend,LTE,2018,2298394042,8
+East Asia & Pacific (excluding high income),EAP,2018,2100698838,9
+East Asia & Pacific (IDA & IBRD countries),TEA,2018,2074796982,10
+IDA total,IDA,2018,1711076534,11
+South Asia,SAS,2018,1589164714,12
+South Asia (IDA & IBRD),TSA,2018,1589164714,12
+China,CHN,2018,1402760000,13
+India,IND,2018,1374659064,14
+OECD members,OED,2018,1356470975,15
+Post-demographic dividend,PST,2018,1111377470,16
+Sub-Saharan Africa,SSF,2018,1109997000,17
+Sub-Saharan Africa (IDA & IBRD countries),TSS,2018,1109997000,17
+IDA only,IDX,2018,1109124621,18
+Least developed countries: UN classification,LDC,2018,1033110314,19
+Sub-Saharan Africa (excluding high income),SSA,2018,997236086,20
+Fragile and conflict affected situations,FCS,2018,951851595,21
+Pre-demographic dividend,PRE,2018,946317177,22
+Europe & Central Asia,ECS,2018,918689254,23
+Heavily indebted poor countries (HIPC),HPC,2018,802020674,24
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,2018,730362334,25
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,2018,668447432,26
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,2018,663878345,27
+Africa Eastern and Southern,AFE,2018,657801085,28
+Latin America & Caribbean,LCN,2018,635778081,29
+Latin America & the Caribbean (IDA & IBRD countries),TLA,2018,620274430,30
+IDA blend,IDB,2018,601951913,31
+Latin America & Caribbean (excluding high income),LAC,2018,567711159,32
+Europe & Central Asia (IDA & IBRD countries),TEC,2018,459946883,33
+Africa Western and Central,AFW,2018,452195915,34
+European Union,EUU,2018,446329890,35
+Arab World,ARB,2018,435998060,36
+North America,NAC,2018,365666028,37
+Euro area,EMU,2018,345864630,38
+United States,USA,2018,328529577,39
+Indonesia,IDN,2018,269951846,40
+Europe & Central Asia (excluding high income),ECA,2018,246400484,41
+Pakistan,PAK,2018,226928892,42
+Brazil,BRA,2018,206107261,43
+Nigeria,NGA,2018,204938755,44
+Bangladesh,BGD,2018,163523103,45
+Russian Federation,RUS,2018,145398106,46
+Japan,JPN,2018,126811000,47
+Mexico,MEX,2018,124573711,48
+World,WLD,2019,7778008621,1
+IDA & IBRD total,IBT,2019,6594216452,2
+Low & middle income,LMY,2019,6243562839,3
+Middle income,MIC,2019,5698581856,4
+IBRD only,IBD,2019,4845075024,5
+Early-demographic dividend,EAR,2019,3355014793,6
+East Asia & Pacific,EAS,2019,2359762190,7
+Late-demographic dividend,LTE,2019,2308878047,8
+East Asia & Pacific (excluding high income),EAP,2019,2112289891,9
+East Asia & Pacific (IDA & IBRD countries),TEA,2019,2086281644,10
+IDA total,IDA,2019,1749141428,11
+South Asia,SAS,2019,1605412986,12
+South Asia (IDA & IBRD),TSA,2019,1605412986,12
+China,CHN,2019,1407745000,13
+India,IND,2019,1389030312,14
+OECD members,OED,2019,1364146219,15
+Sub-Saharan Africa,SSF,2019,1139315618,16
+Sub-Saharan Africa (IDA & IBRD countries),TSS,2019,1139315618,16
+IDA only,IDX,2019,1135124109,17
+Post-demographic dividend,PST,2019,1114898817,18
+Least developed countries: UN classification,LDC,2019,1058013514,19
+Sub-Saharan Africa (excluding high income),SSA,2019,1023480610,20
+Fragile and conflict affected situations,FCS,2019,973035228,21
+Pre-demographic dividend,PRE,2019,972302503,22
+Europe & Central Asia,ECS,2019,921932163,23
+Heavily indebted poor countries (HIPC),HPC,2019,824649053,24
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,2019,742714463,25
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,2019,680490997,26
+Africa Eastern and Southern,AFE,2019,675950189,27
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,2019,675805691,28
+Latin America & Caribbean,LCN,2019,640962372,29
+Latin America & the Caribbean (IDA & IBRD countries),TLA,2019,625467307,30
+IDA blend,IDB,2019,614017319,31
+Latin America & Caribbean (excluding high income),LAC,2019,573311679,32
+Africa Western and Central,AFW,2019,463365429,33
+Europe & Central Asia (IDA & IBRD countries),TEC,2019,461933206,34
+European Union,EUU,2019,446910453,35
+Arab World,ARB,2019,444281315,36
+North America,NAC,2019,367908829,37
+Euro area,EMU,2019,346496601,38
+United States,USA,2019,330226227,39
+Indonesia,IDN,2019,272489381,40
+Europe & Central Asia (excluding high income),ECA,2019,248576676,41
+Pakistan,PAK,2019,230800899,42
+Nigeria,NGA,2019,209485641,43
+Brazil,BRA,2019,207455459,44
+Bangladesh,BGD,2019,164913055,45
+Russian Federation,RUS,2019,145453291,46
+Japan,JPN,2019,126633000,47
+Mexico,MEX,2019,125762982,48
+World,WLD,2020,7854748424,1
+IDA & IBRD total,IBT,2020,6666470352,2
+Low & middle income,LMY,2020,6313913801,3
+Middle income,MIC,2020,5753270728,4
+IBRD only,IBD,2020,4878296727,5
+Early-demographic dividend,EAR,2020,3396051187,6
+East Asia & Pacific,EAS,2020,2369420882,7
+Late-demographic dividend,LTE,2020,2316152451,8
+East Asia & Pacific (excluding high income),EAP,2020,2121866294,9
+East Asia & Pacific (IDA & IBRD countries),TEA,2020,2095759417,10
+IDA total,IDA,2020,1788173625,11
+South Asia,SAS,2020,1621073417,12
+South Asia (IDA & IBRD),TSA,2020,1621073417,12
+China,CHN,2020,1411100000,13
+India,IND,2020,1402617695,14
+OECD members,OED,2020,1369310195,15
+Sub-Saharan Africa,SSF,2020,1169015451,16
+Sub-Saharan Africa (IDA & IBRD countries),TSS,2020,1169015451,16
+IDA only,IDX,2020,1161733317,17
+Post-demographic dividend,PST,2020,1117007476,18
+Least developed countries: UN classification,LDC,2020,1083636132,19
+Sub-Saharan Africa (excluding high income),SSA,2020,1049999318,20
+Pre-demographic dividend,PRE,2020,998624261,21
+Fragile and conflict affected situations,FCS,2020,994901090,22
+Europe & Central Asia,ECS,2020,923664467,23
+Heavily indebted poor countries (HIPC),HPC,2020,847743308,24
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,2020,756405281,25
+Africa Eastern and Southern,AFE,2020,694446100,26
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,2020,692532027,27
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,2020,687728758,28
+Latin America & Caribbean,LCN,2020,645498186,29
+Latin America & the Caribbean (IDA & IBRD countries),TLA,2020,630051021,30
+IDA blend,IDB,2020,626440308,31
+Latin America & Caribbean (excluding high income),LAC,2020,578091505,32
+Africa Western and Central,AFW,2020,474569351,33
+Europe & Central Asia (IDA & IBRD countries),TEC,2020,462842288,34
+Arab World,ARB,2020,453723239,35
+European Union,EUU,2020,446870959,36
+North America,NAC,2020,369670740,37
+Euro area,EMU,2020,346986142,38
+United States,USA,2020,331577720,39
+Indonesia,IDN,2020,274814866,40
+Europe & Central Asia (excluding high income),ECA,2020,250351240,41
+Pakistan,PAK,2020,235001746,42
+Nigeria,NGA,2020,213996181,43
+Brazil,BRA,2020,208660842,44
+Bangladesh,BGD,2020,166298024,45
+Russian Federation,RUS,2020,145245148,46
+Mexico,MEX,2020,126799054,47
+Japan,JPN,2020,126261000,48
+World,WLD,2021,7920514854,1
+IDA & IBRD total,IBT,2021,6732651035,2
+Low & middle income,LMY,2021,6378323939,3
+Middle income,MIC,2021,5802247321,4
+IBRD only,IBD,2021,4905212516,5
+Early-demographic dividend,EAR,2021,3432026092,6
+East Asia & Pacific,EAS,2021,2375117716,7
+Late-demographic dividend,LTE,2021,2320127638,8
+East Asia & Pacific (excluding high income),EAP,2021,2128553744,9
+East Asia & Pacific (IDA & IBRD countries),TEA,2021,2102350702,10
+IDA total,IDA,2021,1827438519,11
+South Asia,SAS,2021,1634785356,12
+South Asia (IDA & IBRD),TSA,2021,1634785356,12
+India,IND,2021,1414203896,13
+China,CHN,2021,1412360000,14
+OECD members,OED,2021,1371785073,15
+Sub-Saharan Africa,SSF,2021,1199011925,16
+Sub-Saharan Africa (IDA & IBRD countries),TSS,2021,1199011925,16
+IDA only,IDX,2021,1188242200,17
+Post-demographic dividend,PST,2021,1116582773,18
+Least developed countries: UN classification,LDC,2021,1109175268,19
+Sub-Saharan Africa (excluding high income),SSA,2021,1076774079,20
+Pre-demographic dividend,PRE,2021,1024960313,21
+Fragile and conflict affected situations,FCS,2021,1016906998,22
+Europe & Central Asia,ECS,2021,924381062,23
+Heavily indebted poor countries (HIPC),HPC,2021,870930036,24
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,2021,767578451,25
+Africa Eastern and Southern,AFE,2021,713090928,26
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,2021,704458802,27
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,2021,699536053,28
+Latin America & Caribbean,LCN,2021,649236072,29
+IDA blend,IDB,2021,639196319,30
+Latin America & the Caribbean (IDA & IBRD countries),TLA,2021,633862610,31
+Latin America & Caribbean (excluding high income),LAC,2021,581884231,32
+Africa Western and Central,AFW,2021,485920997,33
+Europe & Central Asia (IDA & IBRD countries),TEC,2021,463104389,34
+Arab World,ARB,2021,460646603,35
+European Union,EUU,2021,446227358,36
+North America,NAC,2021,370404272,37
+Euro area,EMU,2021,347207191,38
+United States,USA,2021,332099760,39
+Indonesia,IDN,2021,276758053,40
+Europe & Central Asia (excluding high income),ECA,2021,251867727,41
+Pakistan,PAK,2021,239477801,42
+Nigeria,NGA,2021,218529286,43
+Brazil,BRA,2021,209550294,44
+Bangladesh,BGD,2021,167658854,45
+Russian Federation,RUS,2021,144746762,46
+Mexico,MEX,2021,127648148,47
+Japan,JPN,2021,125681593,48
+World,WLD,2022,7989545217,1
+IDA & IBRD total,IBT,2022,6794724390,2
+Low & middle income,LMY,2022,6437946207,3
+Middle income,MIC,2022,5846464711,4
+IBRD only,IBD,2022,4928196300,5
+Early-demographic dividend,EAR,2022,3470644834,6
+East Asia & Pacific,EAS,2022,2379617118,7
+Late-demographic dividend,LTE,2022,2323799591,8
+East Asia & Pacific (excluding high income),EAP,2022,2133560408,9
+East Asia & Pacific (IDA & IBRD countries),TEA,2022,2107261123,10
+IDA total,IDA,2022,1866528090,11
+South Asia,SAS,2022,1648009565,12
+South Asia (IDA & IBRD),TSA,2022,1648009565,12
+India,IND,2022,1425423212,13
+China,CHN,2022,1412175000,14
+OECD members,OED,2022,1378565677,15
+Sub-Saharan Africa,SSF,2022,1229208573,16
+Sub-Saharan Africa (IDA & IBRD countries),TSS,2022,1229208573,16
+IDA only,IDX,2022,1214632171,17
+Least developed countries: UN classification,LDC,2022,1134585604,18
+Post-demographic dividend,PST,2022,1117394729,19
+Sub-Saharan Africa (excluding high income),SSA,2022,1103704408,20
+Pre-demographic dividend,PRE,2022,1051201551,21
+Fragile and conflict affected situations,FCS,2022,1036390026,22
+Europe & Central Asia,ECS,2022,924234471,23
+Heavily indebted poor countries (HIPC),HPC,2022,893906294,24
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,2022,782349366,25
+Africa Eastern and Southern,AFE,2022,731821393,26
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,2022,716508657,27
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,2022,711465045,28
+Latin America & Caribbean,LCN,2022,653108120,29
+IDA blend,IDB,2022,651895919,30
+Latin America & the Caribbean (IDA & IBRD countries),TLA,2022,637837815,31
+Latin America & Caribbean (excluding high income),LAC,2022,585648822,32
+Africa Western and Central,AFW,2022,497387180,33
+Arab World,ARB,2022,471352066,34
+Europe & Central Asia (IDA & IBRD countries),TEC,2022,460942269,35
+European Union,EUU,2022,447202673,36
+North America,NAC,2022,373018004,37
+Euro area,EMU,2022,348200155,38
+United States,USA,2022,334017321,39
+Indonesia,IDN,2022,278830529,40
+Europe & Central Asia (excluding high income),ECA,2022,250514347,41
+Pakistan,PAK,2022,243700667,42
+Nigeria,NGA,2022,223150896,43
+Brazil,BRA,2022,210306415,44
+Bangladesh,BGD,2022,169384897,45
+Russian Federation,RUS,2022,144236933,46
+Mexico,MEX,2022,128613117,47
+Ethiopia,ETH,2022,125384287,48
+World,WLD,2023,8064057930,1
+IDA & IBRD total,IBT,2023,6858521511,2
+Low & middle income,LMY,2023,6498875200,3
+Middle income,MIC,2023,5891100497,4
+IBRD only,IBD,2023,4952212190,5
+Early-demographic dividend,EAR,2023,3511607650,6
+East Asia & Pacific,EAS,2023,2384441485,7
+Late-demographic dividend,LTE,2023,2326296729,8
+East Asia & Pacific (excluding high income),EAP,2023,2137527754,9
+East Asia & Pacific (IDA & IBRD countries),TEA,2023,2111139152,10
+IDA total,IDA,2023,1906309321,11
+South Asia,SAS,2023,1662580579,12
+South Asia (IDA & IBRD),TSA,2023,1662580579,12
+India,IND,2023,1438069596,13
+China,CHN,2023,1410710000,14
+OECD members,OED,2023,1387897706,15
+Sub-Saharan Africa,SSF,2023,1259889959,16
+Sub-Saharan Africa (IDA & IBRD countries),TSS,2023,1259889959,16
+IDA only,IDX,2023,1241913429,17
+Least developed countries: UN classification,LDC,2023,1160824674,18
+Sub-Saharan Africa (excluding high income),SSA,2023,1131078494,19
+Post-demographic dividend,PST,2023,1121315547,20
+Pre-demographic dividend,PRE,2023,1078224044,21
+Fragile and conflict affected situations,FCS,2023,1057033168,22
+Europe & Central Asia,ECS,2023,924773523,23
+Heavily indebted poor countries (HIPC),HPC,2023,917304254,24
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,2023,797801454,25
+Africa Eastern and Southern,AFE,2023,750491370,26
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,2023,729077445,27
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,2023,723911670,28
+IDA blend,IDB,2023,664395892,29
+Latin America & Caribbean,LCN,2023,657616517,30
+Latin America & the Caribbean (IDA & IBRD countries),TLA,2023,642397939,31
+Latin America & Caribbean (excluding high income),LAC,2023,589889543,32
+Africa Western and Central,AFW,2023,509398589,33
+Arab World,ARB,2023,482105978,34
+Europe & Central Asia (IDA & IBRD countries),TEC,2023,458602212,35
+European Union,EUU,2023,448897545,36
+North America,NAC,2023,376954413,37
+Euro area,EMU,2023,349762722,38
+United States,USA,2023,336806231,39
+Indonesia,IDN,2023,281190067,40
+Europe & Central Asia (excluding high income),ECA,2023,248721385,41
+Pakistan,PAK,2023,247504495,42
+Nigeria,NGA,2023,227882945,43
+Brazil,BRA,2023,211140729,44
+Bangladesh,BGD,2023,171466990,45
+Russian Federation,RUS,2023,143826130,46
+Mexico,MEX,2023,129739759,47
+Ethiopia,ETH,2023,128691692,48
+World,WLD,2024,8141808945,1
+IDA & IBRD total,IBT,2024,6926222113,2
+Low & middle income,LMY,2024,6563501708,3
+Middle income,MIC,2024,5938893610,4
+IBRD only,IBD,2024,4979421568,5
+Early-demographic dividend,EAR,2024,3552278604,6
+East Asia & Pacific,EAS,2024,2388319494,7
+Late-demographic dividend,LTE,2024,2328628339,8
+East Asia & Pacific (excluding high income),EAP,2024,2141122258,9
+East Asia & Pacific (IDA & IBRD countries),TEA,2024,2114653077,10
+IDA total,IDA,2024,1946800545,11
+South Asia,SAS,2024,1677384532,12
+South Asia (IDA & IBRD),TSA,2024,1677384532,12
+India,IND,2024,1450935791,13
+China,CHN,2024,1408975000,14
+OECD members,OED,2024,1396877448,15
+Sub-Saharan Africa,SSF,2024,1291044964,16
+Sub-Saharan Africa (IDA & IBRD countries),TSS,2024,1291044964,16
+IDA only,IDX,2024,1269842894,17
+Least developed countries: UN classification,LDC,2024,1187777591,18
+Sub-Saharan Africa (excluding high income),SSA,2024,1158863843,19
+Post-demographic dividend,PST,2024,1128377826,20
+Pre-demographic dividend,PRE,2024,1105951788,21
+Fragile and conflict affected situations,FCS,2024,1081767572,22
+Heavily indebted poor countries (HIPC),HPC,2024,941413026,23
+Europe & Central Asia,ECS,2024,928263208,24
+"Middle East, North Africa, Afghanistan & Pakistan",MEA,2024,813146136,25
+Africa Eastern and Southern,AFE,2024,769280888,26
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",MNA,2024,741690916,27
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",TMN,2024,736401764,28
+IDA blend,IDB,2024,676957651,29
+Latin America & Caribbean,LCN,2024,662186388,30
+Latin America & the Caribbean (IDA & IBRD countries),TLA,2024,647003746,31
+Latin America & Caribbean (excluding high income),LAC,2024,594158638,32
+Africa Western and Central,AFW,2024,521764076,33
+Arab World,ARB,2024,492612632,34
+Europe & Central Asia (IDA & IBRD countries),TEC,2024,459734030,35
+European Union,EUU,2024,450228188,36
+North America,NAC,2024,381464223,37
+Euro area,EMU,2024,351161936,38
+United States,USA,2024,340110988,39
+Indonesia,IDN,2024,283487931,40
+Pakistan,PAK,2024,251269164,41
+Europe & Central Asia (excluding high income),ECA,2024,250281521,42
+Nigeria,NGA,2024,232679478,43
+Brazil,BRA,2024,211998573,44
+Bangladesh,BGD,2024,173562364,45
+Russian Federation,RUS,2024,143533851,46
+Ethiopia,ETH,2024,132059767,47
+Mexico,MEX,2024,130861007,48

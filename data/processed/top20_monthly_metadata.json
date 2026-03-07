@@ -14,34 +14,34 @@
   },
   "date_range": {
     "start": "2016-01-01",
-    "end": "2026-02-24"
+    "end": "2026-02-01"
   },
   "statistics": {
-    "total_rows": 542,
-    "unique_dates": 227,
+    "total_rows": 2440,
+    "unique_dates": 122,
     "top_n": 20,
-    "date_count": 27,
+    "date_count": 122,
     "asset_types": {
-      "metal": 420,
-      "crypto": 122
+      "company": 1843,
+      "metal": 480,
+      "crypto": 117
     },
     "sources": {
-      "manual/yfinance": 420,
-      "coingecko": 122
+      "yfinance": 1843,
+      "manual/yfinance": 480,
+      "coingecko": 117
     },
     "confidence_distribution": {
-      "Medium": 420,
-      "High": 122
+      "Medium": 2323,
+      "High": 117
     }
   },
   "validation": {
-    "is_valid": false,
-    "issues": [
-      "420 NaN values in 'asset_id' column"
-    ]
+    "is_valid": true,
+    "issues": []
   },
   "processing_info": {
-    "timestamp": "2026-03-03T12:03:09.417126",
+    "timestamp": "2026-03-05T00:31:04.601123",
     "input_directory": "data\\raw",
     "output_directory": "data\\processed",
     "top_n_requested": 20,
