@@ -158,6 +158,50 @@ class AnimatedPopulationDashboardV3:
         self.years = years
         self.logger = logging.getLogger(__name__)
     
+    @staticmethod
+    def generate_y_axis_ticks(y_max: float) -> tuple:
+        """
+        Generate nice round tick values and labels for y-axis with 'B' for billions.
+        
+        Args:
+            y_max: Maximum y value to display
+        
+        Returns:
+            Tuple of (tickvals, ticktext)
+        """
+        # Calculate number of ticks needed
+        billion = 1_000_000_000
+        max_billions = y_max / billion
+        
+        # Determine tick interval
+        if max_billions <= 0.5:
+            tick_interval = 100_000_000  # 0.1B
+        elif max_billions <= 2:
+            tick_interval = 200_000_000  # 0.2B
+        elif max_billions <= 4:
+            tick_interval = 400_000_000  # 0.4B
+        else:
+            tick_interval = 400_000_000  # 0.4B
+        
+        tickvals = []
+        ticktext = []
+        tick = 0
+        
+        while tick <= y_max:
+            tickvals.append(tick)
+            if tick == 0:
+                ticktext.append('0')
+            else:
+                billions = tick / billion
+                if billions >= 1:
+                    ticktext.append(f'{billions:.1f}B')
+                else:
+                    millions = tick / 1_000_000
+                    ticktext.append(f'{millions:.0f}M')
+            tick += tick_interval
+        
+        return tickvals, ticktext
+    
     def create_animated_dashboard(self, output_path: Path) -> go.Figure:
         """
         Create animated population dashboard with growing trendlines.
@@ -195,35 +239,12 @@ class AnimatedPopulationDashboardV3:
                         marker=dict(size=4),
                         hovertemplate=(
                             f'<b>{country}</b><br>' +
-                            'Year: %{x}<br>' +
                             'Population: %{y:,.0f}<br>' +
                             '<extra></extra>'
                         ),
                         visible=True
                     )
                 )
-                
-                # Trendline
-                trendline = data['trendline']
-                if not np.all(np.isnan(trendline)):
-                    fig.add_trace(
-                        go.Scatter(
-                            x=data['years'],
-                            y=trendline,
-                            mode='lines',
-                            name=f'{country} (Trend)',
-                            line=dict(width=2, dash='dash', color=color),
-                            opacity=0.6,
-                            hovertemplate=(
-                                f'<b>{country} - Trend</b><br>' +
-                                'Year: %{x}<br>' +
-                                'Trendline: %{y:,.0f}<br>' +
-                                '<extra></extra>'
-                            ),
-                            visible=True,
-                            showlegend=False
-                        )
-                    )
         
         # Create frames for animation
         frames = []
@@ -247,37 +268,30 @@ class AnimatedPopulationDashboardV3:
                             marker=dict(size=4),
                             hovertemplate=(
                                 f'<b>{country}</b><br>' +
-                                'Year: %{x}<br>' +
                                 'Population: %{y:,.0f}<br>' +
                                 '<extra></extra>'
                             )
                         )
                     )
-                    
-                    # Trendline
-                    trendline = data['trendline']
-                    if not np.all(np.isnan(trendline)):
-                        frame_traces.append(
-                            go.Scatter(
-                                x=data['years'],
-                                y=trendline,
-                                mode='lines',
-                                line=dict(width=2, color=color),
-                                opacity=0.7,
-                                hovertemplate=(
-                                    f'<b>{country} - Trend</b><br>' +
-                                    'Year: %{x}<br>' +
-                                    'Trendline: %{y:,.0f}<br>' +
-                                    '<extra></extra>'
-                                )
-                            )
-                        )
+            
+            # Calculate max population for dynamic y-axis scaling
+            max_pop = 0
+            for country in self.top_countries:
+                if country in frame_data:
+                    max_pop = max(max_pop, frame_data[country]['latest_pop'])
+            
+            # Add 10% padding to max for better visualization
+            y_max = max_pop * 1.1
+            
+            # Generate custom y-axis ticks with 'B' for billions
+            tickvals, ticktext = self.generate_y_axis_ticks(y_max)
             
             frames.append(go.Frame(
                 data=frame_traces,
                 name=str(year),
                 layout=go.Layout(
-                    title_text=f'🌍 World Population Animation (1960-{year})<br><sub>Year {year} - {len([c for c in self.top_countries if c in frame_data])} Countries</sub>'
+                    title_text=f'🌍 World Population Animation (1960-2024)<br><sub>{len([c for c in self.top_countries if c in frame_data])} Countries</sub>',
+                    yaxis=dict(range=[0, y_max], tickvals=tickvals, ticktext=ticktext)
                 )
             ))
         
@@ -295,7 +309,7 @@ class AnimatedPopulationDashboardV3:
                 'xanchor': 'center',
                 'font': {'size': 14, 'color': '#FFFFFF'}
             },
-            'transition': {'duration': 100},
+            'transition': {'duration': 0},
             'pad': {'b': 10, 't': 50},
             'len': 0.9,
             'x': 0.05,
@@ -304,9 +318,9 @@ class AnimatedPopulationDashboardV3:
                     'args': [
                         [str(year)],
                         {
-                            'frame': {'duration': 100, 'redraw': True},
+                            'frame': {'duration': 0, 'redraw': False},
                             'mode': 'immediate',
-                            'transition': {'duration': 100}
+                            'transition': {'duration': 0}
                         }
                     ],
                     'method': 'animate',
@@ -336,9 +350,7 @@ class AnimatedPopulationDashboardV3:
                 showgrid=True,
                 gridwidth=1,
                 gridcolor='rgba(128,128,128,0.2)',
-                tickformat='.2~s',
-                ticktext=['0', '200M', '400M', '600M', '800M', '1B', '1.2B', '1.4B'],
-                tickvals=[0, 200000000, 400000000, 600000000, 800000000, 1000000000, 1200000000, 1400000000]
+                tickformat='.2~s'
             ),
             template='plotly_dark',
             height=900,
@@ -359,21 +371,48 @@ class AnimatedPopulationDashboardV3:
             updatemenus=[
                 {
                     'type': 'buttons',
-                    'showactive': False,
+                    'showactive': True,
                     'y': -0.05,
                     'x': -0.08,
                     'xanchor': 'left',
                     'yanchor': 'top',
                     'buttons': [
                         {
-                            'label': '▶️ Play',
+                            'label': '▶️ Play (1x)',
                             'method': 'animate',
                             'args': [
                                 None,
                                 {
-                                    'frame': {'duration': 200, 'redraw': True},
+                                    'frame': {'duration': 80, 'redraw': False},
                                     'fromcurrent': True,
-                                    'transition': {'duration': 100}
+                                    'transition': {'duration': 0},
+                                    'mode': 'immediate'
+                                }
+                            ]
+                        },
+                        {
+                            'label': '▶️ Play (3x)',
+                            'method': 'animate',
+                            'args': [
+                                None,
+                                {
+                                    'frame': {'duration': 27, 'redraw': False},
+                                    'fromcurrent': True,
+                                    'transition': {'duration': 0},
+                                    'mode': 'immediate'
+                                }
+                            ]
+                        },
+                        {
+                            'label': '▶️ Play (5x)',
+                            'method': 'animate',
+                            'args': [
+                                None,
+                                {
+                                    'frame': {'duration': 16, 'redraw': False},
+                                    'fromcurrent': True,
+                                    'transition': {'duration': 0},
+                                    'mode': 'immediate'
                                 }
                             ]
                         },
