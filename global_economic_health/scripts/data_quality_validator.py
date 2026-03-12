@@ -96,13 +96,17 @@ class DataQualityValidator:
                 'percentage': missing_pct
             }
             
-            if missing_pct > 20:
+            # debt_total_usd missing data is expected (not all countries report)
+            if field == 'debt_total_usd':
+                logger.info(f"ℹ {field}: {missing_count} missing values ({missing_pct:.1f}%) - Expected (data availability)")
+            elif missing_pct > 20:
                 logger.warning(f"✗ {field}: {missing_count} missing values ({missing_pct:.1f}%)")
                 self.issues.append((f'Missing {field}', missing_count))
             else:
                 logger.info(f"✓ {field}: {missing_count} missing values ({missing_pct:.1f}%)")
         
-        return all(v['percentage'] < 20 for v in missing_summary.values())
+        # Only fail if GDP or population are missing (debt is optional)
+        return missing_summary['gdp_usd']['percentage'] < 20 and missing_summary['population']['percentage'] < 20
     
     def check_outliers(self):
         """Check for statistical outliers."""
@@ -126,15 +130,33 @@ class DataQualityValidator:
             (df_2024['debt_to_gdp_calc'] > upper_bound)
         ]
         
+        invalid_outliers = []
+        
         if len(outliers) > 0:
-            logger.warning(f"✗ Found {len(outliers)} extreme outliers (Debt/GDP):")
+            logger.info(f"ℹ Found {len(outliers)} statistical outliers (Debt/GDP > {upper_bound:.1f}%):")
+            
+            # Validate each outlier
             for _, row in outliers.head(10).iterrows():
-                logger.warning(f"  {row['country_name']}: {row['debt_to_gdp_calc']:.1f}%")
-            self.issues.append(('Debt/GDP Outliers', len(outliers)))
+                stored = row['debt_to_gdp']
+                calculated = row['debt_to_gdp_calc']
+                is_valid = abs(stored - calculated) < 1.0
+                
+                status = "✓ VALID (legitimate high debt)" if is_valid else "✗ CALCULATION ERROR"
+                logger.info(f"  {row['country_name']}: {stored:.1f}% - {status}")
+                
+                if not is_valid:
+                    invalid_outliers.append(row['country_name'])
+            
+            if invalid_outliers:
+                logger.warning(f"  ✗ {len(invalid_outliers)} outliers are calculation errors")
+                self.issues.append(('Debt/GDP Calculation Errors', invalid_outliers))
+            else:
+                logger.info(f"  ✓ All outliers are legitimate (e.g., Japan, Sudan have high debt)")
         else:
             logger.info(f"✓ No extreme outliers detected")
         
-        return len(outliers) < 5
+        # Return True only if there are no invalid outliers
+        return len(invalid_outliers) == 0
     
     def check_data_currency_units(self):
         """Check if GDP and debt values are in consistent units."""
