@@ -24,6 +24,8 @@ import numpy as np
 from datetime import datetime
 import requests
 import json
+import os
+from dotenv import load_dotenv
 
 # Configure logging
 logging.basicConfig(
@@ -695,8 +697,13 @@ def main():
     
     logger.info(f"[START] Four-Panel Dashboard Builder - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     
-    # DeepSeek API key for AI insights
-    deepseek_api_key = 'REDACTED_API_KEY'
+    # Load environment variables
+    load_dotenv()
+    
+    # DeepSeek API key for AI insights (from environment)
+    deepseek_api_key = os.getenv('DEEPSEEK_API_KEY')
+    if not deepseek_api_key:
+        logger.warning("DEEPSEEK_API_KEY not found in environment variables. AI insights will be disabled.")
     
     # Build dashboard
     builder = FourPanelDashboardBuilder(input_path, deepseek_api_key=deepseek_api_key)
