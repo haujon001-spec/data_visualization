@@ -196,7 +196,7 @@ class FourPanelDashboardBuilder:
             y=debt_top10['country_name'],
             orientation='h',
             marker=dict(
-                color=debt_top10['debt_to_gdp'] * 100,
+                color=debt_top10['debt_to_gdp'],
                 colorscale='Reds',
                 colorbar=dict(
                     title=dict(text='Debt/GDP %', font=dict(color='#E0E0E0')),
@@ -209,7 +209,7 @@ class FourPanelDashboardBuilder:
             textposition='outside',
             textfont=dict(color='#E0E0E0', size=11),
             hovertemplate='<b>%{y}</b><br>Debt: $%{x:,.0f}<br>Debt/GDP: %{customdata:.1f}%<extra></extra>',
-            customdata=debt_top10['debt_to_gdp'] * 100
+            customdata=debt_top10['debt_to_gdp']
         ))
         
         fig.update_layout(
