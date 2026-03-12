@@ -491,7 +491,7 @@ Use the most recent verified data available. Be precise with numbers."""
         ai_analysis = verified_stats['analysis']
         
         insights_html = f"""
-        <div style="background: linear-gradient(135deg, #667eea, #764ba2); color: white; padding: 20px; border-radius: 10px; height: 360px; overflow-y: auto;">
+        <div style="background: linear-gradient(135deg, #667eea, #764ba2); color: white; padding: 20px; border-radius: 10px; height: 460px; overflow-y: auto;">
             <h2 style="margin-top: 0; font-size: 18px; color: #FFFFFF;">🤖 AI-Powered Global Insights - {year}</h2>
             <div style="background: rgba(30,30,40,0.95); color: #E0E0E0; padding: 15px; border-radius: 8px; margin-top: 15px;">
                 <h3 style="font-size: 14px; margin-top: 0; color: #4ECDC4;">📊 Key Metrics <span style="font-size: 10px; color: #FFA500;">(AI-Verified from External Sources)</span></h3>
