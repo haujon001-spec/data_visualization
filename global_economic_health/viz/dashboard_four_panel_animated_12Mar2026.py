@@ -184,21 +184,45 @@ class FourPanelDashboardBuilder:
         
         return fig
     
+    def format_currency(self, value):
+        """Format currency in human-readable format (B/T)."""
+        if value >= 1e12:
+            return f"${value/1e12:.2f}T"
+        elif value >= 1e9:
+            return f"${value/1e9:.2f}B"
+        elif value >= 1e6:
+            return f"${value/1e6:.2f}M"
+        else:
+            return f"${value:,.0f}"
+    
     def build_debt_bar_chart(self, year):
         """Build debt bar chart panel."""
         debt_year = self.df[self.df['year'] == year].copy()
         # Filter to countries only (exclude regions)
         debt_year = debt_year[debt_year['country_code'].apply(self.is_country)]
-        debt_year = debt_year.dropna(subset=['debt_total_usd'])
-        debt_year = debt_year[debt_year['debt_total_usd'] > 0]
+        debt_year = debt_year.dropna(subset=['debt_total_usd', 'gdp_usd'])
+        debt_year = debt_year[(debt_year['debt_total_usd'] > 0) & (debt_year['gdp_usd'] > 0)]
+        
+        # RECALCULATE debt/GDP from scratch (CSV has inconsistent formats)
+        debt_year['debt_to_gdp_calculated'] = (debt_year['debt_total_usd'] / debt_year['gdp_usd']) * 100
+        
         debt_top10 = debt_year.nlargest(10, 'debt_total_usd').sort_values('debt_total_usd', ascending=True)
+        
+        # Format hover text with human-readable values
+        hover_text = [
+            f"<b>{row['country_name']}</b><br>" +
+            f"Debt: {self.format_currency(row['debt_total_usd'])}<br>" +
+            f"GDP: {self.format_currency(row['gdp_usd'])}<br>" +
+            f"Debt/GDP: {row['debt_to_gdp_calculated']:.1f}%<extra></extra>"
+            for _, row in debt_top10.iterrows()
+        ]
         
         fig = go.Figure(data=go.Bar(
             x=debt_top10['debt_total_usd'],
             y=debt_top10['country_name'],
             orientation='h',
             marker=dict(
-                color=debt_top10['debt_to_gdp'],
+                color=debt_top10['debt_to_gdp_calculated'],
                 colorscale='Reds',
                 colorbar=dict(
                     title=dict(text='Debt/GDP %', font=dict(color='#E0E0E0')),
@@ -210,8 +234,8 @@ class FourPanelDashboardBuilder:
             text=[f"${x/1e12:.1f}T" for x in debt_top10['debt_total_usd']],
             textposition='outside',
             textfont=dict(color='#E0E0E0', size=11),
-            hovertemplate='<b>%{y}</b><br>Debt: $%{x:,.0f}<br>Debt/GDP: %{customdata:.1f}%<extra></extra>',
-            customdata=debt_top10['debt_to_gdp']
+            hovertemplate='%{customdata}<extra></extra>',
+            customdata=hover_text
         ))
         
         fig.update_layout(
